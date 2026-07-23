@@ -1,12 +1,14 @@
 {
   "nome": "engenheiro_dados",
-  "descricao": "Engenheiro com formação em dados, Python, Power BI e geoprocessamento",
+  "descricao": "Engenheiro com formação em dados, Python, Power BI, cloud e geoprocessamento",
   "graduacoes": [
     "engenharia",
     "análise de sistemas",
     "ciência da computação",
     "engenharia de software",
     "sistemas de informação",
+    "tecnologia da informação",
+    "ciência de dados",
     "engenharia química",
     "engenharia ambiental"
   ],
@@ -19,6 +21,11 @@
     "sharepoint",
     "git",
     "docker",
+    "azure",
+    "aws",
+    "google cloud",
+    "tableau",
+    "r",
     "excel"
   ],
   "areas_interesse": [

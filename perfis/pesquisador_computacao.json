@@ -1,0 +1,36 @@
+{
+  "nome": "pesquisador_computacao",
+  "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
+  "graduacoes": [
+    "ciência da computação",
+    "ciência de dados",
+    "inteligência artificial",
+    "estatística",
+    "matemática",
+    "engenharia de software",
+    "sistemas de informação",
+    "geografia",
+    "economia"
+  ],
+  "ferramentas": [
+    "python",
+    "r",
+    "sql",
+    "stata",
+    "spss",
+    "sas",
+    "matlab",
+    "git",
+    "docker",
+    "qgis",
+    "power bi"
+  ],
+  "areas_interesse": [
+    "Estatística / Pesquisa / Metodologia",
+    "Tecnologia da Informação / Dados",
+    "Economia / Finanças Públicas",
+    "Meio Ambiente / Clima / Geografia"
+  ],
+  "idiomas": ["inglês", "espanhol"],
+  "valor_minimo": 40000
+}
