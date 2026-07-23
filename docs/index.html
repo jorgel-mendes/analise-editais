@@ -95,6 +95,43 @@ a:hover{text-decoration:underline}
   .header h1{font-size:1.1rem}
   .modal{padding:15px}
 }
+
+/* Recomendações */
+.recs{display:none}
+.recs.active{display:block}
+.recs-title{font-size:.95rem;font-weight:700;color:#1a1a2e;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.recs-title .badge{font-size:.7rem;padding:2px 8px;border-radius:10px;background:#e8f0fe;color:#1967d2;font-weight:500}
+.recs-summary{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.recs-summary .stat{background:#fff;border-radius:8px;padding:10px 14px;flex:1;min-width:140px;border:1px solid #eef0f4}
+.recs-summary .stat .num{font-size:1.1rem;font-weight:700;color:#1a1a2e}
+.recs-summary .stat .lbl{font-size:.68rem;color:#8892a5;margin-top:2px}
+.recs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.gap-card{background:#fff;border-radius:8px;padding:12px 14px;border:1px solid #eef0f4;display:flex;gap:10px;align-items:flex-start}
+.gap-priority{width:4px;height:40px;border-radius:2px;flex-shrink:0}
+.prio-alta{background:#c5221f}
+.prio-media{background:#b06000}
+.prio-baixa{background:#137333}
+.gap-body{flex:1;min-width:0}
+.gap-name{font-weight:600;font-size:.8rem;color:#1a1a2e;text-transform:capitalize}
+.gap-meta{font-size:.68rem;color:#8892a5;margin:2px 0}
+.gap-tag{display:inline-block;font-size:.64rem;padding:1px 6px;border-radius:3px;margin:3px 3px 0 0}
+.tag-ferramenta{background:#fce8e6;color:#c5221f}
+.tag-graduacao{background:#e6f4ea;color:#137333}
+.tag-idioma{background:#e8f0fe;color:#1967d2}
+.tag-formacao{background:#fef7e0;color:#b06000}
+.gap-course{font-size:.72rem;color:#0066cc;margin-top:6px;line-height:1.4}
+.gap-course a{color:#0066cc}
+.gap-course .cost{color:#8892a5;font-size:.66rem}
+.recs-cursos{margin-top:18px;background:#fff;border-radius:10px;padding:14px 18px;border:1px solid #eef0f4}
+.recs-cursos h4{font-size:.82rem;font-weight:700;margin-bottom:10px}
+.course-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #f5f6f8;font-size:.76rem}
+.course-row:last-child{border-bottom:none}
+.course-rank{font-weight:700;color:#0066cc;min-width:20px}
+.course-info{flex:1}
+.course-info strong{color:#1a1a2e}
+.course-meta{font-size:.68rem;color:#8892a5;margin-top:1px}
+.course-link{color:#0066cc;font-size:.72rem;white-space:nowrap}
+.no-recs{text-align:center;padding:30px;color:#8892a5;font-size:.82rem}
 </style>
 </head>
 <body>
@@ -184,6 +221,78 @@ function formatMoney(v){
   return 'R$ '+v.toLocaleString('pt-BR',{minimumFractionDigits:0,maximumFractionDigits:0});
 }
 
+function renderRecomendacoes(perfilNome){
+  const section = document.getElementById('recs-section');
+  if(!perfilNome||!state.data?.recomendacoes){
+    section.className = 'recs';
+    section.innerHTML = '';
+    return;
+  }
+  const rec = state.data.recomendacoes[perfilNome];
+  if(!rec||!rec.gaps||!rec.gaps.length){
+    section.className = 'recs';
+    section.innerHTML = '<div class="no-recs">Nenhuma recomendação disponível para este perfil.</div>';
+    return;
+  }
+  section.className = 'recs active';
+
+  const prioClass = p=>'prio-'+p;
+  const tipoClass = t=>'tag-'+t;
+
+  const gapsHTML = rec.gaps.slice(0,8).map(g => {
+    const cursosHTML = (g.cursos||[]).map((c,i) =>
+      '<div class="gap-course">'+(g.cursos.length>1?(i+1)+'. ':'')+
+      '<a href="'+esc(c.link)+'" target="_blank">'+esc(c.curso)+'</a>'+
+      ' <span class="cost">('+esc(c.custo)+' · '+esc(c.carga)+')</span></div>'
+    ).join('');
+
+    let impactoHTML = '';
+    if(g.impacto_financeiro && g.impacto_financeiro > 0){
+      impactoHTML = ' · R$ '+g.impacto_financeiro.toLocaleString('pt-BR',{maximumFractionDigits:0})+' em oportunidades';
+    }
+
+    return `
+    <div class="gap-card">
+      <div class="gap-priority ${prioClass(g.prioridade)}"></div>
+      <div class="gap-body">
+        <div class="gap-name">
+          <span class="gap-tag ${tipoClass(g.tipo)}">${g.tipo}</span>
+          ${esc(g.nome)}
+        </div>
+        <div class="gap-meta">Exigido em ${g.editais} edital${g.editais>1?'e is':'es'}${impactoHTML}</div>
+        ${g.nota?'<div class="gap-meta">'+esc(g.nota)+'</div>':''}
+        ${cursosHTML}
+      </div>
+    </div>`;
+  }).join('');
+
+  const cursosHTML = (rec.cursos_prioritarios||[]).map((c,i) =>
+    `<div class="course-row">
+      <div class="course-rank">#${i+1}</div>
+      <div class="course-info">
+        <strong>${esc(c.curso)}</strong>
+        <div class="course-meta">${esc(c.custo)} · ${esc(c.carga)} · Gap: ${esc(c.gap)}</div>
+      </div>
+      <a class="course-link" href="${esc(c.link)}" target="_blank">Ver curso →</a>
+    </div>`
+  ).join('');
+
+  const valorStr = rec.valor_total_oportunidades > 0
+    ? formatMoney(rec.valor_total_oportunidades) : 'NI';
+
+  section.innerHTML = `
+    <div class="recs-title">📚 Recomendações de Estudo <span class="badge">Perfil: ${esc(perfilNome)}</span></div>
+    <div class="recs-summary">
+      <div class="stat"><div class="num">${rec.total_editais_compativeis}</div><div class="lbl">Editais compatíveis</div></div>
+      <div class="stat"><div class="num">${rec.gaps.length}</div><div class="lbl">Gaps identificados</div></div>
+      <div class="stat"><div class="num">${valorStr}</div><div class="lbl">Valor total em oportunidades</div></div>
+      ${rec.custo_total_estimado_mensal?'<div class="stat"><div class="num">R$ '+rec.custo_total_estimado_mensal.toLocaleString()+'+</div><div class="lbl">Custo estimado de estudo</div></div>':''}
+    </div>
+    <div class="recs-grid">${gapsHTML}</div>
+    ${cursosHTML?('<div class="recs-cursos"><h4>🎯 Plano de estudo prioritário</h4>'+cursosHTML+'</div>'):''}
+  `;
+}
+
 function renderAll(){
   const d = state.data;
   if(!d) return;
@@ -223,6 +332,8 @@ function renderAll(){
       </div>
     </div>
 
+    <div class="recs" id="recs-section"></div>
+
     <div class="filters">
       <select onchange="state.filtroArea=this.value;renderEditalList()">
         <option value="">Todas as áreas</option>
@@ -239,6 +350,7 @@ function renderAll(){
   `;
 
   renderEditalList();
+  renderRecomendacoes(p);
 }
 
 function renderEditalList(){

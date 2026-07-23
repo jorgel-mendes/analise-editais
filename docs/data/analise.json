@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-23T14:44:24.876738",
+  "gerado_em": "2026-07-23T15:42:57.394597",
   "resumo": {
     "total_editais": 26,
     "novos_hoje": 0,
@@ -2591,8 +2591,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -2647,8 +2647,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -6922,8 +6922,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -6980,9 +6980,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados"
+                "Tecnologia da Informação / Dados",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -9786,8 +9786,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -9837,9 +9837,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Estatística / Pesquisa / Metodologia",
                 "Tecnologia da Informação / Dados",
+                "Gestão / Administração Pública",
                 "Meio Ambiente / Clima / Geografia"
               ]
             },
@@ -10256,8 +10256,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -10311,9 +10311,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados"
+                "Tecnologia da Informação / Dados",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -10751,8 +10751,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -10805,9 +10805,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados"
+                "Tecnologia da Informação / Dados",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -11780,8 +11780,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -11834,9 +11834,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados"
+                "Tecnologia da Informação / Dados",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -12127,5 +12127,2972 @@
       },
       "url_externo": "https://parceiros.undp.org.br/opportunities"
     }
-  ]
+  ],
+  "recomendacoes": {
+    "pesquisador": {
+      "perfil": "pesquisador",
+      "descricao": "Pesquisador acadêmico com mestrado/doutorado e metodologia científica",
+      "total_editais_compativeis": 25,
+      "valor_total_oportunidades": 1102400.0,
+      "gaps": [
+        {
+          "tipo": "graduacao",
+          "nome": "administração",
+          "editais": 23,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "políticas públicas",
+          "editais": 22,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+              "custo": "Grátis",
+              "carga": "30h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Mestrado Stricto Sensu",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+              "carga": "24 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "alta",
+          "nota": "15 editais exigem ou pontuam mestrado"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Pós-graduação / Especialização",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+              "custo": "R$ 0–700/mês",
+              "carga": "12–18 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "15 editais pontuam pós-graduação"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Doutorado",
+          "editais": 13,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+              "carga": "48 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "13 editais pontuam doutorado"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "direito",
+          "editais": 12,
+          "impacto_financeiro": 490100.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sic",
+          "editais": 11,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "git",
+          "editais": 11,
+          "impacto_financeiro": 386900.0,
+          "cursos": [
+            {
+              "curso": "Git e GitHub (Udemy)",
+              "custo": "R$ 30",
+              "carga": "8h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/git/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "ciências sociais",
+          "editais": 8,
+          "impacto_financeiro": 355800.0,
+          "cursos": [
+            {
+              "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "comunicação",
+          "editais": 7,
+          "impacto_financeiro": 174000.0,
+          "cursos": [
+            {
+              "curso": "Aprenda comunicação (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "física",
+          "editais": 5,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "excel",
+          "editais": 4,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Excel Avançado (Udemy)",
+              "custo": "R$ 30",
+              "carga": "15h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/excel/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "power bi",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft PL-300 — Power BI Data Analyst",
+              "custo": "R$ 300 (prova)",
+              "carga": "40h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/power-bi-data-analyst-associate/"
+            },
+            {
+              "curso": "Power BI Completo (Udemy)",
+              "custo": "R$ 30",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/power-bi/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sharepoint",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SharePoint Online (Microsoft Learn)",
+              "custo": "Grátis",
+              "carga": "10h",
+              "nivel": "Curso",
+              "link": "https://learn.microsoft.com/pt-br/training/sharepoint/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "microsoft 365",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft 365 Fundamentals (MS-900)",
+              "custo": "R$ 210 (prova)",
+              "carga": "12h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/microsoft-365-fundamentals/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "qgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "QGIS Básico (INPE)",
+              "custo": "Grátis",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "http://www.dpi.inpe.br/cursos/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "arcgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "ArcGIS Pro Básico (ESRI Academy)",
+              "custo": "Grátis (módulos básicos)",
+              "carga": "24h",
+              "nivel": "Curso",
+              "link": "https://www.esri.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sql",
+          "editais": 1,
+          "impacto_financeiro": 91500.0,
+          "cursos": [
+            {
+              "curso": "SQL for Data Science (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sql-for-data-science"
+            },
+            {
+              "curso": "SQL Completo (Udemy)",
+              "custo": "R$ 30",
+              "carga": "15h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/sql/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "teams",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Aprenda teams (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "média"
+        }
+      ],
+      "cursos_prioritarios": [
+        {
+          "gap": "administração",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "políticas públicas",
+          "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+          "custo": "Grátis",
+          "carga": "30h",
+          "link": "https://www.enap.gov.br/pt/cursos"
+        },
+        {
+          "gap": "Mestrado Stricto Sensu",
+          "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+          "carga": "24 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "Pós-graduação / Especialização",
+          "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+          "custo": "R$ 0–700/mês",
+          "carga": "12–18 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "Doutorado",
+          "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+          "carga": "48 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        }
+      ],
+      "custo_total_estimado_mensal": null
+    },
+    "economista": {
+      "perfil": "economista",
+      "descricao": "Economista com stack técnica em análise de dados e políticas públicas",
+      "total_editais_compativeis": 25,
+      "valor_total_oportunidades": 1102400.0,
+      "gaps": [
+        {
+          "tipo": "graduacao",
+          "nome": "estatística",
+          "editais": 16,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Mestrado Stricto Sensu",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+              "carga": "24 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "alta",
+          "nota": "15 editais exigem ou pontuam mestrado"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Pós-graduação / Especialização",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+              "custo": "R$ 0–700/mês",
+              "carga": "12–18 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "15 editais pontuam pós-graduação"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "geografia",
+          "editais": 14,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sas",
+          "editais": 13,
+          "impacto_financeiro": 316100.0,
+          "cursos": [
+            {
+              "curso": "SAS Programming (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sas-programming-basics"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Doutorado",
+          "editais": 13,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+              "carga": "48 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "13 editais pontuam doutorado"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "direito",
+          "editais": 12,
+          "impacto_financeiro": 490100.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sic",
+          "editais": 11,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "git",
+          "editais": 11,
+          "impacto_financeiro": 386900.0,
+          "cursos": [
+            {
+              "curso": "Git e GitHub (Udemy)",
+              "custo": "R$ 30",
+              "carga": "8h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/git/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "ciências sociais",
+          "editais": 8,
+          "impacto_financeiro": 355800.0,
+          "cursos": [
+            {
+              "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "comunicação",
+          "editais": 7,
+          "impacto_financeiro": 174000.0,
+          "cursos": [
+            {
+              "curso": "Aprenda comunicação (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "física",
+          "editais": 5,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sharepoint",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SharePoint Online (Microsoft Learn)",
+              "custo": "Grátis",
+              "carga": "10h",
+              "nivel": "Curso",
+              "link": "https://learn.microsoft.com/pt-br/training/sharepoint/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "microsoft 365",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft 365 Fundamentals (MS-900)",
+              "custo": "R$ 210 (prova)",
+              "carga": "12h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/microsoft-365-fundamentals/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "qgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "QGIS Básico (INPE)",
+              "custo": "Grátis",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "http://www.dpi.inpe.br/cursos/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "arcgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "ArcGIS Pro Básico (ESRI Academy)",
+              "custo": "Grátis (módulos básicos)",
+              "carga": "24h",
+              "nivel": "Curso",
+              "link": "https://www.esri.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "teams",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Aprenda teams (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "word",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sei",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SEI! — Treinamento (ENAP)",
+              "custo": "Grátis",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "idioma",
+          "nome": "espanhol",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Espanhol Básico (Duolingo / Busuu)",
+              "custo": "Grátis",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.duolingo.com/course/es/pt"
+            }
+          ],
+          "prioridade": "média"
+        }
+      ],
+      "cursos_prioritarios": [
+        {
+          "gap": "estatística",
+          "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+          "custo": "Variável",
+          "carga": "Variável",
+          "link": "https://www.udemy.com/"
+        },
+        {
+          "gap": "Mestrado Stricto Sensu",
+          "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+          "carga": "24 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "Pós-graduação / Especialização",
+          "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+          "custo": "R$ 0–700/mês",
+          "carga": "12–18 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "geografia",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "sas",
+          "curso": "SAS Programming (Coursera)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "40h",
+          "link": "https://www.coursera.org/learn/sas-programming-basics"
+        }
+      ],
+      "custo_total_estimado_mensal": null
+    },
+    "engenheiro_dados": {
+      "perfil": "engenheiro_dados",
+      "descricao": "Engenheiro com formação em dados, Python, Power BI e geoprocessamento",
+      "total_editais_compativeis": 24,
+      "valor_total_oportunidades": 1102400.0,
+      "gaps": [
+        {
+          "tipo": "ferramenta",
+          "nome": "r",
+          "editais": 24,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "administração",
+          "editais": 24,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "políticas públicas",
+          "editais": 20,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+              "custo": "Grátis",
+              "carga": "30h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "estatística",
+          "editais": 16,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Mestrado Stricto Sensu",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+              "carga": "24 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "alta",
+          "nota": "15 editais exigem ou pontuam mestrado"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Pós-graduação / Especialização",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+              "custo": "R$ 0–700/mês",
+              "carga": "12–18 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "15 editais pontuam pós-graduação"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "geografia",
+          "editais": 14,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Doutorado",
+          "editais": 13,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+              "carga": "48 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "13 editais pontuam doutorado"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sas",
+          "editais": 12,
+          "impacto_financeiro": 316100.0,
+          "cursos": [
+            {
+              "curso": "SAS Programming (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sas-programming-basics"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "direito",
+          "editais": 12,
+          "impacto_financeiro": 490100.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sic",
+          "editais": 10,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "ciências sociais",
+          "editais": 8,
+          "impacto_financeiro": 355800.0,
+          "cursos": [
+            {
+              "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "stata",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Stata Fundamentals (StataCorp)",
+              "custo": "Grátis (webinars)",
+              "carga": "12h",
+              "nivel": "Curso",
+              "link": "https://www.stata.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "teams",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Aprenda teams (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sei",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SEI! — Treinamento (ENAP)",
+              "custo": "Grátis",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "microsoft 365",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft 365 Fundamentals (MS-900)",
+              "custo": "R$ 210 (prova)",
+              "carga": "12h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/microsoft-365-fundamentals/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "arcgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "ArcGIS Pro Básico (ESRI Academy)",
+              "custo": "Grátis (módulos básicos)",
+              "carga": "24h",
+              "nivel": "Curso",
+              "link": "https://www.esri.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "power query",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "dax",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Aprenda dax (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "idioma",
+          "nome": "espanhol",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Espanhol Básico (Duolingo / Busuu)",
+              "custo": "Grátis",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.duolingo.com/course/es/pt"
+            }
+          ],
+          "prioridade": "média"
+        }
+      ],
+      "cursos_prioritarios": [
+        {
+          "gap": "r",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "administração",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "políticas públicas",
+          "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+          "custo": "Grátis",
+          "carga": "30h",
+          "link": "https://www.enap.gov.br/pt/cursos"
+        },
+        {
+          "gap": "estatística",
+          "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+          "custo": "Variável",
+          "carga": "Variável",
+          "link": "https://www.udemy.com/"
+        },
+        {
+          "gap": "Mestrado Stricto Sensu",
+          "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+          "carga": "24 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        }
+      ],
+      "custo_total_estimado_mensal": null
+    },
+    "juridico": {
+      "perfil": "juridico",
+      "descricao": "Profissional da área jurídica com foco em LGPD e direito digital",
+      "total_editais_compativeis": 13,
+      "valor_total_oportunidades": 616200.0,
+      "gaps": [
+        {
+          "tipo": "formacao",
+          "nome": "Mestrado Stricto Sensu",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+              "carga": "24 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "alta",
+          "nota": "15 editais exigem ou pontuam mestrado"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Pós-graduação / Especialização",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+              "custo": "R$ 0–700/mês",
+              "carga": "12–18 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "15 editais pontuam pós-graduação"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "r",
+          "editais": 13,
+          "impacto_financeiro": 616200.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "administração",
+          "editais": 13,
+          "impacto_financeiro": 616200.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Doutorado",
+          "editais": 13,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+              "carga": "48 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "13 editais pontuam doutorado"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "políticas públicas",
+          "editais": 12,
+          "impacto_financeiro": 616200.0,
+          "cursos": [
+            {
+              "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+              "custo": "Grátis",
+              "carga": "30h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sas",
+          "editais": 9,
+          "impacto_financeiro": 229300.0,
+          "cursos": [
+            {
+              "curso": "SAS Programming (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sas-programming-basics"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "estatística",
+          "editais": 9,
+          "impacto_financeiro": 616200.0,
+          "cursos": [
+            {
+              "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "geografia",
+          "editais": 8,
+          "impacto_financeiro": 616200.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "comunicação",
+          "editais": 6,
+          "impacto_financeiro": 126500.0,
+          "cursos": [
+            {
+              "curso": "Aprenda comunicação (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "git",
+          "editais": 5,
+          "impacto_financeiro": 213300.0,
+          "cursos": [
+            {
+              "curso": "Git e GitHub (Udemy)",
+              "custo": "R$ 30",
+              "carga": "8h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/git/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "física",
+          "editais": 4,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "stata",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Stata Fundamentals (StataCorp)",
+              "custo": "Grátis (webinars)",
+              "carga": "12h",
+              "nivel": "Curso",
+              "link": "https://www.stata.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "python",
+          "editais": 2,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "Python for Everybody (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "80h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "curso": "Python para Ciência de Dados (DataCamp)",
+              "custo": "US$ 25/mês",
+              "carga": "60h",
+              "nivel": "Curso",
+              "link": "https://www.datacamp.com/tracks/data-scientist-with-python"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "power bi",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft PL-300 — Power BI Data Analyst",
+              "custo": "R$ 300 (prova)",
+              "carga": "40h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/power-bi-data-analyst-associate/"
+            },
+            {
+              "curso": "Power BI Completo (Udemy)",
+              "custo": "R$ 30",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/power-bi/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "microsoft 365",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft 365 Fundamentals (MS-900)",
+              "custo": "R$ 210 (prova)",
+              "carga": "12h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/microsoft-365-fundamentals/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "teams",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Aprenda teams (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "word",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "idioma",
+          "nome": "espanhol",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Espanhol Básico (Duolingo / Busuu)",
+              "custo": "Grátis",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.duolingo.com/course/es/pt"
+            }
+          ],
+          "prioridade": "média"
+        }
+      ],
+      "cursos_prioritarios": [
+        {
+          "gap": "Mestrado Stricto Sensu",
+          "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+          "carga": "24 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "Pós-graduação / Especialização",
+          "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+          "custo": "R$ 0–700/mês",
+          "carga": "12–18 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "r",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "administração",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "Doutorado",
+          "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+          "carga": "48 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        }
+      ],
+      "custo_total_estimado_mensal": null
+    },
+    "saude": {
+      "perfil": "saude",
+      "descricao": "Profissional da área de saúde pública e epidemiologia",
+      "total_editais_compativeis": 25,
+      "valor_total_oportunidades": 1102400.0,
+      "gaps": [
+        {
+          "tipo": "graduacao",
+          "nome": "administração",
+          "editais": 23,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "políticas públicas",
+          "editais": 22,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+              "custo": "Grátis",
+              "carga": "30h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "estatística",
+          "editais": 16,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Mestrado Stricto Sensu",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+              "carga": "24 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "alta",
+          "nota": "15 editais exigem ou pontuam mestrado"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Pós-graduação / Especialização",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+              "custo": "R$ 0–700/mês",
+              "carga": "12–18 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "15 editais pontuam pós-graduação"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "geografia",
+          "editais": 14,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sas",
+          "editais": 13,
+          "impacto_financeiro": 316100.0,
+          "cursos": [
+            {
+              "curso": "SAS Programming (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sas-programming-basics"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Doutorado",
+          "editais": 13,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+              "carga": "48 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "13 editais pontuam doutorado"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "direito",
+          "editais": 12,
+          "impacto_financeiro": 490100.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sic",
+          "editais": 11,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "git",
+          "editais": 11,
+          "impacto_financeiro": 386900.0,
+          "cursos": [
+            {
+              "curso": "Git e GitHub (Udemy)",
+              "custo": "R$ 30",
+              "carga": "8h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/git/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "economia",
+          "editais": 8,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "Aprenda economia (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "python",
+          "editais": 4,
+          "impacto_financeiro": 265100.0,
+          "cursos": [
+            {
+              "curso": "Python for Everybody (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "80h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "curso": "Python para Ciência de Dados (DataCamp)",
+              "custo": "US$ 25/mês",
+              "carga": "60h",
+              "nivel": "Curso",
+              "link": "https://www.datacamp.com/tracks/data-scientist-with-python"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "power bi",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft PL-300 — Power BI Data Analyst",
+              "custo": "R$ 300 (prova)",
+              "carga": "40h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/power-bi-data-analyst-associate/"
+            },
+            {
+              "curso": "Power BI Completo (Udemy)",
+              "custo": "R$ 30",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/power-bi/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sharepoint",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SharePoint Online (Microsoft Learn)",
+              "custo": "Grátis",
+              "carga": "10h",
+              "nivel": "Curso",
+              "link": "https://learn.microsoft.com/pt-br/training/sharepoint/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "microsoft 365",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft 365 Fundamentals (MS-900)",
+              "custo": "R$ 210 (prova)",
+              "carga": "12h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/microsoft-365-fundamentals/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "qgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "QGIS Básico (INPE)",
+              "custo": "Grátis",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "http://www.dpi.inpe.br/cursos/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "arcgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "ArcGIS Pro Básico (ESRI Academy)",
+              "custo": "Grátis (módulos básicos)",
+              "carga": "24h",
+              "nivel": "Curso",
+              "link": "https://www.esri.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sql",
+          "editais": 1,
+          "impacto_financeiro": 91500.0,
+          "cursos": [
+            {
+              "curso": "SQL for Data Science (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sql-for-data-science"
+            },
+            {
+              "curso": "SQL Completo (Udemy)",
+              "custo": "R$ 30",
+              "carga": "15h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/sql/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "idioma",
+          "nome": "espanhol",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Espanhol Básico (Duolingo / Busuu)",
+              "custo": "Grátis",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.duolingo.com/course/es/pt"
+            }
+          ],
+          "prioridade": "média"
+        }
+      ],
+      "cursos_prioritarios": [
+        {
+          "gap": "administração",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "políticas públicas",
+          "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+          "custo": "Grátis",
+          "carga": "30h",
+          "link": "https://www.enap.gov.br/pt/cursos"
+        },
+        {
+          "gap": "estatística",
+          "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+          "custo": "Variável",
+          "carga": "Variável",
+          "link": "https://www.udemy.com/"
+        },
+        {
+          "gap": "Mestrado Stricto Sensu",
+          "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+          "carga": "24 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "Pós-graduação / Especialização",
+          "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+          "custo": "R$ 0–700/mês",
+          "carga": "12–18 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        }
+      ],
+      "custo_total_estimado_mensal": null
+    },
+    "gestao": {
+      "perfil": "gestao",
+      "descricao": "Profissional de gestão pública e administração governamental",
+      "total_editais_compativeis": 23,
+      "valor_total_oportunidades": 1102400.0,
+      "gaps": [
+        {
+          "tipo": "ferramenta",
+          "nome": "r",
+          "editais": 23,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "estatística",
+          "editais": 15,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Mestrado Stricto Sensu",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+              "carga": "24 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "alta",
+          "nota": "15 editais exigem ou pontuam mestrado"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Pós-graduação / Especialização",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+              "custo": "R$ 0–700/mês",
+              "carga": "12–18 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "15 editais pontuam pós-graduação"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "geografia",
+          "editais": 14,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Doutorado",
+          "editais": 13,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+              "carga": "48 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "13 editais pontuam doutorado"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sas",
+          "editais": 12,
+          "impacto_financeiro": 316100.0,
+          "cursos": [
+            {
+              "curso": "SAS Programming (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sas-programming-basics"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "git",
+          "editais": 10,
+          "impacto_financeiro": 386900.0,
+          "cursos": [
+            {
+              "curso": "Git e GitHub (Udemy)",
+              "custo": "R$ 30",
+              "carga": "8h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/git/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "direito",
+          "editais": 10,
+          "impacto_financeiro": 490100.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "ciências sociais",
+          "editais": 8,
+          "impacto_financeiro": 355800.0,
+          "cursos": [
+            {
+              "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "comunicação",
+          "editais": 6,
+          "impacto_financeiro": 174000.0,
+          "cursos": [
+            {
+              "curso": "Aprenda comunicação (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "arquitetura",
+          "editais": 4,
+          "impacto_financeiro": 173600.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "python",
+          "editais": 3,
+          "impacto_financeiro": 265100.0,
+          "cursos": [
+            {
+              "curso": "Python for Everybody (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "80h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "curso": "Python para Ciência de Dados (DataCamp)",
+              "custo": "US$ 25/mês",
+              "carga": "60h",
+              "nivel": "Curso",
+              "link": "https://www.datacamp.com/tracks/data-scientist-with-python"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "microsoft 365",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft 365 Fundamentals (MS-900)",
+              "custo": "R$ 210 (prova)",
+              "carga": "12h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/microsoft-365-fundamentals/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "stata",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Stata Fundamentals (StataCorp)",
+              "custo": "Grátis (webinars)",
+              "carga": "12h",
+              "nivel": "Curso",
+              "link": "https://www.stata.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "qgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "QGIS Básico (INPE)",
+              "custo": "Grátis",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "http://www.dpi.inpe.br/cursos/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "arcgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "ArcGIS Pro Básico (ESRI Academy)",
+              "custo": "Grátis (módulos básicos)",
+              "carga": "24h",
+              "nivel": "Curso",
+              "link": "https://www.esri.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sql",
+          "editais": 1,
+          "impacto_financeiro": 91500.0,
+          "cursos": [
+            {
+              "curso": "SQL for Data Science (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sql-for-data-science"
+            },
+            {
+              "curso": "SQL Completo (Udemy)",
+              "custo": "R$ 30",
+              "carga": "15h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/sql/"
+            }
+          ],
+          "prioridade": "média"
+        }
+      ],
+      "cursos_prioritarios": [
+        {
+          "gap": "r",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "estatística",
+          "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+          "custo": "Variável",
+          "carga": "Variável",
+          "link": "https://www.udemy.com/"
+        },
+        {
+          "gap": "Mestrado Stricto Sensu",
+          "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+          "carga": "24 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "Pós-graduação / Especialização",
+          "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+          "custo": "R$ 0–700/mês",
+          "carga": "12–18 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "geografia",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        }
+      ],
+      "custo_total_estimado_mensal": null
+    },
+    "ti_dados": {
+      "perfil": "ti_dados",
+      "descricao": "Profissional de TI / Ciência de Dados com foco em Python, cloud e BI",
+      "total_editais_compativeis": 26,
+      "valor_total_oportunidades": 1102400.0,
+      "gaps": [
+        {
+          "tipo": "graduacao",
+          "nome": "administração",
+          "editais": 24,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "políticas públicas",
+          "editais": 22,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+              "custo": "Grátis",
+              "carga": "30h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "estatística",
+          "editais": 16,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Mestrado Stricto Sensu",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+              "carga": "24 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "alta",
+          "nota": "15 editais exigem ou pontuam mestrado"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Pós-graduação / Especialização",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+              "custo": "R$ 0–700/mês",
+              "carga": "12–18 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "15 editais pontuam pós-graduação"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "geografia",
+          "editais": 14,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sas",
+          "editais": 13,
+          "impacto_financeiro": 316100.0,
+          "cursos": [
+            {
+              "curso": "SAS Programming (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sas-programming-basics"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Doutorado",
+          "editais": 13,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+              "carga": "48 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "13 editais pontuam doutorado"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sic",
+          "editais": 12,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "direito",
+          "editais": 12,
+          "impacto_financeiro": 490100.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "economia",
+          "editais": 8,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "Aprenda economia (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "excel",
+          "editais": 4,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Excel Avançado (Udemy)",
+              "custo": "R$ 30",
+              "carga": "15h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/excel/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sharepoint",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SharePoint Online (Microsoft Learn)",
+              "custo": "Grátis",
+              "carga": "10h",
+              "nivel": "Curso",
+              "link": "https://learn.microsoft.com/pt-br/training/sharepoint/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "stata",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Stata Fundamentals (StataCorp)",
+              "custo": "Grátis (webinars)",
+              "carga": "12h",
+              "nivel": "Curso",
+              "link": "https://www.stata.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "teams",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Aprenda teams (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sei",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SEI! — Treinamento (ENAP)",
+              "custo": "Grátis",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "microsoft 365",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft 365 Fundamentals (MS-900)",
+              "custo": "R$ 210 (prova)",
+              "carga": "12h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/microsoft-365-fundamentals/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "qgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "QGIS Básico (INPE)",
+              "custo": "Grátis",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "http://www.dpi.inpe.br/cursos/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "arcgis",
+          "editais": 1,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "ArcGIS Pro Básico (ESRI Academy)",
+              "custo": "Grátis (módulos básicos)",
+              "carga": "24h",
+              "nivel": "Curso",
+              "link": "https://www.esri.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "idioma",
+          "nome": "espanhol",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Espanhol Básico (Duolingo / Busuu)",
+              "custo": "Grátis",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.duolingo.com/course/es/pt"
+            }
+          ],
+          "prioridade": "média"
+        }
+      ],
+      "cursos_prioritarios": [
+        {
+          "gap": "administração",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "políticas públicas",
+          "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+          "custo": "Grátis",
+          "carga": "30h",
+          "link": "https://www.enap.gov.br/pt/cursos"
+        },
+        {
+          "gap": "estatística",
+          "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+          "custo": "Variável",
+          "carga": "Variável",
+          "link": "https://www.udemy.com/"
+        },
+        {
+          "gap": "Mestrado Stricto Sensu",
+          "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+          "carga": "24 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "Pós-graduação / Especialização",
+          "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+          "custo": "R$ 0–700/mês",
+          "carga": "12–18 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        }
+      ],
+      "custo_total_estimado_mensal": null
+    },
+    "ambiental": {
+      "perfil": "ambiental",
+      "descricao": "Profissional de meio ambiente, clima e ecologia",
+      "total_editais_compativeis": 25,
+      "valor_total_oportunidades": 1102400.0,
+      "gaps": [
+        {
+          "tipo": "graduacao",
+          "nome": "administração",
+          "editais": 23,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "políticas públicas",
+          "editais": 22,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+              "custo": "Grátis",
+              "carga": "30h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "estatística",
+          "editais": 16,
+          "impacto_financeiro": 1102400.0,
+          "cursos": [
+            {
+              "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Mestrado Stricto Sensu",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+              "carga": "24 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "alta",
+          "nota": "15 editais exigem ou pontuam mestrado"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Pós-graduação / Especialização",
+          "editais": 15,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+              "custo": "R$ 0–700/mês",
+              "carga": "12–18 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "15 editais pontuam pós-graduação"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sas",
+          "editais": 13,
+          "impacto_financeiro": 316100.0,
+          "cursos": [
+            {
+              "curso": "SAS Programming (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "40h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sas-programming-basics"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "formacao",
+          "nome": "Doutorado",
+          "editais": 13,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Doutorado Stricto Sensu (UFBA / universidade pública)",
+              "custo": "Grátis (bolsa CAPES: R$ 3.100/mês)",
+              "carga": "48 meses",
+              "nivel": "Pós-graduação",
+              "link": "https://www.ufba.br/pos-graduacao"
+            }
+          ],
+          "prioridade": "média",
+          "nota": "13 editais pontuam doutorado"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "direito",
+          "editais": 12,
+          "impacto_financeiro": 490100.0,
+          "cursos": [
+            {
+              "curso": "R Programming (Coursera — Johns Hopkins)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/r-programming"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sic",
+          "editais": 11,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "SIC e Acesso à Informação (ENAP)",
+              "custo": "Grátis",
+              "carga": "16h",
+              "nivel": "Curso",
+              "link": "https://www.enap.gov.br/pt/cursos"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "git",
+          "editais": 11,
+          "impacto_financeiro": 386900.0,
+          "cursos": [
+            {
+              "curso": "Git e GitHub (Udemy)",
+              "custo": "R$ 30",
+              "carga": "8h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/git/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "economia",
+          "editais": 8,
+          "impacto_financeiro": 86800.0,
+          "cursos": [
+            {
+              "curso": "Aprenda economia (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "graduacao",
+          "nome": "ciências sociais",
+          "editais": 8,
+          "impacto_financeiro": 355800.0,
+          "cursos": [
+            {
+              "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "excel",
+          "editais": 4,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Excel Avançado (Udemy)",
+              "custo": "R$ 30",
+              "carga": "15h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/excel/"
+            }
+          ],
+          "prioridade": "alta"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "stata",
+          "editais": 2,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Stata Fundamentals (StataCorp)",
+              "custo": "Grátis (webinars)",
+              "carga": "12h",
+              "nivel": "Curso",
+              "link": "https://www.stata.com/training/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "power bi",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft PL-300 — Power BI Data Analyst",
+              "custo": "R$ 300 (prova)",
+              "carga": "40h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/power-bi-data-analyst-associate/"
+            },
+            {
+              "curso": "Power BI Completo (Udemy)",
+              "custo": "R$ 30",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/power-bi/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sharepoint",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "SharePoint Online (Microsoft Learn)",
+              "custo": "Grátis",
+              "carga": "10h",
+              "nivel": "Curso",
+              "link": "https://learn.microsoft.com/pt-br/training/sharepoint/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "microsoft 365",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Microsoft 365 Fundamentals (MS-900)",
+              "custo": "R$ 210 (prova)",
+              "carga": "12h",
+              "nivel": "Certificação",
+              "link": "https://learn.microsoft.com/pt-br/certifications/microsoft-365-fundamentals/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "sql",
+          "editais": 1,
+          "impacto_financeiro": 91500.0,
+          "cursos": [
+            {
+              "curso": "SQL for Data Science (Coursera)",
+              "custo": "Grátis (auxílio financeiro)",
+              "carga": "20h",
+              "nivel": "Curso",
+              "link": "https://www.coursera.org/learn/sql-for-data-science"
+            },
+            {
+              "curso": "SQL Completo (Udemy)",
+              "custo": "R$ 30",
+              "carga": "15h",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/topic/sql/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "ferramenta",
+          "nome": "teams",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Aprenda teams (busque na Udemy/Coursera)",
+              "custo": "Variável",
+              "carga": "Variável",
+              "nivel": "Curso",
+              "link": "https://www.udemy.com/"
+            }
+          ],
+          "prioridade": "média"
+        },
+        {
+          "tipo": "idioma",
+          "nome": "espanhol",
+          "editais": 1,
+          "impacto_financeiro": null,
+          "cursos": [
+            {
+              "curso": "Espanhol Básico (Duolingo / Busuu)",
+              "custo": "Grátis",
+              "carga": "50h",
+              "nivel": "Curso",
+              "link": "https://www.duolingo.com/course/es/pt"
+            }
+          ],
+          "prioridade": "média"
+        }
+      ],
+      "cursos_prioritarios": [
+        {
+          "gap": "administração",
+          "curso": "R Programming (Coursera — Johns Hopkins)",
+          "custo": "Grátis (auxílio financeiro)",
+          "carga": "50h",
+          "link": "https://www.coursera.org/learn/r-programming"
+        },
+        {
+          "gap": "políticas públicas",
+          "curso": "Avaliação de Políticas Públicas (ENAP/TCU)",
+          "custo": "Grátis",
+          "carga": "30h",
+          "link": "https://www.enap.gov.br/pt/cursos"
+        },
+        {
+          "gap": "estatística",
+          "curso": "Aprenda estatística (busque na Udemy/Coursera)",
+          "custo": "Variável",
+          "carga": "Variável",
+          "link": "https://www.udemy.com/"
+        },
+        {
+          "gap": "Mestrado Stricto Sensu",
+          "curso": "Mestrado Stricto Sensu (UFBA / universidade pública)",
+          "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+          "carga": "24 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        },
+        {
+          "gap": "Pós-graduação / Especialização",
+          "curso": "Especialização / MBA (UFBA, USP/ESALQ, FGV)",
+          "custo": "R$ 0–700/mês",
+          "carga": "12–18 meses",
+          "link": "https://www.ufba.br/pos-graduacao"
+        }
+      ],
+      "custo_total_estimado_mensal": null
+    }
+  }
 }

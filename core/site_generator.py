@@ -5,6 +5,7 @@ from pathlib import Path
 from core.config import PERFIS_DIR, ROOT
 from core.bridge import carregar_qualificacoes, enriquecer_edital, calcular_match_detalhado
 from core.perfil import carregar_perfis
+from core.recommender import gerar_recomendacoes_todos_perfis
 
 SITE_DATA_DIR = ROOT / "docs" / "data"
 SITE_ANALISE_FILE = SITE_DATA_DIR / "analise.json"
@@ -56,6 +57,7 @@ def gerar_dados_site(analise: dict, novidades: dict | None = None) -> tuple[Path
         },
         "perfis": perfil_list,
         "editais": editais_enriquecidos,
+        "recomendacoes": gerar_recomendacoes_todos_perfis(editais_enriquecidos),
     }
 
     SITE_ANALISE_FILE.write_text(json.dumps(site_data, indent=2, ensure_ascii=False))
