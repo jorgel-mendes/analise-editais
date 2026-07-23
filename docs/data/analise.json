@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-23T16:27:56.636547",
+  "gerado_em": "2026-07-23T16:38:52.515179",
   "resumo": {
     "total_editais": 26,
     "novos_hoje": 0,
@@ -10,13 +10,13 @@
       "Edital Genérico / IC": 3
     },
     "por_area": {
-      "Estatística / Pesquisa / Metodologia": 13,
+      "Estatística / Pesquisa / Metodologia": 14,
       "Gestão / Administração Pública": 9,
       "Meio Ambiente / Clima / Geografia": 9,
       "Tecnologia da Informação / Dados": 6,
-      "Direito / Jurídico": 4,
       "Saúde": 3,
-      "Economia / Finanças Públicas": 2
+      "Economia / Finanças Públicas": 2,
+      "Direito / Jurídico": 2
     },
     "por_orgao": {
       "IBGE": 14,
@@ -27,11 +27,11 @@
       "MTE": 1
     },
     "valores": {
-      "minimo": null,
-      "maximo": null,
-      "medio": null,
-      "mediano": null,
-      "quantidade_com_valor": 0
+      "minimo": 47500.0,
+      "maximo": 126500.0,
+      "medio": 78742.85714285714,
+      "mediano": 86800.0,
+      "quantidade_com_valor": 14
     }
   },
   "perfis": [
@@ -61,7 +61,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 17
+      "match_count": 20
     },
     {
       "nome": "engenheiro_dados",
@@ -102,7 +102,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 24
+      "match_count": 25
     },
     {
       "nome": "pesquisador_computacao",
@@ -215,7 +215,9 @@
             },
             "ferramentas": {
               "match": [
-                "python"
+                "python",
+                "sql",
+                "power bi"
               ],
               "faltando": [],
               "exigidas": []
@@ -244,7 +246,8 @@
             },
             "ferramentas": {
               "match": [
-                "python"
+                "python",
+                "sql"
               ],
               "faltando": [],
               "exigidas": []
@@ -364,8 +367,9 @@
             },
             "ferramentas": {
               "match": [
+                "r",
                 "python",
-                "r"
+                "sql"
               ],
               "faltando": [],
               "exigidas": []
@@ -395,8 +399,8 @@
       "descricao": "PRODOC BRA 23/022 - Contratação de consultoria para desenhar e estruturar o modelo de funcionamento do Serviço de Fiscalização da Eficiência na Saúde.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Saúde"
+        "Saúde",
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-17",
@@ -423,7 +427,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.7,
+          "score": 0.6,
           "detalhes": {
             "areas": {
               "match": true,
@@ -552,9 +556,7 @@
               "exigidas": []
             },
             "graduacao": {
-              "match": [
-                "economia"
-              ],
+              "match": [],
               "exigidas": []
             },
             "idiomas": {
@@ -569,7 +571,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.1,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -596,7 +598,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": false,
@@ -671,9 +673,7 @@
               "exigidas": []
             },
             "graduacao": {
-              "match": [
-                "economia"
-              ],
+              "match": [],
               "exigidas": []
             },
             "idiomas": {
@@ -778,7 +778,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.6,
+          "score": 0.7,
           "detalhes": {
             "areas": {
               "match": true,
@@ -805,7 +805,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.4,
           "detalhes": {
             "areas": {
               "match": false,
@@ -832,7 +832,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": false,
@@ -876,136 +876,11 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 86,800,00",
+      "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
       "perfil_classificado": "engenheiro_dados",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "economista": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.8,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "qgis",
-                "python"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.6,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "qgis",
-                "python",
-                "r"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "url_externo": "https://parceiros.undp.org.br/opportunities"
-    },
-    {
-      "id": 1373,
-      "torid": 146113,
-      "titulo": "PROJETO BRA 23/023 - TR 114/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE ESTUDO SOBRE LIÇÕES APREENDIDAS E PROPOSIÇÃO PARA A ATUALIZAÇÃO DOS PROTOCOLOS DE DISSEMINAÇÃO DE DADOS - PERÍODO DE 1964 a 1985.",
-      "descricao": "Contratação de Consultoria especializada para elaboração de roteiro de lições aprendidas e a proposição de diretrizes de atualizações institucionais aplicáveis à para a burocracia do Instituto Nacional de Estatística (INE), no que se refere aos protocolos de em relação à disseminação de dados vigentes no período de 1964 a 1985.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-      "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Direito / Jurídico"
-      ],
-      "data_inicio": "2026-05-04",
-      "data_fim": "2026-05-18",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Aprovada",
-      "data_criacao": "2026-04-28",
-      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -1041,9 +916,135 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.8,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "qgis",
+                "python",
+                "sql"
+              ],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 86800.0,
+              "minimo_perfil": 50000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "pesquisador_computacao": {
+          "score": 0.6,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 86800.0,
+              "minimo_perfil": 40000,
+              "acima_minimo": true
+            }
+          }
+        }
+      },
+      "url_externo": "https://parceiros.undp.org.br/opportunities"
+    },
+    {
+      "id": 1373,
+      "torid": 146113,
+      "titulo": "PROJETO BRA 23/023 - TR 114/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE ESTUDO SOBRE LIÇÕES APREENDIDAS E PROPOSIÇÃO PARA A ATUALIZAÇÃO DOS PROTOCOLOS DE DISSEMINAÇÃO DE DADOS - PERÍODO DE 1964 a 1985.",
+      "descricao": "Contratação de Consultoria especializada para elaboração de roteiro de lições aprendidas e a proposição de diretrizes de atualizações institucionais aplicáveis à para a burocracia do Instituto Nacional de Estatística (INE), no que se refere aos protocolos de em relação à disseminação de dados vigentes no período de 1964 a 1985.",
+      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "areas_tematicas": [
+        "Estatística / Pesquisa / Metodologia",
+        "Gestão / Administração Pública"
+      ],
+      "data_inicio": "2026-05-04",
+      "data_fim": "2026-05-18",
+      "local": "Remoto",
+      "orgao_parceiro": "IBGE",
+      "email_submissao": "projetos.especiais@ibge.gov.br",
+      "valor_estimado": "R$ 47,500,00",
+      "valor_estimado_num": 47500.0,
+      "status": "Aprovada",
+      "data_criacao": "2026-04-28",
+      "perfil_classificado": "pesquisador_computacao",
+      "requisitos": {
+        "graduacao": [],
+        "ferramentas": [],
+        "idiomas": [],
+        "anos_experiencia": null,
+        "mestrado": false,
+        "doutorado": false,
+        "pos_graduacao": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "economista": {
+          "score": 0.3,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 47500.0,
+              "minimo_perfil": 30000,
+              "acima_minimo": true
             }
           }
         },
@@ -1068,14 +1069,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 50000,
               "acima_minimo": false
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.6,
           "detalhes": {
             "areas": {
               "match": true,
@@ -1095,9 +1096,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -1112,15 +1113,15 @@
       "tipo": "Consultoria Especializada (não especifica PF/PJ)",
       "areas_tematicas": [
         "Gestão / Administração Pública",
-        "Direito / Jurídico"
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 47,500,00",
+      "valor_estimado_num": 47500.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
       "perfil_classificado": "pesquisador_computacao",
@@ -1159,9 +1160,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -1186,14 +1187,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 50000,
               "acima_minimo": false
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.7,
           "detalhes": {
             "areas": {
               "match": true,
@@ -1213,9 +1214,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -1236,8 +1237,8 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 47,500,00",
+      "valor_estimado_num": 47500.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
       "perfil_classificado": "pesquisador_computacao",
@@ -1276,14 +1277,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -1303,7 +1304,7 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 50000,
               "acima_minimo": false
             }
@@ -1330,9 +1331,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -1354,8 +1355,8 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 47,500,00",
+      "valor_estimado_num": 47500.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
       "perfil_classificado": "pesquisador_computacao",
@@ -1394,9 +1395,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -1421,7 +1422,7 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 50000,
               "acima_minimo": false
             }
@@ -1448,9 +1449,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 47500.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -1472,11 +1473,11 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 86,800,00",
+      "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
-      "perfil_classificado": "pesquisador_computacao",
+      "perfil_classificado": "engenheiro_dados",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -1512,134 +1513,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.5,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "qgis",
-                "python"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.7,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "qgis",
-                "python",
-                "r"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "url_externo": "https://parceiros.undp.org.br/opportunities"
-    },
-    {
-      "id": 1380,
-      "torid": 146100,
-      "titulo": "PROJETO BRA 23/023 - TR 92/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O MAPEAMENTO CENSITÁRIO DE POPULAÇÕES INDÍGENAS.",
-      "descricao": "Contratação de Consultoria especializada para a realização de estudos e análises para a identificação e mapeamento da População Indígena e da sua interseção com outros Povos e Comunidades Tradicionais.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-      "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "data_inicio": "2026-05-04",
-      "data_fim": "2026-05-18",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Aprovada",
-      "data_criacao": "2026-04-28",
-      "perfil_classificado": "engenheiro_dados",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "economista": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -1653,7 +1529,8 @@
             "ferramentas": {
               "match": [
                 "qgis",
-                "python"
+                "python",
+                "sql"
               ],
               "faltando": [],
               "exigidas": []
@@ -1667,9 +1544,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -1698,9 +1575,135 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
+            }
+          }
+        }
+      },
+      "url_externo": "https://parceiros.undp.org.br/opportunities"
+    },
+    {
+      "id": 1380,
+      "torid": 146100,
+      "titulo": "PROJETO BRA 23/023 - TR 92/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O MAPEAMENTO CENSITÁRIO DE POPULAÇÕES INDÍGENAS.",
+      "descricao": "Contratação de Consultoria especializada para a realização de estudos e análises para a identificação e mapeamento da População Indígena e da sua interseção com outros Povos e Comunidades Tradicionais.",
+      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "areas_tematicas": [
+        "Meio Ambiente / Clima / Geografia",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "data_inicio": "2026-05-04",
+      "data_fim": "2026-05-18",
+      "local": "Remoto",
+      "orgao_parceiro": "IBGE",
+      "email_submissao": "projetos.especiais@ibge.gov.br",
+      "valor_estimado": "R$ 86,800,00",
+      "valor_estimado_num": 86800.0,
+      "status": "Aprovada",
+      "data_criacao": "2026-04-28",
+      "perfil_classificado": "engenheiro_dados",
+      "requisitos": {
+        "graduacao": [],
+        "ferramentas": [],
+        "idiomas": [],
+        "anos_experiencia": null,
+        "mestrado": false,
+        "doutorado": false,
+        "pos_graduacao": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "economista": {
+          "score": 0.2,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 86800.0,
+              "minimo_perfil": 30000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.8,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "qgis",
+                "python",
+                "sql"
+              ],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 86800.0,
+              "minimo_perfil": 50000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "pesquisador_computacao": {
+          "score": 0.6,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 86800.0,
+              "minimo_perfil": 40000,
+              "acima_minimo": true
             }
           }
         }
@@ -1722,8 +1725,8 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 86,800,00",
+      "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
       "perfil_classificado": "engenheiro_dados",
@@ -1742,7 +1745,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.1,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -1762,14 +1765,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
-          "score": 0.9,
+          "score": 0.8,
           "detalhes": {
             "areas": {
               "match": true,
@@ -1779,7 +1782,7 @@
               "match": [
                 "qgis",
                 "python",
-                "r"
+                "sql"
               ],
               "faltando": [],
               "exigidas": []
@@ -1793,14 +1796,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.6,
           "detalhes": {
             "areas": {
               "match": true,
@@ -1824,9 +1827,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -1848,8 +1851,8 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 91,500,00",
+      "valor_estimado_num": 91500.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
       "perfil_classificado": "engenheiro_dados",
@@ -1888,9 +1891,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 91500.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -1904,7 +1907,8 @@
             "ferramentas": {
               "match": [
                 "python",
-                "qgis"
+                "qgis",
+                "sql"
               ],
               "faltando": [],
               "exigidas": []
@@ -1918,9 +1922,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 91500.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -1949,9 +1953,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 91500.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -1973,8 +1977,8 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 126,500,00",
+      "valor_estimado_num": 126500.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-29",
       "perfil_classificado": "pesquisador_computacao",
@@ -2013,9 +2017,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 126500.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -2040,14 +2044,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 126500.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.8,
+          "score": 0.7,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2067,9 +2071,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 126500.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -2083,8 +2087,7 @@
       "descricao": "Edital nº 11/2026 - Contratação de consultor pessoa física para desenvolver automações de rotinas no SEI e no SIC, e entregar solução de BI para acompanhamento dos atendimentos.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Gestão / Administração Pública"
+        "Tecnologia da Informação / Dados"
       ],
       "data_inicio": "2026-05-05",
       "data_fim": "2026-05-20",
@@ -2148,6 +2151,7 @@
               "match": [
                 "python",
                 "power bi",
+                "sql",
                 "power automate",
                 "sharepoint"
               ],
@@ -2179,12 +2183,10 @@
             "ferramentas": {
               "match": [
                 "python",
+                "sql",
                 "power bi"
               ],
-              "faltando": [
-                "power automate",
-                "sharepoint"
-              ],
+              "faltando": [],
               "exigidas": []
             },
             "graduacao": {
@@ -2240,7 +2242,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2267,7 +2269,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.4,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2338,134 +2340,8 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Aprovada",
-      "data_criacao": "2026-04-29",
-      "perfil_classificado": "engenheiro_dados",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "economista": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.9,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "qgis",
-                "python",
-                "r"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.7,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "qgis",
-                "python",
-                "r"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "url_externo": "https://parceiros.undp.org.br/opportunities"
-    },
-    {
-      "id": 1395,
-      "torid": 146107,
-      "titulo": "PROJETO BRA 23/023 - TR 95/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA SOBRE ORDENAMENTO TERRITORIAL MUNICIPAL",
-      "descricao": "Contratação de Consultoria especializada para o desenvolvimento de metodologia de aperfeiçoamento, modernização e sistematização da base existente de documentos normativos sobre ordenamento territorial, com foco em divisões intramunicipais (bairros, regiões administrativas, regiões de planejamento, subdistritos, entre outras categorias), visando a proposição da estrutura do repositório, dos metadados e dos mecanismos de atualização contínua.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
-      "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-05-04",
-      "data_fim": "2026-05-18",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 86,800,00",
+      "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-29",
       "perfil_classificado": "engenheiro_dados",
@@ -2504,9 +2380,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -2520,7 +2396,8 @@
             "ferramentas": {
               "match": [
                 "qgis",
-                "python"
+                "python",
+                "sql"
               ],
               "faltando": [],
               "exigidas": []
@@ -2534,9 +2411,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -2565,9 +2442,135 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
+            }
+          }
+        }
+      },
+      "url_externo": "https://parceiros.undp.org.br/opportunities"
+    },
+    {
+      "id": 1395,
+      "torid": 146107,
+      "titulo": "PROJETO BRA 23/023 - TR 95/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA SOBRE ORDENAMENTO TERRITORIAL MUNICIPAL",
+      "descricao": "Contratação de Consultoria especializada para o desenvolvimento de metodologia de aperfeiçoamento, modernização e sistematização da base existente de documentos normativos sobre ordenamento territorial, com foco em divisões intramunicipais (bairros, regiões administrativas, regiões de planejamento, subdistritos, entre outras categorias), visando a proposição da estrutura do repositório, dos metadados e dos mecanismos de atualização contínua.",
+      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "areas_tematicas": [
+        "Meio Ambiente / Clima / Geografia",
+        "Gestão / Administração Pública"
+      ],
+      "data_inicio": "2026-05-04",
+      "data_fim": "2026-05-18",
+      "local": "Remoto",
+      "orgao_parceiro": "IBGE",
+      "email_submissao": "projetos.especiais@ibge.gov.br",
+      "valor_estimado": "R$ 86,800,00",
+      "valor_estimado_num": 86800.0,
+      "status": "Aprovada",
+      "data_criacao": "2026-04-29",
+      "perfil_classificado": "engenheiro_dados",
+      "requisitos": {
+        "graduacao": [],
+        "ferramentas": [],
+        "idiomas": [],
+        "anos_experiencia": null,
+        "mestrado": false,
+        "doutorado": false,
+        "pos_graduacao": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "economista": {
+          "score": 0.3,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 86800.0,
+              "minimo_perfil": 30000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.8,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "qgis",
+                "python",
+                "sql"
+              ],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 86800.0,
+              "minimo_perfil": 50000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "pesquisador_computacao": {
+          "score": 0.6,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 86800.0,
+              "minimo_perfil": 40000,
+              "acima_minimo": true
             }
           }
         }
@@ -2589,8 +2592,8 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 86,800,00",
+      "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-29",
       "perfil_classificado": "engenheiro_dados",
@@ -2629,9 +2632,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -2645,7 +2648,8 @@
             "ferramentas": {
               "match": [
                 "qgis",
-                "python"
+                "python",
+                "sql"
               ],
               "faltando": [],
               "exigidas": []
@@ -2659,14 +2663,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.6,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2690,9 +2694,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -2713,8 +2717,8 @@
       "local": "Remoto",
       "orgao_parceiro": "IBGE",
       "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 86,800,00",
+      "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-29",
       "perfil_classificado": "engenheiro_dados",
@@ -2753,14 +2757,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
-          "score": 0.9,
+          "score": 0.8,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2769,7 +2773,8 @@
             "ferramentas": {
               "match": [
                 "qgis",
-                "python"
+                "python",
+                "sql"
               ],
               "faltando": [],
               "exigidas": []
@@ -2783,14 +2788,14 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.6,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2814,9 +2819,9 @@
               "exigidos": []
             },
             "valor": {
-              "edital": null,
+              "edital": 86800.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -2830,8 +2835,8 @@
       "descricao": null,
       "tipo": "Edital Genérico / IC",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Estatística / Pesquisa / Metodologia"
+        "Estatística / Pesquisa / Metodologia",
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-05-07",
       "data_fim": "2026-05-20",
@@ -2948,8 +2953,8 @@
       "descricao": "null",
       "tipo": "Edital Genérico / IC",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Estatística / Pesquisa / Metodologia"
+        "Estatística / Pesquisa / Metodologia",
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-05-07",
       "data_fim": "2026-05-20",
@@ -3148,7 +3153,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.5,
           "detalhes": {
             "areas": {
               "match": true,
@@ -3265,7 +3270,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": false,
@@ -3300,32 +3305,32 @@
       "perfil": "economista",
       "descricao": "Economista com stack técnica em análise de dados e políticas públicas",
       "total_editais_analisados": 26,
-      "total_editais_compativeis": 17,
-      "valor_total_oportunidades": 0,
+      "total_editais_compativeis": 20,
+      "valor_total_oportunidades": 837300.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek)",
       "curto_prazo": {
         "gaps": [],
         "plano": [
           {
-            "gap": "Ferramentas de visualização avançada e storytelling com dados",
-            "curso": "Data Storytelling com Power BI",
+            "gap": "Aprofundamento em Power BI para dashboards de políticas públicas",
+            "curso": "Microsoft Power BI para Data Science",
             "custo": "Gratuito (Microsoft Learn)",
-            "carga": "8 horas",
-            "link": "https://learn.microsoft.com/pt-br/training/paths/data-storytelling-power-bi/"
+            "carga": "40h",
+            "link": "https://learn.microsoft.com/pt-br/training/powerbi/"
           },
           {
-            "gap": "Automação de processos com Python para análise de dados públicos",
-            "curso": "Python para Análise de Dados Públicos",
-            "custo": "Gratuito (ENAP)",
-            "carga": "20 horas",
-            "link": "https://www.escolavirtual.gov.br/curso/267"
+            "gap": "SQL avançado para análise de grandes bases de dados governamentais",
+            "curso": "SQL para Análise de Dados (Udemy)",
+            "custo": "R$ 29,90 (promoção)",
+            "carga": "20h",
+            "link": "https://www.udemy.com/course/sql-para-analise-de-dados/"
           },
           {
-            "gap": "Modelagem econométrica com R",
-            "curso": "Introdução à Econometria com R",
-            "custo": "Gratuito (Coursera - USP)",
-            "carga": "40 horas",
-            "link": "https://www.coursera.org/learn/introducao-econometria-r"
+            "gap": "Python para automação de relatórios econômicos",
+            "curso": "Python para Economistas (Coursera - University of Michigan)",
+            "custo": "Gratuito (auditoria) / R$ 89/mês (certificado)",
+            "carga": "30h",
+            "link": "https://www.coursera.org/specializations/python-economics"
           }
         ]
       },
@@ -3333,25 +3338,25 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Especialização em avaliação de políticas públicas",
-            "curso": "Especialização em Avaliação de Políticas Públicas",
-            "custo": "Gratuito (ENAP)",
-            "carga": "360 horas",
-            "link": "https://www.escolavirtual.gov.br/curso/267"
+            "gap": "Especialização em avaliação de políticas públicas com métodos quantitativos",
+            "curso": "Especialização em Avaliação de Políticas Públicas (ENAP)",
+            "custo": "Gratuito",
+            "carga": "360h",
+            "link": "https://www.enap.gov.br/pt/curso/especializacao-em-avaliacao-de-politicas-publicas"
           },
           {
-            "gap": "Big Data e análise de dados governamentais",
-            "curso": "Especialização em Big Data e Data Science",
-            "custo": "Gratuito (UFBA - EAD)",
-            "carga": "360 horas",
-            "link": "https://www.ead.ufba.br/curso/especializacao-em-big-data-e-data-science"
+            "gap": "Dominar R e Stata para econometria aplicada",
+            "curso": "Especialização em Econometria Aplicada (Coursera - Erasmus University)",
+            "custo": "Gratuito (auditoria) / R$ 89/mês (certificado)",
+            "carga": "180h",
+            "link": "https://www.coursera.org/specializations/econometrics"
           },
           {
-            "gap": "Geoprocessamento aplicado a políticas públicas",
-            "curso": "Especialização em Geoprocessamento e Análise Espacial",
-            "custo": "Gratuito (INPE - EAD)",
-            "carga": "360 horas",
-            "link": "https://www.inpe.br/posgraduacao/cursos_especiais/geoprocessamento.php"
+            "gap": "Gestão de dados governamentais com SQL e Power BI",
+            "curso": "Especialização em Business Intelligence para Setor Público (Udemy)",
+            "custo": "R$ 49,90 (promoção)",
+            "carga": "120h",
+            "link": "https://www.udemy.com/course/bi-para-setor-publico/"
           }
         ]
       },
@@ -3359,25 +3364,25 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Mestrado em Economia Aplicada",
-            "curso": "Mestrado em Economia Aplicada",
-            "custo": "Gratuito (UFBA)",
+            "gap": "Mestrado em Economia Aplicada com foco em políticas públicas",
+            "curso": "Mestrado Profissional em Economia (UFBA)",
+            "custo": "Gratuito (público)",
             "carga": "2 anos",
-            "link": "https://www.economia.ufba.br/mestrado-em-economia-aplicada"
+            "link": "https://www.economia.ufba.br/mestrado-profissional"
           },
           {
-            "gap": "Doutorado em Políticas Públicas e Desenvolvimento",
-            "curso": "Doutorado em Políticas Públicas e Desenvolvimento",
-            "custo": "Gratuito (UFBA)",
+            "gap": "Doutorado em Métodos Quantitativos para Políticas Públicas",
+            "curso": "Doutorado em Economia (INPE)",
+            "custo": "Gratuito (público)",
             "carga": "4 anos",
-            "link": "https://www.politicaspublicas.ufba.br/doutorado"
+            "link": "https://www.inpe.br/pos_graduacao/cursos/economia/"
           },
           {
-            "gap": "Mestrado em Gestão Pública",
-            "curso": "Mestrado Profissional em Gestão Pública",
-            "custo": "Gratuito (ENAP)",
+            "gap": "Certificação internacional em análise espacial para políticas públicas",
+            "curso": "Mestrado em Geografia e Análise de Dados (ESRI/UFMG)",
+            "custo": "Gratuito (público)",
             "carga": "2 anos",
-            "link": "https://www.enap.gov.br/pt/ensino/mestrado-profissional-em-gestao-publica"
+            "link": "https://www.esri.com/en-us/industries/government/education"
           }
         ]
       }
@@ -3386,32 +3391,32 @@
       "perfil": "engenheiro_dados",
       "descricao": "Engenheiro com formação em dados, Python, Power BI, cloud e geoprocessamento",
       "total_editais_analisados": 26,
-      "total_editais_compativeis": 24,
-      "valor_total_oportunidades": 0,
+      "total_editais_compativeis": 25,
+      "valor_total_oportunidades": 1102400.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek)",
       "curto_prazo": {
         "gaps": [],
         "plano": [
           {
-            "gap": "Certificação oficial em nuvem (Azure, AWS ou GCP) para validar experiência prática",
+            "gap": "Certificação em Nuvem (Azure/AWS/GCP)",
             "curso": "Microsoft Certified: Azure Data Engineer Associate (DP-203)",
-            "custo": "Gratuito (treinamento) + USD 165 (exame)",
-            "carga": "40 horas",
+            "custo": "Gratuito (Microsoft Learn) + ~$165 exame",
+            "carga": "40h",
             "link": "https://learn.microsoft.com/en-us/training/courses/dp-203t00"
           },
           {
-            "gap": "Automação de processos com Power Automate e SharePoint avançado",
-            "curso": "Power Automate – Automação de Processos (Udemy)",
-            "custo": "R$ 29,90 (promoção)",
-            "carga": "10 horas",
-            "link": "https://www.udemy.com/course/power-automate-completo/"
+            "gap": "Power BI Avançado (DAX, Modelagem)",
+            "curso": "Power BI Data Analyst Associate (PL-300)",
+            "custo": "Gratuito (Microsoft Learn) + ~$165 exame",
+            "carga": "30h",
+            "link": "https://learn.microsoft.com/en-us/training/courses/pl-300t00"
           },
           {
-            "gap": "Geoprocessamento com Python (GeoPandas, Shapely) para integração com QGIS",
-            "curso": "Python para Geoprocessamento (ENAP)",
-            "custo": "Gratuito",
-            "carga": "20 horas",
-            "link": "https://www.escolavirtual.gov.br/curso/123"
+            "gap": "Geoprocessamento com Python (GeoPandas, Rasterio)",
+            "curso": "Python for Geospatial Analysis (Udemy)",
+            "custo": "R$ 29,90 (promoção)",
+            "carga": "10h",
+            "link": "https://www.udemy.com/course/python-for-geospatial-data-analysis/"
           }
         ]
       },
@@ -3419,25 +3424,25 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Especialização em Big Data e Data Engineering com foco em cloud",
-            "curso": "Especialização em Engenharia de Dados (Coursera – Google Cloud)",
-            "custo": "USD 49/mês (assinatura Coursera Plus)",
-            "carga": "200 horas",
-            "link": "https://www.coursera.org/professional-certificates/google-data-engineering"
+            "gap": "Especialização em Big Data e Data Science",
+            "curso": "Especialização em Big Data e Data Science (ENAP)",
+            "custo": "Gratuito",
+            "carga": "180h",
+            "link": "https://www.escolavirtual.gov.br/curso/123"
           },
           {
-            "gap": "Aprofundamento em Data Science com R e Tableau para análises estatísticas",
-            "curso": "Data Science Specialization (Coursera – Johns Hopkins)",
-            "custo": "USD 49/mês",
-            "carga": "180 horas",
-            "link": "https://www.coursera.org/specializations/jhu-data-science"
+            "gap": "Arquitetura de Dados em Nuvem",
+            "curso": "Data Engineering on Google Cloud (Coursera)",
+            "custo": "Gratuito (auditoria) ou ~R$ 200/mês",
+            "carga": "120h",
+            "link": "https://www.coursera.org/professional-certificates/gcp-data-engineering"
           },
           {
-            "gap": "Governança e qualidade de dados em ambientes corporativos",
-            "curso": "Data Governance and Quality (Udemy)",
-            "custo": "R$ 29,90",
-            "carga": "15 horas",
-            "link": "https://www.udemy.com/course/data-governance-fundamentals/"
+            "gap": "Estatística e Machine Learning Aplicados",
+            "curso": "Especialização em Data Science (UFBA - EAD)",
+            "custo": "Gratuito",
+            "carga": "360h",
+            "link": "https://www.ufba.br/cursos/especializacao-em-ciencia-de-dados"
           }
         ]
       },
@@ -3445,25 +3450,25 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Mestrado em Ciência da Computação com ênfase em Big Data e Inteligência Artificial",
+            "gap": "Mestrado em Ciência da Computação (ênfase em Dados)",
             "curso": "Mestrado em Ciência da Computação (UFBA)",
             "custo": "Gratuito (público)",
             "carga": "2 anos",
-            "link": "https://www.ppgcc.ufba.br/"
+            "link": "https://www.ufba.br/pos-graduacao/ciencia-da-computacao"
           },
           {
-            "gap": "Doutorado em Engenharia de Dados ou Geoprocessamento",
-            "curso": "Doutorado em Engenharia de Sistemas e Computação (COPPE/UFRJ)",
+            "gap": "Doutorado em Geoprocessamento e Dados Espaciais",
+            "curso": "Doutorado em Sensoriamento Remoto (INPE)",
             "custo": "Gratuito (público)",
             "carga": "4 anos",
-            "link": "https://www.cos.ufrj.br/"
+            "link": "http://www.inpe.br/pos_graduacao/cursos/ser/"
           },
           {
-            "gap": "Certificação internacional avançada em arquitetura de dados (AWS Certified Data Analytics – Specialty)",
-            "curso": "AWS Certified Data Analytics – Specialty",
-            "custo": "USD 300 (exame)",
-            "carga": "60 horas",
-            "link": "https://aws.amazon.com/certification/certified-data-analytics-specialty/"
+            "gap": "MBA em Data Science & Analytics",
+            "curso": "MBA em Data Science & Analytics (USP/ESALQ)",
+            "custo": "R$ 30.000 (parcelado)",
+            "carga": "18 meses",
+            "link": "https://www.esalq.usp.br/pos-graduacao/mba-data-science"
           }
         ]
       }
@@ -3473,7 +3478,7 @@
       "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
       "total_editais_analisados": 26,
       "total_editais_compativeis": 26,
-      "valor_total_oportunidades": 0,
+      "valor_total_oportunidades": 1102400.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek)",
       "curto_prazo": {
         "gaps": [],
@@ -3481,8 +3486,8 @@
           {
             "gap": "Ferramentas de visualização de dados avançadas",
             "curso": "Data Visualization with Python",
-            "custo": "Gratuito (auditoria) / Certificado pago",
-            "carga": "4 semanas (aprox. 4-6h/semana)",
+            "custo": "Gratuito (auditoria) / US$ 49 (certificado)",
+            "carga": "40 horas",
             "link": "https://www.coursera.org/learn/python-for-data-visualization"
           },
           {
@@ -3494,10 +3499,10 @@
           },
           {
             "gap": "Versionamento e colaboração com Git",
-            "curso": "Git e GitHub para Iniciantes",
+            "curso": "Git e GitHub para Pesquisadores",
             "custo": "Gratuito",
             "carga": "10 horas",
-            "link": "https://www.udemy.com/course/git-e-github-para-iniciantes/"
+            "link": "https://www.udemy.com/course/git-e-github-para-pesquisadores/"
           }
         ]
       },
@@ -3509,21 +3514,21 @@
             "curso": "Especialização em Geoprocessamento e Análise Espacial",
             "custo": "Gratuito (ENAP)",
             "carga": "180 horas",
-            "link": "https://www.escolavirtual.gov.br/curso/364"
+            "link": "https://www.escolavirtual.gov.br/curso/153"
           },
           {
-            "gap": "Machine Learning aplicado à pesquisa",
-            "curso": "Machine Learning for Data Science and Analytics",
-            "custo": "Gratuito (auditoria) / Certificado pago",
-            "carga": "5 semanas (aprox. 6-8h/semana)",
-            "link": "https://www.coursera.org/learn/machine-learning-for-data-science-and-analytics"
+            "gap": "Big Data e computação em nuvem",
+            "curso": "Especialização em Big Data e Cloud Computing",
+            "custo": "Gratuito (Microsoft Learn) / US$ 99 (certificação)",
+            "carga": "120 horas",
+            "link": "https://learn.microsoft.com/pt-br/training/paths/azure-data-scientist/"
           },
           {
-            "gap": "Big Data e processamento distribuído",
-            "curso": "Big Data: procesamiento y análisis",
-            "custo": "Gratuito (auditoria) / Certificado pago",
-            "carga": "6 semanas (aprox. 4-6h/semana)",
-            "link": "https://www.coursera.org/learn/big-data-introduction"
+            "gap": "Inteligência Artificial aplicada",
+            "curso": "Especialização em Inteligência Artificial e Machine Learning",
+            "custo": "Gratuito (auditoria) / US$ 49 (certificado)",
+            "carga": "200 horas",
+            "link": "https://www.coursera.org/specializations/machine-learning-introduction"
           }
         ]
       },
@@ -3533,22 +3538,22 @@
           {
             "gap": "Pesquisa avançada em Ciência da Computação",
             "curso": "Mestrado em Ciência da Computação",
-            "custo": "Gratuito (público) / Variável (privado)",
-            "carga": "2 anos (tempo integral)",
+            "custo": "Gratuito (público) / R$ 1.000/mês (privado)",
+            "carga": "2 anos",
             "link": "https://www.ufba.br/cursos/mestrado-em-ciencia-da-computacao"
           },
           {
-            "gap": "Inteligência Artificial e Aprendizado de Máquina",
-            "curso": "Doutorado em Inteligência Artificial",
-            "custo": "Gratuito (público) / Variável (privado)",
-            "carga": "4 anos (tempo integral)",
-            "link": "https://www.inpe.br/posgraduacao/curso.php?id=1"
+            "gap": "Modelagem e simulação computacional",
+            "curso": "Doutorado em Modelagem Computacional",
+            "custo": "Gratuito (público) / R$ 1.500/mês (privado)",
+            "carga": "4 anos",
+            "link": "https://www.inpe.br/posgraduacao/modelagem/"
           },
           {
-            "gap": "Estatística e Métodos Quantitativos",
+            "gap": "Estatística e métodos quantitativos",
             "curso": "Mestrado em Estatística",
-            "custo": "Gratuito (público) / Variável (privado)",
-            "carga": "2 anos (tempo integral)",
+            "custo": "Gratuito (público) / R$ 800/mês (privado)",
+            "carga": "2 anos",
             "link": "https://www.ufba.br/cursos/mestrado-em-estatistica"
           }
         ]

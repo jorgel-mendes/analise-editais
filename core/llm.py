@@ -15,36 +15,42 @@ Para cada edital:
 - "areas_tematicas": array com ["Tecnologia da Informação / Dados", "Economia / Finanças Públicas", "Saúde", "Estatística / Pesquisa / Metodologia", "Direito / Jurídico", "Meio Ambiente / Clima / Geografia", "Gestão / Administração Pública"]
 - "orgao_parceiro": string (TCU, IBGE, MGI, AGU, MTE, PNUD, ou "Não identificado")
 - "perfil_classificado": perfil mais compatível
-- "valor_estimado_num": float extraído do campo comments, ou null
+- "valor_estimado_num": use o campo "valor_extraido" se presente, ou null
 - "requisitos": {"graduacao": [], "ferramentas": [], "idiomas": [], "anos_experiencia": null, "mestrado": false, "doutorado": false}
 
 Para cada edital×perfil, calcule "matches" com score 0-1 e breakdown. Seja criterioso: só >0.5 quando há clara compatibilidade.
 
-Formato esperado:
+Exemplo de saída:
 {
   "editais": [
     {
-      "id": 1, "tipo": "...", "areas_tematicas": [...], "orgao_parceiro": "...",
-      "perfil_classificado": "...", "valor_estimado_num": 50000, "requisitos": {...},
+      "id": 1, "tipo": "Consultoria Pessoa Física (PF)", "areas_tematicas": ["Saúde"],
+      "orgao_parceiro": "TCU", "perfil_classificado": "pesquisador_computacao",
+      "valor_estimado_num": 50000, "requisitos": {"graduacao": ["medicina"], "ferramentas": [], "idiomas": [], "anos_experiencia": 5, "mestrado": true, "doutorado": false},
       "matches": {
-        "engenheiro_dados": {"score": 0.8, "areas": true, "ferramentas_match": ["python"], "ferramentas_faltando": ["qgis"], "graduacao_match": ["engenharia"], "graduacao_faltando": [], "idiomas_match": ["inglês"], "idiomas_faltando": [], "comentario": "Alta compatibilidade"}
+        "engenheiro_dados": {"score": 0.2, "areas": false, "ferramentas_match": [], "ferramentas_faltando": [], "graduacao_match": [], "graduacao_faltando": ["medicina"], "idiomas_match": [], "idiomas_faltando": [], "comentario": "Área de saúde, pouca afinidade com engenharia de dados"}
       }
     }
-  ],
-  "perfis": {...}
+  ]
 }
 
 IMPORTANTE: só o JSON, nada de markdown."""
 
 
 def _build_classify_prompt(editais: list, perfis: dict) -> str:
+    import re
+
     items = []
     for e in editais:
+        comments = (e.get("comments") or "")
+        valor_match = re.search(r'R\$\s*([\d.]+,\d{2})', comments)
+        valor_pre = float(valor_match.group(1).replace(".", "").replace(",", ".")) if valor_match else None
+
         items.append({
             "id": e.get("id"),
             "title": e.get("title", ""),
             "description": (e.get("description") or "")[:250],
-            "comments": (e.get("comments") or "")[:150],
+            "valor_extraido": valor_pre,
             "local": e.get("local", ""),
             "endDate": (e.get("endDate", "") or "")[:10],
             "receivingEmail": e.get("receivingEmail", ""),
