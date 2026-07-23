@@ -1,7 +1,3 @@
-import json
-import sys
-from pathlib import Path
-
 import click
 
 from core.config import PERFIS_DISPONIVEIS, PERFIS_DIR, HISTORICO_DIR

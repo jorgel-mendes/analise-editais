@@ -12,6 +12,14 @@ wheels/
 # Downloaded ToR files (large binaries)
 dados_brutos/tors/
 
+# Scraping debug artifacts
+dados_brutos/page.html
+dados_brutos/page_text.txt
+dados_brutos/screenshot.png
+dados_brutos/localStorage.json
+dados_brutos/sessionStorage.json
+dados_brutos/network_requests.json
+
 # Generated reports (rebuilt daily)
 analise_editais_pnud.xlsx
 relatorio_editais_pnud.pdf

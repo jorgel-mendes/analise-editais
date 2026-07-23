@@ -1,7 +1,10 @@
 import json
+import logging
 from pathlib import Path
 
 from core.config import PERFIS_DIR
+
+logger = logging.getLogger(__name__)
 
 
 def carregar_perfis() -> dict[str, dict]:
@@ -12,7 +15,7 @@ def carregar_perfis() -> dict[str, dict]:
             try:
                 perfis[nome] = json.loads(arquivo.read_text())
             except (json.JSONDecodeError, KeyError):
-                pass
+                logger.warning("Perfil inválido ignorado: %s", arquivo.name)
     return perfis
 
 
@@ -23,15 +26,7 @@ def carregar_perfil(nome: str) -> dict | None:
     return None
 
 
-def salvar_perfil(nome: str, dados: dict) -> Path:
-    PERFIS_DIR.mkdir(parents=True, exist_ok=True)
-    caminho = PERFIS_DIR / f"{nome}.json"
-    caminho.write_text(json.dumps(dados, indent=2, ensure_ascii=False))
-    return caminho
-
-
 def pontuar_edital_para_perfil(edital: dict, perfil: dict) -> float:
-    """Calcula uma pontuação de compatibilidade (0.0 a 1.0) entre um edital e um perfil."""
     score = 0.0
     peso_maximo = 0.0
 
@@ -85,7 +80,6 @@ def pontuar_edital_para_perfil(edital: dict, perfil: dict) -> float:
 
 
 def classificar_perfil_do_edital(edital: dict) -> str:
-    """Determina o perfil mais compatível com um edital usando todos os perfis disponíveis."""
     perfis = carregar_perfis()
     if not perfis:
         return "Não classificado"
@@ -105,7 +99,6 @@ def classificar_perfil_do_edital(edital: dict) -> str:
 
 
 def filtrar_por_perfil(editais: list, nome_perfil: str) -> list:
-    """Filtra editais que correspondem a um perfil específico."""
     perfil = carregar_perfil(nome_perfil)
     if not perfil:
         return []

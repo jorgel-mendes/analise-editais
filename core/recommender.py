@@ -171,13 +171,6 @@ CURSO_MAP = {
 }
 
 
-PRAZO_LABELS = {
-    "curto": {"nome": "Curto Prazo", "icone": "⚡", "descricao": "3 a 6 meses — Cursos e certificações rápidas para resultados imediatos", "cor": "#137333"},
-    "medio": {"nome": "Médio Prazo", "icone": "📈", "descricao": "6 a 18 meses — Especializações, MBAs e certificações avançadas", "cor": "#b06000"},
-    "longo": {"nome": "Longo Prazo", "icone": "🎓", "descricao": "1 a 3 anos — Mestrados, doutorados e formações estruturantes", "cor": "#1967d2"},
-}
-
-
 def mapear_curso(ferramenta: str) -> list[dict]:
     key = ferramenta.lower().strip()
     if key in CURSO_MAP:
@@ -358,9 +351,6 @@ def gerar_recomendacoes(editais: list, perfil_nome: str) -> dict:
     plano_curto, _ = _extrair_plano(curto, "curto")
     plano_medio, _ = _extrair_plano(medio, "medio")
     plano_longo, _ = _extrair_plano(longo, "longo")
-
-    custo_curto = sum(int(c["custo"].replace("R$ ", "").replace(".", "").split(" ")[0])
-        for c in plano_curto if c["custo"].startswith("R$ ") or c["custo"] == "Grátis") if False else 0
 
     return {
         "perfil": perfil_nome,

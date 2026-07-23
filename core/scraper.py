@@ -1,16 +1,13 @@
 import asyncio
 import json
 from datetime import date
-from pathlib import Path
 
-from core.config import API_URL, DADOS_BRUTOS_DIR, API_ENDPOINT
+from core.config import API_URL, API_ENDPOINT
 from core.persistence import salvar_snapshot, atualizar_editais_todos, detectar_novidades, carregar_ultimo_snapshot
 
 
 async def _scrape_async() -> list:
     from playwright.async_api import async_playwright
-
-    DADOS_BRUTOS_DIR.mkdir(exist_ok=True)
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
