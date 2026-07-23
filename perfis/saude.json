@@ -1,0 +1,22 @@
+{
+  "nome": "saude",
+  "descricao": "Profissional da área de saúde pública e epidemiologia",
+  "graduacoes": [
+    "medicina",
+    "enfermagem",
+    "saúde pública",
+    "biologia"
+  ],
+  "ferramentas": [
+    "r",
+    "spss",
+    "stata",
+    "excel"
+  ],
+  "areas_interesse": [
+    "Saúde",
+    "Estatística / Pesquisa / Metodologia"
+  ],
+  "idiomas": ["inglês"],
+  "valor_minimo": 35000
+}

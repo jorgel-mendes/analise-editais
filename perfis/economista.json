@@ -1,0 +1,26 @@
+{
+  "nome": "economista",
+  "descricao": "Economista com stack técnica em análise de dados e políticas públicas",
+  "graduacoes": [
+    "economia",
+    "políticas públicas",
+    "gestão pública",
+    "administração",
+    "ciências contábeis"
+  ],
+  "ferramentas": [
+    "python",
+    "excel",
+    "power bi",
+    "sql",
+    "r",
+    "stata"
+  ],
+  "areas_interesse": [
+    "Economia / Finanças Públicas",
+    "Gestão / Administração Pública",
+    "Estatística / Pesquisa / Metodologia"
+  ],
+  "idiomas": ["inglês"],
+  "valor_minimo": 30000
+}

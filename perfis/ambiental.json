@@ -1,0 +1,25 @@
+{
+  "nome": "ambiental",
+  "descricao": "Profissional de meio ambiente, clima e ecologia",
+  "graduacoes": [
+    "engenharia ambiental",
+    "engenharia química",
+    "geografia",
+    "biologia",
+    "ecologia",
+    "geologia"
+  ],
+  "ferramentas": [
+    "qgis",
+    "arcgis",
+    "google earth engine",
+    "python",
+    "r"
+  ],
+  "areas_interesse": [
+    "Meio Ambiente / Clima / Geografia",
+    "Estatística / Pesquisa / Metodologia"
+  ],
+  "idiomas": ["inglês"],
+  "valor_minimo": 40000
+}

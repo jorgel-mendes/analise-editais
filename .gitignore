@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Downloaded ToR files (large binaries)
+dados_brutos/tors/
+
+# Generated reports (rebuilt daily)
+analise_editais_pnud.xlsx
+relatorio_editais_pnud.pdf
+
+# OS files
+.DS_Store
+
+# Local environment
+.env

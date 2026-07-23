@@ -1,0 +1,229 @@
+{
+  "perfis": [
+    {
+      "nome": "pesquisador",
+      "descricao": "Pesquisador acadêmico com mestrado/doutorado e metodologia científica",
+      "graduacoes": [
+        "estatística",
+        "geografia",
+        "sociologia",
+        "antropologia",
+        "ciência política",
+        "matemática",
+        "economia"
+      ],
+      "ferramentas": [
+        "r",
+        "python",
+        "stata",
+        "spss",
+        "sas",
+        "matlab"
+      ],
+      "areas_interesse": [
+        "Estatística / Pesquisa / Metodologia",
+        "Economia / Finanças Públicas",
+        "Meio Ambiente / Clima / Geografia"
+      ],
+      "idiomas": [
+        "inglês",
+        "espanhol"
+      ],
+      "valor_minimo": 40000
+    },
+    {
+      "nome": "economista",
+      "descricao": "Economista com stack técnica em análise de dados e políticas públicas",
+      "graduacoes": [
+        "economia",
+        "políticas públicas",
+        "gestão pública",
+        "administração",
+        "ciências contábeis"
+      ],
+      "ferramentas": [
+        "python",
+        "excel",
+        "power bi",
+        "sql",
+        "r",
+        "stata"
+      ],
+      "areas_interesse": [
+        "Economia / Finanças Públicas",
+        "Gestão / Administração Pública",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 30000
+    },
+    {
+      "nome": "engenheiro_dados",
+      "descricao": "Engenheiro com formação em dados, Python, Power BI e geoprocessamento",
+      "graduacoes": [
+        "engenharia",
+        "análise de sistemas",
+        "ciência da computação",
+        "engenharia de software",
+        "sistemas de informação",
+        "engenharia química",
+        "engenharia ambiental"
+      ],
+      "ferramentas": [
+        "python",
+        "power bi",
+        "sql",
+        "qgis",
+        "power automate",
+        "sharepoint",
+        "git",
+        "docker",
+        "excel"
+      ],
+      "areas_interesse": [
+        "Tecnologia da Informação / Dados",
+        "Estatística / Pesquisa / Metodologia",
+        "Meio Ambiente / Clima / Geografia",
+        "Gestão / Administração Pública"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 50000
+    },
+    {
+      "nome": "juridico",
+      "descricao": "Profissional da área jurídica com foco em LGPD e direito digital",
+      "graduacoes": [
+        "direito",
+        "ciências sociais"
+      ],
+      "ferramentas": [
+        "sei",
+        "sic",
+        "excel",
+        "sharepoint"
+      ],
+      "areas_interesse": [
+        "Direito / Jurídico",
+        "Gestão / Administração Pública"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 40000
+    },
+    {
+      "nome": "saude",
+      "descricao": "Profissional da área de saúde pública e epidemiologia",
+      "graduacoes": [
+        "medicina",
+        "enfermagem",
+        "saúde pública",
+        "biologia"
+      ],
+      "ferramentas": [
+        "r",
+        "spss",
+        "stata",
+        "excel"
+      ],
+      "areas_interesse": [
+        "Saúde",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 35000
+    },
+    {
+      "nome": "gestao",
+      "descricao": "Profissional de gestão pública e administração governamental",
+      "graduacoes": [
+        "administração",
+        "gestão pública",
+        "políticas públicas",
+        "economia"
+      ],
+      "ferramentas": [
+        "excel",
+        "power bi",
+        "sei",
+        "sic",
+        "sharepoint"
+      ],
+      "areas_interesse": [
+        "Gestão / Administração Pública",
+        "Economia / Finanças Públicas"
+      ],
+      "idiomas": [
+        "inglês",
+        "espanhol"
+      ],
+      "valor_minimo": 45000
+    },
+    {
+      "nome": "ti_dados",
+      "descricao": "Profissional de TI / Ciência de Dados com foco em Python, cloud e BI",
+      "graduacoes": [
+        "ciência da computação",
+        "engenharia de software",
+        "sistemas de informação",
+        "tecnologia da informação",
+        "análise de sistemas",
+        "ciência de dados",
+        "inteligência artificial"
+      ],
+      "ferramentas": [
+        "python",
+        "sql",
+        "power bi",
+        "tableau",
+        "git",
+        "docker",
+        "azure",
+        "aws",
+        "google cloud",
+        "r"
+      ],
+      "areas_interesse": [
+        "Tecnologia da Informação / Dados",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 60000
+    },
+    {
+      "nome": "ambiental",
+      "descricao": "Profissional de meio ambiente, clima e ecologia",
+      "graduacoes": [
+        "engenharia ambiental",
+        "engenharia química",
+        "geografia",
+        "biologia",
+        "ecologia",
+        "geologia"
+      ],
+      "ferramentas": [
+        "qgis",
+        "arcgis",
+        "google earth engine",
+        "python",
+        "r"
+      ],
+      "areas_interesse": [
+        "Meio Ambiente / Clima / Geografia",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 40000
+    }
+  ]
+}

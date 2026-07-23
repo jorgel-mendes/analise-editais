@@ -1,0 +1,28 @@
+{
+  "nome": "pesquisador",
+  "descricao": "Pesquisador acadêmico com mestrado/doutorado e metodologia científica",
+  "graduacoes": [
+    "estatística",
+    "geografia",
+    "sociologia",
+    "antropologia",
+    "ciência política",
+    "matemática",
+    "economia"
+  ],
+  "ferramentas": [
+    "r",
+    "python",
+    "stata",
+    "spss",
+    "sas",
+    "matlab"
+  ],
+  "areas_interesse": [
+    "Estatística / Pesquisa / Metodologia",
+    "Economia / Finanças Públicas",
+    "Meio Ambiente / Clima / Geografia"
+  ],
+  "idiomas": ["inglês", "espanhol"],
+  "valor_minimo": 40000
+}

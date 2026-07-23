@@ -1,0 +1,926 @@
+[
+  {
+    "torid": "146097",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.680,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA - TR 89/26 - Contratação de Consultoria especializada para identificação de concentrações espaciais de segmentos de Povos e Comunidades Tradicionais e da População em Situação de Rua.",
+    "descricao": "Contratação de Consultoria especializada para identificação de concentrações espaciais de segmentos de Povos e Comunidades Tradicionais e da População em Situação de Rua.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146098",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "sql"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "9.150,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 90/2026 - Contratação de Consultoria especializada para análises de registros administrativos, dados geoespacializados e dados de endereços utilizando ferramentas GIS e Python.",
+    "descricao": "Contratação de Consultoria especializada para a análise de: registros administrativos, dados geoespacializadas e dados de endereços utilizando ferramentas GIS e ferramentas Python para composição de listagem de endereços e mapeamento prévio direcionado aos Povos e Comunidades Tradicionais.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146099",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.680,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 91/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A CONDUÇÃO DE ESTUDOS GEOGRÁFICOS E ESTATÍSTICOS SOBRE POVOS E COMUNIDADES TRADICIONAIS.",
+    "descricao": "Contratação de Consultoria especializada para a realização de estudos geoestatísticos, usando como referências as bases de dados disponibilizadas pelo Conselho Nacional de Povos e Comunidades Tradicionais e pelas lideranças dos povos e comunidades que fazem parte do Conselho. ",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146100",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "ciências sociais",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.680,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 92/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O MAPEAMENTO CENSITÁRIO DE POPULAÇÕES INDÍGENAS.",
+    "descricao": "Contratação de Consultoria especializada para a realização de estudos e análises para a identificação e mapeamento da População Indígena e da sua interseção com outros Povos e Comunidades Tradicionais.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146101",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "qgis",
+      "arcgis",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.680,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 93/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O MAPEAMENTO RECORTE POPULACIONAL DA PESSOA EM SITUAÇÃO DE RUA.",
+    "descricao": "Contratação de Consultoria especializada para a realização de estudos para o mapeamento do recorte populacional da pessoa em situação de rua.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146107",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "arquitetura",
+      "políticas públicas",
+      "biblioteconomia",
+      "arquivologia"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.680,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 95/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA SOBRE ORDENAMENTO TERRITORIAL MUNICIPAL",
+    "descricao": "Contratação de Consultoria especializada para o desenvolvimento de metodologia de aperfeiçoamento, modernização e sistematização da base existente de documentos normativos sobre ordenamento territorial, com foco em divisões intramunicipais (bairros, regiões administrativas, regiões de planejamento, subdistritos, entre outras categorias), visando a proposição da estrutura do repositório, dos metadados e dos mecanismos de atualização contínua.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146108",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "estatística",
+      "geografia",
+      "engenharia ambiental",
+      "arquitetura",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "4.340,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 96/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE PROPOSTA DE METODOLOGIA PARA SISTEMATIZAÇÃO E PADRONIZAÇÃO DA BASE DE DADOS GEOESPACIAIS DE ÁREAS DE REFERÊNCIA INTRAMUNICIPAIS.",
+    "descricao": "Contratação de Consultoria especializada para elaboração de proposta de metodologia para sistematização e padronização das bases de dados geoespacial de áreas de referência intramunicipais, incluindo organização, nomenclatura e mecanismos de atualização contínua, objetivando apoiar análises geográficas e estatísticas; e a disseminação do Censo Demográfico 2030.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146109",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "história",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "9.500,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 111/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ELABORAÇÃO DE ESTUDO SOBRE O PROCESSO DE ESTRUTURAÇÃO INSTITUCIONAL DO IBGE.",
+    "descricao": "Contratação de Consultoria especializada para sistematizar e organizar a bibliografia e o acervo documental da instituição, visando a elaboração de um estudo sobre as transformações institucionais ocorridas no período  de 1964 a 1985. ",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146110",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "história",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "9.500,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 112/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ELABORAÇÃO DE ESTUDO SOBRE O PAPEL DESEMPENHADO PELO IBGE NO PLANEJAMENTO E NA REALIZAÇÃO DOS CENSOS DE 1970 E 1980.",
+    "descricao": "Contratação de Consultoria especializada para a elaboração de estudo, com o intuito de examinar o papel institucional do IBGE; mapeamento do papel no planejamento desenvolvimentista, com ênfase em sua atuação na concepção, organização  e a realização dos Censos Demográficos de 1970 e 1980.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146112",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "história",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "9.500,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 113/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A CONSTRUÇÃO DE MAPEAMENTO DAS DIRETRIZES GOVERNAMENTAIS RELACIONADAS À ATUAÇÃO DO IBGE.",
+    "descricao": "Contratação de Consultoria especializada para elaboração de estudo com o mapeamento e análise das diretrizes governamentais e dos procedimentos de produção e divulgação de informações estatísticas, vigentes no período de 1964 a 1985.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146113",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "história",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "9.500,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 114/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE ESTUDO SOBRE LIÇÕES APREENDIDAS E PROPOSIÇÃO PARA A ATUALIZAÇÃO DOS PROTOCOLOS DE DISSEMINAÇÃO DE DADOS - PERÍODO DE 1964 a 1985.",
+    "descricao": "Contratação de Consultoria especializada para elaboração de roteiro de lições aprendidas e a proposição de diretrizes de atualizações institucionais aplicáveis à para a burocracia do Instituto Nacional de Estatística (INE), no que se refere aos protocolos de em relação à disseminação de dados vigentes no período de 1964 a 1985.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146136",
+    "graduacao": [
+      "ciência da computação",
+      "sistemas de informação",
+      "tecnologia da informação",
+      "economia",
+      "administração",
+      "direito",
+      "arquitetura",
+      "gestão pública"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "14.994,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PRODOC BRA 23/022 - TR 04/2026 ",
+    "descricao": "PRODOC BRA 23/022 - Contratação de Consultoria para realização de estudo de viabilidade, levantamento de requisitos e prototipação de um sistema que funcione como um repositório nacional de evidências de adequação da estrutura hospitalar.",
+    "local": "Remoto/Brasília",
+    "data_fim": "2026-05-17"
+  },
+  {
+    "torid": "146137",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "estatística",
+      "políticas públicas",
+      "saúde pública",
+      "medicina",
+      "enfermagem"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "24.999,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PRODOC BRA 23/022 - TR 05/2026",
+    "descricao": "PRODOC BRA 23/022 - Contratação de consultoria para realização de estudo de levantamento de indicadores aptos a medir eficiência, eficácia e efetividade hospitalar e de redes de atenção à saúde.",
+    "local": "Remoto/Brasília",
+    "data_fim": "2026-05-17"
+  },
+  {
+    "torid": "146138",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "políticas públicas",
+      "saúde pública"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "15.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PRODOC BRA 23/022 - TR 06/2026",
+    "descricao": "PRODOC BRA 23/022 - Contratação de consultoria para desenhar e estruturar o modelo de funcionamento do Serviço de Fiscalização da Eficiência na Saúde.",
+    "local": "Remoto/Brasília",
+    "data_fim": "2026-05-17"
+  },
+  {
+    "torid": "146146",
+    "graduacao": [
+      "economia",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "2.250,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PRODOC BRA 23/022 - TR 07-2026 - Incidência distributiva da carga tributária no Brasil",
+    "descricao": "Contratação de pesquisador para elaboração de estudo sobre a incidência distributiva da carga tributária no Brasil. ",
+    "local": "Remoto/Brasília",
+    "data_fim": "2026-05-24"
+  },
+  {
+    "torid": "146147",
+    "graduacao": [
+      "economia",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "4.500,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PRODOC BRA 23/022 - TR 08-2026 - Tributação ótima no estado de bem-estar social",
+    "descricao": "Contratação de pesquisador para elaborar estudo sobre tributação ótima no estado de bem-estar social.",
+    "local": "Remoto/Brasília",
+    "data_fim": "2026-05-24"
+  },
+  {
+    "torid": "146148",
+    "graduacao": [
+      "tecnologia da informação",
+      "administração",
+      "ciências sociais",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "power bi",
+      "sharepoint",
+      "microsoft 365",
+      "r",
+      "excel",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "16.800,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: - graduação em nível superior completo nas áreas de ciências",
+      "sociais aplicadas, ciências humanas ou tecnologia da informação, conforme classificação da capes,",
+      "termo de referência no 146148",
+      "contrato por produto - nacional",
+      "em instituição reconhecida pelo ministério da educação (mec); experiência profissional: - experiência",
+      "profissional comprovada de, no mínimo, 03 (três) anos na área de formação; - experiência comprovada em",
+      "ferramentas de criação de formulários, processos de etl, plataformas de business intelligence (bi) e",
+      "criação de conteúdos e dashboards no ambiente microsoft 365, incluindo excel, microsoft forms, power",
+      "bi, sharepoint; - experiência comprovada em storytelling e roteirização; - domínio de ferramentas como",
+      "plone, articulate storyline, adobe captivate, canva ou ferramentas equivalentes de mercado."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 10/2026 - Contratação de Consultoria Individual para gestão do conhecimento metodologia de Dimensionamento da Força de Trabalho",
+    "descricao": "Edital nº 10/2026 - Contratação de Consultoria Individual para gestão do conhecimento metodologia de Dimensionamento da Força de Trabalho",
+    "local": "Remoto",
+    "data_fim": "2026-05-19"
+  },
+  {
+    "torid": "146151",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "inteligência artificial",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "r",
+      "git"
+    ],
+    "idiomas": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "12.650,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 115/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA AVALIAÇÃO E ANÁLISE DO PANORAMA DA ERA DIGITAL.",
+    "descricao": "Contratação de Consultoria especializada para realização de estudos analíticos focados no debate sobre a Era Digital, com o objetivo de produzir conhecimento sobre comunicação, documentação e disseminação em ambientes digitais, tendo em vista a divulgação e comunicação de dados estatísticos.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146152",
+    "graduacao": [
+      "ciência da computação",
+      "engenharia de software",
+      "sistemas de informação",
+      "tecnologia da informação",
+      "análise de sistemas",
+      "engenharia da computação",
+      "engenharia",
+      "administração",
+      "arquitetura",
+      "ciência de dados",
+      "inteligência artificial",
+      "física"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "power bi",
+      "power automate",
+      "power query",
+      "dax",
+      "sharepoint",
+      "outlook",
+      "teams",
+      "r",
+      "sei",
+      "sic",
+      "git",
+      "project online"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "18.700,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: • graduação completa em ciência da computação, engenharia",
+      "de software, sistemas de informação, tecnologia da informação, análise de sistemas ou áreas correlatas.",
+      "experiência: comprovação mínima de 5 (cinco) anos de experiência profissional nos seguintes itens: 1.",
+      "desenvolvimento de soluções de business intelligence, incluindo etl, modelagem de dados, dax e",
+      "publicação em power bi service ou report server. 2. implementação de automações de processos",
+      "utilizando power automate/flow e integrações com sharepoint, outlook, teams ou sistemas corporativos.",
+      "3. criação, administração ou configuração de sites, listas e fluxos em sharepoint online, incluindo",
+      "governança, permissões e modelagem de estruturas de informação."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 11/2026 - Contratação de consultor pessoa física para desenvolver automações de rotinas no SEI e no SIC, e entregar solução de BI para acompanhamento dos atendimentos.",
+    "descricao": "Edital nº 11/2026 - Contratação de consultor pessoa física para desenvolver automações de rotinas no SEI e no SIC, e entregar solução de BI para acompanhamento dos atendimentos.",
+    "local": "REMOTO",
+    "data_fim": "2026-05-20"
+  },
+  {
+    "torid": "146153",
+    "graduacao": [
+      "administração",
+      "direito",
+      "inteligência artificial",
+      "física"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "10.714,08",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "BRA20/023 - CONTRATAÇÃO DE CONSULTOR POR PRODUTO - PESSOA FÍSICA - ESTUDO PROPOSITIVO SOBRE PRIVACIDADE E PROTEÇÃO DE DADOS PESSOAIS",
+    "descricao": "Solicita os préstimos de publicar, juntamente, o edital em anexo",
+    "local": "Site: Oportunidades PNUD e AGU",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146154",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "17.360,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 97/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ESTRUTURAÇÃO DO MAPEAMENTO CLIMÁTICO NACIONAL E REGIONAL.",
+    "descricao": "Contratação de Consultoria especializada para o aprimoramento de metodologia de mapeamento climático, incorporando bases de dados atualizadas e métodos contemporâneos de classificação climática , além de estruturar o mapeamento climático em escalas regionais.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146155",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "geologia",
+      "direito",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "17.360,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 98/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A AVALIAÇÃO DA FRAGILIDADE AMBIENTAL DE ECOSSISTEMAS COSTEIROS.",
+    "descricao": "Contratação de Consultoria especializada para o aprimoramento de mapeamento geomorfológico costeiro, com avaliação da fragilidade ambiental de ambientes costeiros e modificações ambientais, sejam elas antropogênicas ou naturais.",
+    "local": "Remoto",
+    "data_fim": "2026-05-18"
+  },
+  {
+    "torid": "146172",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [
+      "bsafe",
+      "security clearance"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "/eliminatórios (registrados no currículo)",
+      "1. graduação em nível superior, em instituição de ensino reconhecida pelo ministério da",
+      "educação (mec), preferencialmente nas áreas de ciências humanas, ciências sociais",
+      "aplicadas ou áreas correlatas;",
+      "2. experiência profissional comprovada mínima de 2 (dois) anos em atividades",
+      "relacionadas ao monitoramento, avaliação ou implementação de políticas públicas,",
+      "programas ou projetos.",
+      "obs: o(a) candidato(a) que não atender aos requisitos supracitados será desclassificado(a)."
+    ],
+    "requisitos_desejaveis": [
+      "(registrados no currículo)",
+      "1. experiência profissional em direitos da criança e do adolescente;",
+      "2. experiência em monitoramento, avaliação ou gestão de projetos de cooperação técnica",
+      "3. formação complementar (pós-graduação lato sensu ou stricto sensu)",
+      "preferencialmente nas áreas de ciências humanas, ciências sociais aplicadas ou áreas",
+      "as experiências profissionais poderão ser consideradas em mais de um critério de pontuação,",
+      "desde que atendam aos requisitos específicos de cada item."
+    ],
+    "titulo": "IC - UNDP-BRA-01122 - Consultoria para elaboração e aplicação de metodologia de monitoramento e avaliação de progresso das ações de formação desenvolvidas no âmbito da CA UnB FUNAPE",
+    "descricao": null,
+    "local": "Distrito Federal (notar: na data de término, a negociação se encerra às 17h de Brasília)",
+    "data_fim": "2026-05-20"
+  },
+  {
+    "torid": "146173",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [
+      "bsafe",
+      "security clearance"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "/eliminatórios (registrados no currículo) graduação em nível",
+      "superior, em instituição de ensino reconhecida pelo ministério da educação (mec),",
+      "preferencialmente nas áreas de ciências humanas, ciências sociais aplicadas ou áreas",
+      "2. experiência profissional comprovada mínima de 2 (dois) anos em atividades",
+      "relacionadas ao monitoramento, avaliação ou implementação de políticas públicas,",
+      "programas ou projetos.",
+      "obs: o(a) candidato(a) que não atender aos requisitos supracitados será desclassificado(a)."
+    ],
+    "requisitos_desejaveis": [
+      "(registrados no currículo)",
+      "1. experiência profissional em direitos da criança e do adolescente;",
+      "2. experiência em monitoramento, avaliação ou gestão de projetos de cooperação técnica",
+      "3. formação complementar (pós-graduação lato sensu ou stricto sensu)",
+      "preferencialmente nas áreas de ciências humanas, ciências sociais aplicadas ou áreas",
+      "as experiências profissionais poderão ser consideradas em mais de um critério de pontuação,",
+      "desde que atendam aos requisitos específicos de cada item."
+    ],
+    "titulo": "IC - UNDP-BRA-01130 - Consultoria para acompanhamento técnico, avaliação de progresso e análise integrada das ações desenvolvidas no âmbito das CAs UFF e UnB Finatec",
+    "descricao": "null",
+    "local": "Distrito Federal (notar: na data de término, a negociação se encerra às 17h de Brasília)",
+    "data_fim": "2026-05-20"
+  },
+  {
+    "torid": "146182",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "estatística",
+      "direito",
+      "ciência de dados",
+      "matemática",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "teams",
+      "python",
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sic",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [
+      "bsafe",
+      "security clearance"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "(a serem comprovados no currículo):",
+      "- mestrado em estatística, ciência de dados, economia, matemática, ciências da",
+      "computação, engenharia de produção, análise econômica do direito,",
+      "administração pública ou áreas afins.",
+      "observação: o/a candidato/a que não atender aos requisitos obrigatórios acima será"
+    ],
+    "requisitos_desejaveis": [
+      "/pontuáveis (registrados no cv):",
+      "- doutorado em áreas correlatas;",
+      "- experiência prévia com estudos quantitativos envolvendo o poder judiciário;",
+      "- experiência prévia com estudos sobre dimensionamento de estrutura",
+      "institucional ou análise de eficiência e produtividade no setor público;",
+      "- produção acadêmica ou técnica publicada na área de justiça criminal,",
+      "execução penal ou gestão do judiciário;",
+      "- experiência com tratamento de grandes volumes de dados quantitativos,",
+      "incluindo procedimentos de limpeza, codificação e cruzamento de múltiplas",
+      "fontes de dados (ex.: bases judiciais, financeiras e administrativas),"
+    ],
+    "titulo": "IC - UNDP-BRA-01143 - Estudo técnico para subsidiar a regulamentação, pelo CNJ, do número de varas de execução penal proporcional ao número de varas criminais e ao quantitativo de pessoas presas",
+    "descricao": null,
+    "local": "Remoto. Notar: na data de término, a negociação se encerra às 17h de Brasília",
+    "data_fim": "2026-05-26"
+  },
+  {
+    "torid": "146183",
+    "graduacao": [
+      "economia",
+      "administração",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "7.416,96",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "qualificação mínima obrigatória (eliminatória): • formação acadêmica:",
+      "graduação completa em administração, economia, gestão pública em instituição reconhecida pelo",
+      "ministério da educação; • formação acadêmica: especialização em economia, administração, gestão",
+      "pública, gestão de projetos ou gestão de pessoas em instituição reconhecida pelo ministério da educação;",
+      "• experiência profissional: experiência mínima de 5 (cinco) anos em atividades relacionadas à gestão de",
+      "pessoas, gestão pública, processos organizacionais ou planejamento estratégico; • experiência comprovada",
+      "em, no mínimo, 3 (três) projetos de consultoria relacionado a diagnóstico institucional, mapeamento de",
+      "processos, gestão de pessoas, gestão pública ou fortalecimento institucional."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 02/2026 - Contratação de consultoria especializada (pessoa física) para Diagnóstico Institucional, Mapeamento de Processos e Gargalos da DGP/MTE",
+    "descricao": "Contratação de consultoria especializada (pessoa física) para Diagnóstico Institucional, Mapeamento de Processos e Gargalos da DGP/MTE",
+    "local": "Brasília - DF",
+    "data_fim": "2026-05-24"
+  }
+]

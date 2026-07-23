@@ -1,0 +1,32 @@
+{
+  "nome": "engenheiro_dados",
+  "descricao": "Engenheiro com formação em dados, Python, Power BI e geoprocessamento",
+  "graduacoes": [
+    "engenharia",
+    "análise de sistemas",
+    "ciência da computação",
+    "engenharia de software",
+    "sistemas de informação",
+    "engenharia química",
+    "engenharia ambiental"
+  ],
+  "ferramentas": [
+    "python",
+    "power bi",
+    "sql",
+    "qgis",
+    "power automate",
+    "sharepoint",
+    "git",
+    "docker",
+    "excel"
+  ],
+  "areas_interesse": [
+    "Tecnologia da Informação / Dados",
+    "Estatística / Pesquisa / Metodologia",
+    "Meio Ambiente / Clima / Geografia",
+    "Gestão / Administração Pública"
+  ],
+  "idiomas": ["inglês"],
+  "valor_minimo": 50000
+}

@@ -1,0 +1,42 @@
+name: Análise Diária de Editais PNUD
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # 9h BRT (12h UTC)
+  workflow_dispatch:       # permite rodar manualmente
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar uv
+        run: pip install uv
+
+      - name: Instalar dependências
+        run: uv pip install --system -r <(uv pip compile pyproject.toml -q)
+
+      - name: Instalar Playwright + Chromium
+        run: playwright install --with-deps chromium
+
+      - name: Executar pipeline diário
+        run: python main.py daily
+
+      - name: Commit e push
+        run: |
+          git config user.name "analise-editais-bot"
+          git config user.email "bot@analise-editais.local"
+          git add dados/ docs/ analise_editais_pnud.xlsx relatorio_editais_pnud.pdf
+          git diff --staged --quiet || (git commit -m "🤖 Daily run: $(date +'%Y-%m-%d %H:%M')" && git push)
