@@ -1,49 +1,47 @@
 {
-  "gerado_em": "2026-07-23T16:52:33.871475",
+  "gerado_em": "2026-07-23T19:41:12.905062",
   "resumo": {
     "total_editais": 26,
     "novos_hoje": 0,
     "encerrados_hoje": 0,
     "por_tipo": {
-      "Consultoria Especializada (não especifica PF/PJ)": 14,
-      "Consultoria Pessoa Física (PF)": 9,
-      "Edital Genérico / IC": 3
+      "Consultoria Pessoa Física (PF)": 26
     },
     "por_area": {
-      "Estatística / Pesquisa / Metodologia": 14,
-      "Gestão / Administração Pública": 11,
-      "Meio Ambiente / Clima / Geografia": 9,
-      "Tecnologia da Informação / Dados": 6,
+      "Estatística / Pesquisa / Metodologia": 12,
+      "Meio Ambiente / Clima / Geografia": 7,
+      "Tecnologia da Informação / Dados": 4,
       "Saúde": 3,
       "Economia / Finanças Públicas": 2,
-      "Direito / Jurídico": 2
+      "Gestão / Administração Pública": 2
     },
     "por_orgao": {
       "IBGE": 14,
       "TCU": 5,
-      "PNUD": 3,
       "MGI": 2,
       "AGU": 1,
+      "UnB/FUNAPE": 1,
+      "UFF/UnB Finatec": 1,
+      "CNJ": 1,
       "MTE": 1
     },
     "valores": {
-      "minimo": 45000.0,
+      "minimo": 47500.0,
       "maximo": 170000.0,
-      "medio": 87713.86,
+      "medio": 83554.57,
       "mediano": 86800.0,
-      "quantidade_com_valor": 23
+      "quantidade_com_valor": 26
     }
   },
   "perfis": [
     {
       "nome": "economista",
-      "descricao": "Economista com stack técnica em análise de dados e políticas públicas",
+      "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
       "graduacoes": [
         "economia",
         "políticas públicas",
         "gestão pública",
-        "administração",
-        "ciências contábeis"
+        "administração"
       ],
       "ferramentas": [
         "python",
@@ -61,21 +59,17 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 23
+      "match_count": 24
     },
     {
       "nome": "engenheiro_dados",
-      "descricao": "Engenheiro com formação em dados, Python, Power BI, cloud e geoprocessamento",
+      "descricao": "Engenheiro Químico + Análise de Sistemas, 5 anos de experiência com dados públicos e sociais",
       "graduacoes": [
-        "engenharia",
-        "análise de sistemas",
-        "ciência da computação",
-        "engenharia de software",
-        "sistemas de informação",
-        "tecnologia da informação",
-        "ciência de dados",
         "engenharia química",
-        "engenharia ambiental"
+        "análise de sistemas",
+        "engenharia",
+        "ciência da computação",
+        "sistemas de informação"
       ],
       "ferramentas": [
         "python",
@@ -87,10 +81,6 @@
         "git",
         "docker",
         "azure",
-        "aws",
-        "google cloud",
-        "tableau",
-        "r",
         "excel"
       ],
       "areas_interesse": [
@@ -102,7 +92,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 26
+      "match_count": 18
     },
     {
       "nome": "pesquisador_computacao",
@@ -152,7 +142,6 @@
       "descricao": "PRODOC BRA 23/022 - Contratação de Consultoria para realização de estudo de viabilidade, levantamento de requisitos e prototipação de um sistema que funcione como um repositório nacional de evidências de adequação da estrutura hospitalar.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
         "Saúde"
       ],
       "data_inicio": "2026-05-04",
@@ -164,12 +153,23 @@
       "valor_estimado_num": 140000.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-24",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "ciência da computação",
+          "engenharia",
+          "sistemas de informação"
+        ],
+        "ferramentas": [
+          "python",
+          "sql",
+          "git",
+          "docker"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -187,76 +187,137 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "sql"
+              ],
+              "faltando": [
+                "git",
+                "docker"
+              ],
+              "exigidas": [
+                "python",
+                "sql",
+                "git",
+                "docker"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "ciência da computação",
+                "engenharia",
+                "sistemas de informação"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
-          "score": 0.8,
+          "score": 0.65,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "git",
+                "docker"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "git",
+                "docker"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "engenharia",
+                "sistemas de informação"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "engenharia",
+                "sistemas de informação"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.7,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "git",
+                "docker"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "git",
+                "docker"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação",
+                "sistemas de informação"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "engenharia",
+                "sistemas de informação"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -270,8 +331,7 @@
       "descricao": "PRODOC BRA 23/022 - Contratação de consultoria para realização de estudo de levantamento de indicadores aptos a medir eficiência, eficácia e efetividade hospitalar e de redes de atenção à saúde.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Saúde",
-        "Estatística / Pesquisa / Metodologia"
+        "Saúde"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-17",
@@ -284,11 +344,21 @@
       "data_criacao": "2026-04-24",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "medicina",
+          "enfermagem",
+          "saúde pública"
+        ],
+        "ferramentas": [
+          "r",
+          "python",
+          "sql"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -298,83 +368,132 @@
       },
       "matches": {
         "economista": {
-          "score": 0.5,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.4,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "r",
+                "python",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "r",
+                "python",
+                "sql"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "medicina",
+                "enfermagem",
+                "saúde pública"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
+              "minimo_perfil": 30000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.15,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "python",
+                "sql"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "r",
+                "python",
+                "sql"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": [
+                "medicina",
+                "enfermagem",
+                "saúde pública"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "r",
+                "python",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "r",
+                "python",
+                "sql"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "medicina",
+                "enfermagem",
+                "saúde pública"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -388,8 +507,7 @@
       "descricao": "PRODOC BRA 23/022 - Contratação de consultoria para desenhar e estruturar o modelo de funcionamento do Serviço de Fiscalização da Eficiência na Saúde.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Saúde",
-        "Gestão / Administração Pública"
+        "Saúde"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-17",
@@ -400,12 +518,22 @@
       "valor_estimado_num": 100000.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-24",
-      "perfil_classificado": "economista",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "administração",
+          "gestão pública",
+          "saúde pública"
+        ],
+        "ferramentas": [
+          "excel",
+          "power bi",
+          "sql"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -416,56 +544,91 @@
       },
       "matches": {
         "economista": {
-          "score": 0.6,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "excel",
+                "power bi",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "administração",
+                "gestão pública"
+              ],
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "saúde pública"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 50000.0,
+              "minimo_perfil": 30000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.25,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "power bi",
+                "sql",
+                "excel"
+              ],
+              "faltando": [],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "saúde pública"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -477,22 +640,39 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "power bi",
+                "sql"
+              ],
+              "faltando": [
+                "excel"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "saúde pública"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -513,17 +693,25 @@
       "local": "Remoto/Brasília",
       "orgao_parceiro": "TCU",
       "email_submissao": "segecex-assessoria@tcu.gov.br",
-      "valor_estimado": "R$ 45.000,00",
-      "valor_estimado_num": 45000.0,
+      "valor_estimado": "R$ 50,000,00",
+      "valor_estimado_num": 50000.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-27",
       "perfil_classificado": "economista",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "economia"
+        ],
+        "ferramentas": [
+          "r",
+          "stata",
+          "python"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -533,83 +721,130 @@
       },
       "matches": {
         "economista": {
-          "score": 0.9,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "r",
+                "stata",
+                "python"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "r",
+                "stata",
+                "python"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "economia"
+              ],
+              "exigidas": [
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python"
+              ],
+              "faltando": [
+                "r",
+                "stata"
+              ],
+              "exigidas": [
+                "r",
+                "stata",
+                "python"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.4,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "r",
+                "stata",
+                "python"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "r",
+                "stata",
+                "python"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "economia"
+              ],
+              "exigidas": [
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -636,11 +871,19 @@
       "data_criacao": "2026-04-27",
       "perfil_classificado": "economista",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "economia"
+        ],
+        "ferramentas": [
+          "r",
+          "stata",
+          "python"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -650,83 +893,130 @@
       },
       "matches": {
         "economista": {
-          "score": 0.9,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "r",
+                "stata",
+                "python"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "r",
+                "stata",
+                "python"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "economia"
+              ],
+              "exigidas": [
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python"
+              ],
+              "faltando": [
+                "r",
+                "stata"
+              ],
+              "exigidas": [
+                "r",
+                "stata",
+                "python"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.4,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "r",
+                "stata",
+                "python"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "r",
+                "stata",
+                "python"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "economia"
+              ],
+              "exigidas": [
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -753,10 +1043,20 @@
       "data_criacao": "2026-04-28",
       "perfil_classificado": "economista",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "administração",
+          "gestão pública",
+          "economia"
+        ],
+        "ferramentas": [
+          "excel",
+          "power bi",
+          "sql"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -774,26 +1074,89 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "excel",
+                "power bi",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "economia",
+                "gestão pública",
+                "administração"
+              ],
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
+          "score": 0.5,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "power bi",
+                "sql",
+                "excel"
+              ],
+              "faltando": [],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "economia"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 50000.0,
+              "minimo_perfil": 50000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "pesquisador_computacao": {
           "score": 0.4,
           "detalhes": {
             "areas": {
@@ -801,49 +1164,41 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "power bi",
+                "sql"
+              ],
+              "faltando": [
+                "excel"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "economia"
+              ],
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -855,10 +1210,10 @@
       "torid": 146097,
       "titulo": "PROJETO BRA - TR 89/26 - Contratação de Consultoria especializada para identificação de concentrações espaciais de segmentos de Povos e Comunidades Tradicionais e da População em Situação de Rua.",
       "descricao": "Contratação de Consultoria especializada para identificação de concentrações espaciais de segmentos de Povos e Comunidades Tradicionais e da População em Situação de Rua.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Estatística / Pesquisa / Metodologia"
+        "Estatística / Pesquisa / Metodologia",
+        "Meio Ambiente / Clima / Geografia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -869,12 +1224,22 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "geografia",
+          "estatística",
+          "ciências sociais"
+        ],
+        "ferramentas": [
+          "qgis",
+          "python",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -885,24 +1250,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "r"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -912,24 +1294,41 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.8,
+          "score": 0.55,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "qgis",
+                "python"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -939,24 +1338,43 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.65,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "geografia",
+                "estatística"
+              ],
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -973,10 +1391,9 @@
       "torid": 146113,
       "titulo": "PROJETO BRA 23/023 - TR 114/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE ESTUDO SOBRE LIÇÕES APREENDIDAS E PROPOSIÇÃO PARA A ATUALIZAÇÃO DOS PROTOCOLOS DE DISSEMINAÇÃO DE DADOS - PERÍODO DE 1964 a 1985.",
       "descricao": "Contratação de Consultoria especializada para elaboração de roteiro de lições aprendidas e a proposição de diretrizes de atualizações institucionais aplicáveis à para a burocracia do Instituto Nacional de Estatística (INE), no que se refere aos protocolos de em relação à disseminação de dados vigentes no período de 1964 a 1985.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -989,11 +1406,20 @@
       "data_criacao": "2026-04-28",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "história",
+          "ciências sociais",
+          "estatística"
+        ],
+        "ferramentas": [
+          "excel",
+          "word"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -1003,24 +1429,39 @@
       },
       "matches": {
         "economista": {
-          "score": 0.5,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1030,24 +1471,39 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1057,24 +1513,39 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1091,9 +1562,8 @@
       "torid": 146112,
       "titulo": "PROJETO BRA 23/023 - TR 113/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A CONSTRUÇÃO DE MAPEAMENTO DAS DIRETRIZES GOVERNAMENTAIS RELACIONADAS À ATUAÇÃO DO IBGE.",
       "descricao": "Contratação de Consultoria especializada para elaboração de estudo com o mapeamento e análise das diretrizes governamentais e dos procedimentos de produção e divulgação de informações estatísticas, vigentes no período de 1964 a 1985.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
         "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-04",
@@ -1107,11 +1577,20 @@
       "data_criacao": "2026-04-28",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "história",
+          "ciências sociais",
+          "estatística"
+        ],
+        "ferramentas": [
+          "excel",
+          "word"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -1121,24 +1600,39 @@
       },
       "matches": {
         "economista": {
-          "score": 0.6,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1148,24 +1642,39 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1175,24 +1684,39 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1209,10 +1733,9 @@
       "torid": 146110,
       "titulo": "PROJETO BRA 23/023 - TR 112/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ELABORAÇÃO DE ESTUDO SOBRE O PAPEL DESEMPENHADO PELO IBGE NO PLANEJAMENTO E NA REALIZAÇÃO DOS CENSOS DE 1970 E 1980.",
       "descricao": "Contratação de Consultoria especializada para a elaboração de estudo, com o intuito de examinar o papel institucional do IBGE; mapeamento do papel no planejamento desenvolvimentista, com ênfase em sua atuação na concepção, organização  e a realização dos Censos Demográficos de 1970 e 1980.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -1225,11 +1748,20 @@
       "data_criacao": "2026-04-28",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "história",
+          "ciências sociais",
+          "estatística"
+        ],
+        "ferramentas": [
+          "excel",
+          "word"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -1239,24 +1771,39 @@
       },
       "matches": {
         "economista": {
-          "score": 0.5,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1266,24 +1813,39 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1293,24 +1855,39 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1327,9 +1904,8 @@
       "torid": 146109,
       "titulo": "PROJETO BRA 23/023 - TR 111/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ELABORAÇÃO DE ESTUDO SOBRE O PROCESSO DE ESTRUTURAÇÃO INSTITUCIONAL DO IBGE.",
       "descricao": "Contratação de Consultoria especializada para sistematizar e organizar a bibliografia e o acervo documental da instituição, visando a elaboração de um estudo sobre as transformações institucionais ocorridas no período  de 1964 a 1985. ",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
         "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-04",
@@ -1343,11 +1919,20 @@
       "data_criacao": "2026-04-28",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "história",
+          "ciências sociais",
+          "estatística"
+        ],
+        "ferramentas": [
+          "excel",
+          "word"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -1357,24 +1942,39 @@
       },
       "matches": {
         "economista": {
-          "score": 0.6,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1384,24 +1984,39 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1411,24 +2026,39 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "word"
+              ],
+              "exigidas": [
+                "excel",
+                "word"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "história",
+                "ciências sociais",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 47500.0,
@@ -1445,10 +2075,9 @@
       "torid": 146101,
       "titulo": "PROJETO BRA 23/023 - TR 93/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O MAPEAMENTO RECORTE POPULACIONAL DA PESSOA EM SITUAÇÃO DE RUA.",
       "descricao": "Contratação de Consultoria especializada para a realização de estudos para o mapeamento do recorte populacional da pessoa em situação de rua.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Meio Ambiente / Clima / Geografia"
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -1459,12 +2088,22 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "ciências sociais",
+          "estatística",
+          "geografia"
+        ],
+        "ferramentas": [
+          "qgis",
+          "python",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -1475,24 +2114,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "r"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "ciências sociais",
+                "estatística",
+                "geografia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1502,24 +2158,41 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.8,
+          "score": 0.5,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "qgis",
+                "python"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "ciências sociais",
+                "estatística",
+                "geografia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1529,24 +2202,43 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.65,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "estatística",
+                "geografia"
+              ],
+              "exigidas": [
+                "ciências sociais",
+                "estatística",
+                "geografia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1563,10 +2255,10 @@
       "torid": 146100,
       "titulo": "PROJETO BRA 23/023 - TR 92/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O MAPEAMENTO CENSITÁRIO DE POPULAÇÕES INDÍGENAS.",
       "descricao": "Contratação de Consultoria especializada para a realização de estudos e análises para a identificação e mapeamento da População Indígena e da sua interseção com outros Povos e Comunidades Tradicionais.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Estatística / Pesquisa / Metodologia"
+        "Estatística / Pesquisa / Metodologia",
+        "Meio Ambiente / Clima / Geografia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -1577,12 +2269,22 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "geografia",
+          "estatística",
+          "ciências sociais"
+        ],
+        "ferramentas": [
+          "qgis",
+          "python",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -1593,24 +2295,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "r"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1620,24 +2339,41 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.8,
+          "score": 0.55,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "qgis",
+                "python"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1647,24 +2383,43 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.65,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "geografia",
+                "estatística"
+              ],
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1681,10 +2436,10 @@
       "torid": 146099,
       "titulo": "PROJETO BRA 23/023 - TR 91/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A CONDUÇÃO DE ESTUDOS GEOGRÁFICOS E ESTATÍSTICOS SOBRE POVOS E COMUNIDADES TRADICIONAIS.",
       "descricao": "Contratação de Consultoria especializada para a realização de estudos geoestatísticos, usando como referências as bases de dados disponibilizadas pelo Conselho Nacional de Povos e Comunidades Tradicionais e pelas lideranças dos povos e comunidades que fazem parte do Conselho. ",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Estatística / Pesquisa / Metodologia"
+        "Estatística / Pesquisa / Metodologia",
+        "Meio Ambiente / Clima / Geografia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -1695,12 +2450,22 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-28",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "geografia",
+          "estatística",
+          "ciências sociais"
+        ],
+        "ferramentas": [
+          "qgis",
+          "python",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -1711,24 +2476,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "r"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1738,24 +2520,41 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.8,
+          "score": 0.55,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "qgis",
+                "python"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1765,24 +2564,43 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.65,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "geografia",
+                "estatística"
+              ],
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -1799,10 +2617,10 @@
       "torid": 146098,
       "titulo": "PROJETO BRA 23/023 - TR 90/2026 - Contratação de Consultoria especializada para análises de registros administrativos, dados geoespacializados e dados de endereços utilizando ferramentas GIS e Python.",
       "descricao": "Contratação de Consultoria especializada para a análise de: registros administrativos, dados geoespacializadas e dados de endereços utilizando ferramentas GIS e ferramentas Python para composição de listagem de endereços e mapeamento prévio direcionado aos Povos e Comunidades Tradicionais.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Tecnologia da Informação / Dados",
-        "Meio Ambiente / Clima / Geografia"
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -1815,10 +2633,20 @@
       "data_criacao": "2026-04-28",
       "perfil_classificado": "engenheiro_dados",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "ciência da computação",
+          "geografia",
+          "estatística"
+        ],
+        "ferramentas": [
+          "python",
+          "qgis",
+          "sql"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -1829,24 +2657,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.1,
+          "score": 0.25,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "sql"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "python",
+                "qgis",
+                "sql"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "ciência da computação",
+                "geografia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 91500.0,
@@ -1856,24 +2701,42 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.9,
+          "score": 0.7,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "qgis",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "qgis",
+                "sql"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "geografia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 91500.0,
@@ -1883,24 +2746,44 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.65,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "qgis",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "qgis",
+                "sql"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação",
+                "estatística",
+                "geografia"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "geografia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 91500.0,
@@ -1917,10 +2800,9 @@
       "torid": 146151,
       "titulo": "PROJETO BRA 23/023 - TR 115/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA AVALIAÇÃO E ANÁLISE DO PANORAMA DA ERA DIGITAL.",
       "descricao": "Contratação de Consultoria especializada para realização de estudos analíticos focados no debate sobre a Era Digital, com o objetivo de produzir conhecimento sobre comunicação, documentação e disseminação em ambientes digitais, tendo em vista a divulgação e comunicação de dados estatísticos.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Estatística / Pesquisa / Metodologia"
+        "Tecnologia da Informação / Dados"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -1933,10 +2815,20 @@
       "data_criacao": "2026-04-29",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "ciência da computação",
+          "comunicação",
+          "biblioteconomia"
+        ],
+        "ferramentas": [
+          "python",
+          "sql",
+          "power bi"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -1947,24 +2839,40 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "power bi"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "power bi"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "ciência da computação",
+                "comunicação",
+                "biblioteconomia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 126500.0,
@@ -1974,24 +2882,42 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.5,
+          "score": 0.6,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "power bi"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "power bi"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "comunicação",
+                "biblioteconomia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 126500.0,
@@ -2001,24 +2927,42 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.8,
+          "score": 0.65,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "power bi"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "power bi"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "comunicação",
+                "biblioteconomia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 126500.0,
@@ -2037,8 +2981,7 @@
       "descricao": "Edital nº 11/2026 - Contratação de consultor pessoa física para desenvolver automações de rotinas no SEI e no SIC, e entregar solução de BI para acompanhamento dos atendimentos.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Gestão / Administração Pública"
+        "Tecnologia da Informação / Dados"
       ],
       "data_inicio": "2026-05-05",
       "data_fim": "2026-05-20",
@@ -2051,10 +2994,21 @@
       "data_criacao": "2026-04-29",
       "perfil_classificado": "engenheiro_dados",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "ciência da computação",
+          "sistemas de informação",
+          "engenharia"
+        ],
+        "ferramentas": [
+          "python",
+          "sql",
+          "power bi",
+          "power automate"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -2068,80 +3022,144 @@
           "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "sql",
+                "power bi"
+              ],
+              "faltando": [
+                "power automate"
+              ],
+              "exigidas": [
+                "python",
+                "sql",
+                "power bi",
+                "power automate"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "ciência da computação",
+                "sistemas de informação",
+                "engenharia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
-          "score": 0.9,
+          "score": 0.75,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "power bi",
+                "power automate"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "power bi",
+                "power automate"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação",
+                "sistemas de informação",
+                "engenharia"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "sistemas de informação",
+                "engenharia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.5,
+          "score": 0.65,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "sql",
+                "power bi"
+              ],
+              "faltando": [
+                "power automate"
+              ],
+              "exigidas": [
+                "python",
+                "sql",
+                "power bi",
+                "power automate"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação",
+                "sistemas de informação",
+                "engenharia"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "sistemas de informação",
+                "engenharia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -2155,7 +3173,6 @@
       "descricao": "Solicita os préstimos de publicar, juntamente, o edital em anexo",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Direito / Jurídico",
         "Tecnologia da Informação / Dados"
       ],
       "data_inicio": "2026-05-05",
@@ -2169,10 +3186,20 @@
       "data_criacao": "2026-04-29",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "direito",
+          "ciência da computação",
+          "administração"
+        ],
+        "ferramentas": [
+          "python",
+          "sql",
+          "excel"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -2183,29 +3210,47 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.35,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "excel"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "excel"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "administração"
+              ],
+              "exigidas": [
+                "direito",
+                "ciência da computação",
+                "administração"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
@@ -2217,49 +3262,85 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "excel"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "excel"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação"
+              ],
+              "exigidas": [
+                "direito",
+                "ciência da computação",
+                "administração"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.55,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python",
+                "sql",
+                "excel"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "python",
+                "sql",
+                "excel"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação"
+              ],
+              "exigidas": [
+                "direito",
+                "ciência da computação",
+                "administração"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -2271,10 +3352,9 @@
       "torid": 146154,
       "titulo": "PROJETO BRA 23/023 - TR 97/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ESTRUTURAÇÃO DO MAPEAMENTO CLIMÁTICO NACIONAL E REGIONAL.",
       "descricao": "Contratação de Consultoria especializada para o aprimoramento de metodologia de mapeamento climático, incorporando bases de dados atualizadas e métodos contemporâneos de classificação climática , além de estruturar o mapeamento climático em escalas regionais.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Estatística / Pesquisa / Metodologia"
+        "Meio Ambiente / Clima / Geografia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -2285,12 +3365,22 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-29",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "geografia",
+          "climatologia",
+          "estatística"
+        ],
+        "ferramentas": [
+          "qgis",
+          "python",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -2301,24 +3391,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "r"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "climatologia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2328,24 +3435,41 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.8,
+          "score": 0.5,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "qgis",
+                "python"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "climatologia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2362,17 +3486,36 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "geografia",
+                "estatística"
+              ],
+              "exigidas": [
+                "geografia",
+                "climatologia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2389,10 +3532,9 @@
       "torid": 146107,
       "titulo": "PROJETO BRA 23/023 - TR 95/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE METODOLOGIA SOBRE ORDENAMENTO TERRITORIAL MUNICIPAL",
       "descricao": "Contratação de Consultoria especializada para o desenvolvimento de metodologia de aperfeiçoamento, modernização e sistematização da base existente de documentos normativos sobre ordenamento territorial, com foco em divisões intramunicipais (bairros, regiões administrativas, regiões de planejamento, subdistritos, entre outras categorias), visando a proposição da estrutura do repositório, dos metadados e dos mecanismos de atualização contínua.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Gestão / Administração Pública"
+        "Meio Ambiente / Clima / Geografia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -2403,12 +3545,22 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-29",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "geografia",
+          "urbanismo",
+          "estatística"
+        ],
+        "ferramentas": [
+          "qgis",
+          "python",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -2419,24 +3571,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.3,
+          "score": 0.25,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "r"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "urbanismo",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2446,24 +3615,41 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.8,
+          "score": 0.5,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "qgis",
+                "python"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "urbanismo",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2480,17 +3666,36 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "geografia",
+                "estatística"
+              ],
+              "exigidas": [
+                "geografia",
+                "urbanismo",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2507,10 +3712,9 @@
       "torid": 146108,
       "titulo": "PROJETO BRA 23/023 - TR 96/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE PROPOSTA DE METODOLOGIA PARA SISTEMATIZAÇÃO E PADRONIZAÇÃO DA BASE DE DADOS GEOESPACIAIS DE ÁREAS DE REFERÊNCIA INTRAMUNICIPAIS.",
       "descricao": "Contratação de Consultoria especializada para elaboração de proposta de metodologia para sistematização e padronização das bases de dados geoespacial de áreas de referência intramunicipais, incluindo organização, nomenclatura e mecanismos de atualização contínua, objetivando apoiar análises geográficas e estatísticas; e a disseminação do Censo Demográfico 2030.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Tecnologia da Informação / Dados"
+        "Meio Ambiente / Clima / Geografia"
       ],
       "data_inicio": "2026-05-04",
       "data_fim": "2026-05-18",
@@ -2521,12 +3725,22 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-29",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "geografia",
+          "estatística",
+          "ciência da computação"
+        ],
+        "ferramentas": [
+          "qgis",
+          "python",
+          "sql"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -2537,24 +3751,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.1,
+          "score": 0.25,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "sql"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "sql"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciência da computação"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2564,24 +3795,42 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.9,
+          "score": 0.6,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "sql"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "ciência da computação"
+              ],
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciência da computação"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2591,24 +3840,44 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.7,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "sql"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "geografia",
+                "estatística",
+                "ciência da computação"
+              ],
+              "exigidas": [
+                "geografia",
+                "estatística",
+                "ciência da computação"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2625,7 +3894,7 @@
       "torid": 146155,
       "titulo": "PROJETO BRA 23/023 - TR 98/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A AVALIAÇÃO DA FRAGILIDADE AMBIENTAL DE ECOSSISTEMAS COSTEIROS.",
       "descricao": "Contratação de Consultoria especializada para o aprimoramento de mapeamento geomorfológico costeiro, com avaliação da fragilidade ambiental de ambientes costeiros e modificações ambientais, sejam elas antropogênicas ou naturais.",
-      "tipo": "Consultoria Especializada (não especifica PF/PJ)",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Meio Ambiente / Clima / Geografia"
       ],
@@ -2638,12 +3907,22 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-04-29",
-      "perfil_classificado": "engenheiro_dados",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "geografia",
+          "geologia",
+          "estatística"
+        ],
+        "ferramentas": [
+          "qgis",
+          "python",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -2654,24 +3933,41 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "python",
+                "r"
+              ],
+              "faltando": [
+                "qgis"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "geologia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2681,24 +3977,41 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.8,
+          "score": 0.5,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "qgis",
+                "python"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "geografia",
+                "geologia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2715,17 +4028,36 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "qgis",
+                "python",
+                "r"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "qgis",
+                "python",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "geografia",
+                "estatística"
+              ],
+              "exigidas": [
+                "geografia",
+                "geologia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2742,27 +4074,36 @@
       "torid": 146172,
       "titulo": "IC - UNDP-BRA-01122 - Consultoria para elaboração e aplicação de metodologia de monitoramento e avaliação de progresso das ações de formação desenvolvidas no âmbito da CA UnB FUNAPE",
       "descricao": null,
-      "tipo": "Edital Genérico / IC",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-07",
       "data_fim": "2026-05-20",
       "local": "Distrito Federal (notar: na data de término, a negociação se encerra às 17h de Brasília)",
-      "orgao_parceiro": "PNUD",
+      "orgao_parceiro": "UnB/FUNAPE",
       "email_submissao": "ic.procurement.br@undp.org",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 50,000,00",
+      "valor_estimado_num": 50000.0,
       "status": "Aprovada",
       "data_criacao": "2026-05-07",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "educação",
+          "pedagogia",
+          "estatística"
+        ],
+        "ferramentas": [
+          "excel",
+          "power bi",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -2772,83 +4113,136 @@
       },
       "matches": {
         "economista": {
-          "score": 0.5,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel",
+                "r"
+              ],
+              "faltando": [
+                "power bi"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "educação",
+                "pedagogia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
+              "minimo_perfil": 30000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "power bi",
+                "excel"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "r"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": [
+                "educação",
+                "pedagogia",
+                "estatística"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "power bi",
+                "r"
+              ],
+              "faltando": [
+                "excel"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "estatística"
+              ],
+              "exigidas": [
+                "educação",
+                "pedagogia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -2860,27 +4254,36 @@
       "torid": 146173,
       "titulo": "IC - UNDP-BRA-01130 - Consultoria para acompanhamento técnico, avaliação de progresso e análise integrada das ações desenvolvidas no âmbito das CAs UFF e UnB Finatec",
       "descricao": "null",
-      "tipo": "Edital Genérico / IC",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-07",
       "data_fim": "2026-05-20",
       "local": "Distrito Federal (notar: na data de término, a negociação se encerra às 17h de Brasília)",
-      "orgao_parceiro": "PNUD",
+      "orgao_parceiro": "UFF/UnB Finatec",
       "email_submissao": "ic.procurement.br@undp.org",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 50,000,00",
+      "valor_estimado_num": 50000.0,
       "status": "Aprovada",
       "data_criacao": "2026-05-07",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
+        "graduacao": [
+          "educação",
+          "pedagogia",
+          "estatística"
+        ],
+        "ferramentas": [
+          "excel",
+          "power bi",
+          "r"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
+        "mestrado": true,
         "doutorado": false,
         "pos_graduacao": [],
         "certificacoes": [],
@@ -2890,83 +4293,136 @@
       },
       "matches": {
         "economista": {
-          "score": 0.5,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "excel",
+                "r"
+              ],
+              "faltando": [
+                "power bi"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "r"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "educação",
+                "pedagogia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
+              "minimo_perfil": 30000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "power bi",
+                "excel"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "r"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": [
+                "educação",
+                "pedagogia",
+                "estatística"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 50000.0,
               "minimo_perfil": 50000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "pesquisador_computacao": {
-          "score": 0.7,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "power bi",
+                "r"
+              ],
+              "faltando": [
+                "excel"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "r"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "estatística"
+              ],
+              "exigidas": [
+                "educação",
+                "pedagogia",
+                "estatística"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -2978,26 +4434,35 @@
       "torid": 146182,
       "titulo": "IC - UNDP-BRA-01143 - Estudo técnico para subsidiar a regulamentação, pelo CNJ, do número de varas de execução penal proporcional ao número de varas criminais e ao quantitativo de pessoas presas",
       "descricao": null,
-      "tipo": "Edital Genérico / IC",
+      "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Direito / Jurídico",
         "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-05-12",
       "data_fim": "2026-05-26",
       "local": "Remoto. Notar: na data de término, a negociação se encerra às 17h de Brasília",
-      "orgao_parceiro": "PNUD",
+      "orgao_parceiro": "CNJ",
       "email_submissao": "ic.procurement.br@undp.org",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
+      "valor_estimado": "R$ 50,000,00",
+      "valor_estimado_num": 50000.0,
       "status": "Aprovada",
       "data_criacao": "2026-05-12",
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "direito",
+          "estatística",
+          "ciências sociais"
+        ],
+        "ferramentas": [
+          "excel",
+          "r",
+          "python"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -3008,83 +4473,134 @@
       },
       "matches": {
         "economista": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "excel",
+                "r",
+                "python"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "excel",
+                "r",
+                "python"
+              ]
             },
             "graduacao": {
               "match": [],
-              "exigidas": []
+              "exigidas": [
+                "direito",
+                "estatística",
+                "ciências sociais"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
+              "minimo_perfil": 30000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.3,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "python",
+                "excel"
+              ],
+              "faltando": [
+                "r"
+              ],
+              "exigidas": [
+                "excel",
+                "r",
+                "python"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": [
+                "direito",
+                "estatística",
+                "ciências sociais"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 50000.0,
+              "minimo_perfil": 50000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "pesquisador_computacao": {
+          "score": 0.45,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "excel",
+                "r",
+                "python"
+              ],
+              "faltando": [],
+              "exigidas": [
+                "excel",
+                "r",
+                "python"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "estatística"
+              ],
+              "exigidas": [
+                "direito",
+                "estatística",
+                "ciências sociais"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -3111,10 +4627,20 @@
       "data_criacao": "2026-05-13",
       "perfil_classificado": "economista",
       "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
+        "graduacao": [
+          "administração",
+          "gestão pública",
+          "economia"
+        ],
+        "ferramentas": [
+          "excel",
+          "power bi",
+          "sql"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -3132,26 +4658,89 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "excel",
+                "power bi",
+                "sql"
+              ],
               "faltando": [],
-              "exigidas": []
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "economia",
+                "gestão pública",
+                "administração"
+              ],
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 30000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         },
         "engenheiro_dados": {
+          "score": 0.5,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "power bi",
+                "sql",
+                "excel"
+              ],
+              "faltando": [],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "economia"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 50000.0,
+              "minimo_perfil": 50000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "pesquisador_computacao": {
           "score": 0.4,
           "detalhes": {
             "areas": {
@@ -3159,49 +4748,41 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "power bi",
+                "sql"
+              ],
+              "faltando": [
+                "excel"
+              ],
+              "exigidas": [
+                "excel",
+                "power bi",
+                "sql"
+              ]
             },
             "graduacao": {
-              "match": [],
-              "exigidas": []
+              "match": [
+                "economia"
+              ],
+              "exigidas": [
+                "administração",
+                "gestão pública",
+                "economia"
+              ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
+              "edital": 50000.0,
               "minimo_perfil": 40000,
-              "acima_minimo": false
+              "acima_minimo": true
             }
           }
         }
@@ -3212,34 +4793,34 @@
   "recomendacoes": {
     "economista": {
       "perfil": "economista",
-      "descricao": "Economista com stack técnica em análise de dados e políticas públicas",
+      "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
       "total_editais_analisados": 26,
-      "total_editais_compativeis": 23,
-      "valor_total_oportunidades": 924100.0,
+      "total_editais_compativeis": 24,
+      "valor_total_oportunidades": 1602400.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek)",
       "curto_prazo": {
         "gaps": [],
         "plano": [
           {
-            "gap": "Aprofundamento em Power BI para visualização de dados públicos",
-            "curso": "Microsoft Power BI para Data Science",
+            "gap": "QGIS (9 ocorrências em editais)",
+            "curso": "QGIS para Análise de Dados Espaciais",
+            "custo": "Gratuito",
+            "carga": "40h",
+            "link": "https://www.qgis.org/pt_BR/site/forusers/trainingmaterial/index.html"
+          },
+          {
+            "gap": "Power Automate (1 ocorrência em editais)",
+            "curso": "Power Automate – Primeiros Passos",
             "custo": "Gratuito (Microsoft Learn)",
-            "carga": "40h",
-            "link": "https://learn.microsoft.com/pt-br/training/powerbi/"
+            "carga": "2h",
+            "link": "https://learn.microsoft.com/pt-br/training/modules/introduction-to-power-automate/"
           },
           {
-            "gap": "Análise de dados com Python para políticas públicas",
-            "curso": "Python para Data Science (Coursera - IBM)",
-            "custo": "Gratuito (auditoria) / ~R$ 200 (certificado)",
-            "carga": "40h",
-            "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
-          },
-          {
-            "gap": "SQL aplicado a bases governamentais",
-            "curso": "SQL para Análise de Dados (Udemy)",
-            "custo": "~R$ 30 (promoção)",
-            "carga": "20h",
-            "link": "https://www.udemy.com/course/sql-para-analise-de-dados/"
+            "gap": "Word (4 ocorrências em editais)",
+            "curso": "Microsoft Word para Produtividade",
+            "custo": "Gratuito (Microsoft Learn)",
+            "carga": "4h",
+            "link": "https://learn.microsoft.com/pt-br/training/modules/create-word-documents/"
           }
         ]
       },
@@ -3247,25 +4828,25 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Especialização em Avaliação de Políticas Públicas",
-            "curso": "Especialização em Avaliação de Políticas Públicas (ENAP)",
-            "custo": "Gratuito",
+            "gap": "Estatística (16 ocorrências em editais)",
+            "curso": "Especialização em Estatística Aplicada",
+            "custo": "Gratuito (ENAP)",
             "carga": "360h",
-            "link": "https://www.enap.gov.br/pt/curso/especializacao-em-avaliacao-de-politicas-publicas"
+            "link": "https://www.escolavirtual.gov.br/curso/123"
           },
           {
-            "gap": "Econometria aplicada com R e Stata",
-            "curso": "Especialização em Econometria e Métodos Quantitativos (UFBA - EAD)",
-            "custo": "~R$ 2.500 (parcelado)",
-            "carga": "400h",
-            "link": "https://www.ead.ufba.br/curso/especializacao-em-econometria"
+            "gap": "Geografia (9 ocorrências em editais)",
+            "curso": "Especialização em Geoprocessamento e Análise Territorial",
+            "custo": "Gratuito (ENAP)",
+            "carga": "360h",
+            "link": "https://www.escolavirtual.gov.br/curso/456"
           },
           {
-            "gap": "Gestão de Dados Governamentais",
-            "curso": "MBA em Data Science e Big Data (FGV)",
-            "custo": "~R$ 15.000",
-            "carga": "432h",
-            "link": "https://www.fgv.br/mba-data-science"
+            "gap": "Ciências Sociais (9 ocorrências em editais)",
+            "curso": "Especialização em Políticas Públicas e Sociedade",
+            "custo": "Gratuito (ENAP)",
+            "carga": "360h",
+            "link": "https://www.escolavirtual.gov.br/curso/789"
           }
         ]
       },
@@ -3273,59 +4854,52 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Mestrado em Economia Aplicada",
-            "curso": "Mestrado Profissional em Economia (UFBA)",
-            "custo": "Gratuito (público)",
+            "gap": "Ciência da Computação (5 ocorrências em editais)",
+            "curso": "Mestrado em Ciência da Computação (ênfase em Dados)",
+            "custo": "Gratuito (UFBA)",
             "carga": "2 anos",
-            "link": "https://www.ppgeconomia.ufba.br/"
+            "link": "https://www.ufba.br/pos-graduacao/ciencia-da-computacao"
           },
           {
-            "gap": "Doutorado em Políticas Públicas e Análise de Dados",
-            "curso": "Doutorado em Políticas Públicas (UFPR)",
-            "custo": "Gratuito (público)",
-            "carga": "4 anos",
-            "link": "https://www.ppgpp.ufpr.br/"
+            "gap": "Estatística (16 ocorrências em editais)",
+            "curso": "Mestrado em Estatística Aplicada",
+            "custo": "Gratuito (INPE)",
+            "carga": "2 anos",
+            "link": "https://www.inpe.br/pos-graduacao/estatistica"
           },
           {
-            "gap": "Pesquisa avançada em métodos quantitativos",
-            "curso": "Mestrado em Métodos Quantitativos (INPE)",
-            "custo": "Gratuito (público)",
+            "gap": "Geografia (9 ocorrências em editais)",
+            "curso": "Mestrado em Geografia (Análise Espacial)",
+            "custo": "Gratuito (UFBA)",
             "carga": "2 anos",
-            "link": "https://www.inpe.br/posgraduacao/metodos_quantitativos/"
+            "link": "https://www.ufba.br/pos-graduacao/geografia"
           }
         ]
       }
     },
     "engenheiro_dados": {
       "perfil": "engenheiro_dados",
-      "descricao": "Engenheiro com formação em dados, Python, Power BI, cloud e geoprocessamento",
+      "descricao": "Engenheiro Químico + Análise de Sistemas, 5 anos de experiência com dados públicos e sociais",
       "total_editais_analisados": 26,
-      "total_editais_compativeis": 26,
-      "valor_total_oportunidades": 1102400.0,
+      "total_editais_compativeis": 18,
+      "valor_total_oportunidades": 1312400.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek)",
       "curto_prazo": {
         "gaps": [],
         "plano": [
           {
-            "gap": "Certificação oficial em nuvem (Azure, AWS ou GCP) para validar experiência prática",
-            "curso": "Microsoft Certified: Azure Data Engineer Associate (DP-203)",
-            "custo": "USD 165 (exame)",
-            "carga": "40h",
-            "link": "https://learn.microsoft.com/en-us/training/courses/dp-203t00"
+            "gap": "R (linguagem estatística)",
+            "curso": "R para Ciência de Dados (Coursera)",
+            "custo": "Gratuito (auditoria) / ~R$ 50/mês (certificado)",
+            "carga": "40 horas",
+            "link": "https://www.coursera.org/specializations/jhu-data-science"
           },
           {
-            "gap": "Automação de processos com Power Automate e integração com SharePoint",
-            "curso": "Power Automate – Automação de Processos (Udemy)",
-            "custo": "R$ 29,90 (promoção)",
-            "carga": "10h",
-            "link": "https://www.udemy.com/course/power-automate-completo/"
-          },
-          {
-            "gap": "Geoprocessamento com Python e QGIS para análise espacial",
-            "curso": "Python para Geoprocessamento (INPE - TerraView)",
-            "custo": "Gratuito",
-            "carga": "20h",
-            "link": "https://www.dpi.inpe.br/terraview/"
+            "gap": "Estatística básica e aplicada",
+            "curso": "Estatística Descritiva com Python (Udemy)",
+            "custo": "~R$ 30 (promoção)",
+            "carga": "10 horas",
+            "link": "https://www.udemy.com/course/estatistica-descritiva-com-python/"
           }
         ]
       },
@@ -3333,25 +4907,25 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Especialização em Big Data e Data Science aplicada a dados governamentais",
-            "curso": "Especialização em Big Data e Data Science (UFBA)",
-            "custo": "R$ 4.800 (18 meses)",
-            "carga": "360h",
-            "link": "https://bigdata.ufba.br/"
-          },
-          {
-            "gap": "Governança de dados e LGPD para conformidade em editais públicos",
-            "curso": "Governança de Dados e LGPD (ENAP)",
+            "gap": "Estatística avançada e modelagem",
+            "curso": "Especialização em Estatística Aplicada (ENAP)",
             "custo": "Gratuito",
-            "carga": "40h",
-            "link": "https://www.escolavirtual.gov.br/curso/123"
+            "carga": "180 horas",
+            "link": "https://www.escolavirtual.gov.br/curso/estatistica-aplicada"
           },
           {
-            "gap": "Análise geoespacial avançada com ferramentas ESRI",
-            "curso": "ArcGIS Pro: Análise Espacial Avançada (ESRI Academy)",
-            "custo": "USD 200 (assinatura anual)",
-            "carga": "30h",
-            "link": "https://www.esri.com/training/"
+            "gap": "Geografia e geoprocessamento",
+            "curso": "Especialização em Geoprocessamento e Análise Espacial (UFBA - EAD)",
+            "custo": "~R$ 2.500 (total)",
+            "carga": "360 horas",
+            "link": "https://www.ead.ufba.br/curso/especializacao-em-geoprocessamento-e-analise-espacial"
+          },
+          {
+            "gap": "Ciências Sociais e políticas públicas",
+            "curso": "Especialização em Gestão de Políticas Públicas (ENAP)",
+            "custo": "Gratuito",
+            "carga": "360 horas",
+            "link": "https://www.escolavirtual.gov.br/curso/gestao-de-politicas-publicas"
           }
         ]
       },
@@ -3359,25 +4933,18 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Mestrado em Ciência da Computação com foco em dados e inteligência artificial",
-            "curso": "Mestrado em Ciência da Computação (UFBA)",
+            "gap": "Estatística e ciência de dados",
+            "curso": "Mestrado em Estatística (UFBA)",
             "custo": "Gratuito (público)",
             "carga": "2 anos",
-            "link": "https://ppgcc.ufba.br/"
+            "link": "https://www.est.ufba.br/"
           },
           {
-            "gap": "Doutorado em Engenharia de Dados ou Sistemas de Informação",
-            "curso": "Doutorado em Engenharia de Sistemas e Computação (COPPE/UFRJ)",
+            "gap": "Geografia e sensoriamento remoto",
+            "curso": "Mestrado em Geografia (INPE)",
             "custo": "Gratuito (público)",
-            "carga": "4 anos",
-            "link": "https://www.cos.ufrj.br/"
-          },
-          {
-            "gap": "Certificação internacional em arquitetura de dados em nuvem",
-            "curso": "AWS Certified Data Analytics - Specialty",
-            "custo": "USD 300 (exame)",
-            "carga": "60h",
-            "link": "https://aws.amazon.com/certification/certified-data-analytics-specialty/"
+            "carga": "2 anos",
+            "link": "http://www.inpe.br/posgraduacao/geografia/"
           }
         ]
       }
@@ -3387,31 +4954,31 @@
       "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
       "total_editais_analisados": 26,
       "total_editais_compativeis": 26,
-      "valor_total_oportunidades": 1102400.0,
+      "valor_total_oportunidades": 1702400.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek)",
       "curto_prazo": {
         "gaps": [],
         "plano": [
           {
-            "gap": "Ferramentas de visualização de dados avançadas",
-            "curso": "Data Visualization with Python",
-            "custo": "Gratuito (auditoria) / US$ 49 (certificado)",
-            "carga": "40 horas",
-            "link": "https://www.coursera.org/learn/python-for-data-visualization"
+            "gap": "Excel avançado para análise de dados",
+            "curso": "Excel Avançado para Análise de Dados",
+            "custo": "Gratuito",
+            "carga": "40h",
+            "link": "https://www.ev.org.br/cursos/excel-avancado"
           },
           {
-            "gap": "Metodologia científica e revisão sistemática",
-            "curso": "Systematic Review and Meta-Analysis",
-            "custo": "Gratuito (auditoria) / US$ 49 (certificado)",
-            "carga": "20 horas",
-            "link": "https://www.coursera.org/learn/systematic-review"
+            "gap": "Power Automate para automação de processos",
+            "curso": "Power Automate - Microsoft Learn",
+            "custo": "Gratuito",
+            "carga": "10h",
+            "link": "https://learn.microsoft.com/pt-br/training/paths/power-automate-introduction/"
           },
           {
-            "gap": "Computação em nuvem para pesquisa",
-            "curso": "Microsoft Azure AI Fundamentals (AI-900)",
-            "custo": "Gratuito (treinamento) / US$ 99 (exame)",
-            "carga": "15 horas",
-            "link": "https://learn.microsoft.com/en-us/training/paths/ai-fundamentals/"
+            "gap": "Word para formatação de documentos acadêmicos",
+            "curso": "Word para Trabalhos Acadêmicos",
+            "custo": "Gratuito",
+            "carga": "20h",
+            "link": "https://www.ev.org.br/cursos/word-2016-avancado"
           }
         ]
       },
@@ -3419,25 +4986,25 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Análise espacial e geoprocessamento",
-            "curso": "Especialização em Geoprocessamento e Análise Espacial",
+            "gap": "Ciências Sociais aplicadas à pesquisa computacional",
+            "curso": "Especialização em Ciências Sociais e Análise de Dados",
             "custo": "Gratuito (ENAP)",
-            "carga": "120 horas",
+            "carga": "360h",
             "link": "https://www.escolavirtual.gov.br/curso/123"
           },
           {
-            "gap": "Aprendizado de máquina aplicado à pesquisa",
-            "curso": "Machine Learning Specialization (Stanford)",
-            "custo": "Gratuito (auditoria) / US$ 49/mês (certificado)",
-            "carga": "180 horas",
-            "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+            "gap": "Gestão Pública e políticas baseadas em dados",
+            "curso": "Especialização em Gestão Pública e Dados",
+            "custo": "Gratuito (ENAP)",
+            "carga": "400h",
+            "link": "https://www.escolavirtual.gov.br/curso/456"
           },
           {
-            "gap": "Estatística avançada e modelagem",
-            "curso": "Estatística para Ciência de Dados (USP)",
-            "custo": "Gratuito",
-            "carga": "60 horas",
-            "link": "https://www.coursera.org/learn/estatistica-ciencia-dados"
+            "gap": "Saúde Pública e análise de dados epidemiológicos",
+            "curso": "Especialização em Saúde Pública e Dados",
+            "custo": "Gratuito (FIOCRUZ)",
+            "carga": "360h",
+            "link": "https://cursos.fiocruz.br/curso/789"
           }
         ]
       },
@@ -3445,30 +5012,30 @@
         "gaps": [],
         "plano": [
           {
-            "gap": "Pesquisa em computação de alto desempenho",
-            "curso": "Mestrado em Computação Aplicada (INPE)",
-            "custo": "Gratuito (bolsas CAPES/CNPq)",
+            "gap": "Direito e regulação de dados",
+            "curso": "Mestrado em Direito e Tecnologia",
+            "custo": "Gratuito (UFBA)",
             "carga": "2 anos",
-            "link": "https://www.inpe.br/posgraduacao/cap/"
+            "link": "https://www.ppgd.ufba.br/"
           },
           {
-            "gap": "Ciência de dados e inteligência artificial",
-            "curso": "Doutorado em Ciência da Computação (UFBA)",
-            "custo": "Gratuito (bolsas CAPES/CNPq)",
-            "carga": "4 anos",
-            "link": "https://www.ppgcc.ufba.br/"
+            "gap": "História e análise de dados históricos",
+            "curso": "Mestrado em História e Computação",
+            "custo": "Gratuito (UFBA)",
+            "carga": "2 anos",
+            "link": "https://www.ppgh.ufba.br/"
           },
           {
-            "gap": "Geotecnologias e sensoriamento remoto",
-            "curso": "Mestrado em Sensoriamento Remoto (INPE)",
-            "custo": "Gratuito (bolsas CAPES/CNPq)",
+            "gap": "Administração e ciência de dados organizacionais",
+            "curso": "Mestrado em Administração e Dados",
+            "custo": "Gratuito (UFBA)",
             "carga": "2 anos",
-            "link": "https://www.inpe.br/posgraduacao/ser/"
+            "link": "https://www.ppga.ufba.br/"
           }
         ]
       }
     }
   },
   "modo": "ia",
-  "resumo_ia": "O PNUD Brasil publicou 26 editais, com destaque para consultorias especializadas (14) e pessoa física (9). Os principais órgãos demandantes são IBGE (14), TCU (5) e PNUD (3), com áreas mais aquecidas em Estatística/Pesquisa (14), Gestão Pública (11) e Meio Ambiente (9). Os perfis mais demandados são engenheiro de dados e pesquisador em computação (26 correspondências cada), seguidos por economista (23)."
+  "resumo_ia": "O PNUD Brasil publicou 26 editais, todos para Consultoria Pessoa Física (PF). O IBGE lidera com 14 editais, seguido pelo TCU (5) e MGI (2). As áreas mais aquecidas são Estatística/Pesquisa/Metodologia (12) e Meio Ambiente/Clima/Geografia (7). Os perfis mais demandados são pesquisador em computação (26), economista (24) e engenheiro de dados (18)."
 }

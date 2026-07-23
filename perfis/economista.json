@@ -1,12 +1,11 @@
 {
   "nome": "economista",
-  "descricao": "Economista com stack técnica em análise de dados e políticas públicas",
+  "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
   "graduacoes": [
     "economia",
     "políticas públicas",
     "gestão pública",
-    "administração",
-    "ciências contábeis"
+    "administração"
   ],
   "ferramentas": [
     "python",
@@ -22,5 +21,9 @@
     "Estatística / Pesquisa / Metodologia"
   ],
   "idiomas": ["inglês"],
-  "valor_minimo": 30000
+  "valor_minimo": 30000,
+  "experiencia_anos": 2,
+  "tem_pos_graduacao": false,
+  "tem_mestrado": false,
+  "tem_doutorado": false
 }

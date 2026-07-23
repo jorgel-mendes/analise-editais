@@ -2,13 +2,12 @@
   "perfis": [
     {
       "nome": "economista",
-      "descricao": "Economista com stack técnica em análise de dados e políticas públicas",
+      "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
       "graduacoes": [
         "economia",
         "políticas públicas",
         "gestão pública",
-        "administração",
-        "ciências contábeis"
+        "administração"
       ],
       "ferramentas": [
         "python",
@@ -26,21 +25,21 @@
       "idiomas": [
         "inglês"
       ],
-      "valor_minimo": 30000
+      "valor_minimo": 30000,
+      "experiencia_anos": 2,
+      "tem_pos_graduacao": false,
+      "tem_mestrado": false,
+      "tem_doutorado": false
     },
     {
       "nome": "engenheiro_dados",
-      "descricao": "Engenheiro com formação em dados, Python, Power BI, cloud e geoprocessamento",
+      "descricao": "Engenheiro Químico + Análise de Sistemas, 5 anos de experiência com dados públicos e sociais",
       "graduacoes": [
-        "engenharia",
-        "análise de sistemas",
-        "ciência da computação",
-        "engenharia de software",
-        "sistemas de informação",
-        "tecnologia da informação",
-        "ciência de dados",
         "engenharia química",
-        "engenharia ambiental"
+        "análise de sistemas",
+        "engenharia",
+        "ciência da computação",
+        "sistemas de informação"
       ],
       "ferramentas": [
         "python",
@@ -52,10 +51,6 @@
         "git",
         "docker",
         "azure",
-        "aws",
-        "google cloud",
-        "tableau",
-        "r",
         "excel"
       ],
       "areas_interesse": [
@@ -67,7 +62,12 @@
       "idiomas": [
         "inglês"
       ],
-      "valor_minimo": 50000
+      "valor_minimo": 50000,
+      "experiencia_anos": 5,
+      "tem_pos_graduacao": false,
+      "tem_mestrado": false,
+      "tem_doutorado": false,
+      "contexto": "Experiência com dados públicos e sociais. Sem pós-graduação concluída. Mestrado e doutorado são gaps."
     },
     {
       "nome": "pesquisador_computacao",

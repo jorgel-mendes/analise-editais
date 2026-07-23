@@ -8,33 +8,39 @@ logger = logging.getLogger(__name__)
 DEEPSEEK_BASE = "https://api.deepseek.com"
 DEEPSEEK_MODEL = "deepseek-chat"
 
-CLASSIFY_PROMPT = """Classifique cada edital do PNUD Brasil. Retorne APENAS JSON.
+CLASSIFY_PROMPT = """Classifique cada edital do PNUD Brasil. Retorne APENAS um array JSON com esta estrutura exata:
 
-Para cada edital:
-- "tipo": "Consultoria Pessoa Física (PF)" | "Consultoria Pessoa Jurídica (PJ) / Empresa" | "Consultoria Especializada (não especifica PF/PJ)" | "Edital Genérico / IC" | "Consultoria (tipo não especificado)"
-- "areas_tematicas": array com ["Tecnologia da Informação / Dados", "Economia / Finanças Públicas", "Saúde", "Estatística / Pesquisa / Metodologia", "Direito / Jurídico", "Meio Ambiente / Clima / Geografia", "Gestão / Administração Pública"]
-- "orgao_parceiro": string (TCU, IBGE, MGI, AGU, MTE, PNUD, ou "Não identificado")
-- "perfil_classificado": perfil mais compatível
-- "valor_estimado_num": use o campo "valor_extraido" se presente, ou null
-- "requisitos": {"graduacao": [], "ferramentas": [], "idiomas": [], "anos_experiencia": null, "mestrado": false, "doutorado": false}
+[{
+  "id": 1,
+  "tipo": "Consultoria Pessoa Física (PF)",
+  "areas_tematicas": ["Saúde"],
+  "orgao_parceiro": "TCU",
+  "perfil_classificado": "pesquisador_computacao",
+  "valor_estimado_num": 50000.0,
+  "requisitos": {"graduacao": ["medicina"], "ferramentas": ["r"], "idiomas": ["inglês"], "anos_experiencia": 5, "mestrado": true, "doutorado": false},
+  "matches": {
+    "engenheiro_dados": {"score": 0.2, "areas": false, "ferramentas_match": [], "ferramentas_faltando": [], "graduacao_match": [], "graduacao_faltando": ["medicina"], "idiomas_match": ["inglês"], "idiomas_faltando": [], "comentario": "Área de saúde, sem afinidade"},
+    "economista": {"score": 0.15, ...},
+    "pesquisador_computacao": {"score": 0.3, ...}
+  }
+}]
 
-Para cada edital×perfil, calcule "matches" com score 0-1 e breakdown. Seja criterioso: só >0.5 quando há clara compatibilidade.
+MATCH — SEJA CONSERVADOR:
+- Score 0.0-0.3: pouca compatibilidade
+- Score 0.3-0.5: alguma interseção mas gaps significativos
+- Score 0.5-0.7: boa compatibilidade — RARO
+- Score 0.7-1.0: excepcional — MUITO RARO
 
-Exemplo de saída:
-{
-  "editais": [
-    {
-      "id": 1, "tipo": "Consultoria Pessoa Física (PF)", "areas_tematicas": ["Saúde"],
-      "orgao_parceiro": "TCU", "perfil_classificado": "pesquisador_computacao",
-      "valor_estimado_num": 50000, "requisitos": {"graduacao": ["medicina"], "ferramentas": [], "idiomas": [], "anos_experiencia": 5, "mestrado": true, "doutorado": false},
-      "matches": {
-        "engenheiro_dados": {"score": 0.2, "areas": false, "ferramentas_match": [], "ferramentas_faltando": [], "graduacao_match": [], "graduacao_faltando": ["medicina"], "idiomas_match": [], "idiomas_faltando": [], "comentario": "Área de saúde, pouca afinidade com engenharia de dados"}
-      }
-    }
-  ]
-}
+PENALIZE:
+- Exige mestrado e perfil tem tem_mestrado:false → score máx 0.4
+- Exige doutorado e perfil tem tem_doutorado:false → score máx 0.3
+- Experiência exigida > experiencia_anos do perfil → reduza
+- Graduação exigida não está no perfil → reduza 0.2-0.3
+- Áreas temáticas incompatíveis → score máx 0.2
 
-IMPORTANTE: só o JSON, nada de markdown."""
+CALCULE matches PARA CADA PERFIL (engenheiro_dados, economista, pesquisador_computacao) presente no JSON de entrada.
+
+Retorne APENAS o array JSON, sem texto adicional."""
 
 
 def _build_classify_prompt(editais: list, perfis: dict) -> str:
@@ -118,9 +124,11 @@ def analisar_com_ia(editais: list) -> dict | None:
 
         logger.info("DeepSeek respondeu com %d caracteres", len(texto))
         resultado = _extrair_json(texto)
-        if not resultado:
+        if resultado is None:
             logger.warning("DeepSeek não retornou JSON válido. Início: %s", (texto or "")[:200])
             return None
+        if isinstance(resultado, list):
+            resultado = {"editais": resultado}
 
         return _processar_resposta(resultado, perfis, editais)
 
@@ -207,7 +215,11 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
             }
         ec["url_externo"] = "https://parceiros.undp.org.br/opportunities"
 
-    recom = _gerar_recomendacoes_ia(classificados, perfis)
+    recom = {}
+    try:
+        recom = _gerar_recomendacoes_ia(classificados, perfis)
+    except Exception as e:
+        logger.warning("Recomendações IA falharam: %s", e)
 
     perfis_list = []
     for nome, perfil in perfis.items():
