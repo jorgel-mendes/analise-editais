@@ -32,6 +32,8 @@ jobs:
         run: playwright install --with-deps chromium
 
       - name: Executar pipeline diário
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python main.py daily
 
       - name: Commit e push
