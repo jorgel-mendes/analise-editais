@@ -89,3 +89,10 @@ def carregar_ultimo_snapshot() -> list:
     if snap:
         return json.loads(snap.read_text())
     return []
+
+
+def carregar_editais_historico(meses: int = 12) -> list:
+    from datetime import datetime, timedelta
+    corte = (datetime.now() - timedelta(days=meses * 30)).strftime("%Y-%m-%d")
+    todos = carregar_editais_todos()
+    return [e for e in todos if e.get("startDate", "")[:10] >= corte]

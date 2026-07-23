@@ -6,6 +6,7 @@ from core.config import PERFIS_DIR, ROOT
 from core.bridge import carregar_qualificacoes, enriquecer_edital, calcular_match_detalhado
 from core.perfil import carregar_perfis
 from core.recommender import gerar_recomendacoes_todos_perfis
+from core.classifier import classificar_edital
 
 SITE_DATA_DIR = ROOT / "docs" / "data"
 SITE_ANALISE_FILE = SITE_DATA_DIR / "analise.json"
@@ -44,6 +45,8 @@ def gerar_dados_site(analise: dict, novidades: dict | None = None) -> tuple[Path
             "match_count": count,
         })
 
+    editais_historicos = _carregar_historicos_enriquecidos(qualificacoes, perfis)
+
     site_data = {
         "gerado_em": datetime.now().isoformat(),
         "resumo": {
@@ -57,7 +60,7 @@ def gerar_dados_site(analise: dict, novidades: dict | None = None) -> tuple[Path
         },
         "perfis": perfil_list,
         "editais": editais_enriquecidos,
-        "recomendacoes": gerar_recomendacoes_todos_perfis(editais_enriquecidos),
+        "recomendacoes": gerar_recomendacoes_todos_perfis(editais_historicos),
     }
 
     SITE_ANALISE_FILE.write_text(json.dumps(site_data, indent=2, ensure_ascii=False))
@@ -66,3 +69,25 @@ def gerar_dados_site(analise: dict, novidades: dict | None = None) -> tuple[Path
     SITE_PERFIS_FILE.write_text(json.dumps(perfis_data, indent=2, ensure_ascii=False))
 
     return SITE_ANALISE_FILE, SITE_PERFIS_FILE
+
+
+def _carregar_historicos_enriquecidos(qualificacoes: dict, perfis: dict) -> list:
+    """Carrega editais dos últimos 12 meses, classifica e enriquece com qualificações."""
+    from core.persistence import carregar_editais_historico
+
+    raw = carregar_editais_historico(meses=12)
+    if not raw:
+        return []
+
+    classificados = [classificar_edital(e) for e in raw]
+
+    enriquecidos = []
+    for edital in classificados:
+        e = enriquecer_edital(edital, qualificacoes)
+        matches = {}
+        for nome_perfil, perfil in perfis.items():
+            matches[nome_perfil] = calcular_match_detalhado(e, perfil)
+        e["matches"] = matches
+        enriquecidos.append(e)
+
+    return enriquecidos

@@ -229,67 +229,81 @@ function renderRecomendacoes(perfilNome){
     return;
   }
   const rec = state.data.recomendacoes[perfilNome];
-  if(!rec||!rec.gaps||!rec.gaps.length){
+  if(!rec||!rec.curto_prazo){
     section.className = 'recs';
     section.innerHTML = '<div class="no-recs">Nenhuma recomendação disponível para este perfil.</div>';
     return;
   }
   section.className = 'recs active';
 
-  const prioClass = p=>'prio-'+p;
   const tipoClass = t=>'tag-'+t;
-
-  const gapsHTML = rec.gaps.slice(0,8).map(g => {
-    const cursosHTML = (g.cursos||[]).map((c,i) =>
-      '<div class="gap-course">'+(g.cursos.length>1?(i+1)+'. ':'')+
-      '<a href="'+esc(c.link)+'" target="_blank">'+esc(c.curso)+'</a>'+
-      ' <span class="cost">('+esc(c.custo)+' · '+esc(c.carga)+')</span></div>'
-    ).join('');
-
-    let impactoHTML = '';
-    if(g.impacto_financeiro && g.impacto_financeiro > 0){
-      impactoHTML = ' · R$ '+g.impacto_financeiro.toLocaleString('pt-BR',{maximumFractionDigits:0})+' em oportunidades';
-    }
-
-    return `
-    <div class="gap-card">
-      <div class="gap-priority ${prioClass(g.prioridade)}"></div>
-      <div class="gap-body">
-        <div class="gap-name">
-          <span class="gap-tag ${tipoClass(g.tipo)}">${g.tipo}</span>
-          ${esc(g.nome)}
-        </div>
-        <div class="gap-meta">Exigido em ${g.editais} edital${g.editais>1?'e is':'es'}${impactoHTML}</div>
-        ${g.nota?'<div class="gap-meta">'+esc(g.nota)+'</div>':''}
-        ${cursosHTML}
-      </div>
-    </div>`;
-  }).join('');
-
-  const cursosHTML = (rec.cursos_prioritarios||[]).map((c,i) =>
-    `<div class="course-row">
-      <div class="course-rank">#${i+1}</div>
-      <div class="course-info">
-        <strong>${esc(c.curso)}</strong>
-        <div class="course-meta">${esc(c.custo)} · ${esc(c.carga)} · Gap: ${esc(c.gap)}</div>
-      </div>
-      <a class="course-link" href="${esc(c.link)}" target="_blank">Ver curso →</a>
-    </div>`
-  ).join('');
-
   const valorStr = rec.valor_total_oportunidades > 0
     ? formatMoney(rec.valor_total_oportunidades) : 'NI';
 
+  function renderPrazo(key, data, color){
+    const gaps = (data.gaps||[]).slice(0,6);
+    const plano = data.plano||[];
+    if(!gaps.length && !plano.length) return '';
+
+    const gapsHTML = gaps.map(g => {
+      const cursosHTML = (g.cursos||[]).slice(0,2).map((c,i) =>
+        '<div class="gap-course">'+(g.cursos.length>1?(i+1)+'. ':'')+
+        '<a href="'+esc(c.link)+'" target="_blank">'+esc(c.curso)+'</a>'+
+        ' <span class="cost">('+esc(c.custo)+' · '+esc(c.carga)+')</span></div>'
+      ).join('');
+
+      let impactoHTML = '';
+      if(g.impacto_financeiro && g.impacto_financeiro > 0){
+        impactoHTML = ' · R$ '+g.impacto_financeiro.toLocaleString('pt-BR',{maximumFractionDigits:0})+' em oportunidades';
+      }
+
+      return `
+      <div class="gap-card">
+        <div class="gap-priority" style="background:${color}"></div>
+        <div class="gap-body">
+          <div class="gap-name">
+            <span class="gap-tag ${tipoClass(g.tipo)}">${esc(g.tipo)}</span>
+            ${esc(g.nome)}
+          </div>
+          <div class="gap-meta">Exigido em ${g.editais} edital${g.editais!==1?'e is':'es'}${impactoHTML}</div>
+          ${g.nota?'<div class="gap-meta">'+esc(g.nota)+'</div>':''}
+          ${cursosHTML}
+        </div>
+      </div>`;
+    }).join('');
+
+    const planoHTML = plano.map((c,i) =>
+      `<div class="course-row">
+        <div class="course-rank" style="color:${color}">#${i+1}</div>
+        <div class="course-info">
+          <strong>${esc(c.curso)}</strong>
+          <div class="course-meta">${esc(c.custo)} · ${esc(c.carga)} · ${esc(c.nivel)} · Gap: ${esc(c.gap)}</div>
+        </div>
+        <a class="course-link" href="${esc(c.link)}" target="_blank">Ver →</a>
+      </div>`
+    ).join('');
+
+    const label = {curto:'⚡ Curto Prazo', medio:'📈 Médio Prazo', longo:'🎓 Longo Prazo'}[key]||key;
+    const desc = {curto:'3 a 6 meses', medio:'6 a 18 meses', longo:'1 a 3 anos'}[key]||'';
+
+    return `
+    <div class="recs-cursos" style="margin-bottom:14px">
+      <h4 style="color:${color}">${label} <span style="font-weight:400;font-size:.72rem;color:#8892a5">${desc}</span></h4>
+      <div class="recs-grid" style="margin-bottom:${planoHTML?'8px':'0'}">${gapsHTML}</div>
+      ${planoHTML?('<h4 style="font-size:.76rem;font-weight:600;margin:10px 0 6px;color:'+color+'">🎯 Cursos sugeridos</h4>'+planoHTML):''}
+    </div>`;
+  }
+
   section.innerHTML = `
-    <div class="recs-title">📚 Recomendações de Estudo <span class="badge">Perfil: ${esc(perfilNome)}</span></div>
+    <div class="recs-title">📚 Recomendações de Estudo <span class="badge">${esc(perfilNome)} · base: ${esc(rec.periodo_analise||'histórico')}</span></div>
     <div class="recs-summary">
-      <div class="stat"><div class="num">${rec.total_editais_compativeis}</div><div class="lbl">Editais compatíveis</div></div>
-      <div class="stat"><div class="num">${rec.gaps.length}</div><div class="lbl">Gaps identificados</div></div>
-      <div class="stat"><div class="num">${valorStr}</div><div class="lbl">Valor total em oportunidades</div></div>
-      ${rec.custo_total_estimado_mensal?'<div class="stat"><div class="num">R$ '+rec.custo_total_estimado_mensal.toLocaleString()+'+</div><div class="lbl">Custo estimado de estudo</div></div>':''}
+      <div class="stat"><div class="num">${rec.total_editais_analisados||0}</div><div class="lbl">Editais analisados (12m)</div></div>
+      <div class="stat"><div class="num">${rec.total_editais_compativeis}</div><div class="lbl">Compatíveis com perfil</div></div>
+      <div class="stat"><div class="num">${valorStr}</div><div class="lbl">Valor em oportunidades</div></div>
     </div>
-    <div class="recs-grid">${gapsHTML}</div>
-    ${cursosHTML?('<div class="recs-cursos"><h4>🎯 Plano de estudo prioritário</h4>'+cursosHTML+'</div>'):''}
+    ${renderPrazo('curto', rec.curto_prazo||{}, '#137333')}
+    ${renderPrazo('medio', rec.medio_prazo||{}, '#b06000')}
+    ${renderPrazo('longo', rec.longo_prazo||{}, '#1967d2')}
   `;
 }
 
