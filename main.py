@@ -13,7 +13,8 @@ def cli():
 @click.option("--periodo", "-p", default=3, type=int, help="Meses para análise (padrão: 3)")
 @click.option("--perfil", "-f", default=None, type=click.Choice(PERFIS_DISPONIVEIS), help="Filtrar por perfil")
 @click.option("--todos", "-t", is_flag=True, help="Analisar todos os editais (ignora período)")
-def daily(periodo, perfil, todos):
+@click.option("--force", is_flag=True, help="Forçar análise mesmo sem editais novos")
+def daily(periodo, perfil, todos, force):
     """Execução diária completa: fetch → persist → analyze → report."""
     from core.scraper import executar_scraping
     from core.persistence import carregar_editais_todos
@@ -24,22 +25,28 @@ def daily(periodo, perfil, todos):
     click.echo("🚀 EXECUÇÃO DIÁRIA - ANÁLISE DE EDITAIS PNUD")
     click.echo("=" * 60)
 
-    # 1. Fetch
     editais_atuais, novidades = executar_scraping()
     if not editais_atuais:
         click.echo("❌ Nenhum edital encontrado. Abortando.")
         return
 
-    # 2. Novidades
-    if novidades:
-        click.echo(f"\n📢 NOVIDADES:")
-        click.echo(f"   🆕 {novidades['novos_count']} novos editais")
-        click.echo(f"   🔒 {novidades['encerrados_count']} editais encerrados")
-        click.echo(f"   📋 {novidades['total_atuais']} editais ativos atualmente")
-    else:
-        click.echo(f"\n📋 {len(editais_atuais)} editais ativos (sem alterações desde a última execução)")
+    tem_novos = novidades and novidades.get("novos_count", 0) > 0
+    tem_encerrados = novidades and novidades.get("encerrados_count", 0) > 0
 
-    # 3. Analyze
+    if not tem_novos and not force:
+        if tem_encerrados:
+            click.echo(f"\n🔒 {novidades['encerrados_count']} editais encerrados, mas nenhum novo.")
+        click.echo(f"\n📋 {len(editais_atuais)} editais ativos — sem novidades. Análise ignorada.")
+        click.echo("   Use --force para forçar a análise mesmo assim.")
+        return
+
+    if novidades:
+        if tem_novos:
+            click.echo(f"\n📢 {novidades['novos_count']} NOVOS EDITAIS!")
+        if tem_encerrados:
+            click.echo(f"🔒 {novidades['encerrados_count']} encerrados")
+        click.echo(f"📋 {novidades['total_atuais']} ativos no total")
+
     click.echo("\n📊 ANALISANDO...")
     if todos:
         editais_raw = carregar_editais_todos()
@@ -56,13 +63,13 @@ def daily(periodo, perfil, todos):
     click.echo(f"   Total analisado: {analise['total_editais']}")
     click.echo(f"   Perfis encontrados: {dict(analise.get('contagem_perfis', {}))}")
 
-    # 4. Report
     click.echo("\n📝 GERANDO RELATÓRIOS...")
     excel_path, pdf_path = gerar_relatorio_completo(analise, novidades)
 
     click.echo(f"\n✅ Execução diária concluída!")
     click.echo(f"   📊 Excel: {excel_path}")
     click.echo(f"   📄 PDF: {pdf_path}")
+    click.echo(f"   🌐 Site: https://jorgel-mendes.github.io/analise-editais/")
 
 
 @cli.command()
