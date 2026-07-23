@@ -26,6 +26,11 @@ a:hover{text-decoration:underline}
 .card-value{font-size:1.6rem;font-weight:700;color:#1a1a2e;margin:3px 0}
 .card-sub{font-size:.72rem;color:#8892a5}
 
+/* Summary banner */
+.summary-banner{background:linear-gradient(135deg,#e8f0fe,#f0e6f6);border-radius:10px;padding:14px 18px;margin-bottom:16px;font-size:.82rem;color:#1a1a2e;line-height:1.5;border:1px solid #d2dff5}
+.summary-banner .sum-label{font-size:.65rem;text-transform:uppercase;color:#0066cc;font-weight:600;letter-spacing:.5px;margin-bottom:4px}
+.summary-banner .sum-mode{font-size:.65rem;color:#8892a5;margin-top:6px}
+
 /* Filters */
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
 .filters select,.filters input{padding:7px 10px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#333;min-width:130px}
@@ -323,6 +328,7 @@ function renderAll(){
   const v = d.resumo.valores||{};
 
   document.getElementById('dashboard').innerHTML = `
+    ${d.resumo_ia?('<div class="summary-banner"><div class="sum-label">📋 Resumo</div>'+esc(d.resumo_ia)+'<div class="sum-mode">🤖 Gerado por DeepSeek · '+(d.modo==='ia'?'análise IA':'análise determinística')+'</div></div>'):''}
     <div class="cards">
       <div class="card">
         <div class="card-label">Editais ativos</div>
