@@ -1,10 +1,14 @@
 from datetime import datetime
 from pathlib import Path
+from typing import NamedTuple
 
-import pandas as pd
 from fpdf import FPDF
+from openpyxl import Workbook
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.properties import PageSetupProperties
 
-from core.config import OUTPUT_EXCEL, OUTPUT_PDF
+from core.config import API_URL, OUTPUT_EXCEL, OUTPUT_PDF
 
 
 class _PDFReport(FPDF):
@@ -80,45 +84,228 @@ class _PDFReport(FPDF):
         self.ln(3)
 
 
+_AZUL = "003366"
+_AZUL_MEDIO = "004682"
+_BANDA = "F2F6FC"
+_CINZA_BORDA = "D6DEE8"
+
+_FILL_CABECALHO = PatternFill("solid", fgColor=_AZUL)
+_FILL_BANDA = PatternFill("solid", fgColor=_BANDA)
+_FONTE_CABECALHO = Font(bold=True, color="FFFFFF", size=10)
+_FONTE_LINK = Font(color="0563C1", underline="single", size=10)
+_BORDA = Border(**{lado: Side(style="thin", color=_CINZA_BORDA)
+                   for lado in ("left", "right", "top", "bottom")})
+
+_FMT_MOEDA = 'R$ #,##0.00'
+_FMT_DATA = "DD/MM/YYYY"
+
+
+class _Coluna(NamedTuple):
+    titulo: str
+    chave: str
+    largura: int
+    formato: str | None = None
+    horizontal: str = "left"
+    quebrar: bool = False
+    link: bool = False
+
+
+def _data(valor):
+    """Converte 'YYYY-MM-DD' em date para o Excel tratar como data de verdade."""
+    try:
+        return datetime.strptime(valor, "%Y-%m-%d").date()
+    except (TypeError, ValueError):
+        return valor or ""
+
+
+def _montar_aba(wb: Workbook, nome: str, colunas: list[_Coluna], linhas: list[dict]):
+    ws = wb.create_sheet(nome)
+
+    for idx, col in enumerate(colunas, start=1):
+        celula = ws.cell(row=1, column=idx, value=col.titulo)
+        celula.fill = _FILL_CABECALHO
+        celula.font = _FONTE_CABECALHO
+        celula.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        celula.border = _BORDA
+        ws.column_dimensions[get_column_letter(idx)].width = col.largura
+    ws.row_dimensions[1].height = 26
+
+    for n, item in enumerate(linhas, start=2):
+        for idx, col in enumerate(colunas, start=1):
+            valor = item.get(col.chave)
+            celula = ws.cell(row=n, column=idx, value="" if valor is None else valor)
+            celula.border = _BORDA
+            celula.alignment = Alignment(horizontal=col.horizontal, vertical="top",
+                                         wrap_text=col.quebrar)
+            if col.formato:
+                celula.number_format = col.formato
+            if col.link and valor:
+                celula.hyperlink = valor
+                celula.font = _FONTE_LINK
+            if n % 2 == 0:
+                celula.fill = _FILL_BANDA
+
+    ws.freeze_panes = "A2"
+    if linhas:
+        ws.auto_filter.ref = f"A1:{get_column_letter(len(colunas))}{len(linhas) + 1}"
+
+    ws.print_title_rows = "1:1"
+    ws.page_setup.orientation = "landscape"
+    ws.page_setup.fitToWidth = 1
+    ws.page_setup.fitToHeight = 0
+    ws.sheet_properties.pageSetUpPr = PageSetupProperties(fitToPage=True)
+    return ws
+
+
+def _montar_resumo(wb: Workbook, analise: dict):
+    ws = wb.create_sheet("Resumo")
+    ws.column_dimensions["A"].width = 34
+    ws.column_dimensions["B"].width = 46
+    ws.sheet_view.showGridLines = False
+
+    ws["A1"] = "Análise de Editais PNUD Brasil"
+    ws["A1"].font = Font(bold=True, size=16, color=_AZUL)
+    ws.merge_cells("A1:B1")
+    ws.row_dimensions[1].height = 24
+
+    gerado = analise.get("data_analise", datetime.now().isoformat())
+    ws["A2"] = f"Gerado em {datetime.fromisoformat(gerado).strftime('%d/%m/%Y às %H:%M')}"
+    ws["A2"].font = Font(italic=True, size=9, color="8A8A8A")
+    ws.merge_cells("A2:B2")
+
+    linha = 4
+
+    def secao(titulo: str):
+        nonlocal linha
+        celula = ws.cell(row=linha, column=1, value=titulo)
+        celula.font = _FONTE_CABECALHO
+        celula.fill = _FILL_CABECALHO
+        celula.alignment = Alignment(vertical="center")
+        ws.cell(row=linha, column=2).fill = _FILL_CABECALHO
+        ws.row_dimensions[linha].height = 20
+        linha += 1
+
+    def metrica(rotulo: str, valor, formato: str | None = None):
+        nonlocal linha
+        rot = ws.cell(row=linha, column=1, value=rotulo)
+        rot.font = Font(bold=True, size=10, color="404040")
+        rot.border = _BORDA
+        val = ws.cell(row=linha, column=2, value="—" if valor is None else valor)
+        val.border = _BORDA
+        val.alignment = Alignment(horizontal="left", wrap_text=True)
+        if formato and valor is not None:
+            val.number_format = formato
+        linha += 1
+
+    filtro = analise.get("filtro_aplicado", {})
+    secao("Panorama")
+    metrica("Total de editais", analise.get("total_editais", 0))
+    if filtro.get("todos"):
+        metrica("Período", "Histórico completo")
+    elif filtro.get("periodo_meses"):
+        metrica("Período", f"Últimos {filtro['periodo_meses']} meses")
+    if filtro.get("perfil"):
+        metrica("Perfil filtrado", filtro["perfil"])
+    metrica("Tipos distintos", len(analise.get("contagem_tipos", {})))
+    metrica("Órgãos parceiros", len(analise.get("contagem_orgaos", {})))
+    linha += 1
+
+    valores = analise.get("valores") or {}
+    if valores.get("quantidade_com_valor"):
+        secao("Valores estimados")
+        metrica("Editais com valor divulgado", valores["quantidade_com_valor"])
+        metrica("Menor valor", valores.get("minimo"), _FMT_MOEDA)
+        metrica("Maior valor", valores.get("maximo"), _FMT_MOEDA)
+        metrica("Valor médio", valores.get("medio"), _FMT_MOEDA)
+        metrica("Valor mediano", valores.get("mediano"), _FMT_MOEDA)
+        linha += 1
+
+    contagem_perfis = {k: v for k, v in (analise.get("contagem_perfis") or {}).items() if k}
+    if contagem_perfis:
+        secao("Editais por perfil")
+        for nome, qtd in contagem_perfis.items():
+            metrica(nome.replace("_", " ").title(), qtd)
+
+    return ws
+
+
 def gerar_excel(analise: dict) -> Path:
-    editais = analise["editais"]
-    if not editais:
-        return OUTPUT_EXCEL
+    editais = analise.get("editais") or []
 
-    df = pd.DataFrame(editais)
-    colunas = ["id", "torid", "titulo", "tipo", "areas_tematicas", "perfil_classificado",
-               "data_inicio", "data_fim", "local", "orgao_parceiro",
-               "valor_estimado", "valor_estimado_num", "status"]
-    colunas_existentes = [c for c in colunas if c in df.columns]
-    df = df[colunas_existentes]
+    wb = Workbook()
+    wb.remove(wb.active)
 
-    with pd.ExcelWriter(OUTPUT_EXCEL, engine="openpyxl") as writer:
-        df.to_excel(writer, sheet_name="Editais_Analisados", index=False)
+    _montar_resumo(wb, analise)
 
-        resumo = [{"Métrica": "Total de Editais", "Valor": analise["total_editais"]}]
-        filtro = analise.get("filtro_aplicado", {})
-        if filtro.get("periodo_meses"):
-            resumo.append({"Métrica": "Período", "Valor": f"Últimos {filtro['periodo_meses']} meses"})
-        if filtro.get("perfil"):
-            resumo.append({"Métrica": "Perfil", "Valor": filtro["perfil"]})
-        pd.DataFrame(resumo).to_excel(writer, sheet_name="Resumo", index=False)
+    linhas = []
+    for e in editais:
+        areas = e.get("areas_tematicas") or []
+        perfil = e.get("perfil_classificado") or ""
+        score = (e.get("matches") or {}).get(perfil, {}).get("score", e.get("score_perfil"))
+        linhas.append({
+            "torid": e.get("torid"),
+            "titulo": e.get("titulo", ""),
+            "tipo": e.get("tipo", ""),
+            "perfil": perfil.replace("_", " ").title(),
+            "score": score,
+            "areas": ", ".join(areas) if isinstance(areas, list) else areas,
+            "orgao_parceiro": e.get("orgao_parceiro", ""),
+            "local": e.get("local", ""),
+            "data_inicio": _data(e.get("data_inicio")),
+            "data_fim": _data(e.get("data_fim")),
+            "valor": e.get("valor_estimado_num") or None,
+            "status": e.get("status", ""),
+            "email_submissao": e.get("email_submissao", ""),
+            "url_externo": e.get("url_externo") or API_URL,
+        })
 
-        if analise.get("contagem_tipos"):
-            pd.DataFrame([
-                {"Tipo": k, "Quantidade": v} for k, v in analise["contagem_tipos"].items()
-            ]).to_excel(writer, sheet_name="Por_Tipo", index=False)
+    _montar_aba(wb, "Editais", [
+        _Coluna("ToR", "torid", 10, "0", "center"),
+        _Coluna("Título", "titulo", 52, quebrar=True),
+        _Coluna("Tipo", "tipo", 26, quebrar=True),
+        _Coluna("Perfil", "perfil", 22),
+        _Coluna("Score", "score", 9, "0.00", "center"),
+        _Coluna("Áreas temáticas", "areas", 28, quebrar=True),
+        _Coluna("Órgão parceiro", "orgao_parceiro", 20, quebrar=True),
+        _Coluna("Local", "local", 20, quebrar=True),
+        _Coluna("Início", "data_inicio", 12, _FMT_DATA, "center"),
+        _Coluna("Prazo final", "data_fim", 12, _FMT_DATA, "center"),
+        _Coluna("Valor estimado", "valor", 16, _FMT_MOEDA, "right"),
+        _Coluna("Status", "status", 14, horizontal="center"),
+        _Coluna("E-mail", "email_submissao", 30),
+        _Coluna("Link", "url_externo", 34, link=True),
+    ], linhas)
 
-        if analise.get("contagem_areas"):
-            pd.DataFrame([
-                {"Área": k, "Quantidade": v} for k, v in analise["contagem_areas"].items()
-            ]).to_excel(writer, sheet_name="Por_Area", index=False)
+    contagens = [
+        ("Por_Perfil", "Perfil", analise.get("contagem_perfis"), True),
+        ("Por_Tipo", "Tipo", analise.get("contagem_tipos"), False),
+        ("Por_Area", "Área temática", analise.get("contagem_areas"), False),
+        ("Por_Orgao", "Órgão parceiro", analise.get("contagem_orgaos"), False),
+    ]
+    for nome_aba, rotulo, contagem, formatar in contagens:
+        if not contagem:
+            continue
+        itens = [{"chave": (k.replace("_", " ").title() if formatar else k), "qtd": v}
+                 for k, v in contagem.items() if k]
+        if itens:
+            _montar_aba(wb, nome_aba, [
+                _Coluna(rotulo, "chave", 40, quebrar=True),
+                _Coluna("Quantidade", "qtd", 14, "0", "center"),
+            ], itens)
 
-        if analise.get("por_perfil"):
-            rows = [{"Perfil": nome, "Quantidade": d["quantidade"], "Descrição": d["descricao"]}
-                    for nome, d in analise["por_perfil"].items()]
-            if rows:
-                pd.DataFrame(rows).to_excel(writer, sheet_name="Por_Perfil", index=False)
+    por_perfil = analise.get("por_perfil") or {}
+    if por_perfil:
+        itens = [{"perfil": nome.replace("_", " ").title(),
+                  "quantidade": d.get("quantidade", 0),
+                  "descricao": d.get("descricao", "")}
+                 for nome, d in por_perfil.items()]
+        _montar_aba(wb, "Perfis", [
+            _Coluna("Perfil", "perfil", 24),
+            _Coluna("Editais compatíveis", "quantidade", 18, "0", "center"),
+            _Coluna("Descrição", "descricao", 70, quebrar=True),
+        ], itens)
 
+    wb.save(OUTPUT_EXCEL)
     return OUTPUT_EXCEL
 
 

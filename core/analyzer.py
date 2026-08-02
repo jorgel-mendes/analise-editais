@@ -2,7 +2,12 @@ from collections import Counter
 from datetime import datetime, timedelta
 
 from core.classifier import classificar_edital
-from core.perfil import classificar_perfil_do_edital, filtrar_por_perfil, carregar_perfis
+from core.perfil import (
+    carregar_perfis,
+    classificar_perfil_do_edital,
+    filtrar_por_perfil,
+    pontuar_edital_para_perfil,
+)
 
 
 def analisar_editais(
@@ -33,7 +38,10 @@ def analisar_editais(
 
     perfis_disponiveis = carregar_perfis()
     for edital in classificados:
-        edital["perfil_classificado"] = classificar_perfil_do_edital(edital)
+        nome = classificar_perfil_do_edital(edital)
+        edital["perfil_classificado"] = nome
+        if nome in perfis_disponiveis:
+            edital["score_perfil"] = pontuar_edital_para_perfil(edital, perfis_disponiveis[nome])
 
     if perfil_nome:
         classificados = filtrar_por_perfil(classificados, perfil_nome)
