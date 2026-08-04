@@ -60,6 +60,8 @@ def executar_scraping() -> tuple[list, dict | None]:
         print("⚠️  Nenhum edital encontrado no scraping.")
         return [], None
 
+    anteriores = carregar_ultimo_snapshot()
+
     hoje = date.today()
     snapshot_file = salvar_snapshot(editais_atuais, hoje)
     print(f"💾 Snapshot salvo em: {snapshot_file}")
@@ -67,7 +69,6 @@ def executar_scraping() -> tuple[list, dict | None]:
     novos, atualizados = atualizar_editais_todos(editais_atuais)
     print(f"📊 {novos} novos, {atualizados} atualizados, {len(editais_atuais)} ativos no total")
 
-    anteriores = carregar_ultimo_snapshot()
     if anteriores and anteriores != editais_atuais:
         novidades = detectar_novidades(editais_atuais, anteriores)
         if novidades["novos_count"] > 0 or novidades["encerrados_count"] > 0:

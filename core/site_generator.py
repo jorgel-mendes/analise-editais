@@ -41,7 +41,11 @@ def _tentar_ia(analise: dict) -> dict | None:
     from core.persistence import carregar_editais_historico
     from core.llm import analisar_com_ia
 
-    raw = carregar_editais_historico(meses=12)
+    ids_ativos = {e.get("id") for e in analise.get("editais", [])}
+    if not ids_ativos:
+        return None
+
+    raw = [e for e in carregar_editais_historico(meses=12) if e.get("id") in ids_ativos]
     if not raw:
         return None
 
