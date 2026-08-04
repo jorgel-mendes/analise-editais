@@ -387,7 +387,7 @@ function renderAll(){
         ${filterOptions.tipos.map(t=>'<option value="'+esc(t)+'">'+esc(t)+'</option>').join('')}
       </select>
       <input type="text" id="filtro-busca" placeholder="Buscar por título, órgão ou ferramenta..." oninput="state.filtroBusca=this.value.toLowerCase();renderEditalList()">
-      <button class="clear-filters-btn" onclick="limparFiltros()">🧹 Limpar filtros</button>
+      <button class="clear-filters-btn" onclick="limparBusca()">✖ Limpar busca</button>
     </div>
 
     <div class="edital-grid" id="edital-grid"></div>
@@ -408,14 +408,11 @@ function currentList(){
   return state.view==='historico' ? (state.data?.historico||[]) : (state.data?.editais||[]);
 }
 
-function limparFiltros(){
-  state.filtroArea = '';
-  state.filtroTipo = '';
+function limparBusca(){
   state.filtroBusca = '';
-  state.perfil = null;
-  const sel = document.getElementById('profile-select');
-  if(sel) sel.value = '';
-  renderAll();
+  const input = document.getElementById('filtro-busca');
+  if(input) input.value = '';
+  renderEditalList();
 }
 
 function renderEditalList(){
