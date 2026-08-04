@@ -1,3 +1,4 @@
+import re
 from collections import Counter
 
 from core.perfil import carregar_perfil, carregar_perfis
@@ -171,14 +172,29 @@ CURSO_MAP = {
 }
 
 
+def _match_fuzzy_curso_map(key: str) -> list[dict] | None:
+    """Busca por substring, mas só entre chaves com 4+ caracteres e respeitando
+    limite de palavra — evita que uma chave curta como "r" ou "sic" bata por
+    acidente dentro de qualquer palavra que contenha essas letras em sequência
+    (ex.: "jornalismo"/"geografia" continham a letra "r" e caíam em "R
+    Programming"; "clássico" continha "sic" e caía no curso de SIC)."""
+    for k, v in CURSO_MAP.items():
+        if len(k) < 4:
+            continue
+        if re.search(r'\b' + re.escape(k) + r'\b', key) or re.search(r'\b' + re.escape(key) + r'\b', k):
+            return v
+    return None
+
+
 def mapear_curso(ferramenta: str) -> list[dict]:
     key = ferramenta.lower().strip()
     if key in CURSO_MAP:
         return CURSO_MAP[key]
-    for k, v in CURSO_MAP.items():
-        if k in key or key in k:
-            return v
+    resultado = _match_fuzzy_curso_map(key)
+    if resultado:
+        return resultado
     return [{"curso": f"Aprenda {ferramenta} (busque na Udemy/Coursera)", "custo": "Variável", "carga": "Variável", "nivel": "Curso", "prazo": "curto", "link": "https://www.udemy.com/"}]
+
 
 
 def gerar_recomendacoes(editais: list, perfil_nome: str) -> dict:
@@ -192,10 +208,8 @@ def gerar_recomendacoes(editais: list, perfil_nome: str) -> dict:
     perfil_lang = set(l.lower() for l in perfil.get("idiomas", []))
 
     ferramentas_demand = Counter()
-    graduacoes_demand = Counter()
     idiomas_demand = Counter()
     valor_por_ferramenta = Counter()
-    valor_por_graduacao = Counter()
     editais_com_match = 0
     valor_total_oportunidades = 0
     mestrado_count = 0
@@ -221,10 +235,10 @@ def gerar_recomendacoes(editais: list, perfil_nome: str) -> dict:
         for g in req.get("graduacao", []):
             g_lower = g.lower()
             if not any(pg in g_lower or g_lower in pg for pg in perfil_grad):
-                graduacoes_demand[g_lower] += 1
+                ferramentas_demand[g_lower] += 1
                 valor = e.get("valor_estimado_num") or 0
                 if valor:
-                    valor_por_graduacao[g_lower] += valor
+                    valor_por_ferramenta[g_lower] += valor
 
         for lang in req.get("idiomas", []):
             l_lower = lang.lower()
@@ -245,7 +259,7 @@ def gerar_recomendacoes(editais: list, perfil_nome: str) -> dict:
     def _classificar_gaps_por_prazo():
         curto, medio, longo = [], [], []
 
-        for ferramenta, count in ferramentas_demand.most_common(15):
+        for ferramenta, count in ferramentas_demand.most_common(20):
             cursos = mapear_curso(ferramenta)
             valor_total = valor_por_ferramenta.get(ferramenta, 0)
             gap = {
@@ -260,26 +274,6 @@ def gerar_recomendacoes(editais: list, perfil_nome: str) -> dict:
                 curto.append(gap)
             elif "medio" in prazos:
                 medio.append(gap)
-            else:
-                medio.append(gap)
-
-        for grad, count in graduacoes_demand.most_common(10):
-            valor_total = valor_por_graduacao.get(grad, 0)
-            cursos = mapear_curso(grad)
-            gap = {
-                "tipo": "graduacao",
-                "nome": grad,
-                "editais": count,
-                "impacto_financeiro": round(valor_total, 2) if valor_total else None,
-                "cursos": cursos[:3],
-            }
-            prazos = {c.get("prazo", "medio") for c in cursos}
-            if "curto" in prazos:
-                curto.append(gap)
-            elif "medio" in prazos:
-                medio.append(gap)
-            elif "longo" in prazos:
-                longo.append(gap)
             else:
                 medio.append(gap)
 

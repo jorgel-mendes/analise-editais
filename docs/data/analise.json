@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-04T16:12:11.067081",
+  "gerado_em": "2026-08-04T17:02:14.755813",
   "resumo": {
     "total_editais": 17,
     "novos_hoje": 0,
@@ -9,15 +9,15 @@
     },
     "por_area": {
       "Comunicação": 6,
-      "Meio Ambiente": 3,
-      "Segurança Pública": 3,
-      "Tecnologia": 3,
-      "Clima": 2,
-      "Pesquisa": 2,
-      "Cidadania": 2,
+      "Tecnologia": 4,
+      "Meio Ambiente": 2,
+      "Cidadania Digital": 2,
+      "Direitos Humanos": 2,
       "Avaliação de Risco": 2,
-      "Políticas Públicas": 2,
-      "COP30": 2
+      "Proteção": 2,
+      "COP30": 2,
+      "Desenvolvimento Regional": 1,
+      "Integração": 1
     },
     "por_orgao": {
       "IBGE": 9,
@@ -59,7 +59,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 16
+      "match_count": 17
     },
     {
       "nome": "engenheiro_dados",
@@ -141,7 +141,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 15
+      "match_count": 17
     },
     {
       "nome": "analista_powerbi",
@@ -204,7 +204,9 @@
           "gestão pública"
         ],
         "ferramentas": [],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -216,7 +218,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.6,
+          "score": 0.55,
           "detalhes": {
             "areas": {
               "match": true,
@@ -240,8 +242,12 @@
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -271,8 +277,12 @@
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -282,7 +292,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": false,
@@ -304,8 +314,12 @@
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -335,8 +349,12 @@
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -356,7 +374,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Meio Ambiente",
-        "Clima",
+        "Mudanças Climáticas",
         "Adaptação"
       ],
       "data_inicio": "2026-08-04",
@@ -373,8 +391,8 @@
         "graduacao": [
           "ciências ambientais",
           "geografia",
-          "economia",
-          "engenharia"
+          "engenharia ambiental",
+          "economia"
         ],
         "ferramentas": [
           "análise de dados",
@@ -394,7 +412,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": false,
@@ -418,8 +436,8 @@
               "exigidas": [
                 "ciências ambientais",
                 "geografia",
-                "economia",
-                "engenharia"
+                "engenharia ambiental",
+                "economia"
               ]
             },
             "idiomas": {
@@ -438,7 +456,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": true,
@@ -457,14 +475,12 @@
               ]
             },
             "graduacao": {
-              "match": [
-                "engenharia"
-              ],
+              "match": [],
               "exigidas": [
                 "ciências ambientais",
                 "geografia",
-                "economia",
-                "engenharia"
+                "engenharia ambiental",
+                "economia"
               ]
             },
             "idiomas": {
@@ -509,8 +525,8 @@
               "exigidas": [
                 "ciências ambientais",
                 "geografia",
-                "economia",
-                "engenharia"
+                "engenharia ambiental",
+                "economia"
               ]
             },
             "idiomas": {
@@ -529,16 +545,17 @@
           }
         },
         "analista_powerbi": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "análise de dados"
+              ],
               "faltando": [
-                "análise de dados",
                 "modelagem climática"
               ],
               "exigidas": [
@@ -551,8 +568,8 @@
               "exigidas": [
                 "ciências ambientais",
                 "geografia",
-                "economia",
-                "engenharia"
+                "engenharia ambiental",
+                "economia"
               ]
             },
             "idiomas": {
@@ -581,7 +598,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Estatística",
-        "Pesquisa",
+        "Censo Agropecuário",
         "Capacitação"
       ],
       "data_inicio": "2026-08-03",
@@ -598,15 +615,18 @@
         "graduacao": [
           "estatística",
           "ciência da computação",
-          "sistemas de informação"
+          "sistemas de informação",
+          "administração"
         ],
         "ferramentas": [
-          "python",
-          "r",
-          "sql"
+          "análise de dados",
+          "capacitação",
+          "treinamento"
         ],
-        "idiomas": [],
-        "anos_experiencia": 3,
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -617,7 +637,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.3,
+          "score": 0.4,
           "detalhes": {
             "areas": {
               "match": true,
@@ -625,28 +645,36 @@
             },
             "ferramentas": {
               "match": [
-                "python",
-                "r",
-                "sql"
+                "análise de dados"
               ],
-              "faltando": [],
+              "faltando": [
+                "capacitação",
+                "treinamento"
+              ],
               "exigidas": [
-                "python",
-                "r",
-                "sql"
+                "análise de dados",
+                "capacitação",
+                "treinamento"
               ]
             },
             "graduacao": {
-              "match": [],
+              "match": [
+                "administração"
+              ],
               "exigidas": [
                 "estatística",
                 "ciência da computação",
-                "sistemas de informação"
+                "sistemas de informação",
+                "administração"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -656,7 +684,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.5,
+          "score": 0.45,
           "detalhes": {
             "areas": {
               "match": true,
@@ -664,15 +692,16 @@
             },
             "ferramentas": {
               "match": [
-                "python",
-                "r",
-                "sql"
+                "análise de dados"
               ],
-              "faltando": [],
+              "faltando": [
+                "capacitação",
+                "treinamento"
+              ],
               "exigidas": [
-                "python",
-                "r",
-                "sql"
+                "análise de dados",
+                "capacitação",
+                "treinamento"
               ]
             },
             "graduacao": {
@@ -683,12 +712,17 @@
               "exigidas": [
                 "estatística",
                 "ciência da computação",
-                "sistemas de informação"
+                "sistemas de informação",
+                "administração"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -698,7 +732,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.6,
+          "score": 0.5,
           "detalhes": {
             "areas": {
               "match": true,
@@ -706,15 +740,16 @@
             },
             "ferramentas": {
               "match": [
-                "python",
-                "r",
-                "sql"
+                "análise de dados"
               ],
-              "faltando": [],
+              "faltando": [
+                "capacitação",
+                "treinamento"
+              ],
               "exigidas": [
-                "python",
-                "r",
-                "sql"
+                "análise de dados",
+                "capacitação",
+                "treinamento"
               ]
             },
             "graduacao": {
@@ -726,12 +761,17 @@
               "exigidas": [
                 "estatística",
                 "ciência da computação",
-                "sistemas de informação"
+                "sistemas de informação",
+                "administração"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -749,16 +789,16 @@
             },
             "ferramentas": {
               "match": [
-                "sql"
+                "análise de dados"
               ],
               "faltando": [
-                "python",
-                "r"
+                "capacitação",
+                "treinamento"
               ],
               "exigidas": [
-                "python",
-                "r",
-                "sql"
+                "análise de dados",
+                "capacitação",
+                "treinamento"
               ]
             },
             "graduacao": {
@@ -769,12 +809,17 @@
               "exigidas": [
                 "estatística",
                 "ciência da computação",
-                "sistemas de informação"
+                "sistemas de informação",
+                "administração"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -794,7 +839,8 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Saúde Mental",
-        "Segurança Pública"
+        "Segurança Pública",
+        "Controle Externo"
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-16",
@@ -809,11 +855,17 @@
       "requisitos": {
         "graduacao": [
           "psicologia",
-          "saúde coletiva",
-          "serviço social"
+          "medicina",
+          "serviço social",
+          "saúde pública"
         ],
-        "ferramentas": [],
-        "idiomas": [],
+        "ferramentas": [
+          "análise de dados",
+          "pesquisa qualitativa"
+        ],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 5,
         "mestrado": true,
         "doutorado": false,
@@ -825,28 +877,40 @@
       },
       "matches": {
         "economista": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "análise de dados"
+              ],
+              "faltando": [
+                "pesquisa qualitativa"
+              ],
+              "exigidas": [
+                "análise de dados",
+                "pesquisa qualitativa"
+              ]
             },
             "graduacao": {
               "match": [],
               "exigidas": [
                 "psicologia",
-                "saúde coletiva",
-                "serviço social"
+                "medicina",
+                "serviço social",
+                "saúde pública"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -863,21 +927,33 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "análise de dados"
+              ],
+              "faltando": [
+                "pesquisa qualitativa"
+              ],
+              "exigidas": [
+                "análise de dados",
+                "pesquisa qualitativa"
+              ]
             },
             "graduacao": {
               "match": [],
               "exigidas": [
                 "psicologia",
-                "saúde coletiva",
-                "serviço social"
+                "medicina",
+                "serviço social",
+                "saúde pública"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -887,28 +963,40 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.1,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "análise de dados"
+              ],
+              "faltando": [
+                "pesquisa qualitativa"
+              ],
+              "exigidas": [
+                "análise de dados",
+                "pesquisa qualitativa"
+              ]
             },
             "graduacao": {
               "match": [],
               "exigidas": [
                 "psicologia",
-                "saúde coletiva",
-                "serviço social"
+                "medicina",
+                "serviço social",
+                "saúde pública"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -925,21 +1013,33 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
+              "match": [
+                "análise de dados"
+              ],
+              "faltando": [
+                "pesquisa qualitativa"
+              ],
+              "exigidas": [
+                "análise de dados",
+                "pesquisa qualitativa"
+              ]
             },
             "graduacao": {
               "match": [],
               "exigidas": [
                 "psicologia",
-                "saúde coletiva",
-                "serviço social"
+                "medicina",
+                "serviço social",
+                "saúde pública"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -959,8 +1059,8 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Comunicação",
-        "Tecnologia",
-        "Mídias Digitais"
+        "Mídias Digitais",
+        "Tecnologia"
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
@@ -977,13 +1077,17 @@
           "comunicação social",
           "jornalismo",
           "publicidade",
-          "ciência da computação"
+          "ciência da computação",
+          "sistemas de informação"
         ],
         "ferramentas": [
           "análise de dados",
-          "redes sociais"
+          "redes sociais",
+          "marketing digital"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -1002,14 +1106,17 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "análise de dados"
+              ],
               "faltando": [
-                "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ],
               "exigidas": [
                 "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ]
             },
             "graduacao": {
@@ -1018,12 +1125,17 @@
                 "comunicação social",
                 "jornalismo",
                 "publicidade",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1036,7 +1148,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1044,27 +1156,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ],
               "exigidas": [
                 "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "jornalismo",
                 "publicidade",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1074,10 +1194,10 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.4,
+          "score": 0.35,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1085,27 +1205,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ],
               "exigidas": [
                 "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "jornalismo",
                 "publicidade",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1118,7 +1246,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1126,27 +1254,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ],
               "exigidas": [
                 "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "jornalismo",
                 "publicidade",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1166,8 +1302,8 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Comunicação",
-        "Tecnologia",
-        "Plataformas Digitais"
+        "Plataformas Digitais",
+        "Tecnologia"
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
@@ -1184,13 +1320,17 @@
           "comunicação social",
           "jornalismo",
           "publicidade",
-          "ciência da computação"
+          "ciência da computação",
+          "sistemas de informação"
         ],
         "ferramentas": [
           "análise de dados",
-          "redes sociais"
+          "redes sociais",
+          "marketing digital"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -1209,14 +1349,17 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "análise de dados"
+              ],
               "faltando": [
-                "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ],
               "exigidas": [
                 "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ]
             },
             "graduacao": {
@@ -1225,12 +1368,17 @@
                 "comunicação social",
                 "jornalismo",
                 "publicidade",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1243,7 +1391,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1251,27 +1399,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ],
               "exigidas": [
                 "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "jornalismo",
                 "publicidade",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1281,10 +1437,10 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.4,
+          "score": 0.35,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1292,27 +1448,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ],
               "exigidas": [
                 "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "jornalismo",
                 "publicidade",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1325,7 +1489,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1333,27 +1497,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ],
               "exigidas": [
                 "análise de dados",
-                "redes sociais"
+                "redes sociais",
+                "marketing digital"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "jornalismo",
                 "publicidade",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1373,8 +1545,8 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Comunicação",
-        "Pesquisa",
-        "Fenômenos Sociais"
+        "Fenômenos Sociais",
+        "Pesquisa"
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
@@ -1391,13 +1563,17 @@
           "comunicação social",
           "sociologia",
           "ciência política",
-          "ciência da computação"
+          "ciência da computação",
+          "sistemas de informação"
         ],
         "ferramentas": [
           "análise de dados",
-          "pesquisa qualitativa"
+          "pesquisa qualitativa",
+          "metodologia científica"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -1409,21 +1585,24 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "análise de dados"
+              ],
               "faltando": [
-                "análise de dados",
-                "pesquisa qualitativa"
+                "pesquisa qualitativa",
+                "metodologia científica"
               ],
               "exigidas": [
                 "análise de dados",
-                "pesquisa qualitativa"
+                "pesquisa qualitativa",
+                "metodologia científica"
               ]
             },
             "graduacao": {
@@ -1432,12 +1611,17 @@
                 "comunicação social",
                 "sociologia",
                 "ciência política",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1450,7 +1634,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1458,27 +1642,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "pesquisa qualitativa"
+                "pesquisa qualitativa",
+                "metodologia científica"
               ],
               "exigidas": [
                 "análise de dados",
-                "pesquisa qualitativa"
+                "pesquisa qualitativa",
+                "metodologia científica"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "sociologia",
                 "ciência política",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1491,35 +1683,43 @@
           "score": 0.4,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
               "match": [
-                "análise de dados"
+                "análise de dados",
+                "metodologia científica"
               ],
               "faltando": [
                 "pesquisa qualitativa"
               ],
               "exigidas": [
                 "análise de dados",
-                "pesquisa qualitativa"
+                "pesquisa qualitativa",
+                "metodologia científica"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "sociologia",
                 "ciência política",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1532,7 +1732,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1540,27 +1740,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "pesquisa qualitativa"
+                "pesquisa qualitativa",
+                "metodologia científica"
               ],
               "exigidas": [
                 "análise de dados",
-                "pesquisa qualitativa"
+                "pesquisa qualitativa",
+                "metodologia científica"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "sociologia",
                 "ciência política",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1581,7 +1789,7 @@
       "areas_tematicas": [
         "Comunicação",
         "Educação",
-        "Cidadania"
+        "Cidadania Digital"
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
@@ -1598,13 +1806,17 @@
           "comunicação social",
           "educação",
           "pedagogia",
-          "ciência da computação"
+          "ciência da computação",
+          "sistemas de informação"
         ],
         "ferramentas": [
           "análise de dados",
-          "plataformas digitais"
+          "plataformas digitais",
+          "metodologia de ensino"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -1623,14 +1835,17 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "análise de dados"
+              ],
               "faltando": [
-                "análise de dados",
-                "plataformas digitais"
+                "plataformas digitais",
+                "metodologia de ensino"
               ],
               "exigidas": [
                 "análise de dados",
-                "plataformas digitais"
+                "plataformas digitais",
+                "metodologia de ensino"
               ]
             },
             "graduacao": {
@@ -1639,12 +1854,17 @@
                 "comunicação social",
                 "educação",
                 "pedagogia",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1657,7 +1877,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1665,27 +1885,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "plataformas digitais"
+                "plataformas digitais",
+                "metodologia de ensino"
               ],
               "exigidas": [
                 "análise de dados",
-                "plataformas digitais"
+                "plataformas digitais",
+                "metodologia de ensino"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "educação",
                 "pedagogia",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1695,10 +1923,10 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.4,
+          "score": 0.35,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1706,27 +1934,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "plataformas digitais"
+                "plataformas digitais",
+                "metodologia de ensino"
               ],
               "exigidas": [
                 "análise de dados",
-                "plataformas digitais"
+                "plataformas digitais",
+                "metodologia de ensino"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "educação",
                 "pedagogia",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1739,7 +1975,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1747,27 +1983,35 @@
                 "análise de dados"
               ],
               "faltando": [
-                "plataformas digitais"
+                "plataformas digitais",
+                "metodologia de ensino"
               ],
               "exigidas": [
                 "análise de dados",
-                "plataformas digitais"
+                "plataformas digitais",
+                "metodologia de ensino"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
                 "educação",
                 "pedagogia",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1787,8 +2031,8 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Comunicação",
-        "Cidadania",
-        "Sociedade Digital"
+        "Cidadania Digital",
+        "Tecnologia"
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
@@ -1803,15 +2047,18 @@
       "requisitos": {
         "graduacao": [
           "comunicação social",
-          "sociologia",
-          "ciência política",
-          "ciência da computação"
+          "ciência da computação",
+          "sistemas de informação",
+          "ciências sociais"
         ],
         "ferramentas": [
           "análise de dados",
-          "algoritmos"
+          "algoritmos",
+          "plataformas digitais"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -1830,28 +2077,35 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "análise de dados"
+              ],
               "faltando": [
-                "análise de dados",
-                "algoritmos"
+                "algoritmos",
+                "plataformas digitais"
               ],
               "exigidas": [
                 "análise de dados",
-                "algoritmos"
+                "algoritmos",
+                "plataformas digitais"
               ]
             },
             "graduacao": {
               "match": [],
               "exigidas": [
                 "comunicação social",
-                "sociologia",
-                "ciência política",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação",
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1861,38 +2115,45 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.35,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
               "match": [
-                "análise de dados"
+                "análise de dados",
+                "algoritmos"
               ],
               "faltando": [
-                "algoritmos"
+                "plataformas digitais"
               ],
               "exigidas": [
                 "análise de dados",
-                "algoritmos"
+                "algoritmos",
+                "plataformas digitais"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
-                "sociologia",
-                "ciência política",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação",
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1905,35 +2166,42 @@
           "score": 0.4,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
               "match": [
-                "análise de dados"
+                "análise de dados",
+                "algoritmos"
               ],
               "faltando": [
-                "algoritmos"
+                "plataformas digitais"
               ],
               "exigidas": [
                 "análise de dados",
-                "algoritmos"
+                "algoritmos",
+                "plataformas digitais"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
-                "sociologia",
-                "ciência política",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação",
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1946,7 +2214,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1954,27 +2222,34 @@
                 "análise de dados"
               ],
               "faltando": [
-                "algoritmos"
+                "algoritmos",
+                "plataformas digitais"
               ],
               "exigidas": [
                 "análise de dados",
-                "algoritmos"
+                "algoritmos",
+                "plataformas digitais"
               ]
             },
             "graduacao": {
               "match": [
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação"
               ],
               "exigidas": [
                 "comunicação social",
-                "sociologia",
-                "ciência política",
-                "ciência da computação"
+                "ciência da computação",
+                "sistemas de informação",
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -1994,8 +2269,8 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Comunicação",
-        "Desenvolvimento",
-        "Disseminação"
+        "Disseminação",
+        "Desenvolvimento"
       ],
       "data_inicio": "2026-08-03",
       "data_fim": "2026-08-18",
@@ -2010,15 +2285,19 @@
       "requisitos": {
         "graduacao": [
           "comunicação social",
-          "relações públicas",
           "jornalismo",
-          "economia"
+          "relações públicas",
+          "economia",
+          "administração"
         ],
         "ferramentas": [
           "estratégia de comunicação",
+          "marketing digital",
           "gestão de projetos"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 5,
         "mestrado": false,
         "doutorado": false,
@@ -2030,7 +2309,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.4,
+          "score": 0.45,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2041,27 +2320,35 @@
                 "gestão de projetos"
               ],
               "faltando": [
-                "estratégia de comunicação"
+                "estratégia de comunicação",
+                "marketing digital"
               ],
               "exigidas": [
                 "estratégia de comunicação",
+                "marketing digital",
                 "gestão de projetos"
               ]
             },
             "graduacao": {
               "match": [
-                "economia"
+                "economia",
+                "administração"
               ],
               "exigidas": [
                 "comunicação social",
-                "relações públicas",
                 "jornalismo",
-                "economia"
+                "relações públicas",
+                "economia",
+                "administração"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 93500.0,
@@ -2081,10 +2368,12 @@
               "match": [],
               "faltando": [
                 "estratégia de comunicação",
+                "marketing digital",
                 "gestão de projetos"
               ],
               "exigidas": [
                 "estratégia de comunicação",
+                "marketing digital",
                 "gestão de projetos"
               ]
             },
@@ -2092,14 +2381,19 @@
               "match": [],
               "exigidas": [
                 "comunicação social",
-                "relações públicas",
                 "jornalismo",
-                "economia"
+                "relações públicas",
+                "economia",
+                "administração"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 93500.0,
@@ -2109,7 +2403,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2119,10 +2413,12 @@
               "match": [],
               "faltando": [
                 "estratégia de comunicação",
+                "marketing digital",
                 "gestão de projetos"
               ],
               "exigidas": [
                 "estratégia de comunicação",
+                "marketing digital",
                 "gestão de projetos"
               ]
             },
@@ -2132,14 +2428,19 @@
               ],
               "exigidas": [
                 "comunicação social",
-                "relações públicas",
                 "jornalismo",
-                "economia"
+                "relações públicas",
+                "economia",
+                "administração"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 93500.0,
@@ -2159,10 +2460,12 @@
               "match": [],
               "faltando": [
                 "estratégia de comunicação",
+                "marketing digital",
                 "gestão de projetos"
               ],
               "exigidas": [
                 "estratégia de comunicação",
+                "marketing digital",
                 "gestão de projetos"
               ]
             },
@@ -2170,14 +2473,19 @@
               "match": [],
               "exigidas": [
                 "comunicação social",
-                "relações públicas",
                 "jornalismo",
-                "economia"
+                "relações públicas",
+                "economia",
+                "administração"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 93500.0,
@@ -2215,15 +2523,19 @@
           "estatística",
           "ciência da computação",
           "sistemas de informação",
-          "administração"
+          "administração",
+          "economia"
         ],
         "ferramentas": [
           "power bi",
           "sql",
           "python",
-          "dax"
+          "análise de dados",
+          "visualização de dados"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -2235,7 +2547,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.4,
+          "score": 0.5,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2245,32 +2557,40 @@
               "match": [
                 "power bi",
                 "sql",
-                "python"
+                "python",
+                "análise de dados"
               ],
               "faltando": [
-                "dax"
+                "visualização de dados"
               ],
               "exigidas": [
                 "power bi",
                 "sql",
                 "python",
-                "dax"
+                "análise de dados",
+                "visualização de dados"
               ]
             },
             "graduacao": {
               "match": [
+                "economia",
                 "administração"
               ],
               "exigidas": [
                 "estatística",
                 "ciência da computação",
                 "sistemas de informação",
-                "administração"
+                "administração",
+                "economia"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2280,7 +2600,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.5,
+          "score": 0.6,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2289,17 +2609,19 @@
             "ferramentas": {
               "match": [
                 "sql",
-                "python"
+                "python",
+                "análise de dados"
               ],
               "faltando": [
                 "power bi",
-                "dax"
+                "visualização de dados"
               ],
               "exigidas": [
                 "power bi",
                 "sql",
                 "python",
-                "dax"
+                "análise de dados",
+                "visualização de dados"
               ]
             },
             "graduacao": {
@@ -2311,12 +2633,17 @@
                 "estatística",
                 "ciência da computação",
                 "sistemas de informação",
-                "administração"
+                "administração",
+                "economia"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2326,7 +2653,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.5,
+          "score": 0.55,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2335,35 +2662,43 @@
             "ferramentas": {
               "match": [
                 "sql",
-                "python"
+                "python",
+                "análise de dados"
               ],
               "faltando": [
                 "power bi",
-                "dax"
+                "visualização de dados"
               ],
               "exigidas": [
                 "power bi",
                 "sql",
                 "python",
-                "dax"
+                "análise de dados",
+                "visualização de dados"
               ]
             },
             "graduacao": {
               "match": [
                 "estatística",
                 "ciência da computação",
-                "sistemas de informação"
+                "sistemas de informação",
+                "economia"
               ],
               "exigidas": [
                 "estatística",
                 "ciência da computação",
                 "sistemas de informação",
-                "administração"
+                "administração",
+                "economia"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2384,14 +2719,16 @@
                 "power bi",
                 "sql",
                 "python",
-                "dax"
+                "análise de dados",
+                "visualização de dados"
               ],
               "faltando": [],
               "exigidas": [
                 "power bi",
                 "sql",
                 "python",
-                "dax"
+                "análise de dados",
+                "visualização de dados"
               ]
             },
             "graduacao": {
@@ -2403,12 +2740,17 @@
                 "estatística",
                 "ciência da computação",
                 "sistemas de informação",
-                "administração"
+                "administração",
+                "economia"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 86800.0,
@@ -2445,14 +2787,17 @@
         "graduacao": [
           "ciência da computação",
           "sistemas de informação",
-          "engenharia da computação"
+          "engenharia da computação",
+          "biblioteconomia"
         ],
         "ferramentas": [
           "cloud computing",
-          "gestão de documentos",
+          "gestão documental",
           "análise de dados"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -2464,22 +2809,23 @@
       },
       "matches": {
         "economista": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "análise de dados"
+              ],
               "faltando": [
                 "cloud computing",
-                "gestão de documentos",
-                "análise de dados"
+                "gestão documental"
               ],
               "exigidas": [
                 "cloud computing",
-                "gestão de documentos",
+                "gestão documental",
                 "análise de dados"
               ]
             },
@@ -2488,12 +2834,17 @@
               "exigidas": [
                 "ciência da computação",
                 "sistemas de informação",
-                "engenharia da computação"
+                "engenharia da computação",
+                "biblioteconomia"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -2503,7 +2854,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.6,
+          "score": 0.5,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2515,11 +2866,11 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de documentos"
+                "gestão documental"
               ],
               "exigidas": [
                 "cloud computing",
-                "gestão de documentos",
+                "gestão documental",
                 "análise de dados"
               ]
             },
@@ -2531,12 +2882,17 @@
               "exigidas": [
                 "ciência da computação",
                 "sistemas de informação",
-                "engenharia da computação"
+                "engenharia da computação",
+                "biblioteconomia"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": 53000.0,
@@ -2546,6 +2902,54 @@
           }
         },
         "pesquisador_computacao": {
+          "score": 0.45,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "cloud computing",
+                "análise de dados"
+              ],
+              "faltando": [
+                "gestão documental"
+              ],
+              "exigidas": [
+                "cloud computing",
+                "gestão documental",
+                "análise de dados"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "ciência da computação",
+                "sistemas de informação"
+              ],
+              "exigidas": [
+                "ciência da computação",
+                "sistemas de informação",
+                "engenharia da computação",
+                "biblioteconomia"
+              ]
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": 53000.0,
+              "minimo_perfil": 40000,
+              "acima_minimo": true
+            }
+          }
+        },
+        "analista_powerbi": {
           "score": 0.4,
           "detalhes": {
             "areas": {
@@ -2558,11 +2962,11 @@
               ],
               "faltando": [
                 "cloud computing",
-                "gestão de documentos"
+                "gestão documental"
               ],
               "exigidas": [
                 "cloud computing",
-                "gestão de documentos",
+                "gestão documental",
                 "análise de dados"
               ]
             },
@@ -2574,55 +2978,17 @@
               "exigidas": [
                 "ciência da computação",
                 "sistemas de informação",
-                "engenharia da computação"
+                "engenharia da computação",
+                "biblioteconomia"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 53000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
               "match": [
-                "análise de dados"
+                "inglês"
               ],
-              "faltando": [
-                "cloud computing",
-                "gestão de documentos"
-              ],
-              "exigidas": [
-                "cloud computing",
-                "gestão de documentos",
-                "análise de dados"
+              "exigidos": [
+                "inglês"
               ]
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação",
-                "sistemas de informação"
-              ],
-              "exigidas": [
-                "ciência da computação",
-                "sistemas de informação",
-                "engenharia da computação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
             },
             "valor": {
               "edital": 53000.0,
@@ -2659,15 +3025,18 @@
         "graduacao": [
           "psicologia",
           "administração",
-          "gestão de recursos humanos"
+          "gestão de pessoas",
+          "serviço social"
         ],
         "ferramentas": [
           "recrutamento",
           "seleção",
           "entrevistas"
         ],
-        "idiomas": [],
-        "anos_experiencia": 3,
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
         "pos_graduacao": [],
@@ -2681,7 +3050,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -2704,12 +3073,17 @@
               "exigidas": [
                 "psicologia",
                 "administração",
-                "gestão de recursos humanos"
+                "gestão de pessoas",
+                "serviço social"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -2743,12 +3117,17 @@
               "exigidas": [
                 "psicologia",
                 "administração",
-                "gestão de recursos humanos"
+                "gestão de pessoas",
+                "serviço social"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -2758,7 +3137,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2782,12 +3161,17 @@
               "exigidas": [
                 "psicologia",
                 "administração",
-                "gestão de recursos humanos"
+                "gestão de pessoas",
+                "serviço social"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -2821,12 +3205,17 @@
               "exigidas": [
                 "psicologia",
                 "administração",
-                "gestão de recursos humanos"
+                "gestão de pessoas",
+                "serviço social"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -2845,9 +3234,9 @@
       "descricao": null,
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Segurança Pública",
+        "Direitos Humanos",
         "Avaliação de Risco",
-        "Políticas Públicas"
+        "Proteção"
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-11",
@@ -2858,19 +3247,22 @@
       "valor_estimado_num": null,
       "status": "Aprovada",
       "data_criacao": "2026-07-29",
-      "perfil_classificado": "economista",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
         "graduacao": [
           "direito",
           "serviço social",
           "psicologia",
-          "administração"
+          "ciências sociais"
         ],
         "ferramentas": [
-          "gestão de políticas públicas",
-          "análise de dados"
+          "análise de dados",
+          "gestão de risco",
+          "políticas públicas"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -2882,37 +3274,44 @@
       },
       "matches": {
         "economista": {
-          "score": 0.4,
+          "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
               "match": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "políticas públicas"
               ],
-              "faltando": [],
+              "faltando": [
+                "gestão de risco"
+              ],
               "exigidas": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "gestão de risco",
+                "políticas públicas"
               ]
             },
             "graduacao": {
               "match": [
-                "administração"
+                "políticas públicas"
               ],
               "exigidas": [
                 "direito",
                 "serviço social",
                 "psicologia",
-                "administração"
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -2933,11 +3332,13 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de políticas públicas"
+                "gestão de risco",
+                "políticas públicas"
               ],
               "exigidas": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "gestão de risco",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -2946,12 +3347,16 @@
                 "direito",
                 "serviço social",
                 "psicologia",
-                "administração"
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -2961,7 +3366,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2972,25 +3377,33 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de políticas públicas"
+                "gestão de risco",
+                "políticas públicas"
               ],
               "exigidas": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "gestão de risco",
+                "políticas públicas"
               ]
             },
             "graduacao": {
-              "match": [],
+              "match": [
+                "ciências sociais"
+              ],
               "exigidas": [
                 "direito",
                 "serviço social",
                 "psicologia",
-                "administração"
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -3011,11 +3424,13 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de políticas públicas"
+                "gestão de risco",
+                "políticas públicas"
               ],
               "exigidas": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "gestão de risco",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -3024,12 +3439,16 @@
                 "direito",
                 "serviço social",
                 "psicologia",
-                "administração"
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -3048,9 +3467,9 @@
       "descricao": null,
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Segurança Pública",
+        "Direitos Humanos",
         "Avaliação de Risco",
-        "Políticas Públicas"
+        "Proteção"
       ],
       "data_inicio": "2026-07-29",
       "data_fim": "2026-08-11",
@@ -3061,19 +3480,22 @@
       "valor_estimado_num": null,
       "status": "Aprovada",
       "data_criacao": "2026-07-29",
-      "perfil_classificado": "economista",
+      "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
         "graduacao": [
           "direito",
           "serviço social",
           "psicologia",
-          "administração"
+          "ciências sociais"
         ],
         "ferramentas": [
-          "gestão de políticas públicas",
-          "análise de dados"
+          "análise de dados",
+          "gestão de risco",
+          "políticas públicas"
         ],
-        "idiomas": [],
+        "idiomas": [
+          "inglês"
+        ],
         "anos_experiencia": 4,
         "mestrado": false,
         "doutorado": false,
@@ -3085,37 +3507,44 @@
       },
       "matches": {
         "economista": {
-          "score": 0.4,
+          "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
               "match": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "políticas públicas"
               ],
-              "faltando": [],
+              "faltando": [
+                "gestão de risco"
+              ],
               "exigidas": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "gestão de risco",
+                "políticas públicas"
               ]
             },
             "graduacao": {
               "match": [
-                "administração"
+                "políticas públicas"
               ],
               "exigidas": [
                 "direito",
                 "serviço social",
                 "psicologia",
-                "administração"
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -3136,11 +3565,13 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de políticas públicas"
+                "gestão de risco",
+                "políticas públicas"
               ],
               "exigidas": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "gestão de risco",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -3149,12 +3580,16 @@
                 "direito",
                 "serviço social",
                 "psicologia",
-                "administração"
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -3164,7 +3599,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": false,
@@ -3175,25 +3610,33 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de políticas públicas"
+                "gestão de risco",
+                "políticas públicas"
               ],
               "exigidas": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "gestão de risco",
+                "políticas públicas"
               ]
             },
             "graduacao": {
-              "match": [],
+              "match": [
+                "ciências sociais"
+              ],
               "exigidas": [
                 "direito",
                 "serviço social",
                 "psicologia",
-                "administração"
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -3214,11 +3657,13 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de políticas públicas"
+                "gestão de risco",
+                "políticas públicas"
               ],
               "exigidas": [
-                "gestão de políticas públicas",
-                "análise de dados"
+                "análise de dados",
+                "gestão de risco",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -3227,12 +3672,16 @@
                 "direito",
                 "serviço social",
                 "psicologia",
-                "administração"
+                "ciências sociais"
               ]
             },
             "idiomas": {
-              "match": [],
-              "exigidos": []
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
             },
             "valor": {
               "edital": null,
@@ -3252,8 +3701,8 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Meio Ambiente",
-        "Clima",
-        "COP30"
+        "COP30",
+        "Grupos Especiais"
       ],
       "data_inicio": "2026-07-28",
       "data_fim": "2026-08-11",
@@ -3267,14 +3716,15 @@
       "perfil_classificado": "pesquisador_computacao",
       "requisitos": {
         "graduacao": [
-          "ciências ambientais",
-          "geografia",
           "relações internacionais",
-          "economia"
+          "ciência política",
+          "economia",
+          "direito"
         ],
         "ferramentas": [
           "análise de dados",
-          "gestão de projetos"
+          "gestão de projetos",
+          "políticas públicas"
         ],
         "idiomas": [
           "inglês"
@@ -3290,7 +3740,7 @@
       },
       "matches": {
         "economista": {
-          "score": 0.4,
+          "score": 0.45,
           "detalhes": {
             "areas": {
               "match": true,
@@ -3299,12 +3749,15 @@
             "ferramentas": {
               "match": [
                 "análise de dados",
+                "políticas públicas"
+              ],
+              "faltando": [
                 "gestão de projetos"
               ],
-              "faltando": [],
               "exigidas": [
                 "análise de dados",
-                "gestão de projetos"
+                "gestão de projetos",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -3312,10 +3765,10 @@
                 "economia"
               ],
               "exigidas": [
-                "ciências ambientais",
-                "geografia",
                 "relações internacionais",
-                "economia"
+                "ciência política",
+                "economia",
+                "direito"
               ]
             },
             "idiomas": {
@@ -3334,10 +3787,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -3345,20 +3798,22 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de projetos"
+                "gestão de projetos",
+                "políticas públicas"
               ],
               "exigidas": [
                 "análise de dados",
-                "gestão de projetos"
+                "gestão de projetos",
+                "políticas públicas"
               ]
             },
             "graduacao": {
               "match": [],
               "exigidas": [
-                "ciências ambientais",
-                "geografia",
                 "relações internacionais",
-                "economia"
+                "ciência política",
+                "economia",
+                "direito"
               ]
             },
             "idiomas": {
@@ -3377,33 +3832,35 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.5,
+          "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
               "match": [
-                "análise de dados",
-                "gestão de projetos"
+                "análise de dados"
               ],
-              "faltando": [],
+              "faltando": [
+                "gestão de projetos",
+                "políticas públicas"
+              ],
               "exigidas": [
                 "análise de dados",
-                "gestão de projetos"
+                "gestão de projetos",
+                "políticas públicas"
               ]
             },
             "graduacao": {
               "match": [
-                "geografia",
                 "economia"
               ],
               "exigidas": [
-                "ciências ambientais",
-                "geografia",
                 "relações internacionais",
-                "economia"
+                "ciência política",
+                "economia",
+                "direito"
               ]
             },
             "idiomas": {
@@ -3433,20 +3890,22 @@
                 "análise de dados"
               ],
               "faltando": [
-                "gestão de projetos"
+                "gestão de projetos",
+                "políticas públicas"
               ],
               "exigidas": [
                 "análise de dados",
-                "gestão de projetos"
+                "gestão de projetos",
+                "políticas públicas"
               ]
             },
             "graduacao": {
               "match": [],
               "exigidas": [
-                "ciências ambientais",
-                "geografia",
                 "relações internacionais",
-                "economia"
+                "ciência política",
+                "economia",
+                "direito"
               ]
             },
             "idiomas": {
@@ -3475,8 +3934,8 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Finanças Climáticas",
-        "Meio Ambiente",
-        "COP30"
+        "COP30",
+        "Economia"
       ],
       "data_inicio": "2026-07-27",
       "data_fim": "2026-08-06",
@@ -3496,9 +3955,9 @@
           "ciências ambientais"
         ],
         "ferramentas": [
-          "análise financeira",
-          "modelagem econômica",
-          "análise de dados"
+          "análise de dados",
+          "modelagem financeira",
+          "políticas públicas"
         ],
         "idiomas": [
           "inglês"
@@ -3522,15 +3981,16 @@
             },
             "ferramentas": {
               "match": [
-                "análise financeira",
-                "modelagem econômica",
-                "análise de dados"
+                "análise de dados",
+                "políticas públicas"
               ],
-              "faltando": [],
+              "faltando": [
+                "modelagem financeira"
+              ],
               "exigidas": [
-                "análise financeira",
-                "modelagem econômica",
-                "análise de dados"
+                "análise de dados",
+                "modelagem financeira",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -3561,7 +4021,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": false,
@@ -3572,13 +4032,13 @@
                 "análise de dados"
               ],
               "faltando": [
-                "análise financeira",
-                "modelagem econômica"
+                "modelagem financeira",
+                "políticas públicas"
               ],
               "exigidas": [
-                "análise financeira",
-                "modelagem econômica",
-                "análise de dados"
+                "análise de dados",
+                "modelagem financeira",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -3609,7 +4069,7 @@
           "score": 0.3,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -3617,13 +4077,13 @@
                 "análise de dados"
               ],
               "faltando": [
-                "análise financeira",
-                "modelagem econômica"
+                "modelagem financeira",
+                "políticas públicas"
               ],
               "exigidas": [
-                "análise financeira",
-                "modelagem econômica",
-                "análise de dados"
+                "análise de dados",
+                "modelagem financeira",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -3664,13 +4124,13 @@
                 "análise de dados"
               ],
               "faltando": [
-                "análise financeira",
-                "modelagem econômica"
+                "modelagem financeira",
+                "políticas públicas"
               ],
               "exigidas": [
-                "análise financeira",
-                "modelagem econômica",
-                "análise de dados"
+                "análise de dados",
+                "modelagem financeira",
+                "políticas públicas"
               ]
             },
             "graduacao": {
@@ -3706,13 +4166,29 @@
       "perfil": "economista",
       "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
       "total_editais_analisados": 17,
-      "total_editais_compativeis": 16,
+      "total_editais_compativeis": 17,
       "valor_total_oportunidades": 498300.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek v4 Pro)",
       "curto_prazo": {
         "gaps": [
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
+            "nome": "sistemas de informação",
+            "editais": 8,
+            "impacto_financeiro": 404800.0,
+            "cursos": [
+              {
+                "curso": "Aprenda sistemas de informação (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "comunicação social",
             "editais": 6,
             "impacto_financeiro": 358500.0,
@@ -3728,13 +4204,13 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "ciências ambientais",
-            "editais": 3,
+            "tipo": "ferramenta",
+            "nome": "psicologia",
+            "editais": 4,
             "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "Aprenda ciências ambientais (busque na Udemy/Coursera)",
+                "curso": "Aprenda psicologia (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -3744,89 +4220,25 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "sistemas de informação",
-            "editais": 3,
-            "impacto_financeiro": 139800.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
-            "nome": "jornalismo",
-            "editais": 3,
-            "impacto_financeiro": 199500.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
-            "nome": "psicologia",
-            "editais": 3,
+            "tipo": "ferramenta",
+            "nome": "serviço social",
+            "editais": 4,
             "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "SIC e Acesso à Informação — ENAP",
-                "custo": "Grátis",
-                "carga": "16h",
+                "curso": "Aprenda serviço social (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.enap.gov.br/pt/cursos"
+                "link": "https://www.udemy.com/"
               }
             ]
           },
           {
             "tipo": "ferramenta",
-            "nome": "redes sociais",
-            "editais": 2,
-            "impacto_financeiro": 106000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de projetos",
-            "editais": 2,
-            "impacto_financeiro": 93500.0,
-            "cursos": [
-              {
-                "curso": "Gestão de Projetos — ENAP / FGV Online",
-                "custo": "Grátis",
-                "carga": "30h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.enap.gov.br/pt/cursos"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de políticas públicas",
-            "editais": 2,
+            "nome": "políticas públicas",
+            "editais": 4,
             "impacto_financeiro": null,
             "cursos": [
               {
@@ -3848,23 +4260,87 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "geografia",
-            "editais": 2,
-            "impacto_financeiro": null,
+            "tipo": "ferramenta",
+            "nome": "marketing digital",
+            "editais": 3,
+            "impacto_financeiro": 199500.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Aprenda marketing digital (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.udemy.com/"
               }
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
+            "nome": "jornalismo",
+            "editais": 3,
+            "impacto_financeiro": 199500.0,
+            "cursos": [
+              {
+                "curso": "Aprenda jornalismo (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ciências sociais",
+            "editais": 3,
+            "impacto_financeiro": 53000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "direito",
+            "editais": 3,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Direito Administrativo para Concursos — ENAP",
+                "custo": "Grátis",
+                "carga": "40h",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.enap.gov.br/pt/cursos"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ciências ambientais",
+            "editais": 2,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Aprenda ciências ambientais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "estatística",
             "editais": 2,
             "impacto_financeiro": 86800.0,
@@ -3888,7 +4364,39 @@
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
+            "nome": "pesquisa qualitativa",
+            "editais": 2,
+            "impacto_financeiro": 53000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda pesquisa qualitativa (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "redes sociais",
+            "editais": 2,
+            "impacto_financeiro": 106000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda redes sociais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "publicidade",
             "editais": 2,
             "impacto_financeiro": 106000.0,
@@ -3904,45 +4412,13 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "sociologia",
+            "tipo": "ferramenta",
+            "nome": "ciência política",
             "editais": 2,
-            "impacto_financeiro": 106000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda sociologia (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "modelagem climática",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Aprenda modelagem climática (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "pesquisa qualitativa",
-            "editais": 1,
             "impacto_financeiro": 53000.0,
             "cursos": [
               {
-                "curso": "Aprenda pesquisa qualitativa (busque na Udemy/Coursera)",
+                "curso": "Aprenda ciência política (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -3954,172 +4430,77 @@
           {
             "tipo": "ferramenta",
             "nome": "plataformas digitais",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
+            "editais": 2,
+            "impacto_financeiro": 106000.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Aprenda plataformas digitais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.udemy.com/"
               }
             ]
           },
           {
             "tipo": "ferramenta",
-            "nome": "algoritmos",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "estratégia de comunicação",
-            "editais": 1,
+            "nome": "gestão de projetos",
+            "editais": 2,
             "impacto_financeiro": 93500.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Gestão de Projetos — ENAP / FGV Online",
+                "custo": "Grátis",
+                "carga": "30h",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.enap.gov.br/pt/cursos"
               }
             ]
           },
           {
             "tipo": "ferramenta",
-            "nome": "dax",
-            "editais": 1,
-            "impacto_financeiro": 86800.0,
-            "cursos": [
-              {
-                "curso": "Aprenda dax (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "cloud computing",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda cloud computing (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de documentos",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda gestão de documentos (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "recrutamento",
-            "editais": 1,
+            "nome": "gestão de risco",
+            "editais": 2,
             "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "seleção",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Aprenda seleção (busque na Udemy/Coursera)",
+                "curso": "Aprenda gestão de risco (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
                 "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "entrevistas",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
               }
             ]
           }
         ],
         "plano": [
           {
-            "gap": "gestão de projetos",
-            "curso": "Gestão de Projetos",
-            "custo": "gratuito",
+            "gap": "políticas públicas",
+            "curso": "Curso de Políticas Públicas (ENAP)",
+            "custo": "Gratuito",
+            "carga": "20-40h",
+            "nivel": "Introdutório",
+            "link": "https://www.escolavirtual.gov.br/catalogo?search=pol%C3%ADticas%20p%C3%BAblicas"
+          },
+          {
+            "gap": "sistemas de informação",
+            "curso": "Aprenda sistemas de informação (busque na Udemy/Coursera)",
+            "custo": "Variável",
+            "carga": "Variável",
+            "nivel": "Curso",
+            "link": "https://www.udemy.com/",
+            "editais_com_gap": 8
+          },
+          {
+            "gap": "marketing digital",
+            "curso": "Fundamentos do Marketing Digital (Google)",
+            "custo": "Gratuito",
             "carga": "40 horas",
-            "nivel": "básico",
-            "link": "https://www.escolavirtual.gov.br/"
-          },
-          {
-            "gap": "gestão de políticas públicas",
-            "curso": "Gestão de Políticas Públicas",
-            "custo": "gratuito",
-            "carga": "60 horas",
-            "nivel": "básico",
-            "link": "https://www.escolavirtual.gov.br/"
-          },
-          {
-            "gap": "ciências ambientais",
-            "curso": "Environmental Science",
-            "custo": "gratuito (com opção de certificado pago)",
-            "carga": "30 horas",
-            "nivel": "introdutório",
-            "link": "https://www.coursera.org/learn/environmental-science"
+            "nivel": "Iniciante",
+            "link": "https://learndigital.withgoogle.com/digitalunlocked/course/digital-marketing?hl=pt-br"
           }
         ]
       },
@@ -4128,8 +4509,8 @@
           {
             "tipo": "ferramenta",
             "nome": "análise de dados",
-            "editais": 11,
-            "impacto_financeiro": 318000.0,
+            "editais": 14,
+            "impacto_financeiro": 404800.0,
             "cursos": [
               {
                 "curso": "Google Data Analytics Certificate — Coursera",
@@ -4150,7 +4531,7 @@
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "ciência da computação",
             "editais": 8,
             "impacto_financeiro": 404800.0,
@@ -4177,18 +4558,18 @@
         "plano": [
           {
             "gap": "análise de dados",
-            "curso": "Google Data Analytics Professional Certificate",
-            "custo": "gratuito para teste; certificado mediante assinatura",
-            "carga": "aproximadamente 6 meses (10h/semana)",
-            "nivel": "iniciante",
-            "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            "curso": "IBM Data Analyst Professional Certificate (Coursera)",
+            "custo": "Assinatura Coursera (~R$150/mês)",
+            "carga": "9 meses (3-4h/semana)",
+            "nivel": "Intermediário",
+            "link": "https://www.coursera.org/professional-certificates/ibm-data-analyst"
           },
           {
             "gap": "ciência da computação",
-            "curso": "CS50's Introduction to Computer Science",
-            "custo": "gratuito (certificado pago)",
-            "carga": "12 semanas (6-18 horas por semana)",
-            "nivel": "introdutório",
+            "curso": "CS50: Introduction to Computer Science (Harvard/edX)",
+            "custo": "Grátis (auditoria) / Certificado ~US$90",
+            "carga": "12 semanas, 6–18h/semana",
+            "nivel": "Iniciante a Intermediário",
             "link": "https://www.edx.org/course/cs50s-introduction-to-computer-science"
           }
         ]
@@ -4198,7 +4579,7 @@
           {
             "tipo": "formacao",
             "nome": "Mestrado Stricto Sensu",
-            "editais": 2,
+            "editais": 3,
             "impacto_financeiro": null,
             "cursos": [
               {
@@ -4218,16 +4599,16 @@
                 "link": "https://www.ufba.br/pos-graduacao"
               }
             ],
-            "nota": "Exigido ou pontuável em 2 editais (12% do total)"
+            "nota": "Exigido ou pontuável em 3 editais (18% do total)"
           }
         ],
         "plano": [
           {
             "gap": "Mestrado Stricto Sensu",
-            "curso": "Mestrado em Economia",
-            "custo": "gratuito (universidade pública)",
-            "carga": "2 anos",
-            "nivel": "pós-graduação",
+            "curso": "Mestrado Acadêmico em Economia (UFBA)",
+            "custo": "Gratuito (público)",
+            "carga": "24 meses",
+            "nivel": "Pós-graduação Stricto Sensu",
             "link": "https://ppgeconomia.ufba.br/"
           }
         ]
@@ -4243,26 +4624,10 @@
       "curto_prazo": {
         "gaps": [
           {
-            "tipo": "graduacao",
-            "nome": "comunicação social",
-            "editais": 6,
-            "impacto_financeiro": 358500.0,
-            "cursos": [
-              {
-                "curso": "Aprenda comunicação social (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "economia",
-            "editais": 5,
-            "impacto_financeiro": 93500.0,
+            "editais": 6,
+            "impacto_financeiro": 180300.0,
             "cursos": [
               {
                 "curso": "Economia do Setor Público — ENAP",
@@ -4283,13 +4648,13 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "ciências ambientais",
-            "editais": 3,
-            "impacto_financeiro": null,
+            "tipo": "ferramenta",
+            "nome": "comunicação social",
+            "editais": 6,
+            "impacto_financeiro": 358500.0,
             "cursos": [
               {
-                "curso": "Aprenda ciências ambientais (busque na Udemy/Coursera)",
+                "curso": "Aprenda comunicação social (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -4299,57 +4664,9 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "jornalismo",
-            "editais": 3,
-            "impacto_financeiro": 199500.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
             "tipo": "ferramenta",
-            "nome": "redes sociais",
-            "editais": 2,
-            "impacto_financeiro": 106000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de projetos",
-            "editais": 2,
-            "impacto_financeiro": 93500.0,
-            "cursos": [
-              {
-                "curso": "Gestão de Projetos — ENAP / FGV Online",
-                "custo": "Grátis",
-                "carga": "30h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.enap.gov.br/pt/cursos"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de políticas públicas",
-            "editais": 2,
+            "nome": "políticas públicas",
+            "editais": 4,
             "impacto_financeiro": null,
             "cursos": [
               {
@@ -4371,23 +4688,87 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "geografia",
-            "editais": 2,
-            "impacto_financeiro": null,
+            "tipo": "ferramenta",
+            "nome": "marketing digital",
+            "editais": 3,
+            "impacto_financeiro": 199500.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Aprenda marketing digital (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.udemy.com/"
               }
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
+            "nome": "jornalismo",
+            "editais": 3,
+            "impacto_financeiro": 199500.0,
+            "cursos": [
+              {
+                "curso": "Aprenda jornalismo (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ciências sociais",
+            "editais": 3,
+            "impacto_financeiro": 53000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "direito",
+            "editais": 3,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Direito Administrativo para Concursos — ENAP",
+                "custo": "Grátis",
+                "carga": "40h",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.enap.gov.br/pt/cursos"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ciências ambientais",
+            "editais": 2,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Aprenda ciências ambientais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "estatística",
             "editais": 2,
             "impacto_financeiro": 86800.0,
@@ -4411,7 +4792,23 @@
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
+            "nome": "redes sociais",
+            "editais": 2,
+            "impacto_financeiro": 106000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda redes sociais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "publicidade",
             "editais": 2,
             "impacto_financeiro": 106000.0,
@@ -4427,26 +4824,10 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "sociologia",
-            "editais": 2,
-            "impacto_financeiro": 106000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda sociologia (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "ciência política",
             "editais": 2,
-            "impacto_financeiro": 106000.0,
+            "impacto_financeiro": 53000.0,
             "cursos": [
               {
                 "curso": "Aprenda ciência política (busque na Udemy/Coursera)",
@@ -4460,213 +4841,133 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "modelagem climática",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Aprenda modelagem climática (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "pesquisa qualitativa",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda pesquisa qualitativa (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
             "nome": "plataformas digitais",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
+            "editais": 2,
+            "impacto_financeiro": 106000.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Aprenda plataformas digitais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.udemy.com/"
               }
             ]
           },
           {
             "tipo": "ferramenta",
-            "nome": "algoritmos",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "estratégia de comunicação",
-            "editais": 1,
+            "nome": "gestão de projetos",
+            "editais": 2,
             "impacto_financeiro": 93500.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Gestão de Projetos — ENAP / FGV Online",
+                "custo": "Grátis",
+                "carga": "30h",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.enap.gov.br/pt/cursos"
               }
             ]
           },
           {
             "tipo": "ferramenta",
-            "nome": "power bi",
-            "editais": 1,
-            "impacto_financeiro": 86800.0,
+            "nome": "gestão de risco",
+            "editais": 2,
+            "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "Power BI Completo — Udemy",
-                "custo": "R$ 30",
-                "carga": "20h",
+                "curso": "Aprenda gestão de risco (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.udemy.com/topic/power-bi/"
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "serviço social",
+            "editais": 2,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Aprenda serviço social (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "psicologia",
+            "editais": 2,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Aprenda psicologia (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "gestão pública",
+            "editais": 1,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Gestão Pública — ENAP",
+                "custo": "Grátis",
+                "carga": "40h",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.enap.gov.br/pt/cursos"
               },
               {
-                "curso": "Microsoft PL-300 — Power BI Data Analyst",
-                "custo": "R$ 300 (prova)",
-                "carga": "40h",
-                "nivel": "Certificação",
-                "prazo": "curto",
-                "link": "https://learn.microsoft.com/pt-br/certifications/power-bi-data-analyst-associate/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "dax",
-            "editais": 1,
-            "impacto_financeiro": 86800.0,
-            "cursos": [
-              {
-                "curso": "Aprenda dax (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "cloud computing",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda cloud computing (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de documentos",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda gestão de documentos (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "análise financeira",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "modelagem econômica",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Aprenda modelagem econômica (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
+                "curso": "Especialização em Políticas Públicas e Gestão Governamental — UFBA",
+                "custo": "Grátis",
+                "carga": "12 meses",
+                "nivel": "Pós-graduação",
+                "prazo": "medio",
+                "link": "https://www.ufba.br/pos-graduacao"
               }
             ]
           }
         ],
         "plano": [
           {
-            "gap": "gestão de projetos",
-            "curso": "Google Project Management: Professional Certificate",
-            "custo": "Aproximadamente R$ 250/mês (assinatura Coursera)",
-            "carga": "6 meses (10 horas/semana)",
-            "nivel": "Iniciante",
-            "link": "https://www.coursera.org/professional-certificates/google-project-management"
-          },
-          {
-            "gap": "comunicação social",
-            "curso": "Introduction to Communication Science",
-            "custo": "Gratuito (certificado pago ~R$ 150)",
-            "carga": "9 horas (auto-ritmo)",
-            "nivel": "Iniciante",
-            "link": "https://www.coursera.org/learn/communication"
-          },
-          {
             "gap": "economia",
-            "curso": "Principles of Economics (HarvardX)",
-            "custo": "Gratuito (certificado ~R$ 300)",
-            "carga": "12 semanas (3-5 horas/semana)",
+            "curso": "Microeconomics Principles",
+            "custo": "Grátis (auditoria) ou certificado pago",
+            "carga": "40 horas",
             "nivel": "Iniciante",
-            "link": "https://www.edx.org/course/principles-of-economics"
+            "link": "https://www.coursera.org/learn/microeconomics"
+          },
+          {
+            "gap": "políticas públicas",
+            "curso": "Introdução às Políticas Públicas",
+            "custo": "Gratuito",
+            "carga": "20 horas",
+            "nivel": "Iniciante",
+            "link": "https://www.escolavirtual.gov.br/curso/157"
+          },
+          {
+            "gap": "direito",
+            "curso": "Noções de Direito Administrativo",
+            "custo": "Gratuito",
+            "carga": "30 horas",
+            "nivel": "Iniciante",
+            "link": "https://www.escolavirtual.gov.br/curso/233"
           }
         ]
       },
@@ -4675,8 +4976,8 @@
           {
             "tipo": "ferramenta",
             "nome": "análise de dados",
-            "editais": 11,
-            "impacto_financeiro": 318000.0,
+            "editais": 13,
+            "impacto_financeiro": 404800.0,
             "cursos": [
               {
                 "curso": "Google Data Analytics Certificate — Coursera",
@@ -4697,10 +4998,10 @@
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "administração",
             "editais": 5,
-            "impacto_financeiro": 86800.0,
+            "impacto_financeiro": 180300.0,
             "cursos": [
               {
                 "curso": "MBA em Administração Pública — FGV (EAD)",
@@ -4717,18 +5018,19 @@
           {
             "gap": "análise de dados",
             "curso": "Google Data Analytics Professional Certificate",
-            "custo": "Aproximadamente R$ 250/mês (assinatura Coursera)",
-            "carga": "6 meses (10 horas/semana)",
-            "nivel": "Iniciante a Intermediário",
+            "custo": "Assinatura Coursera (~R$119/mês)",
+            "carga": "6 meses (10h/semana)",
+            "nivel": "Intermediário",
             "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
           },
           {
             "gap": "administração",
-            "curso": "Wharton Business Foundations Specialization",
-            "custo": "Aproximadamente R$ 250/mês (assinatura Coursera)",
-            "carga": "6 meses (3-5 horas/semana)",
-            "nivel": "Iniciante",
-            "link": "https://www.coursera.org/specializations/wharton-business-foundations"
+            "curso": "MBA em Administração Pública — FGV (EAD)",
+            "custo": "~R$ 500/mês",
+            "carga": "18 meses",
+            "nivel": "Pós-graduação",
+            "link": "https://educacao-executiva.fgv.br/",
+            "editais_com_gap": 5
           }
         ]
       },
@@ -4777,13 +5079,13 @@
       "perfil": "pesquisador_computacao",
       "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
       "total_editais_analisados": 17,
-      "total_editais_compativeis": 15,
+      "total_editais_compativeis": 17,
       "valor_total_oportunidades": 498300.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek v4 Pro)",
       "curto_prazo": {
         "gaps": [
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "comunicação social",
             "editais": 6,
             "impacto_financeiro": 358500.0,
@@ -4799,13 +5101,13 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "ciências ambientais",
-            "editais": 3,
+            "tipo": "ferramenta",
+            "nome": "psicologia",
+            "editais": 4,
             "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "Aprenda ciências ambientais (busque na Udemy/Coursera)",
+                "curso": "Aprenda psicologia (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -4815,57 +5117,25 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "jornalismo",
-            "editais": 3,
-            "impacto_financeiro": 199500.0,
+            "tipo": "ferramenta",
+            "nome": "serviço social",
+            "editais": 4,
+            "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Aprenda serviço social (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.udemy.com/"
               }
             ]
           },
           {
             "tipo": "ferramenta",
-            "nome": "redes sociais",
-            "editais": 2,
-            "impacto_financeiro": 106000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de projetos",
-            "editais": 2,
-            "impacto_financeiro": 93500.0,
-            "cursos": [
-              {
-                "curso": "Gestão de Projetos — ENAP / FGV Online",
-                "custo": "Grátis",
-                "carga": "30h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.enap.gov.br/pt/cursos"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de políticas públicas",
-            "editais": 2,
+            "nome": "políticas públicas",
+            "editais": 4,
             "impacto_financeiro": null,
             "cursos": [
               {
@@ -4887,7 +5157,119 @@
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
+            "nome": "marketing digital",
+            "editais": 3,
+            "impacto_financeiro": 199500.0,
+            "cursos": [
+              {
+                "curso": "Aprenda marketing digital (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "jornalismo",
+            "editais": 3,
+            "impacto_financeiro": 199500.0,
+            "cursos": [
+              {
+                "curso": "Aprenda jornalismo (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ciências sociais",
+            "editais": 3,
+            "impacto_financeiro": 53000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "direito",
+            "editais": 3,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Direito Administrativo para Concursos — ENAP",
+                "custo": "Grátis",
+                "carga": "40h",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.enap.gov.br/pt/cursos"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ciências ambientais",
+            "editais": 2,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Aprenda ciências ambientais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "pesquisa qualitativa",
+            "editais": 2,
+            "impacto_financeiro": 53000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda pesquisa qualitativa (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "redes sociais",
+            "editais": 2,
+            "impacto_financeiro": 106000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda redes sociais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "publicidade",
             "editais": 2,
             "impacto_financeiro": 106000.0,
@@ -4903,26 +5285,10 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "sociologia",
-            "editais": 2,
-            "impacto_financeiro": 106000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda sociologia (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "ciência política",
             "editais": 2,
-            "impacto_financeiro": 106000.0,
+            "impacto_financeiro": 53000.0,
             "cursos": [
               {
                 "curso": "Aprenda ciência política (busque na Udemy/Coursera)",
@@ -4935,50 +5301,74 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "direito",
+            "tipo": "ferramenta",
+            "nome": "plataformas digitais",
+            "editais": 2,
+            "impacto_financeiro": 106000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda plataformas digitais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "gestão de projetos",
+            "editais": 2,
+            "impacto_financeiro": 93500.0,
+            "cursos": [
+              {
+                "curso": "Gestão de Projetos — ENAP / FGV Online",
+                "custo": "Grátis",
+                "carga": "30h",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.enap.gov.br/pt/cursos"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "gestão de risco",
             "editais": 2,
             "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "Direito Administrativo para Concursos — ENAP",
+                "curso": "Aprenda gestão de risco (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "gestão pública",
+            "editais": 1,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Gestão Pública — ENAP",
                 "custo": "Grátis",
                 "carga": "40h",
                 "nivel": "Curso",
                 "prazo": "curto",
                 "link": "https://www.enap.gov.br/pt/cursos"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
-            "nome": "serviço social",
-            "editais": 2,
-            "impacto_financeiro": null,
-            "cursos": [
+              },
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
-            "nome": "psicologia",
-            "editais": 2,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "SIC e Acesso à Informação — ENAP",
+                "curso": "Especialização em Políticas Públicas e Gestão Governamental — UFBA",
                 "custo": "Grátis",
-                "carga": "16h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.enap.gov.br/pt/cursos"
+                "carga": "12 meses",
+                "nivel": "Pós-graduação",
+                "prazo": "medio",
+                "link": "https://www.ufba.br/pos-graduacao"
               }
             ]
           },
@@ -4997,177 +5387,24 @@
                 "link": "https://www.udemy.com/"
               }
             ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "pesquisa qualitativa",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda pesquisa qualitativa (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "plataformas digitais",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "algoritmos",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "estratégia de comunicação",
-            "editais": 1,
-            "impacto_financeiro": 93500.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "dax",
-            "editais": 1,
-            "impacto_financeiro": 86800.0,
-            "cursos": [
-              {
-                "curso": "Aprenda dax (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "cloud computing",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda cloud computing (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de documentos",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda gestão de documentos (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "análise financeira",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "modelagem econômica",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Aprenda modelagem econômica (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
           }
         ],
         "plano": [
           {
             "gap": "comunicação social",
-            "curso": "Improving Communication Skills (Wharton/Coursera)",
-            "custo": "Gratuito para acesso; certificado pago (aprox. $49)",
-            "carga": "10 horas",
-            "nivel": "Iniciante",
-            "link": "https://www.coursera.org/learn/wharton-communication-skills"
+            "curso": "Comunicação Científica: Divulgação de Pesquisa",
+            "custo": "gratuito",
+            "carga": "20 horas",
+            "nivel": "iniciante",
+            "link": "https://www.coursera.org/search?query=science%20communication"
           },
           {
-            "gap": "gestão de projetos",
-            "curso": "Gestão de Projetos — ENAP / FGV Online",
-            "custo": "Grátis",
-            "carga": "30h",
-            "nivel": "Curso",
-            "link": "https://www.enap.gov.br/pt/cursos",
-            "editais_com_gap": 2
-          },
-          {
-            "gap": "redes sociais",
-            "curso": "Introduction to Social Media Marketing (Meta/Coursera)",
-            "custo": "Gratuito para acesso; certificado pago (aprox. $49)",
-            "carga": "14 horas",
-            "nivel": "Iniciante",
-            "link": "https://www.coursera.org/learn/social-media-marketing-introduction"
+            "gap": "marketing digital",
+            "curso": "Marketing Digital: Estratégias para Divulgação Científica",
+            "custo": "gratuito (com opção de certificado pago)",
+            "carga": "25 horas",
+            "nivel": "iniciante",
+            "link": "https://www.udemy.com/topic/digital-marketing/"
           }
         ]
       },
@@ -5176,8 +5413,8 @@
           {
             "tipo": "ferramenta",
             "nome": "análise de dados",
-            "editais": 11,
-            "impacto_financeiro": 318000.0,
+            "editais": 14,
+            "impacto_financeiro": 404800.0,
             "cursos": [
               {
                 "curso": "Google Data Analytics Certificate — Coursera",
@@ -5198,10 +5435,10 @@
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "administração",
-            "editais": 5,
-            "impacto_financeiro": 86800.0,
+            "editais": 6,
+            "impacto_financeiro": 180300.0,
             "cursos": [
               {
                 "curso": "MBA em Administração Pública — FGV (EAD)",
@@ -5217,19 +5454,19 @@
         "plano": [
           {
             "gap": "análise de dados",
-            "curso": "Google Data Analytics Professional Certificate (Coursera)",
-            "custo": "Gratuito para acesso; certificado pago (assinatura Coursera Plus a partir de $49/mês)",
-            "carga": "Aprox. 6 meses (10h/semana)",
-            "nivel": "Iniciante",
-            "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            "curso": "Data Science Specialization",
+            "custo": "gratuito para assistir (pago por certificado)",
+            "carga": "12 meses (ritmo próprio)",
+            "nivel": "intermediário",
+            "link": "https://www.coursera.org/specializations/jhu-data-science"
           },
           {
             "gap": "administração",
-            "curso": "Business Foundations Specialization (Wharton/Coursera)",
-            "custo": "Gratuito para acesso; certificado pago (assinatura Coursera Plus a partir de $49/mês)",
-            "carga": "Aprox. 6 meses (3h/semana)",
-            "nivel": "Iniciante",
-            "link": "https://www.coursera.org/specializations/wharton-business-foundations"
+            "curso": "Strategic Leadership and Management Specialization",
+            "custo": "gratuito para assistir (pago por certificado)",
+            "carga": "8 meses (ritmo próprio)",
+            "nivel": "intermediário",
+            "link": "https://www.coursera.org/specializations/strategic-leadership"
           }
         ]
       },
@@ -5238,7 +5475,7 @@
           {
             "tipo": "formacao",
             "nome": "Mestrado Stricto Sensu",
-            "editais": 2,
+            "editais": 3,
             "impacto_financeiro": null,
             "cursos": [
               {
@@ -5258,7 +5495,7 @@
                 "link": "https://www.ufba.br/pos-graduacao"
               }
             ],
-            "nota": "Exigido ou pontuável em 2 editais (12% do total)"
+            "nota": "Exigido ou pontuável em 3 editais (18% do total)"
           }
         ],
         "plano": [
@@ -5269,7 +5506,7 @@
             "carga": "24 meses",
             "nivel": "Pós-graduação",
             "link": "https://www.ufba.br/pos-graduacao",
-            "editais_com_gap": 2
+            "editais_com_gap": 3
           }
         ]
       }
@@ -5284,26 +5521,10 @@
       "curto_prazo": {
         "gaps": [
           {
-            "tipo": "graduacao",
-            "nome": "comunicação social",
-            "editais": 6,
-            "impacto_financeiro": 358500.0,
-            "cursos": [
-              {
-                "curso": "Aprenda comunicação social (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "economia",
-            "editais": 5,
-            "impacto_financeiro": 93500.0,
+            "editais": 6,
+            "impacto_financeiro": 180300.0,
             "cursos": [
               {
                 "curso": "Economia do Setor Público — ENAP",
@@ -5324,13 +5545,13 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "ciências ambientais",
-            "editais": 3,
-            "impacto_financeiro": null,
+            "tipo": "ferramenta",
+            "nome": "comunicação social",
+            "editais": 6,
+            "impacto_financeiro": 358500.0,
             "cursos": [
               {
-                "curso": "Aprenda ciências ambientais (busque na Udemy/Coursera)",
+                "curso": "Aprenda comunicação social (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -5340,57 +5561,9 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "jornalismo",
-            "editais": 3,
-            "impacto_financeiro": 199500.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
             "tipo": "ferramenta",
-            "nome": "redes sociais",
-            "editais": 2,
-            "impacto_financeiro": 106000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de projetos",
-            "editais": 2,
-            "impacto_financeiro": 93500.0,
-            "cursos": [
-              {
-                "curso": "Gestão de Projetos — ENAP / FGV Online",
-                "custo": "Grátis",
-                "carga": "30h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.enap.gov.br/pt/cursos"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "gestão de políticas públicas",
-            "editais": 2,
+            "nome": "políticas públicas",
+            "editais": 4,
             "impacto_financeiro": null,
             "cursos": [
               {
@@ -5412,23 +5585,87 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "geografia",
-            "editais": 2,
-            "impacto_financeiro": null,
+            "tipo": "ferramenta",
+            "nome": "marketing digital",
+            "editais": 3,
+            "impacto_financeiro": 199500.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Aprenda marketing digital (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.udemy.com/"
               }
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
+            "nome": "jornalismo",
+            "editais": 3,
+            "impacto_financeiro": 199500.0,
+            "cursos": [
+              {
+                "curso": "Aprenda jornalismo (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ciências sociais",
+            "editais": 3,
+            "impacto_financeiro": 53000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda ciências sociais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "direito",
+            "editais": 3,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Direito Administrativo para Concursos — ENAP",
+                "custo": "Grátis",
+                "carga": "40h",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.enap.gov.br/pt/cursos"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ciências ambientais",
+            "editais": 2,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Aprenda ciências ambientais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "estatística",
             "editais": 2,
             "impacto_financeiro": 86800.0,
@@ -5452,7 +5689,23 @@
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
+            "nome": "redes sociais",
+            "editais": 2,
+            "impacto_financeiro": 106000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda redes sociais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "publicidade",
             "editais": 2,
             "impacto_financeiro": 106000.0,
@@ -5468,26 +5721,10 @@
             ]
           },
           {
-            "tipo": "graduacao",
-            "nome": "sociologia",
-            "editais": 2,
-            "impacto_financeiro": 106000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda sociologia (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "ciência política",
             "editais": 2,
-            "impacto_financeiro": 106000.0,
+            "impacto_financeiro": 53000.0,
             "cursos": [
               {
                 "curso": "Aprenda ciência política (busque na Udemy/Coursera)",
@@ -5501,108 +5738,44 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "modelagem climática",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Aprenda modelagem climática (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "r",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "pesquisa qualitativa",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda pesquisa qualitativa (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
             "nome": "plataformas digitais",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
+            "editais": 2,
+            "impacto_financeiro": 106000.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Aprenda plataformas digitais (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.udemy.com/"
               }
             ]
           },
           {
             "tipo": "ferramenta",
-            "nome": "algoritmos",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
-            "cursos": [
-              {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "estratégia de comunicação",
-            "editais": 1,
+            "nome": "gestão de projetos",
+            "editais": 2,
             "impacto_financeiro": 93500.0,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Gestão de Projetos — ENAP / FGV Online",
+                "custo": "Grátis",
+                "carga": "30h",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
+                "link": "https://www.enap.gov.br/pt/cursos"
               }
             ]
           },
           {
             "tipo": "ferramenta",
-            "nome": "cloud computing",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
+            "nome": "gestão de risco",
+            "editais": 2,
+            "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "Aprenda cloud computing (busque na Udemy/Coursera)",
+                "curso": "Aprenda gestão de risco (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -5613,12 +5786,12 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "gestão de documentos",
-            "editais": 1,
-            "impacto_financeiro": 53000.0,
+            "nome": "serviço social",
+            "editais": 2,
+            "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "Aprenda gestão de documentos (busque na Udemy/Coursera)",
+                "curso": "Aprenda serviço social (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -5629,61 +5802,69 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "análise financeira",
+            "nome": "psicologia",
+            "editais": 2,
+            "impacto_financeiro": null,
+            "cursos": [
+              {
+                "curso": "Aprenda psicologia (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "gestão pública",
             "editais": 1,
             "impacto_financeiro": null,
             "cursos": [
               {
-                "curso": "R Programming — Coursera (Johns Hopkins)",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "50h",
+                "curso": "Gestão Pública — ENAP",
+                "custo": "Grátis",
+                "carga": "40h",
                 "nivel": "Curso",
                 "prazo": "curto",
-                "link": "https://www.coursera.org/learn/r-programming"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "modelagem econômica",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
+                "link": "https://www.enap.gov.br/pt/cursos"
+              },
               {
-                "curso": "Aprenda modelagem econômica (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
+                "curso": "Especialização em Políticas Públicas e Gestão Governamental — UFBA",
+                "custo": "Grátis",
+                "carga": "12 meses",
+                "nivel": "Pós-graduação",
+                "prazo": "medio",
+                "link": "https://www.ufba.br/pos-graduacao"
               }
             ]
           }
         ],
         "plano": [
           {
-            "gap": "gestão de projetos",
-            "curso": "Gestão de Projetos no Setor Público",
-            "custo": "Gratuito",
-            "carga": "40 horas",
-            "nivel": "Básico",
-            "link": "https://www.escolavirtual.gov.br/"
-          },
-          {
             "gap": "economia",
-            "curso": "Economia do Setor Público",
-            "custo": "Gratuito",
-            "carga": "30 horas",
-            "nivel": "Intermediário",
-            "link": "https://www.escolavirtual.gov.br/"
+            "curso": "Microeconomics Principles",
+            "custo": "Gratuito (auditoria) ou assinatura Coursera",
+            "carga": "28 horas",
+            "nivel": "Básico",
+            "link": "https://www.coursera.org/learn/microeconomics"
           },
           {
-            "gap": "gestão de políticas públicas",
-            "curso": "Políticas Públicas: conceitos e aplicações",
+            "gap": "políticas públicas",
+            "curso": "Introdução às Políticas Públicas",
             "custo": "Gratuito",
-            "carga": "40 horas",
+            "carga": "20 horas",
             "nivel": "Básico",
-            "link": "https://www.escolavirtual.gov.br/"
+            "link": "https://www.escolavirtual.gov.br/curso/210"
+          },
+          {
+            "gap": "ciências sociais",
+            "curso": "Classical Sociological Theory",
+            "custo": "Gratuito (auditoria) ou assinatura Coursera",
+            "carga": "22 horas",
+            "nivel": "Intermediário",
+            "link": "https://www.coursera.org/learn/classical-sociological-theory"
           }
         ]
       },
@@ -5692,8 +5873,8 @@
           {
             "tipo": "ferramenta",
             "nome": "análise de dados",
-            "editais": 11,
-            "impacto_financeiro": 318000.0,
+            "editais": 13,
+            "impacto_financeiro": 404800.0,
             "cursos": [
               {
                 "curso": "Google Data Analytics Certificate — Coursera",
@@ -5714,10 +5895,10 @@
             ]
           },
           {
-            "tipo": "graduacao",
+            "tipo": "ferramenta",
             "nome": "administração",
             "editais": 5,
-            "impacto_financeiro": 86800.0,
+            "impacto_financeiro": 180300.0,
             "cursos": [
               {
                 "curso": "MBA em Administração Pública — FGV (EAD)",
@@ -5734,17 +5915,17 @@
           {
             "gap": "análise de dados",
             "curso": "Google Data Analytics Professional Certificate",
-            "custo": "USD 39/mês",
+            "custo": "Assinatura Coursera (aprox. R$ 150/mês)",
             "carga": "6 meses (10h/semana)",
-            "nivel": "Intermediário",
+            "nivel": "Iniciante a Intermediário",
             "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
           },
           {
             "gap": "administração",
             "curso": "Business Foundations Specialization (Wharton)",
-            "custo": "USD 49/mês",
-            "carga": "6 meses (3h/semana)",
-            "nivel": "Básico",
+            "custo": "Assinatura Coursera",
+            "carga": "7 meses (3h/semana)",
+            "nivel": "Intermediário",
             "link": "https://www.coursera.org/specializations/wharton-business-foundations"
           }
         ]
@@ -5780,19 +5961,18 @@
         "plano": [
           {
             "gap": "Mestrado Stricto Sensu",
-            "curso": "Mestrado Profissional em Ciência de Dados — UFBA",
-            "custo": "Grátis (bolsa CAPES: R$ 2.100/mês)",
+            "curso": "Mestrado em Economia (PPGE-UFBA)",
+            "custo": "Gratuito (público)",
             "carga": "24 meses",
-            "nivel": "Pós-graduação",
-            "link": "https://www.ufba.br/pos-graduacao",
-            "editais_com_gap": 2
+            "nivel": "Avançado (Mestrado)",
+            "link": "https://ppgeconomia.ufba.br/"
           }
         ]
       }
     }
   },
   "modo": "ia",
-  "resumo_ia": "O PNUD Brasil publicou 17 editais, todos na modalidade de Consultoria Pessoa Física (PF). O IBGE é o principal órgão demandante, com 9 editais, seguido pelo próprio PNUD (6), além de SUDECO e TCU. As áreas mais aquecidas são Comunicação (6), Meio Ambiente, Segurança Pública e Tecnologia (3 cada), com destaque também para Clima (2). Os perfis mais demandados são economistas (16 correspondências), engenheiros de dados, pesquisadores em computação e analistas Power BI (15 cada).",
+  "resumo_ia": "O PNUD Brasil publicou 17 editais, todos na modalidade de Consultoria Pessoa Física (PF). Os principais órgãos contratantes são o IBGE (9 editais) e o próprio PNUD (6), com menor participação de SUDECO e TCU. As áreas mais demandadas são Comunicação (6), Tecnologia (4), e Meio Ambiente, Cidadania Digital e Direitos Humanos (2 cada). Os perfis mais procurados incluem economistas, pesquisadores em computação e analistas de Power BI, com forte demanda por engenheiros de dados.",
   "historico": [
     {
       "id": 1500,
@@ -6313,8 +6493,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -6366,8 +6546,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -6597,8 +6777,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -6731,9 +6911,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -6798,9 +6978,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -6910,8 +7090,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -6965,9 +7145,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -8029,8 +8209,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -8086,9 +8266,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -9517,8 +9697,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Tecnologia da Informação / Dados"
+                "Tecnologia da Informação / Dados",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -9816,8 +9996,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Tecnologia da Informação / Dados"
+                "Tecnologia da Informação / Dados",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -10378,8 +10558,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -10435,8 +10615,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -10586,8 +10766,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -10640,9 +10820,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -11196,8 +11376,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -11302,8 +11482,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -11354,8 +11534,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -11443,8 +11623,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -11547,8 +11727,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -11598,8 +11778,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Economia / Finanças Públicas",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Economia / Finanças Públicas"
               ]
             },
             "ferramentas": {
@@ -11717,8 +11897,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -11771,9 +11951,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -12022,8 +12202,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -12077,9 +12257,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -12925,8 +13105,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -12976,10 +13156,10 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
                 "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -13040,9 +13220,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -14070,8 +14250,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -14126,8 +14306,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -15973,8 +16153,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -16033,8 +16213,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -16227,9 +16407,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -16287,9 +16467,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -16485,9 +16665,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -16547,9 +16727,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -16707,8 +16887,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -16765,9 +16945,9 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
+                "Estatística / Pesquisa / Metodologia",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -17056,9 +17236,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -17118,9 +17298,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -17328,9 +17508,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
@@ -17394,9 +17574,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia",
-                "Meio Ambiente / Clima / Geografia"
+                "Estatística / Pesquisa / Metodologia"
               ]
             },
             "ferramentas": {
