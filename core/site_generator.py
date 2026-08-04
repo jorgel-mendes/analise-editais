@@ -171,7 +171,7 @@ def _mesclar_valores_tors(editais: list):
             if not e.get("valor_estimado_num") or v > e["valor_estimado_num"]:
                 e["valor_estimado_num"] = v
                 e["valor_estimado"] = f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-            e["requisitos"]["valor_tor"] = v
+            e.setdefault("requisitos", {})["valor_tor"] = v
 
 
 def _gerar_resumo(site_data: dict) -> str | None:

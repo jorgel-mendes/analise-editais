@@ -419,7 +419,9 @@ def _pdf_lista_editais(pdf: _PDFReport, editais: list):
 
 
 def gerar_relatorio_completo(analise: dict, novidades: dict | None = None) -> tuple[Path, Path]:
-    from core.site_generator import gerar_dados_site
+    from core.site_generator import gerar_dados_site, _mesclar_valores_tors
+
+    _mesclar_valores_tors(analise["editais"])
 
     excel_path = gerar_excel(analise)
     print(f"📊 Excel salvo em: {excel_path}")

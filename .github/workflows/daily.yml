@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "analise-editais-bot"
           git config user.email "bot@analise-editais.local"
-          git add dados/ docs/ analise_editais_pnud.xlsx relatorio_editais_pnud.pdf
+          git add dados/ dados_brutos/ docs/ analise_editais_pnud.xlsx relatorio_editais_pnud.pdf
           if git diff --staged --quiet; then
             echo "Nenhuma alteração para commitar."
           else

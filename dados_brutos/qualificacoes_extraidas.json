@@ -922,5 +922,583 @@
     "descricao": "Contratação de consultoria especializada (pessoa física) para Diagnóstico Institucional, Mapeamento de Processos e Gargalos da DGP/MTE",
     "local": "Brasília - DF",
     "data_fim": "2026-05-24"
+  },
+  {
+    "torid": "146270",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "direito",
+      "ciências sociais",
+      "sociologia",
+      "antropologia",
+      "políticas públicas",
+      "saúde pública",
+      "medicina",
+      "enfermagem",
+      "comunicação",
+      "ciência política"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "powerpoint",
+      "sic",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "150.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PRODOC BRA 23/022 - Seleção de consultoria para apoiar ação de controle do TCU destinada a avaliar os mecanismos estatais voltados à saúde mental dos profissionais de segurança pública.",
+    "descricao": "PRODOC BRA 23/022 - Processo seletivo para contratação de consultoria especializada, pessoa física, destinada a apoiar ação de controle do Tribunal de Contas da União sobre a eficácia, a eficiência e a efetividade dos mecanismos estatais voltados à saúde mental dos profissionais de segurança pública. A consultoria compreenderá o mapeamento dos mecanismos existentes, o desenvolvimento de pesquisa nacional, a construção de índice de satisfação e percepção, a identificação de boas práticas, lacunas e barreiras de acesso, bem como a produção de subsídios técnicos, metodológicos e analíticos para a qualificação dos trabalhos de fiscalização.",
+    "local": "Brasília - Remoto",
+    "data_fim": "2026-08-16"
+  },
+  {
+    "torid": "146267",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "inteligência artificial",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "10.600,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 124/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE ESTUDOS SOBRE A NATUREZA, OS DESAFIOS E AS OPORTUNIDADES DA COMUNICAÇÃO EM AMBIENTES DIGITAIS.",
+    "descricao": "Contratação de Consultoria especializada (pessoa física) para elaboração de estudo técnico sobre a natureza, os desafios e as oportunidades da comunicação em ambientes digitais. O estudo deve analisar as transformações nos processos de produção, circulação e consumo de informações e apresentar recomendações diante de um contexto caracterizado pela inteligência artificial e a utilização de algoritmos.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146269",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "10.600,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 126/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE ESTUDO SOBRE A DISTRIBUIÇÃO E CIRCULAÇÃO DE INFORMAÇÕES EM PLATAFORMAS DIGITAIS.",
+    "descricao": "Contratação de Consultoria especializada (pessoa física) para elaboração de estudo sobre a distribuição e a circulação de informações em plataformas digitais e em ambientes híbridos, abrangendo as interações entre mídias tradicionais e digitais, considerando o contexto institucional do IBGE.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146271",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "10.600,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 127/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA A ELABORAÇÃO DE ESTUDO PARA ANÁLISE DE FENÔMENOS SOCIAIS.",
+    "descricao": "Contratação de Consultoria especializada (pessoa física) para elaboração de estudo sobre a contribuição da pesquisa em Comunicação, Documentação e Circulação (CDC) para a compreensão de fenômenos sociais complexos, com o intuito de orientar políticas públicas voltadas à disseminação e o uso de estatísticas oficiais em ambientes digitais com ênfase na polarização digital, manipulação de informações e na desinformação, bem como na identificação de evidências e recomendações que apoiem a formulação de políticas públicas e fortaleçam a produção, disseminação e o uso das estatísticas oficiais em ambientes digitais.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146272",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "10.600,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 128/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ANÁLISE DAS RELAÇÕES ENTRE MÍDIA, EDUCAÇÃO E CIDADANIA NA SOCIEDADE DA INFORMAÇÃO.",
+    "descricao": "Contratação de Consultoria especializada (pessoa física) para elaboração de estudo sobre as relações entre mídia, educação e cidadania na sociedade da informação, com foco na análise crítica dos meios de comunicação e das plataformas digitais como espaços de produção e circulação de informações, formação cultural e construção da subjetividade.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146273",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "inteligência artificial",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "10.600,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 129/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DE ESTUDOS SOBRE OS PROCESSOS DE COMUNICAÇÃO E AS PRÁTICAS DE CIDADANIA NA SOCIEDADE DIGITAL.",
+    "descricao": "Contratação de consultoria especializada (pessoa física) para elaboração de estudos sobre os processos comunicacionais e as práticas de cidadania na sociedade digital, com foco na análise do papel de algoritmos, dos dados e das plataformas digitais na configuração do interesse público e nos processos de deliberação democrática.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146274",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "14.025,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 121/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO E IMPLEMENTAÇÃO DE ESTRATÉGIA DE DISSEMINAÇÃO DOS RESULTADOS DA SÉRIE DIÁLOGOS NACIONAIS PARA O DESENVOLVIMENTO.",
+    "descricao": "Contratação de consultoria especializada (pessoa física) para desenvolvimento e implementação de estratégia de disseminação dos resultados da série Diálogos Nacionais para o Desenvolvimento, com o intuito de subsidiar a comunicação e o engajamento com parceiros institucionais relevantes e ampliar o alcance e a efetividade da iniciativa.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146275",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciência de dados",
+      "inteligência artificial",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "sic",
+      "stata"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "13.020,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 122/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ESTRUTURAÇÃO DE PAINÉIS DE INDICADORES ALINHADOS ÀS TEMÁTICAS DOS DIÁLOGOS NACIONAIS PARA O DESENVOLVIMENTO.",
+    "descricao": "Contratação de consultoria especializada (pessoa física) para a concepção, estruturação e implementação de painéis de dados e visualizações analíticas, organizando indicadores relevantes, comparáveis e atualizados, alinhados às temáticas abordadas nos Diálogos Nacionais para o Desenvolvimento.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146277",
+    "graduacao": [
+      "física"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "IC - UNDP-BRA-01210 - Consultoria para análise de financiamento climático (COP30)",
+    "descricao": null,
+    "local": "Trabalho remoto, com possibilidade de viagens",
+    "data_fim": "2026-08-06"
+  },
+  {
+    "torid": "146279",
+    "graduacao": [
+      "economia",
+      "administração",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "comunicação",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "UNDP-BRA-01215 - IC - Consultoria para sistematização da atuação de grupos especiais da COP30",
+    "descricao": null,
+    "local": "Brasília. (Notar: na data de término, o edital se encerra às 17h de Brasília)",
+    "data_fim": "2026-08-11"
+  },
+  {
+    "torid": "146268",
+    "graduacao": [
+      "ciência da computação",
+      "tecnologia da informação",
+      "engenharia da computação",
+      "engenharia",
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "física",
+      "políticas públicas",
+      "biblioteconomia",
+      "arquivologia"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "10.600,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 125/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA ELABORAÇÃO DE ESTUDO SOBRE OS IMPACTOS DA DIGITALIZAÇÃO DOCUMENTAL E DO ARMAZENAMENTO EM NUVEM.",
+    "descricao": "Contratação de Consultoria especializada (pessoal física) para elaboração de estudo sobre os impactos da digitalização documental e do armazenamento em nuvem, abordando os desafios, as oportunidades e as transformações decorrentes da redocumentarização, especialmente quanto à produção, organização, preservação, acesso e uso de documentos em ambientais digitais, especialmente no contexto da web.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146280",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "sociologia",
+      "história",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "14.650,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 86/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ELABORAÇÃO DA PROPOSTA DE CAPACITAÇÃO DO CENSO AGROPECUÁRIO NAS CADEIAS DE INFORMÁTICA E ADMINISTRATIVA.",
+    "descricao": "Contratação de consultoria especializada para a elaboração de proposta de capacitação do Censo Agropecuário, compreendendo a análise dos processos, bem como o detalhamento quantitativo e qualitativo dos trabalhos desenvolvidos nas cadeias de informática e administrativa.",
+    "local": "Remoto",
+    "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146281",
+    "graduacao": [
+      "direito",
+      "ciências sociais",
+      "antropologia",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "IC - UNDP-BRA-01217 - Consultoria pessoa física para implementação do Formulário Nacional de Avaliação de Risco (FONAR) e do Formulário Rogéria",
+    "descricao": null,
+    "local": null,
+    "data_fim": "2026-08-11"
+  },
+  {
+    "torid": "146282",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "antropologia",
+      "inteligência artificial",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [
+      "bsafe",
+      "security clearance"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "• mestrado preferencialmente em direito, ciências sociais, antropologia ou em áreas de",
+      "ciências humanas ou sociais aplicadas;",
+      "• pelo menos, três experiências acadêmicas ou profissionais com implementação,",
+      "monitoramento, avaliação, pesquisa aplicada, articulação institucional ou gestão de",
+      "projetos relacionados a políticas públicas, direitos humanos, gênero, diversidade ou",
+      "• pelo menos uma experiência anterior com realização de atividade de pesquisa com",
+      "instituições públicas para mulheres, políticas lgbtqia+ ou enfrentamento de",
+      "• experiência acadêmica ou profissional em trabalhos envolvendo o poder judiciário.",
+      "requisitos classificatórios (registrados no cv):",
+      "• doutorado em direito, ciências sociais, antropologia ou em áreas de ciências humanas ou"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "IC - UNDP-BRA-01218 - Consultoria pessoa física para implementação do Formulário Nacional de Avaliação de Risco (FONAR) e do Formulário Rogéria em João Pessoa",
+    "descricao": null,
+    "local": "João Pessoa. (Notar: na data de término, o edital se encerra às 17h de Brasília)",
+    "data_fim": "2026-08-11"
+  },
+  {
+    "torid": "146287",
+    "graduacao": [
+      "administração",
+      "direito",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [
+      "bsafe"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "• mínimo de 2 (dois) anos de experiência comprovada na área de recursos humanos, com",
+      "atuação em recrutamento e seleção, incluindo análise de candidaturas e currículos, triagem",
+      "de pessoas candidatas, avaliação de aderência das pessoas candidatas aos requisitos da",
+      "vaga, condução de painéis de entrevistas, registro das evidências observadas e consolidação",
+      "• graduação completa (bacharelado) em área correlata.",
+      "3. documentos a serem apresentados na proposta",
+      "de acordo com as normas do pnud aplicáveis à contratação de consultores na modalidade ic, as",
+      "candidaturas deverão conter proposta técnica (curriculum vitae – cv) e proposta de preço",
+      "será desconsiderada a proposta enviada em desconformidade com o previsto no presente edital:",
+      "1. proposta técnica: cv em arquivo pdf."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "IC - UNDP-BRA-01223 - Consultoria especializada em recrutamento e seleção",
+    "descricao": "null",
+    "local": "Remoto. (Notar: na data de término, o edital se encerra às 17h de Brasília)",
+    "data_fim": "2026-08-14"
+  },
+  {
+    "torid": "146290",
+    "graduacao": [
+      "economia",
+      "administração",
+      "ciências sociais",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "22.220,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "TR DPA/PNUD 001/2026 - Suporte técnico especializado para fortalecimento de Mecanismos Integrados de Atendimento à RIDEs e à Faixa de Fronteira.",
+    "descricao": "Os(as) candidatos(as) deverão encaminhar o Currículo Vitae obrigatoriamente no modelo anexo a este edital;\r\nCurrículos em formato diverso do modelo estabelecido serão desclassificados;\r\nO envio do currículo deverá ser realizado exclusivamente para o e-mail:\r\nprodocbra23018@sudeco.gov.br\r\nNo campo assunto do e-mail, deverá constar obrigatoriamente o código do Termo de Referência:\r\n",
+    "local": "Brasília",
+    "data_fim": "2026-08-14"
+  },
+  {
+    "torid": "146292",
+    "graduacao": [
+      "física"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "UNDP-BRA-01222 - IC - Consultoria Técnica Especializada em Planos Nacionais de Adaptação (COP 30)",
+    "descricao": null,
+    "local": "Trabalho remoto, com possibilidade de viagens",
+    "data_fim": "2026-08-13"
   }
 ]

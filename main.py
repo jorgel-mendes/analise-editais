@@ -20,6 +20,7 @@ def daily(periodo, perfil, todos, force):
     from core.persistence import carregar_editais_todos
     from core.analyzer import analisar_editais
     from core.reporter import gerar_relatorio_completo
+    from core.tor_pipeline import baixar_e_extrair_tors
 
     click.echo("=" * 60)
     click.echo("🚀 EXECUÇÃO DIÁRIA - ANÁLISE DE EDITAIS PNUD")
@@ -29,6 +30,10 @@ def daily(periodo, perfil, todos, force):
     if not editais_atuais:
         click.echo("❌ Nenhum edital encontrado. Abortando.")
         return
+
+    click.echo("\n📎 Baixando e extraindo ToRs pendentes...")
+    n_tors = baixar_e_extrair_tors(editais_atuais)
+    click.echo(f"   {n_tors} ToR(s) novo(s) baixado(s) e extraído(s)")
 
     tem_novos = novidades and novidades.get("novos_count", 0) > 0
     tem_encerrados = novidades and novidades.get("encerrados_count", 0) > 0
