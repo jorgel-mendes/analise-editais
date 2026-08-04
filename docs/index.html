@@ -120,6 +120,7 @@ a:hover{text-decoration:underline}
 .recs-summary .stat{background:#fff;border-radius:8px;padding:10px 14px;flex:1;min-width:140px;border:1px solid #eef0f4}
 .recs-summary .stat .num{font-size:1.1rem;font-weight:700;color:#1a1a2e}
 .recs-summary .stat .lbl{font-size:.68rem;color:#8892a5;margin-top:2px}
+.prazo-explicacao{font-size:.74rem;color:#667085;margin:2px 0 10px;line-height:1.5}
 .recs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
 .gap-card{background:#fff;border-radius:8px;padding:12px 14px;border:1px solid #eef0f4;display:flex;gap:10px;align-items:flex-start}
 .gap-priority{width:4px;height:40px;border-radius:2px;flex-shrink:0}
@@ -300,10 +301,16 @@ function renderRecomendacoes(perfilNome){
 
     const label = {curto:'⚡ Curto Prazo', medio:'📈 Médio Prazo', longo:'🎓 Longo Prazo'}[key]||key;
     const desc = {curto:'3 a 6 meses', medio:'6 a 18 meses', longo:'1 a 3 anos'}[key]||'';
+    const explicacao = {
+      curto: 'Cursos rápidos e certificações para fechar as lacunas mais recorrentes nos editais atuais — o caminho mais rápido pra aumentar sua compatibilidade agora.',
+      medio: 'Especializações que aprofundam áreas com demanda consistente ao longo do tempo, sem exigir uma formação longa.',
+      longo: 'Mestrado, doutorado ou formações extensas — investimento maior que abre editais mais exigentes e mais bem remunerados no futuro.',
+    }[key]||'';
 
     return `
     <div class="recs-cursos" style="margin-bottom:14px">
       <h4 style="color:${color}">${label} <span style="font-weight:400;font-size:.72rem;color:#8892a5">${desc}</span></h4>
+      ${explicacao?('<p class="prazo-explicacao">'+esc(explicacao)+'</p>'):''}
       <div class="recs-grid" style="margin-bottom:${planoHTML?'8px':'0'}">${gapsHTML}</div>
       ${planoHTML?('<h4 style="font-size:.76rem;font-weight:600;margin:10px 0 6px;color:'+color+'">🎯 Cursos sugeridos</h4>'+planoHTML):''}
     </div>`;

@@ -7,6 +7,7 @@ logger = logging.getLogger(__name__)
 
 DEEPSEEK_BASE = "https://api.deepseek.com"
 DEEPSEEK_MODEL = "deepseek-chat"
+DEEPSEEK_MODEL_RECOMENDACOES = "deepseek-v4-pro"
 
 CLASSIFY_PROMPT = """Classifique cada edital do PNUD Brasil. Retorne APENAS um array JSON com esta estrutura exata:
 
@@ -87,7 +88,7 @@ def _extrair_json(texto: str) -> dict | None:
     return None
 
 
-def _call_deepseek(prompt: str, system: str, max_tokens: int = 16384) -> str | None:
+def _call_deepseek(prompt: str, system: str, max_tokens: int = 16384, model: str = DEEPSEEK_MODEL) -> str | None:
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
         return None
@@ -96,7 +97,7 @@ def _call_deepseek(prompt: str, system: str, max_tokens: int = 16384) -> str | N
     client = OpenAI(api_key=api_key, base_url=DEEPSEEK_BASE)
 
     response = client.chat.completions.create(
-        model=DEEPSEEK_MODEL,
+        model=model,
         messages=[
             {"role": "system", "content": system},
             {"role": "user", "content": prompt},
@@ -215,15 +216,11 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
             }
         ec["url_externo"] = "https://parceiros.undp.org.br/opportunities"
 
-    from core.recommender import gerar_recomendacoes_todos_perfis
-
     recom = {}
     try:
-        # Links de cursos vêm sempre do catálogo curado (core/recommender.py),
-        # nunca inventados pela IA — evita sugerir URLs que não existem.
-        recom = gerar_recomendacoes_todos_perfis(classificados)
+        recom = _gerar_recomendacoes_ia(classificados, perfis)
     except Exception as e:
-        logger.warning("Recomendações falharam: %s", e)
+        logger.warning("Recomendações IA falharam: %s", e)
 
     perfis_list = []
     for nome, perfil in perfis.items():
@@ -267,6 +264,97 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
         "recomendacoes": recom,
         "modo": "ia",
     }
+
+
+RECOMMEND_PROMPT = """Você é um orientador de carreira. Com base nos gaps de qualificação abaixo (habilidades e \
+graduações mais exigidas nos editais que o perfil ainda não tem), sugira um plano de estudos.
+
+Retorne APENAS JSON com esta estrutura:
+{
+  "curto_prazo": [{"gap": "...", "curso": "...", "custo": "...", "carga": "...", "nivel": "...", "link": "..."}],
+  "medio_prazo": [...],
+  "longo_prazo": [...]
+}
+
+Curto prazo: 3-6 meses (cursos rápidos, certificações). Médio: 6-18 meses (especializações). Longo: 1-3 anos \
+(mestrado/doutorado). No máximo 3 itens por prazo, priorizando os gaps mais exigidos.
+
+Use SOMENTE links reais de provedores conhecidos (Microsoft Learn, Coursera, ENAP, Udemy, UFBA, INPE, ESRI, edX,
+gov.br). Se não tiver certeza absoluta da URL exata de um curso específico, use a página inicial ou de busca do
+provedor (ex: https://www.coursera.org/, https://www.udemy.com/) em vez de inventar uma URL de curso específica."""
+
+
+def _sugerir_recomendacoes_ia(nome_perfil: str, perfil: dict, rec_base: dict) -> dict | None:
+    prompt = json.dumps({
+        "perfil": nome_perfil,
+        "descricao": perfil.get("descricao", ""),
+        "gaps_curto_prazo": [g["nome"] for g in rec_base.get("curto_prazo", {}).get("gaps", [])][:8],
+        "gaps_medio_prazo": [g["nome"] for g in rec_base.get("medio_prazo", {}).get("gaps", [])][:8],
+        "gaps_longo_prazo": [g["nome"] for g in rec_base.get("longo_prazo", {}).get("gaps", [])][:8],
+    }, ensure_ascii=False, indent=2)
+
+    # deepseek-v4-pro gasta uma parte relevante do orçamento de tokens "pensando"
+    # (reasoning_content) antes de escrever a resposta — precisa de bem mais
+    # espaço que um modelo não-reasoning para não cortar o JSON pela metade.
+    texto = _call_deepseek(prompt, RECOMMEND_PROMPT, max_tokens=20000, model=DEEPSEEK_MODEL_RECOMENDACOES)
+    return _extrair_json(texto) if texto else None
+
+
+def _link_valido(url: str, timeout: float = 4.0) -> bool:
+    if not url or not url.startswith("http"):
+        return False
+    import requests
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; analise-editais-bot/1.0)"}
+    try:
+        r = requests.head(url, timeout=timeout, allow_redirects=True, headers=headers)
+        if r.status_code >= 400:
+            r = requests.get(url, timeout=timeout, allow_redirects=True, headers=headers, stream=True)
+        return r.status_code < 400
+    except Exception:
+        return False
+
+
+def _validar_plano_ia(plano_ia: list, plano_fallback: list) -> list:
+    """Confirma cada link sugerido pela IA batendo nele de verdade; troca pelo
+    equivalente do catálogo curado (mesmo gap) se estiver quebrado."""
+    fallback_por_gap = {(c.get("gap") or "").lower(): c for c in plano_fallback}
+    resultado = []
+    for item in (plano_ia or [])[:4]:
+        link = item.get("link", "")
+        if _link_valido(link):
+            resultado.append(item)
+            continue
+        substituto = fallback_por_gap.get((item.get("gap") or "").lower())
+        if substituto:
+            resultado.append(substituto)
+        logger.info("Link descartado por não responder: %s (gap=%s)", link, item.get("gap"))
+    return resultado or plano_fallback[:3]
+
+
+def _gerar_recomendacoes_ia(classificados: list, perfis: dict) -> dict:
+    from core.recommender import gerar_recomendacoes_todos_perfis
+
+    base = gerar_recomendacoes_todos_perfis(classificados)
+
+    for nome_perfil, perfil in perfis.items():
+        rec = base.get(nome_perfil)
+        if not rec or not rec.get("total_editais_compativeis"):
+            continue
+
+        sugestao = _sugerir_recomendacoes_ia(nome_perfil, perfil, rec)
+        if not sugestao:
+            continue
+
+        for prazo_key in ("curto_prazo", "medio_prazo", "longo_prazo"):
+            plano_ia = sugestao.get(prazo_key)
+            if not plano_ia:
+                continue
+            plano_fallback = rec.get(prazo_key, {}).get("plano", [])
+            rec.setdefault(prazo_key, {"gaps": [], "plano": []})["plano"] = _validar_plano_ia(plano_ia, plano_fallback)
+
+        rec["periodo_analise"] = "Últimos 12 meses (DeepSeek v4 Pro)"
+
+    return base
 
 
 def _format_valor(v):
