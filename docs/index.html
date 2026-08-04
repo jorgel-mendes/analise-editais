@@ -40,6 +40,8 @@ a:hover{text-decoration:underline}
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
 .filters select,.filters input{padding:7px 10px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#333;min-width:130px}
 .filters input{flex:1;min-width:200px}
+.clear-filters-btn{padding:7px 12px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#555;cursor:pointer;white-space:nowrap}
+.clear-filters-btn:hover{background:#f1f3f4;border-color:#c5cdd8}
 
 /* Edital cards */
 .edital-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
@@ -384,7 +386,8 @@ function renderAll(){
         <option value="">Todos os tipos</option>
         ${filterOptions.tipos.map(t=>'<option value="'+esc(t)+'">'+esc(t)+'</option>').join('')}
       </select>
-      <input type="text" placeholder="Buscar por título, órgão ou ferramenta..." oninput="state.filtroBusca=this.value.toLowerCase();renderEditalList()">
+      <input type="text" id="filtro-busca" placeholder="Buscar por título, órgão ou ferramenta..." oninput="state.filtroBusca=this.value.toLowerCase();renderEditalList()">
+      <button class="clear-filters-btn" onclick="limparFiltros()">🧹 Limpar filtros</button>
     </div>
 
     <div class="edital-grid" id="edital-grid"></div>
@@ -403,6 +406,16 @@ function setView(v){
 
 function currentList(){
   return state.view==='historico' ? (state.data?.historico||[]) : (state.data?.editais||[]);
+}
+
+function limparFiltros(){
+  state.filtroArea = '';
+  state.filtroTipo = '';
+  state.filtroBusca = '';
+  state.perfil = null;
+  const sel = document.getElementById('profile-select');
+  if(sel) sel.value = '';
+  renderAll();
 }
 
 function renderEditalList(){

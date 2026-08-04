@@ -215,11 +215,15 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
             }
         ec["url_externo"] = "https://parceiros.undp.org.br/opportunities"
 
+    from core.recommender import gerar_recomendacoes_todos_perfis
+
     recom = {}
     try:
-        recom = _gerar_recomendacoes_ia(classificados, perfis)
+        # Links de cursos vêm sempre do catálogo curado (core/recommender.py),
+        # nunca inventados pela IA — evita sugerir URLs que não existem.
+        recom = gerar_recomendacoes_todos_perfis(classificados)
     except Exception as e:
-        logger.warning("Recomendações IA falharam: %s", e)
+        logger.warning("Recomendações falharam: %s", e)
 
     perfis_list = []
     for nome, perfil in perfis.items():
@@ -262,90 +266,6 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
         "editais": classificados,
         "recomendacoes": recom,
         "modo": "ia",
-    }
-
-
-RECOMMEND_PROMPT = """Gere recomendações de estudo para um perfil profissional com base nos editais analisados.
-Retorne APENAS JSON com:
-
-"curto_prazo": [{"gap": "...", "curso": "...", "custo": "...", "carga": "...", "link": "..."}]
-"medio_prazo": [{"gap": "...", "curso": "...", "custo": "...", "carga": "...", "link": "..."}]
-"longo_prazo": [{"gap": "...", "curso": "...", "custo": "...", "carga": "...", "link": "..."}]
-
-Curto: 3-6 meses (certificações, cursos rápidos). Médio: 6-18 meses (especializações). Longo: 1-3 anos (mestrado/doutorado).
-Inclua links reais quando souber (Microsoft Learn, Coursera, ENAP, Udemy, UFBA, INPE, ESRI)."""
-
-
-def _gerar_recomendacoes_ia(classificados: list, perfis: dict) -> dict:
-    recomendacoes = {}
-    for nome_perfil, perfil in perfis.items():
-        compativeis = [e for e in classificados if e["matches"].get(nome_perfil, {}).get("score", 0) >= 0.15]
-        if not compativeis:
-            recomendacoes[nome_perfil] = _recom_vazio(nome_perfil, perfil, len(classificados))
-            continue
-
-        gaps = _extrair_gaps(compativeis, perfil)
-        prompt = json.dumps({
-            "perfil": nome_perfil,
-            "descricao": perfil.get("descricao", ""),
-            "ferramentas_perfil": perfil.get("ferramentas", []),
-            "graduacoes_perfil": perfil.get("graduacoes", []),
-            "gaps_identificados": {k: list(v.most_common(6)) for k, v in gaps.items()},
-            "total_editais_compativeis": len(compativeis),
-        }, ensure_ascii=False, indent=2)
-
-        texto = _call_deepseek(prompt, RECOMMEND_PROMPT, max_tokens=4096)
-        rec_data = _extrair_json(texto) if texto else {}
-
-        valor_total = sum(e.get("valor_estimado_num") or 0 for e in compativeis)
-        recomendacoes[nome_perfil] = {
-            "perfil": nome_perfil,
-            "descricao": perfil.get("descricao", ""),
-            "total_editais_analisados": len(classificados),
-            "total_editais_compativeis": len(compativeis),
-            "valor_total_oportunidades": round(valor_total, 2),
-            "periodo_analise": "Últimos 12 meses (DeepSeek)",
-            "curto_prazo": {"gaps": [], "plano": rec_data.get("curto_prazo", [])},
-            "medio_prazo": {"gaps": [], "plano": rec_data.get("medio_prazo", [])},
-            "longo_prazo": {"gaps": [], "plano": rec_data.get("longo_prazo", [])},
-        }
-
-    return recomendacoes
-
-
-def _extrair_gaps(editais: list, perfil: dict) -> dict:
-    from collections import Counter
-    perfil_ferr = set(f.lower() for f in perfil.get("ferramentas", []))
-    perfil_grad = set(g.lower() for g in perfil.get("graduacoes", []))
-    perfil_lang = set(l.lower() for l in perfil.get("idiomas", []))
-
-    ferr = Counter()
-    grad = Counter()
-    lang = Counter()
-    for e in editais:
-        req = e.get("requisitos", {})
-        for f in req.get("ferramentas", []):
-            if f.lower() not in perfil_ferr:
-                ferr[f.lower()] += 1
-        for g in req.get("graduacao", []):
-            if not any(pg in g.lower() or g.lower() in pg for pg in perfil_grad):
-                grad[g.lower()] += 1
-        for l in req.get("idiomas", []):
-            if l.lower() not in perfil_lang:
-                lang[l.lower()] += 1
-
-    return {"ferramentas": ferr, "graduacoes": grad, "idiomas": lang}
-
-
-def _recom_vazio(nome: str, perfil: dict, total: int) -> dict:
-    return {
-        "perfil": nome, "descricao": perfil.get("descricao", ""),
-        "total_editais_analisados": total, "total_editais_compativeis": 0,
-        "valor_total_oportunidades": 0,
-        "periodo_analise": "Últimos 12 meses (DeepSeek)",
-        "curto_prazo": {"gaps": [], "plano": []},
-        "medio_prazo": {"gaps": [], "plano": []},
-        "longo_prazo": {"gaps": [], "plano": []},
     }
 
 
