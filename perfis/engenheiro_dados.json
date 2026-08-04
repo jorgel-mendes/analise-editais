@@ -1,24 +1,34 @@
 {
   "nome": "engenheiro_dados",
-  "descricao": "Engenheiro Químico + Análise de Sistemas, 5 anos de experiência com dados públicos e sociais",
+  "descricao": "Engenheiro de Dados (Eng. Química + Ciência da Computação), 5 anos em pipelines ETL, Spark/Databricks/Azure e web scraping",
   "graduacoes": [
     "engenharia química",
-    "análise de sistemas",
-    "engenharia",
     "ciência da computação",
+    "engenharia",
+    "engenharia de software",
     "sistemas de informação"
   ],
   "ferramentas": [
     "python",
-    "power bi",
     "sql",
-    "qgis",
-    "power automate",
-    "sharepoint",
-    "git",
-    "docker",
+    "r",
+    "estatística",
+    "pyspark",
+    "databricks",
+    "azure data factory",
+    "airflow",
     "azure",
-    "excel"
+    "aws",
+    "gcp",
+    "shell script",
+    "linux",
+    "informatica powercenter",
+    "oracle",
+    "selenium",
+    "scrapy",
+    "beautiful soup",
+    "git",
+    "docker"
   ],
   "areas_interesse": [
     "Tecnologia da Informação / Dados",
@@ -32,5 +42,5 @@
   "tem_pos_graduacao": false,
   "tem_mestrado": false,
   "tem_doutorado": false,
-  "contexto": "Experiência com dados públicos e sociais. Sem pós-graduação concluída. Mestrado e doutorado são gaps."
+  "contexto": "Engenheiro de Dados com +50 pipelines de ETL/web scraping (Python, PySpark, Databricks, Azure Data Factory) em manufatura, setor público e telecom, além de projeto envolvendo privacidade diferencial (PySyft) com IBGE/PNUD. Cursos complementares em Python, R e estatística básica. Mestrado (Software Engineering) e especialização (Indústria 4.0) em andamento — ainda não concluídos, por isso continuam como gap."
 }

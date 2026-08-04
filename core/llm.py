@@ -38,7 +38,7 @@ PENALIZE:
 - Graduação exigida não está no perfil → reduza 0.2-0.3
 - Áreas temáticas incompatíveis → score máx 0.2
 
-CALCULE matches PARA CADA PERFIL (engenheiro_dados, economista, pesquisador_computacao) presente no JSON de entrada.
+CALCULE matches PARA CADA PERFIL presente no campo "perfis" do JSON de entrada (a lista de perfis pode variar — use exatamente as chaves recebidas, sem omitir nenhuma).
 
 Retorne APENAS o array JSON, sem texto adicional."""
 

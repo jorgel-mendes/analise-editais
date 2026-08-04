@@ -31,6 +31,11 @@ a:hover{text-decoration:underline}
 .summary-banner .sum-label{font-size:.65rem;text-transform:uppercase;color:#0066cc;font-weight:600;letter-spacing:.5px;margin-bottom:4px}
 .summary-banner .sum-mode{font-size:.65rem;color:#8892a5;margin-top:6px}
 
+/* View tabs */
+.view-tabs{display:flex;gap:8px;margin-bottom:14px}
+.view-tab{padding:8px 16px;border-radius:8px;border:1px solid #dde1e8;background:#fff;color:#555;font-size:.8rem;font-weight:600;cursor:pointer}
+.view-tab.active{background:#0a1628;color:#fff;border-color:#0a1628}
+
 /* Filters */
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
 .filters select,.filters input{padding:7px 10px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#333;min-width:130px}
@@ -55,6 +60,9 @@ a:hover{text-decoration:underline}
 .match-low{background:#fce8e6;color:#c5221f}
 .match-none{background:#f1f3f4;color:#8892a5}
 .date-info{font-size:.7rem;color:#8892a5}
+.status-badge{font-size:.66rem;padding:2px 8px;border-radius:10px;font-weight:600;white-space:nowrap}
+.status-aberto{background:#e6f4ea;color:#137333}
+.status-encerrado{background:#f1f3f4;color:#8892a5}
 
 /* Loading */
 .loading{text-align:center;padding:60px 20px;color:#8892a5;font-size:.9rem}
@@ -168,7 +176,7 @@ a:hover{text-decoration:underline}
 
 <script>
 const DATA_URL = './data/analise.json';
-let state = {data:null, perfil:null, filtroArea:'', filtroTipo:'', filtroBusca:''};
+let state = {data:null, perfil:null, filtroArea:'', filtroTipo:'', filtroBusca:'', view:'ativos'};
 
 async function load(){
   try{
@@ -327,6 +335,14 @@ function renderAll(){
   const byProfile = p ? filtered.length : d.resumo.total_editais;
   const v = d.resumo.valores||{};
 
+  const areaSet = new Set(), tipoSet = new Set();
+  [...(d.editais||[]), ...(d.historico||[])].forEach(e=>{
+    const a = e.areas_tematicas||[];
+    (Array.isArray(a)?a:[a]).forEach(x=>x&&areaSet.add(x));
+    if(e.tipo) tipoSet.add(e.tipo);
+  });
+  const filterOptions = {areas:[...areaSet].sort(), tipos:[...tipoSet].sort()};
+
   document.getElementById('dashboard').innerHTML = `
     ${d.resumo_ia?('<div class="summary-banner"><div class="sum-label">📋 Resumo</div>'+esc(d.resumo_ia)+'<div class="sum-mode">🤖 Gerado por DeepSeek · '+(d.modo==='ia'?'análise IA':'análise determinística')+'</div></div>'):''}
     <div class="cards">
@@ -354,14 +370,19 @@ function renderAll(){
 
     <div class="recs" id="recs-section"></div>
 
+    <div class="view-tabs">
+      <button class="view-tab ${state.view==='ativos'?'active':''}" id="tab-ativos" onclick="setView('ativos')">🟢 Ativos (${(d.editais||[]).length})</button>
+      <button class="view-tab ${state.view==='historico'?'active':''}" id="tab-historico" onclick="setView('historico')">🕘 Histórico · 12 meses (${(d.historico||[]).length})</button>
+    </div>
+
     <div class="filters">
       <select onchange="state.filtroArea=this.value;renderEditalList()">
         <option value="">Todas as áreas</option>
-        ${Object.keys(d.resumo.por_area||{}).map(a=>'<option value="'+a+'">'+a+'</option>').join('')}
+        ${filterOptions.areas.map(a=>'<option value="'+esc(a)+'">'+esc(a)+'</option>').join('')}
       </select>
       <select onchange="state.filtroTipo=this.value;renderEditalList()">
         <option value="">Todos os tipos</option>
-        ${Object.keys(d.resumo.por_tipo||{}).map(t=>'<option value="'+t+'">'+t+'</option>').join('')}
+        ${filterOptions.tipos.map(t=>'<option value="'+esc(t)+'">'+esc(t)+'</option>').join('')}
       </select>
       <input type="text" placeholder="Buscar por título, órgão ou ferramenta..." oninput="state.filtroBusca=this.value.toLowerCase();renderEditalList()">
     </div>
@@ -373,10 +394,21 @@ function renderAll(){
   renderRecomendacoes(p);
 }
 
+function setView(v){
+  state.view = v;
+  document.getElementById('tab-ativos')?.classList.toggle('active', v==='ativos');
+  document.getElementById('tab-historico')?.classList.toggle('active', v==='historico');
+  renderEditalList();
+}
+
+function currentList(){
+  return state.view==='historico' ? (state.data?.historico||[]) : (state.data?.editais||[]);
+}
+
 function renderEditalList(){
   const grid = document.getElementById('edital-grid');
   if(!grid) return;
-  let list = [...(state.data?.editais||[])];
+  let list = [...currentList()];
 
   // Filters
   if(state.filtroArea) list = list.filter(e => {
@@ -423,14 +455,17 @@ function renderEditalList(){
       </div>
       <div class="edital-footer">
         <span class="date-info">📅 ${e.data_fim||'NI'}</span>
-        ${s!==null?('<span class="match-badge '+cls+'">'+matchEmoji(s)+' '+matchPct(s)+'</span>'):''}
+        <span style="display:flex;gap:6px;align-items:center">
+          ${state.view==='historico'?('<span class="status-badge '+(e.ativo?'status-aberto':'status-encerrado')+'">'+(e.ativo?'🟢 Aberto':'🔴 Encerrado')+'</span>'):''}
+          ${s!==null?('<span class="match-badge '+cls+'">'+matchEmoji(s)+' '+matchPct(s)+'</span>'):''}
+        </span>
       </div>
     </div>`;
   }).join('');
 }
 
 function openModal(id){
-  const e = state.data.editais.find(x=>String(x.id)===String(id));
+  const e = currentList().find(x=>String(x.id)===String(id));
   if(!e) return;
 
   const m = e.matches||{};
@@ -469,6 +504,7 @@ function openModal(id){
     </div>
     <div class="modal-body">
       <div class="modal-meta">
+        ${e.ativo===false?'<span class="status-badge status-encerrado">🔴 Encerrado</span>':''}
         <span class="tag tag-tipo">${esc(e.tipo||'')}</span>
         <span class="tag tag-orgao">${esc(e.orgao_parceiro||'')}</span>
         ${e.valor_estimado?'<span class="tag tag-valor">R$ '+esc(e.valor_estimado)+'</span>':''}

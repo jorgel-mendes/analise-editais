@@ -3,7 +3,7 @@ import logging
 from datetime import datetime
 from pathlib import Path
 
-from core.config import ROOT
+from core.config import API_URL, ROOT
 from core.bridge import carregar_qualificacoes, enriquecer_edital, calcular_match_detalhado
 from core.perfil import carregar_perfis
 from core.recommender import gerar_recomendacoes_todos_perfis
@@ -19,7 +19,11 @@ SITE_PERFIS_FILE = SITE_DATA_DIR / "perfis.json"
 def gerar_dados_site(analise: dict, novidades: dict | None = None) -> tuple[Path, Path]:
     SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    site_data = _tentar_ia(analise) or _analise_deterministica(analise)
+    qualificacoes = carregar_qualificacoes()
+    perfis = carregar_perfis()
+    historicos = _carregar_historicos_enriquecidos(qualificacoes, perfis)
+
+    site_data = _tentar_ia(analise) or _analise_deterministica(analise, qualificacoes, perfis, historicos)
 
     if site_data:
         _mesclar_valores_tors(site_data["editais"])
@@ -28,6 +32,8 @@ def gerar_dados_site(analise: dict, novidades: dict | None = None) -> tuple[Path
         site_data["resumo"]["novos_hoje"] = novidades["novos_count"] if novidades else 0
         site_data["resumo"]["encerrados_hoje"] = novidades["encerrados_count"] if novidades else 0
         site_data["resumo_ia"] = _gerar_resumo(site_data)
+        site_data["historico"] = _montar_historico(historicos, site_data["editais"])
+        _mesclar_valores_tors(site_data["historico"])
 
     SITE_ANALISE_FILE.write_text(json.dumps(site_data, indent=2, ensure_ascii=False))
 
@@ -57,10 +63,7 @@ def _tentar_ia(analise: dict) -> dict | None:
     return None
 
 
-def _analise_deterministica(analise: dict) -> dict:
-    qualificacoes = carregar_qualificacoes()
-    perfis = carregar_perfis()
-
+def _analise_deterministica(analise: dict, qualificacoes: dict, perfis: dict, historicos: list) -> dict:
     editais_enriquecidos = []
     for edital in analise["editais"]:
         e = enriquecer_edital(edital, qualificacoes)
@@ -83,8 +86,6 @@ def _analise_deterministica(analise: dict) -> dict:
             "idiomas": perfil.get("idiomas", []),
             "match_count": count,
         })
-
-    historicos = _carregar_historicos_enriquecidos(qualificacoes, perfis)
 
     return {
         "gerado_em": None,
@@ -122,6 +123,25 @@ def _carregar_historicos_enriquecidos(qualificacoes: dict, perfis: dict) -> list
         enriquecidos.append(e)
 
     return enriquecidos
+
+
+def _montar_historico(historicos: list, editais_ativos: list) -> list:
+    """Lista de editais dos últimos 12 meses, marcando quais seguem ativos hoje."""
+    ids_ativos = {e.get("id") for e in editais_ativos}
+
+    historico = []
+    for e in historicos:
+        item = {**e, "ativo": e.get("id") in ids_ativos}
+        matches = item.get("matches", {})
+        melhor_nome, melhor = max(
+            matches.items(), key=lambda kv: kv[1].get("score", 0), default=(None, {"score": 0})
+        )
+        item["perfil_classificado"] = melhor_nome if melhor.get("score", 0) >= 0.15 else "Não classificado"
+        item["url_externo"] = API_URL
+        historico.append(item)
+
+    historico.sort(key=lambda e: e.get("data_inicio", ""), reverse=True)
+    return historico
 
 
 def _recalcular_valores(site_data: dict):

@@ -74,4 +74,4 @@ DOMINIO_ORGAO = {
     "undp.org": "PNUD (Direto)",
 }
 
-PERFIS_DISPONIVEIS = ["engenheiro_dados", "economista", "pesquisador_computacao"]
+PERFIS_DISPONIVEIS = ["engenheiro_dados", "economista", "pesquisador_computacao", "analista_powerbi"]
