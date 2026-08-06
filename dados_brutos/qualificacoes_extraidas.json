@@ -1590,5 +1590,69 @@
     "descricao": "A consultoria atuará na produção de estudos, subsídios técnicos sobre mulheres e igualdades de gênero, além de propor recomendações para políticas públicas municipais. Para tanto, o(a) consultor(a) deverá executar, de forma articulada e contínua, as seguintes atividades:\r\n\r\n6.1 Realizar reuniões técnicas periódicas com a equipe contratante, sempre que solicitado, com o objetivo de apresentar encaminhamentos metodológicos, alinhar expectativas, compartilhar dados e insumos, bem como pactuar ajustes necessários ao desenvolvimento da consultoria.\r\n\r\n6.2 Estabelecer rotina sistemática de interlocução com a equipe técnica da SSAGI/SEPLAG, responsável pela supervisão do contrato, para detalhamento, acompanhamento e validação progressiva das atividades previstas neste Termo de Referência e no plano metodológico aprovado.\r\n\r\n6.3 Revisar criticamente dados, documentos e materiais institucionais produzidos pelo Município de Niterói, incluindo conteúdos relacionados ao ObservaNit, às diretrizes, políticas e estratégias municipais de apoio à redução das desigualdades de gênero e redução das violências contra a mulher.\r\n\r\n6.4 Realizar revisão de literatura e análise de boas práticas nacionais e internacionais em temas correlatos à gestão pública, governança de dados, monitoramento e avaliação, gestão da informação, observatórios de políticas públicas e metodologias de análise.\r\n\r\n6.5 Dialogar com especialistas, gestores e parceiros estratégicos, conforme apropriado, para subsidiar a definição dos referenciais metodológicos e validar abordagens analíticas propostas ao longo da consultoria.\r\n\r\n6.6 Apresentar versões preliminares dos produtos previstos, assegurando espaço para discussão técnica com a equipe supervisora e demais atores envolvidos, e incorporando as contribuições pertinentes antes da entrega das versões finais.\r\n\r\n6.7 Conduzir apresentações parciais e finais dos produtos, de modo a garantir alinhamento interpretativo sobre achados, métodos aplicados, limitações e recomendações formuladas, além de subsidiar a disseminação interna dos resultados.\r\n\r\n6.8 Integrar contribuições técnicas da equipe contratante e parceiros estratégicos, ajustando e aperfeiçoando análises, diagnósticos e propostas, em conformidade com as orientações formais emitidas no âmbito do processo de supervisão.\r\n\r\n6.9 Realizar oficinas colaborativas, quando demandado, visando à construção conjunta de propostas, compartilhamento de achados intermediários, discussão de cenários e validação coletiva das interpretações e recomendações formuladas ao longo da consultoria.\r\n\r\nEssas atividades deverão ser conduzidas de maneira articulada e compatível com o cronograma estabelecido, observando-se os princípios da qualidade técnica, precisão metodológica, cooperação institucional e aderência às diretrizes do projeto BRA/23/004.",
     "local": "Remoto com possibilidade de atividades presenciais",
     "data_fim": "2026-08-18"
+  },
+  {
+    "torid": "146296",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "estatística",
+      "direito",
+      "física",
+      "ciências contábeis",
+      "políticas públicas",
+      "ciência política",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [
+      "bsafe",
+      "security clearance"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "/eliminatórios (registrados no cv)",
+      "1. graduação superior em administração, ciência política, ciências contábeis, relações",
+      "internacionais, direito, economia, engenharia, ou áreas afins;",
+      "2. experiência profissional de, no mínimo, 7 anos em avaliação de projetos de",
+      "cooperação técnica internacional e/ou políticas públicas.",
+      "obs: o(a) candidato(a) que não atender aos requisitos supracitados será desclassificado"
+    ],
+    "requisitos_desejaveis": [
+      "/pontuáveis (registrados no cv)",
+      "1. pós-graduação stricto sensu (mestrado ou doutorado) em administração, ciência",
+      "política, ciências contábeis, relações internacionais, direito, economia, engenharia,",
+      "2. experiência profissional adicional à mínima de 7 anos em avaliação de projetos de",
+      "cooperação técnica internacional e/ou políticas públicas;",
+      "3. experiência profissional/acadêmica na área de regulação;",
+      "4. experiência em avaliação final de projetos de cooperação técnica internacional.",
+      "7. ética de avaliação",
+      "os consultores de avaliação serão mantidos nos mais altos padrões éticos e devem",
+      "assinar um compromisso de conduta ética após o aceite da tarefa. esta avaliação será"
+    ],
+    "titulo": "IC - UNDP-BRA-01226 - Consultoria para avaliação final do Projeto BRA/20/019",
+    "descricao": null,
+    "local": "Remoto (notar: na data de término, a negociação se encerra às 17h)",
+    "data_fim": "2026-08-19"
   }
 ]
