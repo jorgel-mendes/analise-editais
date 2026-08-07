@@ -1654,5 +1654,45 @@
     "descricao": null,
     "local": "Remoto (notar: na data de término, a negociação se encerra às 17h)",
     "data_fim": "2026-08-19"
+  },
+  {
+    "torid": "146301",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "comunicação",
+      "ciência política",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "7.950,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação acadêmica: mestrado em relações internacionais, ciência",
+      "política, ciências sociais, direito ou áreas afins em instituição de ensino superior reconhecida pelo",
+      "ministério da educação. experiência profissional: experiência profissional de, no mínimo, 4 anos em",
+      "atividades profissionais relacionadas a direitos humanos e/ou relações internacionais."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital 01/2026 - Relatório ao Protocolo Adicional à Convenção Americana sobre Direitos Humanos em matéria de Direitos Econômicos, Sociais e Culturais – San Salvador",
+    "descricao": "Contratação de consultor pessoa física, na modalidade produto, para elaborar subsídios ao Relatório do Estado Brasileiro ao Protocolo Adicional à Convenção Americana sobre Direitos Humanos em matéria de Direitos Econômicos, Sociais e Culturais – Protocolo de San Salvador.",
+    "local": "Território Nacional",
+    "data_fim": "2026-08-10"
   }
 ]

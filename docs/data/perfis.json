@@ -32,42 +32,6 @@
       "tem_doutorado": false
     },
     {
-      "nome": "analista_powerbi",
-      "descricao": "Analista de BI (Engenharia da Computação + Técnico em Computação), 5+ anos em Power BI/SQL, 3 anos com dados públicos, econômicos e sociais",
-      "graduacoes": [
-        "engenharia da computação",
-        "ciência da computação",
-        "sistemas de informação",
-        "análise e desenvolvimento de sistemas",
-        "técnico em informática",
-        "técnico em computação"
-      ],
-      "ferramentas": [
-        "power bi",
-        "sql",
-        "excel",
-        "dax",
-        "power query",
-        "power automate",
-        "python"
-      ],
-      "areas_interesse": [
-        "Tecnologia da Informação / Dados",
-        "Economia / Finanças Públicas",
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
-      ],
-      "idiomas": [
-        "inglês"
-      ],
-      "valor_minimo": 35000,
-      "experiencia_anos": 5,
-      "tem_pos_graduacao": false,
-      "tem_mestrado": false,
-      "tem_doutorado": false,
-      "contexto": "5+ anos de experiência geral em Power BI e SQL, com 3 anos específicos trabalhando com dados públicos, econômicos e sociais. Formação técnica em computação, sem pós-graduação."
-    },
-    {
       "nome": "engenheiro_dados",
       "descricao": "Engenheiro de Dados (Eng. Química + Ciência da Computação), 5 anos em pipelines ETL, Spark/Databricks/Azure e web scraping",
       "graduacoes": [
@@ -153,6 +117,42 @@
         "espanhol"
       ],
       "valor_minimo": 40000
+    },
+    {
+      "nome": "analista_powerbi",
+      "descricao": "Analista de BI (Engenharia da Computação + Técnico em Computação), 5+ anos em Power BI/SQL, 3 anos com dados públicos, econômicos e sociais",
+      "graduacoes": [
+        "engenharia da computação",
+        "ciência da computação",
+        "sistemas de informação",
+        "análise e desenvolvimento de sistemas",
+        "técnico em informática",
+        "técnico em computação"
+      ],
+      "ferramentas": [
+        "power bi",
+        "sql",
+        "excel",
+        "dax",
+        "power query",
+        "power automate",
+        "python"
+      ],
+      "areas_interesse": [
+        "Tecnologia da Informação / Dados",
+        "Economia / Finanças Públicas",
+        "Estatística / Pesquisa / Metodologia",
+        "Gestão / Administração Pública"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 35000,
+      "experiencia_anos": 5,
+      "tem_pos_graduacao": false,
+      "tem_mestrado": false,
+      "tem_doutorado": false,
+      "contexto": "5+ anos de experiência geral em Power BI e SQL, com 3 anos específicos trabalhando com dados públicos, econômicos e sociais. Formação técnica em computação, sem pós-graduação."
     }
   ]
 }

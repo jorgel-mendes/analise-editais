@@ -1,5 +1,22 @@
 [
   {
+    "id": 1505,
+    "torid": 146301,
+    "createdBy": "maria.nery.prestador",
+    "title": "Edital 01/2026 - Relatório ao Protocolo Adicional à Convenção Americana sobre Direitos Humanos em matéria de Direitos Econômicos, Sociais e Culturais – San Salvador",
+    "startDate": "2026-08-06T03:00:00",
+    "endDate": "2026-08-10T03:00:00",
+    "local": "Território Nacional",
+    "receivingEmail": "cgsimore@mdh.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultor pessoa física, na modalidade produto, para elaborar subsídios ao Relatório do Estado Brasileiro ao Protocolo Adicional à Convenção Americana sobre Direitos Humanos em matéria de Direitos Econômicos, Sociais e Culturais – Protocolo de San Salvador.",
+    "approver": "aline.santana,brenda.felix,carolina.parisotto,kalyandra.leite,livia.nogueira,livia.silva,rosana.tomazini",
+    "comments": "TR revisado e validado pelo PNUD",
+    "created": "2026-08-06T16:32:50.1534539",
+    "canApprove": false,
+    "statusDescription": "Aprovada"
+  },
+  {
     "id": 1498,
     "torid": 146288,
     "createdBy": "gabriel.araujo",
