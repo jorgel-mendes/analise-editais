@@ -1694,5 +1694,81 @@
     "descricao": "Contratação de consultor pessoa física, na modalidade produto, para elaborar subsídios ao Relatório do Estado Brasileiro ao Protocolo Adicional à Convenção Americana sobre Direitos Humanos em matéria de Direitos Econômicos, Sociais e Culturais – Protocolo de San Salvador.",
     "local": "Território Nacional",
     "data_fim": "2026-08-10"
+  },
+  {
+    "torid": "146294",
+    "graduacao": [
+      "administração",
+      "direito",
+      "arquitetura",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.960,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultoria técnica especializada para elaboração e desenvolvimento de solução educacional voltada à formação de lideranças em todos os níveis organizacionais do Conselho Administrativo de Defesa Econômica (Cade), mediante a produção de cursos customizados e objetos de aprendizagem digitais alinhados aos objetivos estratégicos, à missão, à visão e aos valores da Autarquia.",
+    "descricao": "Os interessados em participar do processo seletivo deverão encaminhar currículo atualizado, acompanhado de toda a documentação comprobatória exigida neste Termo de Referência, em arquivo único no formato PDF, para o endereço eletrônico prodoc@cade.gov.br.\r\n\r\nNo campo \"Assunto\" do e-mail, deverá constar a seguinte identificação: \"Consultoria – Trilha de Aprendizagem para Lideranças – [Nome do Candidato]\".\r\n\r\nNão serão aceitas inscrições ou documentos encaminhados após o prazo estabelecido no cronograma oficial da seleção constante do subitem 9.8 deste Termo de Referência.\r\n\r\nA inscrição somente será considerada válida quando acompanhada de todos os documentos comprobatórios exigidos nos itens 9.5.2 deste Termo de Referência.\r\n\r\nApós o encerramento do período de inscrições, os candidatos que tiverem suas inscrições homologadas receberão, por meio do endereço eletrônico informado, as orientações para participação nas etapas do processo seletivo, observado o cronograma constante do subitem 9.8.\r\n\r\nO processo seletivo é aberto a candidatos brasileiros e estrangeiros, residentes no Brasil ou no exterior. Caberá ao candidato observar e atender às exigências legais relativas à permanência e à autorização para o exercício de atividade profissional no país, quando aplicáveis, bem como assegurar sua disponibilidade para participar das etapas da seleção e executar as atividades previstas neste Termo de Referência.\r\n\r\nOs candidatos que tenham exercido cargo ou emprego no Cade e que estejam sujeitos às restrições previstas na Lei nº 12.813, de 16 de maio de 2013, deverão observar o período de impedimento estabelecido na referida norma antes da celebração do contrato.\r\n\r\nÉ vedada a contratação de cônjuge, companheiro ou parente, em linha reta, colateral ou por afinidade, até o terceiro grau, da autoridade responsável pela contratação ou de servidores que tenham atuado na condução, na avaliação ou na decisão do processo seletivo.",
+    "local": " Remoto",
+    "data_fim": "2026-08-17"
+  },
+  {
+    "torid": "146303",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "ciências sociais",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "16.606,08",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      ": - formação técnica em nível superior em administração pública,",
+      "administração, economia, contabilidade, ciências sociais, direito, gestão pública ou áreas correlatas ao",
+      "objeto, reconhecida pelo mec. critério: apresentação de certificado de conclusão de curso superior nas",
+      "áreas indicadas. - experiência profissional comprovada mínima de 5 anos, após formação superior, em",
+      "integridade pública, compliance, gestão de riscos, governança, controles internos, auditoria, contratações",
+      "públicas, prevenção à corrupção ou áreas correlatas. critério: 10 pontos pela experiência mínima e 2 pontos",
+      "por ano adicional diretamente relacionado ao objeto, até o limite."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Consultoria técnica especializada para estruturação, validação e implantação assistida do Processo Institucional de Due Diligence de Integridade da Secretaria do Tesouro Nacional",
+    "descricao": null,
+    "local": "Remoto",
+    "data_fim": "2026-08-23"
   }
 ]
