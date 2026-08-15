@@ -10,6 +10,32 @@ from openpyxl.worksheet.properties import PageSetupProperties
 
 from core.config import API_URL, OUTPUT_EXCEL, OUTPUT_PDF
 
+_PDF_UNICODE_REPLACEMENTS = {
+    "–": "-", "—": "-",     # en/em dash
+    "‘": "'", "’": "'",     # aspas simples tipográficas
+    "“": '"', "”": '"',     # aspas duplas tipográficas
+    "…": "...",                  # reticências
+    " ": " ",                    # espaço não separável
+}
+
+
+def _sanitize_pdf_text(text) -> str:
+    """A fonte core "Helvetica" do PDF só suporta Latin-1/WinAnsi — títulos e
+    descrições de editais vêm de fonte externa e às vezes trazem tipografia
+    Unicode (travessão, aspas curvas) que derruba o fpdf2 com
+    FPDFUnicodeEncodingException. Normaliza os casos comuns e, pra qualquer
+    sobra, cai para o caractere mais próximo em vez de quebrar a geração."""
+    if text is None:
+        return ""
+    text = str(text)
+    for k, v in _PDF_UNICODE_REPLACEMENTS.items():
+        text = text.replace(k, v)
+    try:
+        text.encode("latin-1")
+    except UnicodeEncodeError:
+        text = text.encode("latin-1", errors="replace").decode("latin-1")
+    return text
+
 
 class _PDFReport(FPDF):
     def header(self):
@@ -31,7 +57,7 @@ class _PDFReport(FPDF):
         self.ln(2)
         self.set_font("Helvetica", "B", 12)
         self.set_text_color(0, 51, 102)
-        self.cell(0, 8, text, new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 8, _sanitize_pdf_text(text), new_x="LMARGIN", new_y="NEXT")
         self.set_draw_color(0, 51, 102)
         self.line(self.l_margin, self.get_y() + 1, self.l_margin + self.w, self.get_y() + 1)
         self.ln(4)
@@ -39,13 +65,13 @@ class _PDFReport(FPDF):
     def subtitulo(self, text: str):
         self.set_font("Helvetica", "B", 10)
         self.set_text_color(0, 70, 130)
-        self.cell(0, 6, text, new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 6, _sanitize_pdf_text(text), new_x="LMARGIN", new_y="NEXT")
         self.ln(2)
 
     def corpo(self, text: str):
         self.set_font("Helvetica", "", 9)
         self.set_text_color(60, 60, 60)
-        self.multi_cell(0, 5, text)
+        self.multi_cell(0, 5, _sanitize_pdf_text(text))
         self.ln(1)
 
     def bullet(self, text: str, indent: int = 5):
@@ -55,7 +81,7 @@ class _PDFReport(FPDF):
         self.set_x(x0)
         self.cell(3, 5, "-")
         self.set_x(x0 + 4)
-        self.multi_cell(self.w - indent - 4, 5, text)
+        self.multi_cell(self.w - indent - 4, 5, _sanitize_pdf_text(text))
         self.ln(0.5)
 
     def tabela(self, headers: list, rows: list, col_widths: list | None = None):
@@ -68,7 +94,7 @@ class _PDFReport(FPDF):
         self.set_fill_color(0, 51, 102)
         self.set_text_color(255)
         for i, h in enumerate(headers):
-            self.cell(col_widths[i], 6, h, border=1, fill=True)
+            self.cell(col_widths[i], 6, _sanitize_pdf_text(h), border=1, fill=True)
         self.ln()
 
         self.set_font("Helvetica", "", 7)
@@ -79,7 +105,7 @@ class _PDFReport(FPDF):
                 self.set_fill_color(255, 255, 255)
             self.set_text_color(60)
             for i, cell in enumerate(row):
-                self.cell(col_widths[i], 5, str(cell)[:80], border=1, fill=True)
+                self.cell(col_widths[i], 5, _sanitize_pdf_text(cell)[:80], border=1, fill=True)
             self.ln()
         self.ln(3)
 
