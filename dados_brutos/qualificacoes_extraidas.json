@@ -1770,5 +1770,166 @@
     "descricao": null,
     "local": "Remoto",
     "data_fim": "2026-08-23"
+  },
+  {
+    "torid": "146311",
+    "graduacao": [
+      "economia",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": "18.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: - formação técnica em nível de mestrado em ciências",
+      "econômicas. - fluência em português e inglês. experiência: - experiência profissional de trabalho ou",
+      "pesquisa na área de contas nacionais e/ou insumo-produto. - experiência profissional de trabalho ou",
+      "pesquisa na área de modelos macroeconômicos. - experiência na construção de bases de dados de contas",
+      "nacionais a partir de pesquisas do ibge e/ou notas fiscais eletrônicas (nf-e)."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 19/2026 - Contratação de Consultoria Individual para o desenvolvimento, documentação e compilação de bases de dados dos módulos econômico e de distribuição de renda do modelo MIRA",
+    "descricao": "Edital nº 19/2026 - Contratação de Consultoria Individual para o desenvolvimento, documentação e compilação de bases de dados dos módulos econômico e de distribuição de renda do modelo MIRA",
+    "local": "Remoto",
+    "data_fim": "2026-09-01"
+  },
+  {
+    "torid": "146312",
+    "graduacao": [
+      "economia",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "stata"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": "19.500,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: - formação técnica em nível superior em ciências econômicas.",
+      "- formação técnica em nível de doutorado/phd em ciências econômicas. - fluência em português e inglês.",
+      "- conhecimentos avançados no software livre de tratamento de dados r. experiência: - experiência",
+      "profissional de trabalho ou pesquisa na área de contas nacionais e/ou insumo-produto. - experiência",
+      "profissional de trabalho ou pesquisa na área de modelos macroeconômicos ambientais. - experiência",
+      "profissional de trabalho ou pesquisa na área de modelos macroeconômicos de simulação stock-flow"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 20/2026 - Contratação de Consultor Individual para o desenvolvimento, documentação e aplicação do módulo econômico do modelo MIRA, com foco na calibração de parâmetros, regionalização e estimação da Matriz de Absorção de Investimentos",
+    "descricao": "Edital nº 20/2026 - Contratação de Consultor Individual para o desenvolvimento, documentação e aplicação do módulo econômico do modelo MIRA, com foco na calibração de parâmetros, regionalização e estimação da Matriz de Absorção de Investimentos",
+    "local": "Remoto",
+    "data_fim": "2026-09-01"
+  },
+  {
+    "torid": "146317",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "stata"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": "18.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 21/2026 - Contratação de Consultoria Individual para o desenvolvimento metodológico e a integração dos módulos de emissões de GEE e consumo de energia no modelo MIRA",
+    "descricao": "Edital nº 21/2026 - Contratação de Consultoria Individual para o desenvolvimento metodológico e a integração dos módulos de emissões de GEE e consumo de energia no modelo MIRA",
+    "local": "REMOTO",
+    "data_fim": "2026-09-01"
+  },
+  {
+    "torid": "146318",
+    "graduacao": [
+      "administração",
+      "física",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "5.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 23/2026 - Contratação de consultor individual para a Elaboração do Guia Prático de Oficinas Colaborativas",
+    "descricao": "Edital nº 23/2026 - Contratação de consultor individual para a Elaboração do Guia Prático de Oficinas Colaborativas",
+    "local": "REMOTO",
+    "data_fim": "2026-09-01"
+  },
+  {
+    "torid": "146319",
+    "graduacao": [
+      "economia",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "stata"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": "18.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 22/2026 – Contratação de Consultoria Individual para o desenvolvimento metodológico e a integração dos módulos de emissões de GEE e consumo de água no modelo MIRA",
+    "descricao": "Edital nº 22/2026 – Contratação de Consultoria Individual para o desenvolvimento metodológico e a integração dos módulos de emissões de GEE e consumo de água no modelo MIRA",
+    "local": "remoto",
+    "data_fim": "2026-09-01"
   }
 ]
