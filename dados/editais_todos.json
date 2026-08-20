@@ -1,5 +1,22 @@
 [
   {
+    "id": 1512,
+    "torid": 146313,
+    "createdBy": "laura.rodrigues",
+    "title": "Consultoria técnica especializada para desenvolvimento de proposta de governança e curadoria da Base de Conhecimento destinada ao suporte de soluções de Inteligência Artificial da área de Integridade da Secretaria do Tesouro Nacional",
+    "startDate": "2026-08-20T03:00:00",
+    "endDate": "2026-09-02T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "ucp.codin.df.stn@tesouro.gov.br",
+    "enabled": true,
+    "description": null,
+    "approver": "cristiano.prado,henrique.lacerda,luciana.brant,manuela.lima,mayra.almeida,melissa.silva,MTF,thais.pires",
+    "comments": "",
+    "created": "2026-08-10T15:39:52.3956014",
+    "canApprove": false,
+    "statusDescription": "Aprovada"
+  },
+  {
     "id": 1510,
     "torid": 146311,
     "createdBy": "jainara.araujo",

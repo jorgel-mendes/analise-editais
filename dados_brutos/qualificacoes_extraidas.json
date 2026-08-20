@@ -1931,5 +1931,43 @@
     "descricao": "Edital nº 22/2026 – Contratação de Consultoria Individual para o desenvolvimento metodológico e a integração dos módulos de emissões de GEE e consumo de água no modelo MIRA",
     "local": "remoto",
     "data_fim": "2026-09-01"
+  },
+  {
+    "torid": "146313",
+    "graduacao": [
+      "tecnologia da informação",
+      "engenharia",
+      "economia",
+      "administração",
+      "direito",
+      "ciência de dados",
+      "inteligência artificial",
+      "gestão pública",
+      "comunicação",
+      "biblioteconomia",
+      "arquivologia"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "20.757,60",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Consultoria técnica especializada para desenvolvimento de proposta de governança e curadoria da Base de Conhecimento destinada ao suporte de soluções de Inteligência Artificial da área de Integridade da Secretaria do Tesouro Nacional",
+    "descricao": null,
+    "local": "Remoto",
+    "data_fim": "2026-09-02"
   }
 ]
