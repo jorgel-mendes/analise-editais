@@ -1969,5 +1969,170 @@
     "descricao": null,
     "local": "Remoto",
     "data_fim": "2026-09-02"
+  },
+  {
+    "torid": "146326",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "comunicação",
+      "ciência política",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "stata"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "5.670,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "graduação em direito em instituição reconhecida pelo ministério da",
+      "educação; mestrado ou doutorado em direito, relações internacionais, ciência política, ciências sociais",
+      "ou áreas afins em instituição reconhecida pelo ministério da educação; experiência profissional, mínima",
+      "de 2 anos, em sistemas internacionais de direitos humanos, incluindo atuação junto ao sistema",
+      "interamericano (comissão interamericana de direitos humanos e corte interamericana de direitos",
+      "humanos) ou mecanismos da organização das nações unidas em matéria de direitos humanos; experiência",
+      "profissional, mínima de 2 anos, na elaboração ou revisão de relatórios, pareceres técnicos ou documentos",
+      "jurídicos submetidos a organismos internacionais de sistemas de direitos humanos."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 02/2026 – Metodologia para monitoramento das decisões da Corte Interamericana de Direitos Humanos",
+    "descricao": "Contratação de 1 (uma) consultoria pessoa física, na modalidade produto, para regularização de fluxos de reporte internacional, qualificação técnica das informações prestadas à Corte Interamericana de Direitos Humanos, com base em critérios de objetividade, verificabilidade e coerência jurídica; bem como por meio da institucionalização de metodologias de monitoramento e avaliação dos compromissos internacionais em direitos humanos, promovendo maior previsibilidade e continuidade das ações estatais na implementação de atos necessários ao cumprimento de decisões da Corte Interamericana de Direitos Humanos.",
+    "local": "Território Nacional",
+    "data_fim": "2026-09-09"
+  },
+  {
+    "torid": "146327",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "comunicação",
+      "ciência política",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "stata"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "5.670,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "graduação em direito em instituição reconhecida pelo ministério da",
+      "educação; mestrado ou doutorado em direito, relações internacionais, ciência política, ciências sociais",
+      "ou áreas afins em instituição reconhecida pelo ministério da educação; experiência profissional, mínima",
+      "de 2 anos, em sistemas internacionais de direitos humanos, incluindo atuação junto ao sistema",
+      "interamericano (comissão interamericana de direitos humanos e corte interamericana de direitos",
+      "humanos) ou mecanismos da organização das nações unidas em matéria de direitos humanos; experiência",
+      "profissional, mínima de 2 anos, na elaboração ou revisão de relatórios, pareceres técnicos ou documentos",
+      "jurídicos submetidos a organismos internacionais de sistemas de direitos humanos."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 3/2026 – Metodologia para monitoramento de recomendações e decisões da Comissão Interamericana de Direitos Humanos",
+    "descricao": "Contratação de 1 (uma) consultoria pessoa física, na modalidade produto, para regularização de fluxos de reporte internacional, qualificação técnica das informações prestadas à Comissão Interamericana de Direitos Humanos, com base em critérios de objetividade, verificabilidade e coerência jurídica; bem como por meio da institucionalização de metodologias de monitoramento e avaliação dos compromissos internacionais em direitos humanos, promovendo maior previsibilidade e continuidade das ações estatais na implementação de atos necessários ao cumprimento de decisões e recomendações da Comissão Interamericana de Direitos Humanos.",
+    "local": "Território Nacional",
+    "data_fim": "2026-09-09"
+  },
+  {
+    "torid": "146332",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "gestão pública",
+      "políticas públicas",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "6.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação acadêmica - graduação em administração pública, gestão de",
+      "políticas públicas, direito, ciência política, ciências sociais, serviço social ou áreas correlatas das",
+      "ciências humanas e sociais aplicadas, em instituição reconhecida pelo ministério da educação. pós-",
+      "graduação - stricto sensu em políticas públicas, gestão pública, direitos humanos, administração pública,",
+      "planejamento governamental ou áreas correlatas. experiência profissional, mínima de 1 ano, em atividades",
+      "relacionadas a formulação, planejamento, monitoramento ou avaliação de políticas públicas, programas",
+      "governamentais ou instrumentos de planejamento estratégico. experiência profissional, mínimo de 1 ano,",
+      "na elaboração de estudos, diagnósticos, planos, programas, notas técnicas, relatórios analíticos ou",
+      "instrumentos normativos para órgãos públicos."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 04/2026 - Segundo Plano da Política Nacional de RCN",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para elaboração de documentos técnicos destinados a subsidiar a formulação do Segundo Plano da Política Nacional de Registro Civil de Nascimento e Ampliação do Acesso à Documentação Básica.\r\nAs entregas incluem diagnóstico sintético, diretrizes, objetivos, metas, indicadores, proposta de governança, matriz de responsabilidades e estratégia de participação social, bem como a sistematização de contribuições do processo participativo e a consolidação de insumos técnicos para a versão final do Plano, seu lançamento institucional e a proposição normativa correspondente.\r\n",
+    "local": "Território Nacional",
+    "data_fim": "2026-09-09"
+  },
+  {
+    "torid": "146335",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "15.499,01",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      ": - formação técnica em nível superior em administração pública,",
+      "administração, direito, ciências sociais ou áreas correlatas. critério: apresentação de certificado de",
+      "conclusão de curso superior nas áreas indicadas, sendo 05 pontos por certificado. - experiência profissional",
+      "comprovada mínima de 03 projetos/consultorias em diagnóstico organizacional, avaliação de capacidade",
+      "institucional ou avaliação de estrutura de governança em órgão público. critério: apresentação de",
+      "comprovantes de trabalhos anteriores, sendo 02 pontos para 3 experiências/projetos/consultorias",
+      "(experiência mínima) e 02 pontos por cada experiência adicional. - experiência profissional comprovada",
+      "em análise comparada de modelos internacionais de governança pública. critério: apresentação de",
+      "comprovantes de trabalhos anteriores, sendo 03 pontos para 1 experiência/projeto/consultoria (experiência",
+      "mínima) e 02 pontos por cada experiência adicional."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Consultoria técnica especializada para avaliação das capacidades institucionais da Secretaria do Tesouro Nacional (STN)",
+    "descricao": null,
+    "local": "Remoto",
+    "data_fim": "2026-09-06"
   }
 ]
