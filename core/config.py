@@ -16,6 +16,14 @@ OUTPUT_PDF = ROOT / "relatorio_editais_pnud.pdf"
 API_URL = "https://parceiros.undp.org.br/opportunities"
 API_ENDPOINT = "icnim-api.undp.org.br/v1/publish/list/active"
 
+UNESCO_API_URL = "https://apiroster.brasilia.unesco.org/api/public/published"
+UNESCO_PORTAL_URL = "https://roster.brasilia.unesco.org/app/selection-process-list"
+
+OEI_SITEMAP_INDEX = "https://oei.int/sitemap_index.xml"
+OEI_PORTAL_URL = "https://oei.int/licitaciones-y-convocatorias/"
+
+FONTES_DISPONIVEIS = ["pnud", "unesco", "oei"]
+
 CLASSIFICACAO_TIPOS = {
     "Consultoria Pessoa Física (PF)": [
         "pessoa física", "consultor pessoa física", "consultoria individual",

@@ -1,4 +1,4 @@
-name: Análise Diária de Editais PNUD
+name: Análise Diária de Editais PNUD/UNESCO/OEI
 
 on:
   schedule:

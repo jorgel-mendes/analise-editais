@@ -42,7 +42,7 @@ class _PDFReport(FPDF):
         if self.page_no() > 1:
             self.set_font("Helvetica", "B", 8)
             self.set_text_color(0, 51, 102)
-            self.cell(0, 5, "Análise de Editais PNUD Brasil", align="C", new_x="LMARGIN", new_y="NEXT")
+            self.cell(0, 5, "Análise de Editais - PNUD / UNESCO / OEI Brasil", align="C", new_x="LMARGIN", new_y="NEXT")
             self.set_draw_color(0, 51, 102)
             self.line(self.l_margin, self.get_y() + 1, self.l_margin + self.w, self.get_y() + 1)
             self.ln(5)
@@ -189,7 +189,7 @@ def _montar_resumo(wb: Workbook, analise: dict):
     ws.column_dimensions["B"].width = 46
     ws.sheet_view.showGridLines = False
 
-    ws["A1"] = "Análise de Editais PNUD Brasil"
+    ws["A1"] = "Análise de Editais PNUD / UNESCO / OEI Brasil"
     ws["A1"].font = Font(bold=True, size=16, color=_AZUL)
     ws.merge_cells("A1:B1")
     ws.row_dimensions[1].height = 24
@@ -232,9 +232,18 @@ def _montar_resumo(wb: Workbook, analise: dict):
         metrica("Período", f"Últimos {filtro['periodo_meses']} meses")
     if filtro.get("perfil"):
         metrica("Perfil filtrado", filtro["perfil"])
+    if filtro.get("fonte"):
+        metrica("Fonte filtrada", filtro["fonte"].upper())
     metrica("Tipos distintos", len(analise.get("contagem_tipos", {})))
     metrica("Órgãos parceiros", len(analise.get("contagem_orgaos", {})))
     linha += 1
+
+    contagem_fontes = analise.get("contagem_fontes") or {}
+    if len(contagem_fontes) > 1:
+        secao("Editais por fonte")
+        for nome, qtd in contagem_fontes.items():
+            metrica(nome.upper(), qtd)
+        linha += 1
 
     valores = analise.get("valores") or {}
     if valores.get("quantidade_com_valor"):
@@ -269,6 +278,7 @@ def gerar_excel(analise: dict) -> Path:
         perfil = e.get("perfil_classificado") or ""
         score = (e.get("matches") or {}).get(perfil, {}).get("score", e.get("score_perfil"))
         linhas.append({
+            "fonte": (e.get("fonte") or "pnud").upper(),
             "torid": e.get("torid"),
             "titulo": e.get("titulo", ""),
             "tipo": e.get("tipo", ""),
@@ -286,6 +296,7 @@ def gerar_excel(analise: dict) -> Path:
         })
 
     _montar_aba(wb, "Editais", [
+        _Coluna("Fonte", "fonte", 12, horizontal="center"),
         _Coluna("ToR", "torid", 10, "0", "center"),
         _Coluna("Título", "titulo", 52, quebrar=True),
         _Coluna("Tipo", "tipo", 26, quebrar=True),
@@ -303,6 +314,7 @@ def gerar_excel(analise: dict) -> Path:
     ], linhas)
 
     contagens = [
+        ("Por_Fonte", "Fonte", analise.get("contagem_fontes"), True),
         ("Por_Perfil", "Perfil", analise.get("contagem_perfis"), True),
         ("Por_Tipo", "Tipo", analise.get("contagem_tipos"), False),
         ("Por_Area", "Área temática", analise.get("contagem_areas"), False),
@@ -359,7 +371,7 @@ def _pdf_capa(pdf: _PDFReport, total: int, filtro: dict):
     pdf.ln(25)
     pdf.set_font("Helvetica", "B", 24)
     pdf.set_text_color(0, 51, 102)
-    pdf.cell(0, 12, "EDITAIS PNUD BRASIL", align="C", new_x="LMARGIN", new_y="NEXT")
+    pdf.cell(0, 12, "EDITAIS PNUD / UNESCO / OEI BRASIL", align="C", new_x="LMARGIN", new_y="NEXT")
     pdf.set_font("Helvetica", "", 13)
     pdf.cell(0, 8, "Análise de Editais e Classificação por Perfil", align="C", new_x="LMARGIN", new_y="NEXT")
     pdf.ln(8)
@@ -373,7 +385,7 @@ def _pdf_capa(pdf: _PDFReport, total: int, filtro: dict):
     if filtro.get("perfil"):
         pdf.cell(0, 7, f"Perfil: {filtro['perfil']}", align="C", new_x="LMARGIN", new_y="NEXT")
     pdf.cell(0, 7, f"{total} editais analisados | {datetime.now().strftime('%d/%m/%Y')}", align="C", new_x="LMARGIN", new_y="NEXT")
-    pdf.cell(0, 7, "Fonte: parceiros.undp.org.br/opportunities", align="C", new_x="LMARGIN", new_y="NEXT")
+    pdf.cell(0, 7, "Fontes: parceiros.undp.org.br | roster.brasilia.unesco.org | oei.int", align="C", new_x="LMARGIN", new_y="NEXT")
 
 
 def _pdf_visao_geral(pdf: _PDFReport, analise: dict):
@@ -381,18 +393,23 @@ def _pdf_visao_geral(pdf: _PDFReport, analise: dict):
     pdf.titulo("1. VISÃO GERAL")
     pdf.corpo(f"Total de editais analisados: {analise['total_editais']}")
 
+    if len(analise.get("contagem_fontes") or {}) > 1:
+        pdf.subtitulo("1.1 Por Fonte")
+        rows = [[k.upper(), str(v)] for k, v in analise["contagem_fontes"].items()]
+        pdf.tabela(["Fonte", "Quantidade"], rows, [120, 50])
+
     if analise.get("contagem_tipos"):
-        pdf.subtitulo("1.1 Por Tipo de Edital")
+        pdf.subtitulo("1.2 Por Tipo de Edital")
         rows = [[k, str(v)] for k, v in analise["contagem_tipos"].items()]
         pdf.tabela(["Tipo", "Quantidade"], rows, [120, 50])
 
     if analise.get("contagem_areas"):
-        pdf.subtitulo("1.2 Áreas Temáticas")
+        pdf.subtitulo("1.3 Áreas Temáticas")
         rows = [[k, str(v)] for k, v in analise["contagem_areas"].items()]
         pdf.tabela(["Área Temática", "Quantidade"], rows, [120, 50])
 
     if analise.get("contagem_orgaos"):
-        pdf.subtitulo("1.3 Órgãos Parceiros")
+        pdf.subtitulo("1.4 Órgãos Parceiros")
         rows = [[k, str(v)] for k, v in analise["contagem_orgaos"].items()]
         pdf.tabela(["Órgão", "Quantidade"], rows, [120, 50])
 

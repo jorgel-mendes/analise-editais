@@ -1,12 +1,12 @@
 import click
 
-from core.config import PERFIS_DISPONIVEIS, PERFIS_DIR, HISTORICO_DIR
+from core.config import FONTES_DISPONIVEIS, PERFIS_DISPONIVEIS, PERFIS_DIR, HISTORICO_DIR
 
 
 @click.group()
 @click.version_option(version="0.2.0")
 def cli():
-    """Análise de Editais PNUD Brasil - scraping, persistência e análise com classificação de perfil."""
+    """Análise de Editais PNUD/UNESCO/OEI Brasil - scraping, persistência e análise com classificação de perfil."""
 
 
 @cli.command()
@@ -14,25 +14,31 @@ def cli():
 @click.option("--perfil", "-f", default=None, type=click.Choice(PERFIS_DISPONIVEIS), help="Filtrar por perfil")
 @click.option("--todos", "-t", is_flag=True, help="Analisar todos os editais (ignora período)")
 @click.option("--force", is_flag=True, help="Forçar análise mesmo sem editais novos")
-def daily(periodo, perfil, todos, force):
+@click.option("--fonte", multiple=True, type=click.Choice(FONTES_DISPONIVEIS), help="Restringir a fonte(s) (padrão: todas)")
+def daily(periodo, perfil, todos, force, fonte):
     """Execução diária completa: fetch → persist → analyze → report."""
     from core.scraper import executar_scraping
     from core.persistence import carregar_editais_todos
     from core.analyzer import analisar_editais
     from core.reporter import gerar_relatorio_completo
     from core.tor_pipeline import baixar_e_extrair_tors
+    from core.tor_direct import baixar_e_extrair_tors_diretos
 
     click.echo("=" * 60)
-    click.echo("🚀 EXECUÇÃO DIÁRIA - ANÁLISE DE EDITAIS PNUD")
+    click.echo("🚀 EXECUÇÃO DIÁRIA - ANÁLISE DE EDITAIS PNUD/UNESCO/OEI")
     click.echo("=" * 60)
 
-    editais_atuais, novidades = executar_scraping()
+    editais_atuais, novidades = executar_scraping(fontes=list(fonte) or None)
     if not editais_atuais:
         click.echo("❌ Nenhum edital encontrado. Abortando.")
         return
 
+    editais_pnud = [e for e in editais_atuais if e.get("fonte", "pnud") == "pnud"]
+    editais_diretos = [e for e in editais_atuais if e.get("fonte") in ("unesco", "oei")]
+
     click.echo("\n📎 Baixando e extraindo ToRs pendentes...")
-    n_tors = baixar_e_extrair_tors(editais_atuais)
+    n_tors = baixar_e_extrair_tors(editais_pnud)
+    n_tors += baixar_e_extrair_tors_diretos(editais_diretos)
     click.echo(f"   {n_tors} ToR(s) novo(s) baixado(s) e extraído(s)")
 
     tem_novos = novidades and novidades.get("novos_count", 0) > 0
@@ -78,12 +84,13 @@ def daily(periodo, perfil, todos, force):
 
 
 @cli.command()
-def fetch():
+@click.option("--fonte", multiple=True, type=click.Choice(FONTES_DISPONIVEIS), help="Restringir a fonte(s) (padrão: todas)")
+def fetch(fonte):
     """Buscar e persistir novos editais (sem análise)."""
     from core.scraper import executar_scraping
 
     click.echo("🔍 Buscando editais...")
-    editais, novidades = executar_scraping()
+    editais, novidades = executar_scraping(fontes=list(fonte) or None)
 
     if editais:
         click.echo(f"✅ {len(editais)} editais capturados e persistidos.")
@@ -98,7 +105,8 @@ def fetch():
 @click.option("--periodo", "-p", default=3, type=int, help="Meses para análise (padrão: 3)")
 @click.option("--perfil", "-f", default=None, type=click.Choice(PERFIS_DISPONIVEIS), help="Filtrar por perfil")
 @click.option("--todos", "-t", is_flag=True, help="Analisar todos os editais persistidos")
-def analyze(periodo, perfil, todos):
+@click.option("--fonte", default=None, type=click.Choice(FONTES_DISPONIVEIS), help="Filtrar por fonte")
+def analyze(periodo, perfil, todos, fonte):
     """Analisar editais persistidos com opções de período e perfil."""
     from core.persistence import carregar_editais_todos
     from core.analyzer import analisar_editais
@@ -116,11 +124,16 @@ def analyze(periodo, perfil, todos):
         periodo_meses=periodo,
         perfil_nome=perfil,
         todos=todos,
+        fonte_nome=fonte,
     )
 
     click.echo(f"\n📊 RESULTADO DA ANÁLISE:")
     click.echo(f"   Total: {analise['total_editais']} editais")
-    click.echo(f"   Filtro: {'todos' if todos else f'últimos {periodo} meses'}{' + perfil=' + perfil if perfil else ''}")
+    click.echo(f"   Filtro: {'todos' if todos else f'últimos {periodo} meses'}{' + perfil=' + perfil if perfil else ''}{' + fonte=' + fonte if fonte else ''}")
+
+    click.echo(f"\n🌐 Fontes:")
+    for fonte_item, qtd in analise.get("contagem_fontes", {}).items():
+        click.echo(f"   {fonte_item}: {qtd}")
 
     click.echo(f"\n📋 Tipos:")
     for tipo, qtd in analise.get("contagem_tipos", {}).items():
@@ -151,7 +164,8 @@ def analyze(periodo, perfil, todos):
 @click.option("--periodo", "-p", default=3, type=int, help="Meses para análise (padrão: 3)")
 @click.option("--perfil", "-f", default=None, type=click.Choice(PERFIS_DISPONIVEIS), help="Filtrar por perfil")
 @click.option("--todos", "-t", is_flag=True, help="Incluir todos os editais")
-def report(periodo, perfil, todos):
+@click.option("--fonte", default=None, type=click.Choice(FONTES_DISPONIVEIS), help="Filtrar por fonte")
+def report(periodo, perfil, todos, fonte):
     """Gerar relatórios Excel e PDF a partir dos editais persistidos."""
     from core.persistence import carregar_editais_todos
     from core.analyzer import analisar_editais
@@ -168,6 +182,7 @@ def report(periodo, perfil, todos):
         periodo_meses=periodo,
         perfil_nome=perfil,
         todos=todos,
+        fonte_nome=fonte,
     )
 
     gerar_relatorio_completo(analise)
@@ -200,6 +215,8 @@ def profiles():
 @cli.command()
 def status():
     """Verificar status dos dados persistidos."""
+    from collections import Counter
+
     from core.persistence import carregar_editais_todos, carregar_editais_processados, ultimo_snapshot
 
     todos = carregar_editais_todos()
@@ -208,10 +225,32 @@ def status():
 
     click.echo("📊 STATUS DOS DADOS:\n")
     click.echo(f"   Editais únicos persistidos: {len(todos)}")
+    por_fonte = Counter(e.get("fonte", "pnud") for e in todos)
+    for fonte_item, qtd in por_fonte.most_common():
+        click.echo(f"      {fonte_item}: {qtd}")
     click.echo(f"   Editais processados (última análise): {len(processados)}")
     click.echo(f"   Último snapshot: {snap.name if snap else 'Nenhum'}")
     click.echo(f"   Histórico: {len(list(HISTORICO_DIR.glob('*/*/*.json')))} snapshots")
     click.echo(f"   Perfis: {len(list(PERFIS_DIR.glob('*.json')))} configurados")
+
+
+@cli.command(name="backfill-oei")
+def backfill_oei():
+    """Percorre o sitemap inteiro da OEI (todo o histórico do Brasil) e mescla em editais_todos.
+
+    Uso pontual/manual — não faz parte do pipeline diário (volume grande, ~1.100 páginas)."""
+    from core.persistence import atualizar_editais_todos
+    from core.sources import oei
+
+    click.echo("🔍 Percorrendo sitemap da OEI (histórico completo do Brasil)...")
+    editais = oei.buscar_backfill()
+
+    if not editais:
+        click.echo("⚠️ Nenhum edital encontrado.")
+        return
+
+    novos, atualizados = atualizar_editais_todos(editais)
+    click.echo(f"✅ {len(editais)} editais processados — {novos} novos, {atualizados} atualizados.")
 
 
 if __name__ == "__main__":

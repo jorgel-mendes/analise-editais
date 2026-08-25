@@ -53,10 +53,12 @@ def classificar_edital(edital: dict) -> dict:
     comentario = edital.get("comments", "")
 
     valor_texto, valor_num = _extrair_valor(comentario)
+    orgao = edital.get("orgao_parceiro") or _extrair_orgao(edital.get("receivingEmail", ""))
 
     return {
         "id": edital["id"],
         "torid": edital.get("torid", ""),
+        "fonte": edital.get("fonte", "pnud"),
         "titulo": titulo,
         "descricao": descricao,
         "tipo": _classificar_tipo(titulo, descricao),
@@ -64,10 +66,11 @@ def classificar_edital(edital: dict) -> dict:
         "data_inicio": edital.get("startDate", "")[:10] if edital.get("startDate") else "",
         "data_fim": edital.get("endDate", "")[:10] if edital.get("endDate") else "",
         "local": edital.get("local", ""),
-        "orgao_parceiro": _extrair_orgao(edital.get("receivingEmail", "")),
+        "orgao_parceiro": orgao,
         "email_submissao": edital.get("receivingEmail", ""),
         "valor_estimado": valor_texto,
         "valor_estimado_num": valor_num,
         "status": edital.get("statusDescription", ""),
         "data_criacao": edital.get("created", "")[:10] if edital.get("created") else "",
+        "url_externo": edital.get("url_externo", ""),
     }

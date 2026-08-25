@@ -15,19 +15,24 @@ def analisar_editais(
     periodo_meses: int | None = 3,
     perfil_nome: str | None = None,
     todos: bool = False,
+    fonte_nome: str | None = None,
 ) -> dict:
-    """Analisa editais com opções de período e perfil.
+    """Analisa editais com opções de período, perfil e fonte.
 
     Args:
         editais: Lista de editais brutos (do scraping)
         periodo_meses: Filtrar pelos últimos N meses (None = sem filtro)
         perfil_nome: Filtrar por perfil específico
         todos: Ignorar filtro de período (analisar todos)
+        fonte_nome: Filtrar por fonte específica (pnud, unesco, oei)
 
     Returns:
         Dicionário com análises e metadados
     """
     classificados = [classificar_edital(e) for e in editais]
+
+    if fonte_nome:
+        classificados = [e for e in classificados if e.get("fonte") == fonte_nome]
 
     if periodo_meses and not todos:
         corte = datetime.now() - timedelta(days=periodo_meses * 30)
@@ -46,7 +51,7 @@ def analisar_editais(
     if perfil_nome:
         classificados = filtrar_por_perfil(classificados, perfil_nome)
 
-    return _gerar_estatisticas(classificados, perfis_disponiveis, periodo_meses, perfil_nome, todos)
+    return _gerar_estatisticas(classificados, perfis_disponiveis, periodo_meses, perfil_nome, todos, fonte_nome)
 
 
 def _gerar_estatisticas(
@@ -55,10 +60,12 @@ def _gerar_estatisticas(
     periodo_meses: int | None,
     perfil_nome: str | None,
     todos: bool,
+    fonte_nome: str | None = None,
 ) -> dict:
     total = len(classificados)
 
     contagem_tipos = Counter(e["tipo"] for e in classificados)
+    contagem_fontes = Counter(e.get("fonte", "pnud") for e in classificados)
 
     areas_flat = []
     for e in classificados:
@@ -96,8 +103,10 @@ def _gerar_estatisticas(
             "periodo_meses": periodo_meses if not todos else None,
             "perfil": perfil_nome,
             "todos": todos,
+            "fonte": fonte_nome,
         },
         "contagem_tipos": dict(contagem_tipos.most_common()),
+        "contagem_fontes": dict(contagem_fontes.most_common()),
         "contagem_areas": dict(contagem_areas.most_common(10)),
         "contagem_orgaos": dict(contagem_orgaos.most_common()),
         "contagem_perfis": dict(contagem_perfis.most_common()),

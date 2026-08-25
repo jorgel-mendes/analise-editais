@@ -1,7 +1,7 @@
 [project]
 name = "analise-editais"
 version = "0.2.0"
-description = "Scraping, persistência e análise de editais PNUD Brasil com classificação de perfil"
+description = "Scraping, persistência e análise de editais PNUD, UNESCO e OEI Brasil com classificação de perfil"
 requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.14.3",

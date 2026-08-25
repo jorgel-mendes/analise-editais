@@ -71,7 +71,8 @@ def _analise_deterministica(analise: dict, qualificacoes: dict, perfis: dict, hi
         for nome_perfil, perfil in perfis.items():
             matches[nome_perfil] = calcular_match_detalhado(e, perfil)
         e["matches"] = matches
-        e["url_externo"] = "https://parceiros.undp.org.br/opportunities"
+        if not e.get("url_externo"):
+            e["url_externo"] = API_URL
         editais_enriquecidos.append(e)
 
     perfil_list = []
@@ -137,7 +138,8 @@ def _montar_historico(historicos: list, editais_ativos: list) -> list:
             matches.items(), key=lambda kv: kv[1].get("score", 0), default=(None, {"score": 0})
         )
         item["perfil_classificado"] = melhor_nome if melhor.get("score", 0) >= 0.15 else "Não classificado"
-        item["url_externo"] = API_URL
+        if not item.get("url_externo"):
+            item["url_externo"] = API_URL
         historico.append(item)
 
     historico.sort(key=lambda e: e.get("data_inicio", ""), reverse=True)
@@ -198,7 +200,7 @@ def _gerar_resumo(site_data: dict) -> str | None:
         response = client.chat.completions.create(
             model="deepseek-chat",
             messages=[
-                {"role": "system", "content": "Você é um analista. Escreva um resumo de 3-4 frases em português sobre os editais do PNUD Brasil. Destaque: total, áreas mais quentes, órgãos principais, e perfis mais demandados. Seja direto e informativo."},
+                {"role": "system", "content": "Você é um analista. Escreva um resumo de 3-4 frases em português sobre os editais do PNUD, UNESCO e OEI no Brasil. Destaque: total, áreas mais quentes, órgãos principais, e perfis mais demandados. Seja direto e informativo."},
                 {"role": "user", "content": f"Resuma estes dados:\n{stats}"},
             ],
             temperature=0.3,

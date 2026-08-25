@@ -9,7 +9,7 @@ DEEPSEEK_BASE = "https://api.deepseek.com"
 DEEPSEEK_MODEL = "deepseek-chat"
 DEEPSEEK_MODEL_RECOMENDACOES = "deepseek-v4-pro"
 
-CLASSIFY_PROMPT = """Classifique cada edital do PNUD Brasil. Retorne APENAS um array JSON com esta estrutura exata:
+CLASSIFY_PROMPT = """Classifique cada edital (fontes: PNUD, UNESCO ou OEI Brasil). Retorne APENAS um array JSON com esta estrutura exata:
 
 [{
   "id": 1,

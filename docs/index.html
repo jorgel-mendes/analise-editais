@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Editais PNUD Brasil</title>
+<title>Editais PNUD · UNESCO · OEI Brasil</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f0f2f5;color:#1a1a2e;line-height:1.5}
@@ -155,8 +155,8 @@ a:hover{text-decoration:underline}
 <div class="header">
   <div class="header-top">
     <div>
-      <h1>📋 Editais PNUD Brasil</h1>
-      <div class="sub">parceiros.undp.org.br/opportunities</div>
+      <h1>📋 Editais PNUD · UNESCO · OEI Brasil</h1>
+      <div class="sub">parceiros.undp.org.br · roster.brasilia.unesco.org · oei.int</div>
     </div>
     <select id="profile-select">
       <option value="">Todos os perfis</option>
@@ -173,7 +173,7 @@ a:hover{text-decoration:underline}
 </div>
 
 <div class="footer">
-  Dados extraídos automaticamente via <a href="https://parceiros.undp.org.br/opportunities" target="_blank">PNUD Brasil</a> ·
+  Dados extraídos automaticamente de PNUD, UNESCO e OEI Brasil ·
   Gerado em <span id="footer-date">--</span>
 </div>
 
@@ -464,6 +464,7 @@ function renderEditalList(){
       <div class="edital-title">${esc(e.titulo||'Sem título')}</div>
       <div class="edital-desc">${esc(e.descricao||'')}</div>
       <div class="edital-meta">
+        <span class="tag tag-tipo">${esc(fonteLabel(e.fonte))}</span>
         ${areas.map(a=>'<span class="tag tag-area">'+esc(a)+'</span>').join('')}
         <span class="tag tag-tipo">${esc(e.tipo||'')}</span>
         <span class="tag tag-orgao">${esc(e.orgao_parceiro||'')}</span>
@@ -522,6 +523,7 @@ function openModal(id){
     <div class="modal-body">
       <div class="modal-meta">
         ${e.ativo===false?'<span class="status-badge status-encerrado">🔴 Encerrado</span>':''}
+        <span class="tag tag-tipo">${esc(fonteLabel(e.fonte))}</span>
         <span class="tag tag-tipo">${esc(e.tipo||'')}</span>
         <span class="tag tag-orgao">${esc(e.orgao_parceiro||'')}</span>
         ${e.valor_estimado?'<span class="tag tag-valor">R$ '+esc(e.valor_estimado)+'</span>':''}
@@ -547,7 +549,7 @@ function openModal(id){
 
       ${matchHTML}
 
-      <a class="external-link" href="${e.url_externo||'https://parceiros.undp.org.br/opportunities'}" target="_blank">🔗 Ver no portal PNUD →</a>
+      <a class="external-link" href="${e.url_externo||'https://parceiros.undp.org.br/opportunities'}" target="_blank">🔗 Ver no portal ${esc(fonteLabel(e.fonte))} →</a>
     </div>`;
 
   document.getElementById('modal-overlay').style.display = 'flex';
@@ -564,6 +566,11 @@ document.addEventListener('keydown', e=>{if(e.key==='Escape')closeModal();});
 function esc(s){
   if(!s) return '';
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+const FONTE_NOMES = {pnud:'PNUD', unesco:'UNESCO', oei:'OEI'};
+function fonteLabel(fonte){
+  return FONTE_NOMES[fonte] || 'PNUD';
 }
 
 load();

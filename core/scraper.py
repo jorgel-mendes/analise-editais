@@ -1,69 +1,56 @@
-import asyncio
-import json
 from datetime import date
 
-from core.config import API_URL, API_ENDPOINT
+from core.config import FONTES_DISPONIVEIS
 from core.persistence import salvar_snapshot, atualizar_editais_todos, detectar_novidades, carregar_ultimo_snapshot
+from core.sources import oei, pnud, unesco
+
+_BUSCADORES = {
+    "pnud": pnud.buscar_ativos,
+    "unesco": unesco.buscar_ativos,
+    "oei": oei.buscar_ativos,
+}
 
 
-async def _scrape_async() -> list:
-    from playwright.async_api import async_playwright
+def executar_scraping(fontes: list[str] | None = None) -> tuple[list, dict | None]:
+    """Executa scraping das fontes selecionadas e retorna os editais atuais + resumo de novidades."""
+    fontes = fontes or FONTES_DISPONIVEIS
 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            viewport={"width": 1280, "height": 900},
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-        )
-        page = await context.new_page()
-
-        captured_data = []
-
-        async def handle_response(response):
-            url = response.url
-            if "api" in url.lower() and API_ENDPOINT in url:
-                try:
-                    body = await response.text()
-                    if body and len(body) < 200000:
-                        try:
-                            data = json.loads(body)
-                            if isinstance(data, list):
-                                captured_data.extend(data)
-                            elif isinstance(data, dict):
-                                results = data.get("data") or data.get("results") or []
-                                if isinstance(results, list):
-                                    captured_data.extend(results)
-                        except (json.JSONDecodeError, ValueError):
-                            pass
-                except Exception:
-                    pass
-
-        page.on("response", handle_response)
-
+    editais_atuais = []
+    fontes_ok = []
+    for nome in fontes:
+        buscar = _BUSCADORES.get(nome)
+        if not buscar:
+            print(f"⚠️  Fonte desconhecida: {nome}")
+            continue
+        print(f"🔍 Buscando editais da fonte '{nome}'...")
         try:
-            await page.goto(API_URL, wait_until="networkidle", timeout=60000)
-        except Exception:
-            await page.wait_for_timeout(10000)
-
-        await page.wait_for_timeout(5000)
-        await browser.close()
-
-    return captured_data
-
-
-def executar_scraping() -> tuple[list, dict | None]:
-    """Executa scraping e retorna os editais atuais + resumo de novidades."""
-    print("🔍 Buscando editais do PNUD Brasil...")
-    editais_atuais = asyncio.run(_scrape_async())
+            resultado = buscar()
+        except Exception as e:
+            print(f"❌ Falha ao buscar '{nome}': {e} — fonte ignorada nesta execução")
+            continue
+        print(f"   {len(resultado)} edital(is) encontrado(s)")
+        editais_atuais.extend(resultado)
+        fontes_ok.append(nome)
 
     if not editais_atuais:
         print("⚠️  Nenhum edital encontrado no scraping.")
         return [], None
 
-    anteriores = carregar_ultimo_snapshot()
+    anteriores_completos = carregar_ultimo_snapshot()
+
+    # Só compara com fontes que de fato rodaram nesta execução — senão uma
+    # falha pontual numa fonte faria seus editais anteriores parecerem
+    # "encerrados" por engano.
+    anteriores = [e for e in anteriores_completos if e.get("fonte", "pnud") in fontes_ok]
+
+    # Fontes que falharam nesta execução entram no snapshot de hoje do jeito
+    # que estavam ontem, senão "reaparecem" como falso-novo quando a fonte
+    # voltar a funcionar.
+    fontes_falhas = set(fontes) - set(fontes_ok)
+    preservados = [e for e in anteriores_completos if e.get("fonte", "pnud") in fontes_falhas]
 
     hoje = date.today()
-    snapshot_file = salvar_snapshot(editais_atuais, hoje)
+    snapshot_file = salvar_snapshot(editais_atuais + preservados, hoje)
     print(f"💾 Snapshot salvo em: {snapshot_file}")
 
     novos, atualizados = atualizar_editais_todos(editais_atuais)
