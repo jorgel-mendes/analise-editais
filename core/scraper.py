@@ -43,11 +43,12 @@ def executar_scraping(fontes: list[str] | None = None) -> tuple[list, dict | Non
     # "encerrados" por engano.
     anteriores = [e for e in anteriores_completos if e.get("fonte", "pnud") in fontes_ok]
 
-    # Fontes que falharam nesta execução entram no snapshot de hoje do jeito
-    # que estavam ontem, senão "reaparecem" como falso-novo quando a fonte
-    # voltar a funcionar.
-    fontes_falhas = set(fontes) - set(fontes_ok)
-    preservados = [e for e in anteriores_completos if e.get("fonte", "pnud") in fontes_falhas]
+    # Fontes que não rodaram nesta execução (falharam, ou nem foram
+    # pedidas via --fonte) entram no snapshot de hoje do jeito que estavam
+    # ontem — senão "somem" do snapshot ou "reaparecem" como falso-novo
+    # quando a fonte voltar a rodar.
+    fontes_pendentes = set(FONTES_DISPONIVEIS) - set(fontes_ok)
+    preservados = [e for e in anteriores_completos if e.get("fonte", "pnud") in fontes_pendentes]
 
     hoje = date.today()
     snapshot_file = salvar_snapshot(editais_atuais + preservados, hoje)
