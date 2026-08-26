@@ -1,5 +1,65 @@
 [
   {
+    "id": "unesco:8a4f297f-a7f6-4db9-ebd4-08defdee4813",
+    "title": "914BRZ1159 - Publicação Edital 34/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada em políticas organizacionais para realizar estudos no âmbito do Programa Educação para a Cidadania e para a Sustentabilidade e do Programa na Ponta do Lápis na EDU Básica.",
+    "comments": "",
+    "startDate": "2026-08-26T00:00:00",
+    "endDate": "2026-08-30T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-08-26T00:00:00",
+    "torid": "unesco:8a4f297f-a7f6-4db9-ebd4-08defdee4813",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/00fefac3-d42c-4bfc-821f-08defdd13716",
+      "https://apiroster.brasilia.unesco.org/api/public/download/546ccfcd-2a4c-45b5-8221-08defdd13716"
+    ]
+  },
+  {
+    "id": "unesco:1ade5265-d185-4752-ebd5-08defdee4813",
+    "title": "914BRZ1159 - Publicação Edital 35/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada em Análise de Requisitos de Negócios para realizar levantamento, análise, documentação e gestão de requisitos referentes à implementação e evolução da plataforma do Novo PAR.",
+    "comments": "",
+    "startDate": "2026-08-26T00:00:00",
+    "endDate": "2026-08-30T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-08-26T00:00:00",
+    "torid": "unesco:1ade5265-d185-4752-ebd5-08defdee4813",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/a52c9266-e6b6-45a4-02b6-08defeaa0940",
+      "https://apiroster.brasilia.unesco.org/api/public/download/c64a7115-65d3-4e2a-02b8-08defeaa0940"
+    ]
+  },
+  {
+    "id": "unesco:e6ba376a-8848-485f-3f37-08defeb303ea",
+    "title": "914BRZ1163 - Publicação -  Edital 67/2026 - 01 Vaga - Consultor Individual",
+    "description": "em acompanhamento e análise de políticas públicas para elaboração de documento técnico com recomendações para o aprimoramento e a sustentabilidade das ações de aproximação da comunidade escolar no âmb",
+    "comments": "",
+    "startDate": "2026-08-26T00:00:00",
+    "endDate": "2026-09-01T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-08-26T00:00:00",
+    "torid": "unesco:e6ba376a-8848-485f-3f37-08defeb303ea",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/47abaece-cb5d-4a8a-032f-08defeaa0940",
+      "https://apiroster.brasilia.unesco.org/api/public/download/d5625c8f-455c-4994-1f08-08deff6dc0b8"
+    ]
+  },
+  {
     "id": "unesco:7155091d-98d5-4ce4-df16-08df01dbdf45",
     "title": "914BRZ4024 - EDITAL Nº03/2026 - Consultor Individual",
     "description": "Consultoria especializada - Perfil - Arquitetura, Design e Turismo",
@@ -16,7 +76,7 @@
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/4bbc67db-dcf6-4a80-474b-08df01d3db76",
-      "https://apiroster.brasilia.unesco.org/api/public/download/6fd34765-f802-4cc4-474d-08df01d3db76"
+      "https://apiroster.brasilia.unesco.org/api/public/download/3a64325f-2c65-44ae-31c9-08df029a6aab"
     ]
   },
   {
@@ -1528,7 +1588,8 @@
       "https://oei.int/wp-content/uploads/2026/07/edital-concorrencia-no-13046-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/07/link-para-sala-virtua-concorrencia-no-13046-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/07/resposta-a-pedido-de-esclarecimento-no-01-concorrencia-no-13046-2026-oei-mdhc.pdf",
-      "https://oei.int/wp-content/uploads/2026/07/errata-a-pedido-de-esclarecimento-concorrencia-n-13046-2026-oei-mdhc.pdf"
+      "https://oei.int/wp-content/uploads/2026/07/errata-a-pedido-de-esclarecimento-concorrencia-n-13046-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/07/ata-da-sessao-de-recebimento-das-prpostas-e-abertura-envelope-proposta-tecnica-13046-2026.pdf"
     ]
   },
   {

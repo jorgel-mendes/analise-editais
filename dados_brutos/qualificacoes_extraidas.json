@@ -4251,5 +4251,166 @@
     "descricao": "Contratação de pessoa jurídica objetivando a prestação de serviços de pesquisa para elaboração da Estratégia Transversal Nacional Climática para os Impactos socioeconômicos e ambientais da transição, tendo como foco principal o de fornecer uma compreensão aprofundada e abrangente das mudanças que essa transição implica para as pequenas e médias empresas (MPEs), conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
     "local": "Brasília/DF",
     "data_fim": "2024-09-05"
+  },
+  {
+    "torid": "unesco:8a4f297f-a7f6-4db9-ebd4-08defdee4813",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "arquitetura"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os participantes que não apresentarem os requisitos obrigatórios de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "6.1.1. formação acadêmica",
+      "é obrigatório que possua, no mínimo, mestrado na área de educação, com certificação devidamente",
+      "reconhecida pelo ministério da educação.",
+      "6.1.2. experiência profissional",
+      "é obrigatório que possua experiência mínima de 08 (oito) anos atuando no acompanhamento de",
+      "políticas educacionais."
+    ],
+    "requisitos_desejaveis": [
+      "é desejável que possua atuação em projetos na área de educação para a cidadania, educação",
+      "em direitos humanos e/ou educação financeira.",
+      "é desejável que possua experiência docente em temas ligados à promoção da cidadania e",
+      "dos direitos humanos e/ou educação financeira.",
+      "6. produtos e suas respectivas atividades:",
+      "produto 1 - documento técnico contendo proposta de planejamento estratégico para o",
+      "desenvolvimento do programa na ponta do lápis, com definição de metas, ações e",
+      "resultados esperados.",
+      "1.1 definir em conjunto com a coordenação, escopo, diretrizes e componentes principais",
+      "para a construção do planejamento estratégico."
+    ],
+    "titulo": "914BRZ1159 - Publicação Edital 34/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em políticas organizacionais para realizar estudos no âmbito do Programa Educação para a Cidadania e para a Sustentabilidade e do Programa na Ponta do Lápis na EDU Básica.",
+    "local": "",
+    "data_fim": "2026-08-30"
+  },
+  {
+    "torid": "unesco:1ade5265-d185-4752-ebd5-08defdee4813",
+    "graduacao": [
+      "tecnologia da informação",
+      "análise de sistemas",
+      "engenharia",
+      "administração",
+      "história",
+      "arquitetura",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [
+      "scrum"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os participantes que não apresentarem os requisitos obrigatórios de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "6.1.1 formação acadêmica",
+      "é obrigatório possuir graduação em qualquer área de formação, em instituição reconhecida pelo",
+      "ministério da educação.",
+      "6.1.2 experiência profissional",
+      "é obrigatório possuir experiência profissional mínima de 04 (quatro) anos em análise de negócios ou",
+      "análise de requisitos.",
+      "é desejável possuir pós-graduação na área de tecnologia da informação, em instituição reconhecida pelo",
+      "ministério da educação."
+    ],
+    "requisitos_desejaveis": [
+      "é desejável possuir pós-graduação na área de tecnologia da informação, em instituição reconhecida pelo",
+      "ministério da educação.",
+      "é desejável possuir certificação em ferramentas de gestão, como: csm: certified scrum master (scrum alliance),",
+      "sfpc: scrum foundation professional certificate (certiprof), kikc: kanban foundation (certiprof), depc:",
+      "devops essentials professional certificate (cultura de colaboração), cpre-fl: certified professional for",
+      "requirements engineering.",
+      "é desejável experiência comprovada com metodologias ágeis, como scrum master, kanban e metodologia rup.",
+      "é desejável experiência com atuação comprovada em projetos de tecnologia da informação.",
+      "6. produtos e suas respectivas atividades:",
+      "produto 1 – documento técnico contendo plano de gerenciamento de requisitos e a arquitetura"
+    ],
+    "titulo": "914BRZ1159 - Publicação Edital 35/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em Análise de Requisitos de Negócios para realizar levantamento, análise, documentação e gestão de requisitos referentes à implementação e evolução da plataforma do Novo PAR.",
+    "local": "",
+    "data_fim": "2026-08-30"
+  },
+  {
+    "torid": "unesco:e6ba376a-8848-485f-3f37-08defeb303ea",
+    "graduacao": [
+      "administração",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os participantes que não apresentarem os requisitos obrigatórios de qualificação não serão considerados para o",
+      "processo de avaliação.",
+      "é obrigatório ter graduação em áreas de ciências humanas ou ciências sociais.",
+      "é obrigatória ter experiência de, no mínimo, 02 (dois) anos em acompanhamento, análise ou tramitação de",
+      "é obrigatório ter experiência de, no mínimo, 01 (um) ano em articulação com organizações da sociedade civil,",
+      "lideranças comunitárias ou processos de participação social."
+    ],
+    "requisitos_desejaveis": [
+      "é desejável ter experiência em programas ou projetos educacionais, especialmente em estratégias de busca ativa",
+      "é desejável ter experiência na elaboração de relatórios, recomendações ou diretrizes técnicas voltadas à",
+      "é desejável ter experiência em gestão de processos, contratos ou fluxos de trabalho em equipes multidisciplinares.",
+      "7 – tabela com critérios de avaliação",
+      "critérios de avaliação técnica — pessoa física",
+      "os critérios de avaliação técnica serão divididos em 02 (duas) etapas:",
+      "1ª etapa (eliminatória): análise do curriculum vitae referente ao cumprimento dos requisitos obrigatórios exigidos",
+      "nos termos de referência. as pessoas candidatas que não atenderem aos critérios mínimos obrigatórios descritos",
+      "no item 6.1 deste termo de referência serão desclassificadas nesta etapa.",
+      "2ª etapa (classificatória): análise curricular (70 pontos) e entrevista (30 pontos). os critérios para pontuação"
+    ],
+    "titulo": "914BRZ1163 - Publicação -  Edital 67/2026 - 01 Vaga - Consultor Individual",
+    "descricao": "em acompanhamento e análise de políticas públicas para elaboração de documento técnico com recomendações para o aprimoramento e a sustentabilidade das ações de aproximação da comunidade escolar no âmb",
+    "local": "",
+    "data_fim": "2026-09-01"
   }
 ]
