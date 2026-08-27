@@ -4412,5 +4412,96 @@
     "descricao": "em acompanhamento e análise de políticas públicas para elaboração de documento técnico com recomendações para o aprimoramento e a sustentabilidade das ações de aproximação da comunidade escolar no âmb",
     "local": "",
     "data_fim": "2026-09-01"
+  },
+  {
+    "torid": "unesco:eb67e949-3d0c-4334-df1b-08df01dbdf45",
+    "graduacao": [
+      "administração",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 12,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão considerados no",
+      "processo de avaliação.",
+      "a. formação acadêmica: nível superior completo em qualquer área de formação, reconhecido pelo mec.",
+      "b. experiência profissional comprovada (anos/período): experiência profissional mínima de 10 (dez) anos",
+      "na área de gestão de recursos hídricos, com atuação em temas relacionados à gestão integrada de",
+      "recursos hídricos, governança das águas, implementação da política nacional de recursos hídricos",
+      "(pnrh), elaboração de diagnósticos, estudos ou pesquisas na área de recursos hídricos, bem como",
+      "atuação junto a órgãos gestores, colegiados ou instituições integrantes do sistema nacional de",
+      "gerenciamento de recursos hídricos (singreh). a experiência poderá ser comprovada por meio de",
+      "declaração devidamente assinada por profissional competente da empresa onde prestou o serviço ou"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "586RLA2002 - Edital 002/2026 - 1 vaga",
+    "descricao": "Consultor individual: Profissional de qualquer área de formação e experiência na área de gestão de recursos hídricos",
+    "local": "",
+    "data_fim": "2026-09-07"
+  },
+  {
+    "torid": "unesco:9ecb033c-d905-4f6f-df1e-08df01dbdf45",
+    "graduacao": [
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a. formação acadêmica",
+      "nível superior completo em arquitetura e urbanismo reconhecido pelo mec.",
+      "possuir título de pós-graduação em arquitetura e urbanismo ou áreas correlatas reconhecido",
+      "b. experiência profissional comprovada (anos/período)",
+      "experiência profissional de, no mínimo, 04 anos em elaboração e/ou acompanhamento de pro-",
+      "jetos de arquitetura e/ou obras com recursos públicos ou privados.",
+      "experiência profissional de, no mínimo, 3 anos em revisões de projetos e aditivos contratuais,",
+      "documentação técnica de projetos de arquitetura e/ou ações de patrimônio cultural."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 54/2026 - Arquitetura e Urbanismo",
+    "descricao": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-08-31"
   }
 ]

@@ -1,5 +1,45 @@
 [
   {
+    "id": "unesco:eb67e949-3d0c-4334-df1b-08df01dbdf45",
+    "title": "586RLA2002 - Edital 002/2026 - 1 vaga",
+    "description": "Consultor individual: Profissional de qualquer área de formação e experiência na área de gestão de recursos hídricos",
+    "comments": "",
+    "startDate": "2026-08-27T00:00:00",
+    "endDate": "2026-09-07T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-08-27T00:00:00",
+    "torid": "unesco:eb67e949-3d0c-4334-df1b-08df01dbdf45",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/63cc91b6-052f-4b5a-4770-08df01d3db76",
+      "https://apiroster.brasilia.unesco.org/api/public/download/41ed05ca-90e8-42c4-4772-08df01d3db76"
+    ]
+  },
+  {
+    "id": "unesco:9ecb033c-d905-4f6f-df1e-08df01dbdf45",
+    "title": "914BRZ4027 - Edital 54/2026 - Arquitetura e Urbanismo",
+    "description": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+    "comments": "",
+    "startDate": "2026-08-27T00:00:00",
+    "endDate": "2026-08-31T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-08-27T00:00:00",
+    "torid": "unesco:9ecb033c-d905-4f6f-df1e-08df01dbdf45",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/af66bc82-af08-4805-4783-08df01d3db76",
+      "https://apiroster.brasilia.unesco.org/api/public/download/060c0933-8eb7-4d0c-4785-08df01d3db76"
+    ]
+  },
+  {
     "id": "unesco:8a4f297f-a7f6-4db9-ebd4-08defdee4813",
     "title": "914BRZ1159 - Publicação Edital 34/2026 - 1 vaga - Consultor Individual",
     "description": "Consultoria especializada em políticas organizacionais para realizar estudos no âmbito do Programa Educação para a Cidadania e para a Sustentabilidade e do Programa na Ponta do Lápis na EDU Básica.",
@@ -706,10 +746,10 @@
     "description": "Tem-se como objetivo contratar consultor(a) técnico(a) especializado(a) para elaborar estudos e propostas técnicas voltadas ao fortalecimento das capacidades institucionais da Rede Estadual de Ensino do Rio Grande do Sul na implementação da Política de Proteção à Trajetória do Estudante, mediante o mapeamento de demandas formativas, a estruturação de plano de capacitação dos atores envolvidos e a proposição de modelo de qualificação dos Planos de Ação Individual e Territorial, com vistas ao aperfeiçoamento das estratégias de permanência escolar e redução da evasão escolar.",
     "comments": "R$ 54.000,00",
     "startDate": "2026-08-12",
-    "endDate": "2026-08-23",
+    "endDate": "2026-09-07",
     "local": "Porto Alegre/RS",
     "receivingEmail": "selecao.bra@oei.int",
-    "statusDescription": "En evaluación",
+    "statusDescription": "En fase de apresentação",
     "created": "2026-08-12",
     "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203",
     "fonte": "oei",
@@ -717,7 +757,8 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13203/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13203.pdf",
-      "https://oei.int/wp-content/uploads/2026/08/errata-tr-13203.pdf"
+      "https://oei.int/wp-content/uploads/2026/08/errata-tr-13203.pdf",
+      "https://oei.int/wp-content/uploads/2026/08/errata-no-2-edital-no-099-2026-tr-132023.pdf"
     ]
   },
   {
