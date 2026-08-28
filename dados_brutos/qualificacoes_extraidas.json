@@ -4503,5 +4503,196 @@
     "descricao": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
     "local": "",
     "data_fim": "2026-08-31"
+  },
+  {
+    "torid": "146346",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "ciências sociais",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "19.800,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor (a) individual para assessoramento técnico especializado à consolidação, redação técnica e estruturação dos mecanismos de governança do Plano Estadual de Educação do Piauí 2026-2036",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para prestar apoio técnico especializado à Secretaria de Estado da Educação do Piauí no processo de consolidação, sistematização e redação técnica do Plano Estadual de Educação do Piauí 2026-2036, bem como na elaboração de instrumentos orientadores para governança, implementação e acompanhamento do Plano.",
+    "local": "Home based",
+    "data_fim": "2026-09-11"
+  },
+  {
+    "torid": "146347",
+    "graduacao": [
+      "administração",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "7.650,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor (a) individual para apoiar tecnicamente a Superintendência de Ensino na realização das Olimpíadas do Conhecimento",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para prestar apoio técnico especializado à Superintendência de Ensino no acompanhamento, análise técnica e validação dos produtos previstos na Consultoria para o Projeto SEDUC Olímpica, assegurando sua conformidade com os objetivos, resultados esperados, cronograma, indicadores e diretrizes do projeto de cooperação técnica internacional, bem como apoiar tecnicamente a Superintendência de Ensino na implementação e qualificação das Olimpíadas do Conhecimento.",
+    "local": "Home based",
+    "data_fim": "2026-09-11"
+  },
+  {
+    "torid": "unesco:4fda0c36-f1a0-41f6-3f3a-08defeb303ea",
+    "graduacao": [
+      "administração",
+      "direito",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a) formação acadêmica:",
+      "- mestrado em educação e/ou ciências humanas, em instituição devidamente reconhecida",
+      "pelo ministério da educação.",
+      "b) experiência profissional comprovada (anos/período):",
+      "- experiência profissional mínima de 3 (três) anos em educação, preferencialmente em",
+      "- experiência profissional em políticas públicas educacionais, preferencialmente em",
+      "- experiência profissional em funcionamento dos sistemas públicos de ensino.",
+      "6.3 habilidades e competências:"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 47/2026 - 1 vaga - Consultor Individual",
+    "descricao": "consultoria técnica especializada para subsidiar a Diretoria de Educação do Campo e Educação Ambiental – DIPECEI na elaboração de estudos analíticos e subsídios técnico-metodológicos voltados ao estab",
+    "local": "",
+    "data_fim": "2026-09-03"
+  },
+  {
+    "torid": "unesco:4db2e20b-a2e2-4074-00dc-08deff7b5e96",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a. formação acadêmica",
+      "• doutorado em ciências sociais aplicadas, com diploma reconhecido pelo mec.",
+      "b. experiência profissional",
+      "• experiência profissional mínima de 8 (oito) anos em projetos relacionados a",
+      "segurança pública, direitos humanos, políticas de desarmamento e/ou",
+      "desenvolvimento sustentável.",
+      "• experiência profissional em produção e gestão de conhecimento.",
+      "6.3 habilidades e competências:"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 49/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para elaborar instrumentos e estudos de diagnóstico sobre as violências nas escolas, contemplando diferentes níveis, redes e públicos da educação",
+    "local": "",
+    "data_fim": "2026-09-03"
+  },
+  {
+    "torid": "unesco:ecd2379c-2ba5-488f-00dd-08deff7b5e96",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "não serão considerados para o processo de avaliação.",
+      "6.1 requisitos obrigatórios",
+      "a. formação acadêmica",
+      "especialização lato sensu em educação, comunicação, artes, libras, tecnologias ou",
+      "áreas afins (sendo obrigatória, para todos os cursos, a demonstração de compatibilidade da",
+      "formação com a produção de materiais educativos, informativos, institucionais, bilíngues ou",
+      "acessíveis), com diploma reconhecido pelo mec.",
+      "b. experiência profissional:",
+      "1. experiência profissional mínima de 03 (três) anos com produção de mídias,",
+      "projetos educativos bilíngues (libras e língua portuguesa) em multiformato com a temática"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 50/2026 - 2 vagas - Consultor Individual",
+    "descricao": "Consultoria especializada para elaboração de 2 (dois) materiais de educação e informação em multiformato e bilíngue (Libras/Língua Portuguesa) ",
+    "local": "",
+    "data_fim": "2026-09-03"
   }
 ]
