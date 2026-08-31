@@ -4694,5 +4694,92 @@
     "descricao": "Consultoria especializada para elaboração de 2 (dois) materiais de educação e informação em multiformato e bilíngue (Libras/Língua Portuguesa) ",
     "local": "",
     "data_fim": "2026-09-03"
+  },
+  {
+    "torid": "unesco:17177a8d-bde0-4a60-df1c-08df01dbdf45",
+    "graduacao": [
+      "administração",
+      "direito"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os participantes que não apresentarem os requisitos obrigatórios de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "6.1.1. formação acadêmica",
+      "é obrigatório que possua, no mínimo, graduação em áreas correlatas à saúde mental e educação, com",
+      "certificação devidamente reconhecida pelo ministério da educação.",
+      "6.1.2. experiência profissional",
+      "é obrigatório que possua experiência mínima de 03 (três) anos atuando no acompanhamento de",
+      "atividades intersetoriais de educação ou saúde nas redes de ensino e/ou unidades de saúde."
+    ],
+    "requisitos_desejaveis": [
+      "é desejável que possua experiência profissional atuando junto a redes estaduais ou municipais de ensino no",
+      "brasil - secretarias de educação, regionais de ensino ou escolas públicas.",
+      "é desejável que possua experiência na gestão ou implementação de projetos intersetoriais relacionados à",
+      "6. produtos e suas respectivas atividades:",
+      "produto 1 – documento técnico contendo proposta de estratégias de monitoramento que subsidie a",
+      "atualização de indicadores e metas do programa saúde na escola no âmbito da educação.",
+      "1.1 definir em conjunto com a coordenação indicadores e metas atualmente utilizados no monitoramento do",
+      "pse, identificando conceitos, metodologias de cálculo, fontes de dados, periodicidade de coleta,",
+      "potencialidades e limitações para acompanhamento das ações educacionais.",
+      "1.2 realizar análise documental e revisão de normativas."
+    ],
+    "titulo": "914BRZ1159 - Publicação Edital 36/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria técnica nas áreas da Saúde Mental e Educação para desenvolver estudos, análises, metodologias para gestão, avaliação e monitoramento, para subsidiar o MEC à implementar o PSE e a PNAPCE.",
+    "local": "",
+    "data_fim": "2026-09-06"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13211",
+    "descricao": "Contratação de consultor individual especialista em bioeconomia para desenvolver subsídios técnicos e metodológicos que apoiem a incorporação qualificada da bioeconomia às ações do Empreender Clima, com foco na caracterização de empreendimentos e cadeias de valor, identificação de desafios e oportunidades e proposição de critérios, instrumentos e recomendações aplicáveis ao atendimento de micro e pequenos negócios.",
+    "local": "Remoto",
+    "data_fim": "2026-09-05"
   }
 ]

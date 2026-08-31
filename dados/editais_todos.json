@@ -1,5 +1,44 @@
 [
   {
+    "id": "unesco:17177a8d-bde0-4a60-df1c-08df01dbdf45",
+    "title": "914BRZ1159 - Publicação Edital 36/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria técnica nas áreas da Saúde Mental e Educação para desenvolver estudos, análises, metodologias para gestão, avaliação e monitoramento, para subsidiar o MEC à implementar o PSE e a PNAPCE.",
+    "comments": "",
+    "startDate": "2026-08-31T00:00:00",
+    "endDate": "2026-09-06T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-08-31T00:00:00",
+    "torid": "unesco:17177a8d-bde0-4a60-df1c-08df01dbdf45",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/2085fdf1-3c1a-4675-4779-08df01d3db76",
+      "https://apiroster.brasilia.unesco.org/api/public/download/fb79feef-05a6-4907-477b-08df01d3db76"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13211",
+    "description": "Contratação de consultor individual especialista em bioeconomia para desenvolver subsídios técnicos e metodológicos que apoiem a incorporação qualificada da bioeconomia às ações do Empreender Clima, com foco na caracterização de empreendimentos e cadeias de valor, identificação de desafios e oportunidades e proposição de critérios, instrumentos e recomendações aplicáveis ao atendimento de micro e pequenos negócios.",
+    "comments": "R$ 30.000,00",
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-05",
+    "local": "Remoto",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-08-31",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/08/termo-de-referencia-tr13211.pdf"
+    ]
+  },
+  {
     "id": 1526,
     "torid": 146346,
     "createdBy": "hudson.silva",
