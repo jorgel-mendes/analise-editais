@@ -4781,5 +4781,397 @@
     "descricao": "Contratação de consultor individual especialista em bioeconomia para desenvolver subsídios técnicos e metodológicos que apoiem a incorporação qualificada da bioeconomia às ações do Empreender Clima, com foco na caracterização de empreendimentos e cadeias de valor, identificação de desafios e oportunidades e proposição de critérios, instrumentos e recomendações aplicáveis ao atendimento de micro e pequenos negócios.",
     "local": "Remoto",
     "data_fim": "2026-09-05"
+  },
+  {
+    "torid": "unesco:5d64862a-264d-475d-5f8e-08df036d3e00",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a) formação acadêmica",
+      "graduação em design, design gráfico, comunicação visual, programação visual, produção",
+      "editorial, comunicação social, artes visuais ou área correlata.",
+      "a formação acadêmica deverá ser comprovada por meio de diploma ou certificado de",
+      "conclusão emitido por instituição de ensino superior reconhecida. no caso de instituição",
+      "estrangeira, o documento deverá estar validado pela autoridade nacional competente.",
+      "b) experiência profissional",
+      "experiência comprovada de, no mínimo, 5 (cinco) anos em design editorial, projeto gráfico,"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "4BRZ4025 - Edital 18/2026 - Consultor Individual (1 Vaga)  REPUBLICAÇÃO",
+    "descricao": "Contratação de consultor individual, técnico especializado em design editorial e comunicação visual, para desenvolver o projeto editorial, gráfico e visual de quatro materiais institucionais.",
+    "local": "",
+    "data_fim": "2026-09-05"
+  },
+  {
+    "torid": "unesco:b324319d-9f96-425f-8caf-08defc5a5785",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a. formação acadêmica",
+      "• mestrado em psicologia ou áreas afins das ciências humanas ou da saúde, com diploma",
+      "reconhecido pelo mec.",
+      "b. experiência profissional",
+      "• experiência profissional mínima de 5 (cinco) anos em psicologia das emergências e",
+      "desastres e/ou atenção psicossocial em situações de crise, violência ou emergência.",
+      "• experiência profissional em atuação em programas ou projetos relacionados à atenção",
+      "psicossocial em emergências, desastres ou situações de violência."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 48/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para produzir estudos técnicos, protocolos, referenciais metodológicos, materiais formativos e recomendações destinados ao fortalecimento das estratégias de prevenção das vio",
+    "local": "",
+    "data_fim": "2026-09-09"
+  },
+  {
+    "torid": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a) formação acadêmica:",
+      "• diploma de graduação na área de ciências humanas e/ou sociais aplicadas e/ou exatas e da",
+      "terra, com diploma reconhecido pelo ministério da educação.",
+      "• especialização lato sensu na área de ciências humanas e/ou sociais aplicadas e/ou exatas e",
+      "da terra, com diploma reconhecido pelo ministério da educação.",
+      "b) experiência profissional:",
+      "• experiência profissional mínima de 8 (oito) anos em atividades relacionadas com ações,",
+      "projetos ou programas de mobilização voltados a educação."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 51/2026 - 3 vagas - Consultor Individual",
+    "descricao": "Consultoria especializada para subsidiar a Coordenação-Geral da Juventude – CGJUV na realização da avaliação das ações implementadas no âmbito do Programa Nacional de Grêmios Estudantis – Participa Jo",
+    "local": "",
+    "data_fim": "2026-09-09"
+  },
+  {
+    "torid": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a. formação acadêmica:",
+      "- graduação em ciências sociais e humanas e/ou áreas afins;",
+      "- doutorado em educação ou educação especial, com diploma devidamente reconhecido pelo",
+      "ministério da educação (mec).",
+      "b. experiência profissional:",
+      "1. experiência profissional mínima de 8 (oito) anos na etapa da educação básica;",
+      "2. experiência profissional mínima de 4 (quatro) anos em atuação junto às redes públicas de",
+      "ensino, em âmbito federal, estadual ou municipal."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 54/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para desenvolvimento de estudos subsidiários ao desenho e aperfeiçoamento da Educação Especial na Perspectiva Inclusiva",
+    "local": "",
+    "data_fim": "2026-09-08"
+  },
+  {
+    "torid": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
+    "graduacao": [
+      "administração",
+      "direito",
+      "história",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": 7,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a) formação acadêmica:",
+      "• graduação e pós-graduação em áreas de administração pública, políticas públicas,",
+      "assistência social, história, ciências humanas e/ou sociais aplicadas, com diploma",
+      "reconhecido pelo mec.",
+      "b) experiência profissional:",
+      "• experiência profissional mínima de 4 (quatro) anos em gestão de projetos sociais ou",
+      "• experiência profissional mínima de 2 (dois) anos com articulação política.",
+      "• experiência com escrita de materiais de apoio para educação popular."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 52/2026 - 1 vaga - Consultor Individual",
+    "descricao": "A presente contratação tem por finalidade à avaliação da implementação, dos resultados e das contribuições da Rede Nacional de Cursinhos Populares (CPOP) para a promoção da equidade no acesso à educaç",
+    "local": "",
+    "data_fim": "2026-09-08"
+  },
+  {
+    "torid": "unesco:b74745df-a51d-41c1-b9e5-08df0436270c",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "direito",
+      "ciências sociais",
+      "sociologia",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a. formação acadêmica",
+      "• doutorado em economia, ciências sociais, sociologia ou áreas correlatas, com",
+      "diploma reconhecido pelo mec.",
+      "b. experiência profissional",
+      "• experiência profissional mínima de 8 (oito) anos em projetos relacionados à",
+      "violência, segurança pública, transparência e estatísticas públicas ou em produção",
+      "e gestão de conhecimento.",
+      "• experiência profissional em produção e gestão de conhecimento."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 55/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para elaborar boletins com narrativas de dados sobre as violências nas escolas, a partir da consolidação, sistematização e análise de indicadores do ObservaDH",
+    "local": "",
+    "data_fim": "2026-09-08"
+  },
+  {
+    "torid": "unesco:f4efa11a-ea51-47cf-b9e7-08df0436270c",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a) formação acadêmica:",
+      "- licenciatura em pedagogia;",
+      "- especialização lato sensu em gestão pública, com diploma reconhecido pelo mec.",
+      "b) experiência profissional:",
+      "- experiência profissional mínima de 8 (oito) anos em elaboração de diagnósticos e/ou",
+      "planejamentos educacionais e/ou gestão de processos pedagógicos e/ou execução de",
+      "políticas públicas e/ou monitoramento de indicadores e/ou elaboração de manuais",
+      "orientativos com experiência comprovada em gestão educacional."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 56/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para desenvolver estudos e propor estratégias voltadas ao aprimoramento da gestão e da governança do Pacto Nacional pela Superação do Analfabetismo e Qualificação da Educação",
+    "local": "",
+    "data_fim": "2026-09-08"
+  },
+  {
+    "torid": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 1,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a. formação acadêmica:",
+      "o mestrado em áreas de políticas públicas, políticas educacionais, relações internacionais ,",
+      "ciências humanas e/ou sociais aplicadas, com diploma reconhecido pelo mec.",
+      "b. experiência profissional:",
+      "o experiência profissional mínima de 5 (cinco) anos em atividades de projetos sociais ou",
+      "educacionais e/ou organização de dados, monitoramento de indicadores e/ou elaboração",
+      "o experiência profissional com formações em direitos humanos, educação popular e",
+      "participação social junto ao terceiro setor."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 53/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Contratação de consultoria para realizar levantamento, análise e sistematização de normativos, programas, ações, estratégias e instrumentos de gestão relacionados à promoção da equidade",
+    "local": "",
+    "data_fim": "2026-09-08"
+  },
+  {
+    "torid": "unesco:11c715d6-1d36-4c54-5f8f-08df036d3e00",
+    "graduacao": [
+      "administração",
+      "ciências sociais",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "a. formação acadêmica",
+      "nível superior completo em ciências sociais ou áreas correlatas reconhecido pelo mec.",
+      "possuir título de pós-graduação em ciências sociais ou áreas correlatas reconhecido pelo mec.",
+      "b. experiência profissional comprovada (anos/período)",
+      "experiência profissional de, no mínimo, 04 anos na área de gestão da informação, gestão do-",
+      "cumental ou atuação por busca de melhorias e oportunidades no setor público ou privado.",
+      "experiência profissional de, no mínimo, 3 anos em pesquisas de mercados no setor público ou",
+      "privado e/ou tratamento e sistematização de dados institucionais."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 55/2026 - Ciências Sociais",
+    "descricao": "Consultor Individual - Bases para a descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-09-06"
   }
 ]

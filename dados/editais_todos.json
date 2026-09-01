@@ -1,5 +1,186 @@
 [
   {
+    "id": "unesco:5d64862a-264d-475d-5f8e-08df036d3e00",
+    "title": "4BRZ4025 - Edital 18/2026 - Consultor Individual (1 Vaga)  REPUBLICAÇÃO",
+    "description": "Contratação de consultor individual, técnico especializado em design editorial e comunicação visual, para desenvolver o projeto editorial, gráfico e visual de quatro materiais institucionais.",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-05T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:5d64862a-264d-475d-5f8e-08df036d3e00",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/f60a465e-6dc8-4df2-36bf-08df0344ae5c",
+      "https://apiroster.brasilia.unesco.org/api/public/download/650079ba-07b3-4dc3-a37e-08df04eac88f",
+      "https://apiroster.brasilia.unesco.org/api/public/download/7a0a4cc4-4189-4db5-a381-08df04eac88f"
+    ]
+  },
+  {
+    "id": "unesco:b324319d-9f96-425f-8caf-08defc5a5785",
+    "title": "914BRZ1155 - EDITAL Nº 48/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para produzir estudos técnicos, protocolos, referenciais metodológicos, materiais formativos e recomendações destinados ao fortalecimento das estratégias de prevenção das vio",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-09T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:b324319d-9f96-425f-8caf-08defc5a5785",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/279bee14-983b-4a30-3674-08df0344ae5c",
+      "https://apiroster.brasilia.unesco.org/api/public/download/509f1c98-f29f-41dd-3676-08df0344ae5c"
+    ]
+  },
+  {
+    "id": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
+    "title": "914BRZ1155 - EDITAL Nº 51/2026 - 3 vagas - Consultor Individual",
+    "description": "Consultoria especializada para subsidiar a Coordenação-Geral da Juventude – CGJUV na realização da avaliação das ações implementadas no âmbito do Programa Nacional de Grêmios Estudantis – Participa Jo",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-09T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:7863ef0f-6e11-4770-df18-08df01dbdf45",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/7625f8b5-ca49-4c2b-31cd-08df029a6aab",
+      "https://apiroster.brasilia.unesco.org/api/public/download/50d805c2-a357-46a9-31cf-08df029a6aab"
+    ]
+  },
+  {
+    "id": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
+    "title": "914BRZ1155 - EDITAL Nº 54/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para desenvolvimento de estudos subsidiários ao desenho e aperfeiçoamento da Educação Especial na Perspectiva Inclusiva",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-08T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/8ead9695-f45b-47b5-967a-08df0425e2a2",
+      "https://apiroster.brasilia.unesco.org/api/public/download/062a99ab-dbdd-45b8-967c-08df0425e2a2"
+    ]
+  },
+  {
+    "id": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
+    "title": "914BRZ1155 - EDITAL Nº 52/2026 - 1 vaga - Consultor Individual",
+    "description": "A presente contratação tem por finalidade à avaliação da implementação, dos resultados e das contribuições da Rede Nacional de Cursinhos Populares (CPOP) para a promoção da equidade no acesso à educaç",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-08T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:c9020343-9d28-49e3-b9e3-08df0436270c",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/88f37533-ba30-4089-96a2-08df0425e2a2",
+      "https://apiroster.brasilia.unesco.org/api/public/download/532e2705-20f6-4e48-96a4-08df0425e2a2"
+    ]
+  },
+  {
+    "id": "unesco:b74745df-a51d-41c1-b9e5-08df0436270c",
+    "title": "914BRZ1155 - EDITAL Nº 55/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para elaborar boletins com narrativas de dados sobre as violências nas escolas, a partir da consolidação, sistematização e análise de indicadores do ObservaDH",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-08T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:b74745df-a51d-41c1-b9e5-08df0436270c",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/7b0ba53f-3d12-42f1-05b7-08df0469bc8a",
+      "https://apiroster.brasilia.unesco.org/api/public/download/a2cabe61-5405-49e5-05b9-08df0469bc8a"
+    ]
+  },
+  {
+    "id": "unesco:f4efa11a-ea51-47cf-b9e7-08df0436270c",
+    "title": "914BRZ1155 - EDITAL Nº 56/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para desenvolver estudos e propor estratégias voltadas ao aprimoramento da gestão e da governança do Pacto Nacional pela Superação do Analfabetismo e Qualificação da Educação",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-08T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:f4efa11a-ea51-47cf-b9e7-08df0436270c",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/10c4aeef-43da-41e5-05ab-08df0469bc8a",
+      "https://apiroster.brasilia.unesco.org/api/public/download/12f2a951-45bd-45e3-05ad-08df0469bc8a"
+    ]
+  },
+  {
+    "id": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
+    "title": "914BRZ1155 - EDITAL Nº 53/2026 - 1 vaga - Consultor Individual",
+    "description": "Contratação de consultoria para realizar levantamento, análise e sistematização de normativos, programas, ações, estratégias e instrumentos de gestão relacionados à promoção da equidade",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-08T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:6f0bebf7-7be2-4b29-17c5-08df04786cdd",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/b434a8b0-b435-40c8-a38e-08df04eac88f",
+      "https://apiroster.brasilia.unesco.org/api/public/download/765d1b6c-8100-4338-a390-08df04eac88f"
+    ]
+  },
+  {
+    "id": "unesco:11c715d6-1d36-4c54-5f8f-08df036d3e00",
+    "title": "914BRZ4027 - Edital 55/2026 - Ciências Sociais",
+    "description": "Consultor Individual - Bases para a descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+    "comments": "",
+    "startDate": "2026-09-01T00:00:00",
+    "endDate": "2026-09-06T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-01T00:00:00",
+    "torid": "unesco:11c715d6-1d36-4c54-5f8f-08df036d3e00",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/39924993-87a6-43c5-05c4-08df0469bc8a",
+      "https://apiroster.brasilia.unesco.org/api/public/download/45cb79bd-29fd-480b-05c8-08df0469bc8a"
+    ]
+  },
+  {
     "id": "unesco:17177a8d-bde0-4a60-df1c-08df01dbdf45",
     "title": "914BRZ1159 - Publicação Edital 36/2026 - 1 vaga - Consultor Individual",
     "description": "Consultoria técnica nas áreas da Saúde Mental e Educação para desenvolver estudos, análises, metodologias para gestão, avaliação e monitoramento, para subsidiar o MEC à implementar o PSE e a PNAPCE.",
