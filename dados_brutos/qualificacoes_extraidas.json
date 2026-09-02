@@ -5173,5 +5173,138 @@
     "descricao": "Consultor Individual - Bases para a descentralização e gestão compartilhada do PAC Patrimônio Cultural",
     "local": "",
     "data_fim": "2026-09-06"
+  },
+  {
+    "torid": "146349",
+    "graduacao": [
+      "sistemas de informação",
+      "tecnologia da informação",
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "30.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "/ eliminatórios (registrados no cv):",
+      "15.1. formação acadêmica:",
+      "diploma de nível superior completo em comunicação social, jornalismo, publicidade e propaganda,",
+      "ciências sociais, sistemas de informação ou áreas afins, em instituição reconhecida pelo ministério",
+      "pós-graduação em comunicação, ciência política, administração pública, tecnologia da informação",
+      "15.2. experiência profissional:",
+      "no mínimo 05 anos de experiência comprovada em consultoria estratégica para instituições públicas,",
+      "governos ou organismos multilaterais, com atuação em projetos que integrem comunicação,",
+      "tecnologia e gestão institucional, comprovados por documentos idôneos da(s) entidade(s)",
+      "empregadora(s) ou contratos de prestação de serviços."
+    ],
+    "requisitos_desejaveis": [
+      "/pontuáveis (registrados no cv):",
+      "• pós-graduação em comunicação, ciência política, administração pública, tecnologia da",
+      "informação ou áreas afins;",
+      "• experiência em desenvolvimento e implementação de plataformas tecnológicas para",
+      "comunicação ou relacionamento governo-cidadão;",
+      "• experiência de trabalho com organismos multilaterais, redes de cidades ou instituições",
+      "• atuação em projetos de gestão pública ou comunicação institucional na américa latina;",
+      "• experiência de trabalho com órgãos/governos estaduais nordestinos;",
+      "• produção acadêmica ou técnica publicada na área de comunicação, tecnologia e gestão",
+      "16.1. habilidades e competências:"
+    ],
+    "titulo": "BRA/23/006 - CONSULTORIA TÉCNICA PARA O DESENVOLVIMENTO DE TECNOLOGIA APLICADA AO OBSERVATÓRIO DO NORDESTE",
+    "descricao": "CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE TECNOLOGIA APLICADA AO OBSERVATÓRIO DO NORDESTE",
+    "local": "HOME OFFICE",
+    "data_fim": "2026-09-13"
+  },
+  {
+    "torid": "146350",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "14.500,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultoria individual (pessoa física) para elaboração de estudo analítico, voltado ao mapeamento de empreendimentos vinculados à transição energética em execução ou em fase de planejamento e de seu potencial impacto sobre territórios quilombolas na Região Sudeste ",
+    "descricao": "Contratação de consultoria individual (pessoa física) para elaboração de estudo analítico, voltado ao mapeamento de empreendimentos vinculados à transição energética em execução ou em fase de planejamento e de seu potencial impacto sobre territórios quilombolas.\r\n\r\nO estudo deverá contemplar a construção de diagnóstico integrado, de natureza geográfica, antropológica, econômica e ambiental, abrangendo empreendimentos relacionados à geração de energia limpa, à exploração de minerais críticos e a outras atividades associadas à denominada transição energética, considerando seus impactos diretos e indiretos sobre os territórios quilombolas. O estudo finalizado deverá subsidiar ações institucionais, políticas e territoriais a serem adotadas pelo Ministério da Igualdade Racial (MIR), e outros entes públicos.\r\n\r\nPara fins de delimitação territorial, o estudo terá como escopo regional a Região Sudeste do Brasil, em consonância com o objetivo de análise dos impactos de empreendimentos da transição energética sobre territórios quilombolas.",
+    "local": "Remoto",
+    "data_fim": "2026-09-07"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13216",
+    "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+    "local": "São Paulo - SP",
+    "data_fim": "2026-09-10"
   }
 ]

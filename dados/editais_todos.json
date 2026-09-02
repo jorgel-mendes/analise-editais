@@ -1,5 +1,43 @@
 [
   {
+    "id": 1528,
+    "torid": 146349,
+    "createdBy": "gabriella.almeida",
+    "title": "BRA/23/006 - CONSULTORIA TÉCNICA PARA O DESENVOLVIMENTO DE TECNOLOGIA APLICADA AO OBSERVATÓRIO DO NORDESTE",
+    "startDate": "2026-09-02T06:00:00",
+    "endDate": "2026-09-13T06:00:00",
+    "local": "HOME OFFICE",
+    "receivingEmail": "curriculos@consorcionordeste.gov.br",
+    "enabled": true,
+    "description": "CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE TECNOLOGIA APLICADA AO OBSERVATÓRIO DO NORDESTE",
+    "approver": "aline.bacelar,daniel.furst,gabriela.silva,kassya.fernandes,leonel.neto,livia.karkow,MTF,thalita.holanda,ticiana.sousa,vanessa.jesus,yldson.serrao@undp.org",
+    "comments": "",
+    "created": "2026-08-31T15:10:40.7026533",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1529,
+    "torid": 146350,
+    "createdBy": "erlon.cardoso",
+    "title": "Contratação de consultoria individual (pessoa física) para elaboração de estudo analítico, voltado ao mapeamento de empreendimentos vinculados à transição energética em execução ou em fase de planejamento e de seu potencial impacto sobre territórios quilombolas na Região Sudeste ",
+    "startDate": "2026-09-01T03:00:00",
+    "endDate": "2026-09-07T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "dqc@igualdaderacial.gov.br",
+    "enabled": true,
+    "description": "Contratação de consultoria individual (pessoa física) para elaboração de estudo analítico, voltado ao mapeamento de empreendimentos vinculados à transição energética em execução ou em fase de planejamento e de seu potencial impacto sobre territórios quilombolas.\r\n\r\nO estudo deverá contemplar a construção de diagnóstico integrado, de natureza geográfica, antropológica, econômica e ambiental, abrangendo empreendimentos relacionados à geração de energia limpa, à exploração de minerais críticos e a outras atividades associadas à denominada transição energética, considerando seus impactos diretos e indiretos sobre os territórios quilombolas. O estudo finalizado deverá subsidiar ações institucionais, políticas e territoriais a serem adotadas pelo Ministério da Igualdade Racial (MIR), e outros entes públicos.\r\n\r\nPara fins de delimitação territorial, o estudo terá como escopo regional a Região Sudeste do Brasil, em consonância com o objetivo de análise dos impactos de empreendimentos da transição energética sobre territórios quilombolas.",
+    "approver": "aline.santana,hgo,ismalia.silva,julia.borges,mariana.fraga",
+    "comments": "Contrato refletido na RC UNDP-BRA-1011522. O valor é USD 10,625.96 (R$ 55,000.00). O TR foi analisado previamente pela gerente e pela assistente. O prazo do TR é compatível ao tempo máximo de vigência do projeto.",
+    "created": "2026-09-01T09:58:53.0178731",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
     "id": "unesco:5d64862a-264d-475d-5f8e-08df036d3e00",
     "title": "4BRZ4025 - Edital 18/2026 - Consultor Individual (1 Vaga)  REPUBLICAÇÃO",
     "description": "Contratação de consultor individual, técnico especializado em design editorial e comunicação visual, para desenvolver o projeto editorial, gráfico e visual de quatro materiais institucionais.",
@@ -178,6 +216,25 @@
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/39924993-87a6-43c5-05c4-08df0469bc8a",
       "https://apiroster.brasilia.unesco.org/api/public/download/45cb79bd-29fd-480b-05c8-08df0469bc8a"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13216",
+    "description": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
+    "comments": "R$ 70.000,00",
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-10",
+    "local": "São Paulo - SP",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-01",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/BRA",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13216.pdf"
     ]
   },
   {
