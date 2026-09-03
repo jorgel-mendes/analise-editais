@@ -1,5 +1,43 @@
 [
   {
+    "id": 1525,
+    "torid": 146343,
+    "createdBy": "gabriel.barbosa",
+    "title": "TR 005/2026 - ASPAD - MDA - Contratação de consultoria especializada para participação social no Plano Safra da Agricultura Familiar",
+    "startDate": "2026-09-03T03:00:00",
+    "endDate": "2026-09-12T03:00:00",
+    "local": "Brasília/DF",
+    "receivingEmail": "cgctf.editais@mda.gov.br",
+    "enabled": true,
+    "description": "OBJETIVOS DA CONSULTORIA:\r\n\r\nA consultoria tem como objetivo o desenvolvimento de metodologias que\r\naprimorem a implementação e efetividade do Plano Safra da Agricultura\r\nFamiliar, por meio do Grupo de Trabalho criado para essa finalidade, com\r\natenção especial ao mapeamento e aprimoramento dos arranjos de\r\nparticipação social e à melhoria das políticas de crédito rural. Assim, os\r\nestudos, diagnósticos e metodologias produzidos pela consultoria\r\ncontribuirão para o fortalecimento institucional do MDA, qualificando os\r\nprocessos de participação social, monitoramento e formulação do Plano\r\nSafra da Agricultura Familiar, e colaborando para o alcance das metas\r\nprevistas no projeto.   \r\n\r\nAs pessoas interessadas no presente Termo de Referência deverão enviar o Currículo (modelo Anexo) para o e-mail: cgctf.editais@mda.gov.br. ASSUNTO: PCT PNUD 25/005 - TR 005/2026 - ASPAD.\r\n\r\n",
+    "approver": "carolina.antony,guilherme.berdu,henrique.lacerda,karen.barros,lilian.sousa,luciana.brant,MA,mayra.almeida",
+    "comments": "",
+    "created": "2026-08-27T13:29:30.0336826",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:1d72ac67-6c7d-4a8b-dd78-08df0757caed",
+    "title": "914BRZ1154 - Edital 05/2026 - 01 perfil - Consultoria Individual",
+    "description": "Consultoria especializada em Avaliação da Educação Superior, políticas de ciência, tecnologia e inovação e análise institucional universitária, para desenvolver estudo comparado sobre modelos instituc",
+    "comments": "",
+    "startDate": "2026-09-03T00:00:00",
+    "endDate": "2026-09-13T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-03T00:00:00",
+    "torid": "unesco:1d72ac67-6c7d-4a8b-dd78-08df0757caed",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/1719007d-c090-4217-506e-08df08eba3ea"
+    ]
+  },
+  {
     "id": 1528,
     "torid": 146349,
     "createdBy": "gabriella.almeida",

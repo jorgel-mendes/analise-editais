@@ -5306,5 +5306,65 @@
     "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
     "local": "São Paulo - SP",
     "data_fim": "2026-09-10"
+  },
+  {
+    "torid": "146343",
+    "graduacao": [
+      "administração",
+      "ecologia",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "15.600,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "TR 005/2026 - ASPAD - MDA - Contratação de consultoria especializada para participação social no Plano Safra da Agricultura Familiar",
+    "descricao": "OBJETIVOS DA CONSULTORIA:\r\n\r\nA consultoria tem como objetivo o desenvolvimento de metodologias que\r\naprimorem a implementação e efetividade do Plano Safra da Agricultura\r\nFamiliar, por meio do Grupo de Trabalho criado para essa finalidade, com\r\natenção especial ao mapeamento e aprimoramento dos arranjos de\r\nparticipação social e à melhoria das políticas de crédito rural. Assim, os\r\nestudos, diagnósticos e metodologias produzidos pela consultoria\r\ncontribuirão para o fortalecimento institucional do MDA, qualificando os\r\nprocessos de participação social, monitoramento e formulação do Plano\r\nSafra da Agricultura Familiar, e colaborando para o alcance das metas\r\nprevistas no projeto.   \r\n\r\nAs pessoas interessadas no presente Termo de Referência deverão enviar o Currículo (modelo Anexo) para o e-mail: cgctf.editais@mda.gov.br. ASSUNTO: PCT PNUD 25/005 - TR 005/2026 - ASPAD.\r\n\r\n",
+    "local": "Brasília/DF",
+    "data_fim": "2026-09-12"
+  },
+  {
+    "torid": "unesco:1d72ac67-6c7d-4a8b-dd78-08df0757caed",
+    "graduacao": [
+      "administração",
+      "ciências sociais",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 15,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1154 - Edital 05/2026 - 01 perfil - Consultoria Individual",
+    "descricao": "Consultoria especializada em Avaliação da Educação Superior, políticas de ciência, tecnologia e inovação e análise institucional universitária, para desenvolver estudo comparado sobre modelos instituc",
+    "local": "",
+    "data_fim": "2026-09-13"
   }
 ]
