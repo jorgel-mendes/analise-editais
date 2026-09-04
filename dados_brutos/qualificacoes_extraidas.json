@@ -5366,5 +5366,39 @@
     "descricao": "Consultoria especializada em Avaliação da Educação Superior, políticas de ciência, tecnologia e inovação e análise institucional universitária, para desenvolver estudo comparado sobre modelos instituc",
     "local": "",
     "data_fim": "2026-09-13"
+  },
+  {
+    "torid": "unesco:b0920c88-ab66-4545-2ead-08df08e94b75",
+    "graduacao": [
+      "administração",
+      "direito",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 10,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Projeto 914BRZ3050 - Edital N° 04/2026 - Consultor Individual ",
+    "descricao": "Consultoria para desenvolver um documento técnico analítico que organize e sistematize diretrizes de cooperação internacional entre a UNESCO e a Secretaria Municipal de Direitos Humanos e Cidadania de",
+    "local": "",
+    "data_fim": "2026-09-08"
   }
 ]
