@@ -5400,5 +5400,52 @@
     "descricao": "Consultoria para desenvolver um documento técnico analítico que organize e sistematize diretrizes de cooperação internacional entre a UNESCO e a Secretaria Municipal de Direitos Humanos e Cidadania de",
     "local": "",
     "data_fim": "2026-09-08"
+  },
+  {
+    "torid": "unesco:83caba6b-babf-4307-dd76-08df0757caed",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "direito",
+      "arquitetura",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 1,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "conforme exigido no item “requisitos mínimos de qualificação”.",
+      "7.9.6 a experiência profissional poderá ser comprovada, também, por meio de declaração",
+      "devidamente assinada por profissional competente da empresa onde prestou o serviço ou por",
+      "meio de apresentação de contrato de trabalho;",
+      "7.9.7 deverão ser apresentados, na mesma oportunidade, documentos pessoais (cópia simples ou",
+      "original do cpf, rg, comprovante de residência e dados bancários), bem como outros",
+      "documentos que possam vir a ser solicitados pela comissão;",
+      "7.9.8 caso não haja a apresentação da documentação no prazo estipulado, o candidato será",
+      "considerado desistente e o candidato subsequente poderá ser convocado;",
+      "7.9.9 caso a documentação do candidato indique restrições, de caráter legal ou não, que"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1164 - EDITAL 03/2026 - 2 VAGAS - Consultor Individual",
+    "descricao": "Consultoria especializada para sistematização e elaboração de publicação institucional sobre o FNDE Chegando Junto e sobre o Pacto Nacional pela Retomada de Obras da Educação Básica.",
+    "local": "",
+    "data_fim": "2026-09-11"
   }
 ]
