@@ -5447,5 +5447,66 @@
     "descricao": "Consultoria especializada para sistematização e elaboração de publicação institucional sobre o FNDE Chegando Junto e sobre o Pacto Nacional pela Retomada de Obras da Educação Básica.",
     "local": "",
     "data_fim": "2026-09-11"
+  },
+  {
+    "torid": "146353",
+    "graduacao": [
+      "economia",
+      "administração",
+      "ciências sociais",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "45.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "TR - Mobilização Territorial/2026 - Suporte técnico especializado para Avaliação de Efetividade e Metodologias para Mobilização Territorial e Acesso a Instrumentos de Desenvolvimento",
+    "descricao": "Os(as) candidatos(as) deverão encaminhar o Currículo Vitae obrigatoriamente no modelo anexo a este edital;\r\nCurrículos em formato diverso do modelo estabelecido serão desclassificados;\r\nO envio do currículo deverá ser realizado exclusivamente para o e-mail: prodocbra23018@sudeco.gov.br\r\nNo campo assunto do e-mail, deverá constar obrigatoriamente o código do\r\nTermo de Referência:",
+    "local": "Região Centro Oeste",
+    "data_fim": "2026-09-18"
+  },
+  {
+    "torid": "unesco:b260be61-61f9-4226-2eb0-08df08e94b75",
+    "graduacao": [
+      "administração",
+      "direito",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "218,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3061 - EDITAL Nº 13/2026 - 01 VAGA - CONSULTOR INDIVIDUAL-REPUBLICACAO",
+    "descricao": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
+    "local": "",
+    "data_fim": "2026-09-13"
   }
 ]
