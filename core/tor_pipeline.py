@@ -13,6 +13,7 @@ import zipfile
 from pathlib import Path
 
 from core.config import API_URL, DADOS_BRUTOS_DIR, TORS_DIR
+from core.tor_texts import salvar_texto
 
 logger = logging.getLogger(__name__)
 
@@ -172,7 +173,7 @@ def _processar_zip_baixado(torid: str, zip_path: Path, edital: dict) -> dict | N
     if not text:
         return None
 
-    (TORS_DIR / f"{torid}_texto.txt").write_text(text[:50000])
+    salvar_texto(torid, text)
 
     qual = _find_qualifications(text, torid)
     qual["titulo"] = edital.get("title", "")

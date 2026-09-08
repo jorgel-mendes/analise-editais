@@ -9,6 +9,7 @@ import logging
 import requests
 
 from core.config import TORS_DIR
+from core.tor_texts import salvar_texto
 from core.tor_pipeline import (
     _carregar_qualificacoes_existentes,
     _extract_pdf_text,
@@ -43,7 +44,7 @@ def _baixar_e_extrair_um(edital: dict) -> dict | None:
     if not texto_total:
         return None
 
-    (TORS_DIR / f"{torid.replace(':', '_')}_texto.txt").write_text(texto_total[:50000])
+    salvar_texto(torid, texto_total)
 
     qual = _find_qualifications(texto_total, torid)
     qual["titulo"] = edital.get("titulo") or edital.get("title", "")

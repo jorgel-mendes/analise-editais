@@ -9,7 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
-# Downloaded ToR files (large binaries)
+# Downloaded ToR files (large binaries) — o texto extraído deles é
+# versionado comprimido em dados_brutos/tors_texto/
 dados_brutos/tors/
 
 # Scraping debug artifacts

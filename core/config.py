@@ -6,6 +6,7 @@ DADOS_BRUTOS_DIR = ROOT / "dados_brutos"
 PERFIS_DIR = ROOT / "perfis"
 HISTORICO_DIR = DADOS_DIR / "historico"
 TORS_DIR = DADOS_BRUTOS_DIR / "tors"
+TORS_TEXTO_DIR = DADOS_BRUTOS_DIR / "tors_texto"
 
 EDITAIS_TODOS_FILE = DADOS_DIR / "editais_todos.json"
 EDITAIS_PROCESSADOS_FILE = DADOS_DIR / "editais_processados.json"

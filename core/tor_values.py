@@ -2,7 +2,7 @@ import re
 import logging
 from pathlib import Path
 
-from core.config import TORS_DIR
+from core.tor_texts import ler_texto
 
 logger = logging.getLogger(__name__)
 
@@ -27,11 +27,10 @@ def extrair_valores_tors(qualificacoes: dict[str, dict]) -> dict[str, float]:
 
 
 def _extrair_valor_texto(torid: str) -> float | None:
-    tor_text = TORS_DIR / f"{torid}_texto.txt"
-    if not tor_text.exists():
+    text = ler_texto(torid)
+    if not text:
         return None
 
-    text = tor_text.read_text()
     patterns = [
         r'Valor\s+total\s+(?:da\s+contrata[cç][aã]o|do\s+contrato|do\s+perfil)\s*:?\s*R\$\s*([\d.]+,\d{2})',
         r'Total\s+do\s+perfil\s+.*?R\$\s*([\d.]+,\d{2})',
@@ -78,11 +77,7 @@ def _extrair_valor_com_ia(torid: str) -> float | None:
     if not os.environ.get("DEEPSEEK_API_KEY"):
         return None
 
-    tor_text = TORS_DIR / f"{torid}_texto.txt"
-    if not tor_text.exists():
-        return None
-
-    text = tor_text.read_text()[:3000]
+    text = (ler_texto(torid) or "")[:3000]
     if len(text) < 100:
         return None
 

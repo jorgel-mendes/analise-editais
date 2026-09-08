@@ -42,10 +42,13 @@ analise_editais/
 │   ├── reporter.py          # Geração de relatórios Excel + PDF
 │   ├── site_generator.py    # Gera JSON consumido pelo frontend
 │   ├── tor_pipeline.py      # Download (Playwright) + extração de ToRs — só PNUD
-│   └── tor_direct.py        # Download direto (HTTP) + extração de ToRs — UNESCO/OEI
+│   ├── tor_direct.py        # Download direto (HTTP) + extração de ToRs — UNESCO/OEI
+│   └── tor_texts.py         # Texto dos ToRs, gravado comprimido e versionado
 ├── perfis/                  # Perfis profissionais em JSON (editáveis)
 ├── dados/                   # Persistência (editais_todos.json + snapshots)
 ├── dados_brutos/            # Dados crus do scraping + qualificações extraídas
+│   ├── tors/                # PDFs/zips baixados (gitignored, efêmeros no CI)
+│   └── tors_texto/          # Texto extraído dos ToRs em .txt.gz (versionado)
 ├── docs/                    # Frontend SPA (GitHub Pages)
 │   ├── index.html
 │   └── data/
