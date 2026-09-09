@@ -1,5 +1,8 @@
 # 📋 Análise de Editais PNUD / UNESCO / OEI Brasil
 
+### 👉 [Acessar o dashboard](https://jorgel-mendes.github.io/analise-editais/)
+Atualizado automaticamente todo dia às 9h BRT.
+
 Scraping, persistência e análise de editais (bidding notices) do PNUD, UNESCO e OEI no Brasil, com classificação automática por perfil profissional e recomendações de estudo personalizadas.
 
 **Fontes**:
