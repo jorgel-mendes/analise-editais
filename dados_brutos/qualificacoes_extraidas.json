@@ -5508,5 +5508,209 @@
     "descricao": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
     "local": "",
     "data_fim": "2026-09-13"
+  },
+  {
+    "torid": "146368",
+    "graduacao": [
+      "economia",
+      "administração",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "antropologia",
+      "física",
+      "políticas públicas",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "108.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior, em qualquer área de ciências humanas,",
+      "ciências sociais aplicadas, administração pública, gestão de políticas públicas, relações internacionais,",
+      "serviço social, economia, direito, geografia, planejamento territorial, desenvolvimento regional ou",
+      "áreas correlatas, comprovada por diploma emitido por instituição de ensino superior; e experiência",
+      "profissional comprovada mínima de 3 (três) anos, contada a partir da conclusão do curso superior."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital 6/2026- UGP-PNUD/SENAD",
+    "descricao": "Seleção de 01 (um) consultor, pessoa física, residente e domiciliado em Brasília/DF, para\r\nelaboração de diagnóstico, mapeamento de iniciativas e identificação de oportunidades de cooperação\r\ninterinstitucional voltadas à implementação do Programa \"Território Seguro, Amazônia Soberana: Proteção\r\nda Amazônia e da Faixa de Fronteira\".\r\n",
+    "local": "null",
+    "data_fim": "2026-09-15"
+  },
+  {
+    "torid": "146367",
+    "graduacao": [
+      "economia",
+      "administração",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "72.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior, em qualquer área de ciências humanas,",
+      "ciências sociais aplicadas, administração pública, gestão de políticas públicas, relações internacionais,",
+      "serviço social, economia, direito, geografia, planejamento territorial, desenvolvimento regional ou",
+      "áreas correlatas, comprovada por diploma emitido por instituição de ensino superior; e experiência",
+      "profissional comprovada mínima de 2 (dois) anos, contada a partir da conclusão do curso superior."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "EDITAL Nº 5/2026 - UGP-PNUD/SENAD",
+    "descricao": "Seleção de 01 (um) consultor, pessoa física, residente e domiciliado em Brasília/DF, para elaboração de estratégia de funcionamento, instrumentos de articulação e relatório de avaliação da governança do Programa “Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira”.",
+    "local": "Brasília/DF",
+    "data_fim": "2026-09-15"
+  },
+  {
+    "torid": "146365",
+    "graduacao": [
+      "sistemas de informação",
+      "economia",
+      "administração",
+      "estatística",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "ciência de dados",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "102.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior, reconhecida pelo mec, em administração",
+      "pública, gestão pública, administração, economia, estatística, ciência política, ciências sociais ou áreas",
+      "correlatas, comprovada por diploma emitido por instituição de ensino superior; experiência profissional",
+      "comprovada mínima de 2 (dois) anos, contada a partir da conclusão do curso superior."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "EDITAL Nº 4/2026 - UGP-PNUD/SENAD",
+    "descricao": "Seleção de 01 consultor(a), pessoa física, para elaboração da metodologia de monitoramento e avaliação do Programa Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira, incluindo definição de indicadores, fluxos automatizados de coleta de dados, instrumentos e procedimentos de acompanhamento automatizado e análise de cumprimento da meta, que posteriormente poderão subsidiar a implantação do sistema previsto no art. 15 da Portaria MJSP nº 1.220/2026.",
+    "local": "null",
+    "data_fim": "2026-09-15"
+  },
+  {
+    "torid": "146364",
+    "graduacao": [
+      "economia",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "216.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior em direito, ciências sociais, psicologia,",
+      "serviço social, políticas públicas, segurança pública, pedagogia ou áreas correlatas, comprovada por",
+      "diploma emitido por instituição de ensino superior; e experiência profissional comprovada mínima de 3",
+      "(três) anos, contada a partir da conclusão do curso superior."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "EDITAL Nº 3/2026 - UGP-PNUD/SENAD",
+    "descricao": "Contratação de 02 (dois) consultores, pessoa física, para prestação de serviços de consultoria técnica especializada, com foco no apoio técnico e metodológico à implementação, ao acompanhamento e à sistematização das atividades desenvolvidas no âmbito do Programa “Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira”, contribuindo para o fortalecimento dos processos, instrumentos e fluxos necessários ao alcance dos resultados previstos no projeto.",
+    "local": "null",
+    "data_fim": "2026-09-15"
+  },
+  {
+    "torid": "146363",
+    "graduacao": [
+      "economia",
+      "direito",
+      "ciências sociais",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "70.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior em ciências sociais, psicologia/psicanálise,",
+      "filosofia, artes, pedagogia, gestão de políticas públicas ou áreas afins, comprovada por diploma emitido por",
+      "instituição de ensino superior reconhecida pelo mec; e experiência profissional comprovada mínima de",
+      "5 (cinco) anos, contada a partir da conclusão do curso superior."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "EDITAL Nº 2/2026 - UGP-PNUD/SENAD",
+    "descricao": "Seleção de 01 (um/a) consultor/a pessoa física, na modalidade de produtos, para a produção de material pedagógico que dará suporte à realização do curso Política sobre Drogas Além das Margens: diálogos sobre cuidado e desestigmatização na intersecção entre política, arte e psicanálise.",
+    "local": "null",
+    "data_fim": "2026-09-15"
   }
 ]

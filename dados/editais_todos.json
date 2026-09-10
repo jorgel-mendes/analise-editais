@@ -1,5 +1,119 @@
 [
   {
+    "id": 1534,
+    "torid": 146368,
+    "createdBy": "solange.leal",
+    "title": "Edital 6/2026- UGP-PNUD/SENAD",
+    "startDate": "2026-09-10T03:00:00",
+    "endDate": "2026-09-15T06:00:00",
+    "local": "null",
+    "receivingEmail": "cgep@mj.gov.br",
+    "enabled": true,
+    "description": "Seleção de 01 (um) consultor, pessoa física, residente e domiciliado em Brasília/DF, para\r\nelaboração de diagnóstico, mapeamento de iniciativas e identificação de oportunidades de cooperação\r\ninterinstitucional voltadas à implementação do Programa \"Território Seguro, Amazônia Soberana: Proteção\r\nda Amazônia e da Faixa de Fronteira\".\r\n",
+    "approver": "brenda.felix,rosana.tomazini",
+    "comments": "Observações do(a) PA: TR refletido na RC UNDP-BRA-1011596. O valor é USD 20,865.54. O TR foi analisado previamente pela gerente e pela assistente. O prazo do TR é compatível ao tempo máximo de vigência do projeto.",
+    "created": "2026-09-09T17:21:35.414184",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1535,
+    "torid": 146367,
+    "createdBy": "solange.leal",
+    "title": "EDITAL Nº 5/2026 - UGP-PNUD/SENAD",
+    "startDate": "2026-09-10T03:00:00",
+    "endDate": "2026-09-15T06:00:00",
+    "local": "Brasília/DF",
+    "receivingEmail": "cgep@mj.gov.br",
+    "enabled": true,
+    "description": "Seleção de 01 (um) consultor, pessoa física, residente e domiciliado em Brasília/DF, para elaboração de estratégia de funcionamento, instrumentos de articulação e relatório de avaliação da governança do Programa “Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira”.",
+    "approver": "brenda.felix,rosana.tomazini",
+    "comments": "Observações do(a) PA: TR refletido na RC UNDP-BRA-1011595. O valor é USD 13,910.36. O TR foi analisado previamente pela gerente e pela assistente. O prazo do TR é compatível ao tempo máximo de vigência do projeto.",
+    "created": "2026-09-09T17:24:13.7845777",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1536,
+    "torid": 146365,
+    "createdBy": "solange.leal",
+    "title": "EDITAL Nº 4/2026 - UGP-PNUD/SENAD",
+    "startDate": "2026-09-10T03:00:00",
+    "endDate": "2026-09-15T06:00:00",
+    "local": "null",
+    "receivingEmail": "dpagi@mj.gov.br",
+    "enabled": true,
+    "description": "Seleção de 01 consultor(a), pessoa física, para elaboração da metodologia de monitoramento e avaliação do Programa Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira, incluindo definição de indicadores, fluxos automatizados de coleta de dados, instrumentos e procedimentos de acompanhamento automatizado e análise de cumprimento da meta, que posteriormente poderão subsidiar a implantação do sistema previsto no art. 15 da Portaria MJSP nº 1.220/2026.",
+    "approver": "brenda.felix,rosana.tomazini",
+    "comments": "Observações do(a) PA: TR refletido na RC UNDP-BRA-1011594. O valor é USD 19,706.34. O TR foi analisado previamente pela gerente e pela assistente. O prazo do TR é compatível ao tempo máximo de vigência do projeto.",
+    "created": "2026-09-09T17:28:24.73948",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1537,
+    "torid": 146364,
+    "createdBy": "solange.leal",
+    "title": "EDITAL Nº 3/2026 - UGP-PNUD/SENAD",
+    "startDate": "2026-09-10T03:00:00",
+    "endDate": "2026-09-15T06:00:00",
+    "local": "null",
+    "receivingEmail": "dpagi@mj.gov.br",
+    "enabled": true,
+    "description": "Contratação de 02 (dois) consultores, pessoa física, para prestação de serviços de consultoria técnica especializada, com foco no apoio técnico e metodológico à implementação, ao acompanhamento e à sistematização das atividades desenvolvidas no âmbito do Programa “Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira”, contribuindo para o fortalecimento dos processos, instrumentos e fluxos necessários ao alcance dos resultados previstos no projeto.",
+    "approver": "brenda.felix,rosana.tomazini",
+    "comments": "Observações do(a) PA: TR refletido na RC UNDP-BRA-1011593. O valor é USD 20,865.53. O TR foi analisado previamente pela gerente e pela assistente. O prazo do TR é compatível ao tempo máximo de vigência do projeto.",
+    "created": "2026-09-09T17:30:24.4585421",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1538,
+    "torid": 146363,
+    "createdBy": "solange.leal",
+    "title": "EDITAL Nº 2/2026 - UGP-PNUD/SENAD",
+    "startDate": "2026-09-10T03:00:00",
+    "endDate": "2026-09-15T06:00:00",
+    "local": "null",
+    "receivingEmail": "senad@mj.gov.br",
+    "enabled": true,
+    "description": "Seleção de 01 (um/a) consultor/a pessoa física, na modalidade de produtos, para a produção de material pedagógico que dará suporte à realização do curso Política sobre Drogas Além das Margens: diálogos sobre cuidado e desestigmatização na intersecção entre política, arte e psicanálise.",
+    "approver": "brenda.felix,rosana.tomazini",
+    "comments": "Observações do(a) PA: TR refletido na RC UNDP-BRA-1011588. O valor é USD 13,523.95. O TR foi analisado previamente pela gerente e pela assistente. O prazo do TR é compatível ao tempo máximo de vigência do projeto.",
+    "created": "2026-09-09T17:32:46.8227527",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13230",
+    "description": "Contratar profissional especializado para prestar apoio técnico na organização de informações, elaboração de instrumentos de acompanhamento e produção de subsídios técnicos relacionados às ações desenvolvidas, com foco no aprimoramento de mecanismos de monitoramento, sistematização de dados e suporte à gestão administrativa das iniciativas apoiadas.",
+    "comments": "R$ 50.000,00",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-15",
+    "local": "Brasília - DF",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-10",
+    "torid": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13230.pdf"
+    ]
+  },
+  {
     "id": "unesco:b0920c88-ab66-4545-2ead-08df08e94b75",
     "title": "Projeto 914BRZ3050 - Edital N° 04/2026 - Consultor Individual PRORROGAÇÃO",
     "description": "Consultoria para desenvolver um documento técnico analítico que organize e sistematize diretrizes de cooperação internacional entre a UNESCO e a Secretaria Municipal de Direitos Humanos e Cidadania de",
@@ -16,6 +130,26 @@
     "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/449ce59f-e023-48d9-509e-08df08eba3ea"
+    ]
+  },
+  {
+    "id": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
+    "title": "914BRZ1155 - EDITAL Nº 54/2026 - 1 vaga - Consultor Individual",
+    "description": "Consultoria especializada para desenvolvimento de estudos subsidiários ao desenho e aperfeiçoamento da Educação Especial na Perspectiva Inclusiva",
+    "comments": "",
+    "startDate": "2026-09-09T00:00:00",
+    "endDate": "2026-09-13T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-09T00:00:00",
+    "torid": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/8ead9695-f45b-47b5-967a-08df0425e2a2",
+      "https://apiroster.brasilia.unesco.org/api/public/download/062a99ab-dbdd-45b8-967c-08df0425e2a2"
     ]
   },
   {
@@ -210,26 +344,6 @@
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/7625f8b5-ca49-4c2b-31cd-08df029a6aab",
       "https://apiroster.brasilia.unesco.org/api/public/download/50d805c2-a357-46a9-31cf-08df029a6aab"
-    ]
-  },
-  {
-    "id": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
-    "title": "914BRZ1155 - EDITAL Nº 54/2026 - 1 vaga - Consultor Individual",
-    "description": "Consultoria especializada para desenvolvimento de estudos subsidiários ao desenho e aperfeiçoamento da Educação Especial na Perspectiva Inclusiva",
-    "comments": "",
-    "startDate": "2026-09-01T00:00:00",
-    "endDate": "2026-09-08T00:00:00",
-    "local": "",
-    "receivingEmail": "",
-    "statusDescription": "Ongoing",
-    "created": "2026-09-01T00:00:00",
-    "torid": "unesco:5c1d62c6-1efa-431c-b9e2-08df0436270c",
-    "fonte": "unesco",
-    "orgao_parceiro": "UNESCO",
-    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
-    "tor_urls": [
-      "https://apiroster.brasilia.unesco.org/api/public/download/8ead9695-f45b-47b5-967a-08df0425e2a2",
-      "https://apiroster.brasilia.unesco.org/api/public/download/062a99ab-dbdd-45b8-967c-08df0425e2a2"
     ]
   },
   {
