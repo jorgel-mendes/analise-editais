@@ -1,5 +1,62 @@
 [
   {
+    "id": 1542,
+    "torid": 146369,
+    "createdBy": "jainara.araujo",
+    "title": "Edital nº 29/2026 – Contratação de Consultoria Individual para o desenho institucional da Secretaria de Serviços Compartilhados (SSC/MGI)",
+    "startDate": "2026-09-11T03:00:00",
+    "endDate": "2026-09-25T03:00:00",
+    "local": "Remoto",
+    "receivingEmail": "prodoc.mgi@gestao.gov.br",
+    "enabled": true,
+    "description": "Edital nº 29/2026 – Contratação de Consultoria Individual para o desenho institucional da Secretaria de Serviços Compartilhados (SSC/MGI)\r\n\r\n",
+    "approver": "henrique.lacerda,hgo,karen.barros,luciana.aguiar,luciana.brant,MA,mayra.almeida,thais.pires",
+    "comments": "",
+    "created": "2026-09-10T08:46:56.7661017",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": 1543,
+    "torid": 146370,
+    "createdBy": "jainara.araujo",
+    "title": "Edital nº 25/2026 – Contratação de Consultoria Individual para avaliar os efeitos de intervenções comportamentais (políticas fiscais e de arquitetura de escolha) em mercado experimental para promover escolhas alimentares mais saudáveis. ",
+    "startDate": "2026-09-11T03:00:00",
+    "endDate": "2026-09-25T03:00:00",
+    "local": "REMOTO",
+    "receivingEmail": "prodoc.mgi@gestao.gov.br",
+    "enabled": true,
+    "description": "Edital nº 25/2026 – Contratação de Consultoria Individual para avaliar os efeitos de intervenções comportamentais (políticas fiscais e de arquitetura de escolha) em mercado experimental para promover escolhas alimentares mais saudáveis. ",
+    "approver": "henrique.lacerda,hgo,karen.barros,luciana.aguiar,luciana.brant,MA,mayra.almeida,thais.pires",
+    "comments": "",
+    "created": "2026-09-10T09:15:28.9902495",
+    "canApprove": false,
+    "statusDescription": "Aprovada",
+    "fonte": "pnud",
+    "url_externo": "https://parceiros.undp.org.br/opportunities"
+  },
+  {
+    "id": "unesco:8c824e7b-7b9a-4a59-7ffc-08df082d82f3",
+    "title": "914BRZ1163 - Publicação -  Edital 68/2026 - 01 Vaga consultor Individual",
+    "description": "Consultoria especializada em articulação comunitária com recorte de gênero para acompanhar, analisar e sistematizar a implementação de ações de aproximação entre famílias, comunidades, escolas ",
+    "comments": "",
+    "startDate": "2026-09-11T00:00:00",
+    "endDate": "2026-09-16T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-11T00:00:00",
+    "torid": "unesco:8c824e7b-7b9a-4a59-7ffc-08df082d82f3",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/d7093905-323a-4772-31ac-08df0e4b42ea"
+    ]
+  },
+  {
     "id": 1534,
     "torid": 146368,
     "createdBy": "solange.leal",
@@ -111,6 +168,25 @@
     "url_externo": "https://oei.int/oficinas/brasil/contrataciones/ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026/",
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13230.pdf"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR13238",
+    "description": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
+    "comments": "R$ 180.000,00",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-16",
+    "local": "Porto Alegre - RS",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-10",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13238.pdf"
     ]
   },
   {
@@ -452,7 +528,7 @@
     "description": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
     "comments": "R$ 70.000,00",
     "startDate": "2026-09-01",
-    "endDate": "2026-09-10",
+    "endDate": "2026-09-18",
     "local": "São Paulo - SP",
     "receivingEmail": "selecao.bra@oei.int",
     "statusDescription": "En evaluación",

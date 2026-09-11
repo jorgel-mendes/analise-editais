@@ -5712,5 +5712,105 @@
     "descricao": "Seleção de 01 (um/a) consultor/a pessoa física, na modalidade de produtos, para a produção de material pedagógico que dará suporte à realização do curso Política sobre Drogas Além das Margens: diálogos sobre cuidado e desestigmatização na intersecção entre política, arte e psicanálise.",
     "local": "null",
     "data_fim": "2026-09-15"
+  },
+  {
+    "torid": "146369",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "arquitetura",
+      "gestão pública",
+      "políticas públicas",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "42.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: • diploma de conclusão de curso superior em nível de",
+      "graduação em administração, administração pública, direito, economia, ciência política, gestão pública",
+      "ou áreas correlatas. experiência: • experiência profissional comprovada de, no mínimo, 10 anos em gestão",
+      "pública, modelagem organizacional, reforma administrativa, desenho institucional ou reestruturação de",
+      "organizações públicas."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 29/2026 – Contratação de Consultoria Individual para o desenho institucional da Secretaria de Serviços Compartilhados (SSC/MGI)",
+    "descricao": "Edital nº 29/2026 – Contratação de Consultoria Individual para o desenho institucional da Secretaria de Serviços Compartilhados (SSC/MGI)\r\n\r\n",
+    "local": "Remoto",
+    "data_fim": "2026-09-25"
+  },
+  {
+    "torid": "146370",
+    "graduacao": [
+      "estatística",
+      "arquitetura",
+      "políticas públicas",
+      "saúde pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.820,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: • formação técnica em nível superior, em nutrição, saúde",
+      "pública ou áreas correlatas, com diploma expedido por instituição de ensino superior reconhecida pelo",
+      "mec. experiência: • experiência profissional comprovada de no mínimo 03 (três) anos em políticas e/ou",
+      "ações relacionadas à área de saúde."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 25/2026 – Contratação de Consultoria Individual para avaliar os efeitos de intervenções comportamentais (políticas fiscais e de arquitetura de escolha) em mercado experimental para promover escolhas alimentares mais saudáveis. ",
+    "descricao": "Edital nº 25/2026 – Contratação de Consultoria Individual para avaliar os efeitos de intervenções comportamentais (políticas fiscais e de arquitetura de escolha) em mercado experimental para promover escolhas alimentares mais saudáveis. ",
+    "local": "REMOTO",
+    "data_fim": "2026-09-25"
+  },
+  {
+    "torid": "unesco:8c824e7b-7b9a-4a59-7ffc-08df082d82f3",
+    "graduacao": [
+      "administração",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1163 - Publicação -  Edital 68/2026 - 01 Vaga consultor Individual",
+    "descricao": "Consultoria especializada em articulação comunitária com recorte de gênero para acompanhar, analisar e sistematizar a implementação de ações de aproximação entre famílias, comunidades, escolas ",
+    "local": "",
+    "data_fim": "2026-09-16"
   }
 ]
