@@ -1,5 +1,24 @@
 [
   {
+    "id": "unesco:5907e744-d46d-4c01-2eaf-08df08e94b75",
+    "title": "914BRZ1159 - Publicação Edital 37/2026 - 2 vagas - Consultor Individual",
+    "description": "Consultoria especializada em Educação para realizar análise das ações e proposição do eixo de formação no âmbito do Compromisso Nacional Criança Alfabetizada.",
+    "comments": "",
+    "startDate": "2026-09-12T00:00:00",
+    "endDate": "2026-09-18T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-12T00:00:00",
+    "torid": "unesco:5907e744-d46d-4c01-2eaf-08df08e94b75",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/app/selection-process-list",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/a77db745-6289-4a54-b67a-08df09d8a06b"
+    ]
+  },
+  {
     "id": 1542,
     "torid": 146369,
     "createdBy": "jainara.araujo",
@@ -174,7 +193,7 @@
     "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
     "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR13238",
     "description": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
-    "comments": "R$ 180.000,00",
+    "comments": "Não Informado",
     "startDate": "2026-09-10",
     "endDate": "2026-09-16",
     "local": "Porto Alegre - RS",

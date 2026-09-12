@@ -5812,5 +5812,38 @@
     "descricao": "Consultoria especializada em articulação comunitária com recorte de gênero para acompanhar, analisar e sistematizar a implementação de ações de aproximação entre famílias, comunidades, escolas ",
     "local": "",
     "data_fim": "2026-09-16"
+  },
+  {
+    "torid": "unesco:5907e744-d46d-4c01-2eaf-08df08e94b75",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "direito",
+      "arquitetura",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1159 - Publicação Edital 37/2026 - 2 vagas - Consultor Individual",
+    "descricao": "Consultoria especializada em Educação para realizar análise das ações e proposição do eixo de formação no âmbito do Compromisso Nacional Criança Alfabetizada.",
+    "local": "",
+    "data_fim": "2026-09-18"
   }
 ]
