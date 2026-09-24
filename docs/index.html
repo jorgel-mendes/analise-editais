@@ -55,7 +55,7 @@ a:hover{text-decoration:underline}
 .tag-tipo{background:#fce8e6;color:#c5221f}
 .tag-orgao{background:#e6f4ea;color:#137333}
 .tag-valor{background:#fef7e0;color:#b06000;font-weight:600}
-.edital-footer{display:flex;justify-content:space-between;align-items:center;margin-top:6px;padding-top:8px;border-top:1px solid #f0f2f5}
+.edital-footer{display:flex;flex-wrap:wrap;gap:6px;justify-content:space-between;align-items:center;margin-top:6px;padding-top:8px;border-top:1px solid #f0f2f5}
 .match-badge{padding:4px 10px;border-radius:20px;font-weight:700;font-size:.73rem;display:flex;align-items:center;gap:4px}
 .match-high{background:#e6f4ea;color:#137333}
 .match-mid{background:#fef7e0;color:#b06000}
@@ -65,6 +65,8 @@ a:hover{text-decoration:underline}
 .status-badge{font-size:.66rem;padding:2px 8px;border-radius:10px;font-weight:600;white-space:nowrap}
 .status-aberto{background:#e6f4ea;color:#137333}
 .status-encerrado{background:#f1f3f4;color:#8892a5}
+.status-vencido{background:#fef7e0;color:#b06000}
+.aviso-prazo{margin:10px 0;padding:10px 12px;border-radius:8px;background:#fef7e0;color:#7a4a00;font-size:.8rem;line-height:1.5}
 
 /* Loading */
 .loading{text-align:center;padding:60px 20px;color:#8892a5;font-size:.9rem}
@@ -204,6 +206,30 @@ function valorTag(e){
   return txt ? '<span class="tag tag-valor">'+esc(txt)+'</span>' : '';
 }
 
+function fmtData(iso){
+  if(!iso) return 'não informado';
+  const [a,m,d] = String(iso).slice(0,10).split('-');
+  return d&&m&&a ? d+'/'+m+'/'+a : iso;
+}
+
+function hojeISO(){
+  const h = new Date();
+  return h.getFullYear()+'-'+String(h.getMonth()+1).padStart(2,'0')+'-'+String(h.getDate()).padStart(2,'0');
+}
+
+// Ainda listado pela fonte hoje, mas com o prazo final já no passado
+function prazoVencidoNoPortal(e){
+  return e.ativo!==false && !!e.data_fim && e.data_fim.slice(0,10) < hojeISO();
+}
+
+function statusBadge(e){
+  if(prazoVencidoNoPortal(e)) return '<span class="status-badge status-vencido">🟡 Prazo vencido · ainda no portal</span>';
+  if(state.view!=='historico') return '';
+  return e.ativo
+    ? '<span class="status-badge status-aberto">🟢 Aberto</span>'
+    : '<span class="status-badge status-encerrado">🔴 Encerrado</span>';
+}
+
 function formatMoney(v){
   if(!v) return 'NI';
   return 'R$ '+v.toLocaleString('pt-BR',{minimumFractionDigits:0,maximumFractionDigits:0});
@@ -329,10 +355,8 @@ function renderEditalList(){
         ${ferrs.map(f=>'<span class="tag tag-area">'+esc(f)+'</span>').join('')}
       </div>
       <div class="edital-footer">
-        <span class="date-info">📅 ${e.data_fim||'NI'}</span>
-        <span style="display:flex;gap:6px;align-items:center">
-          ${state.view==='historico'?('<span class="status-badge '+(e.ativo?'status-aberto':'status-encerrado')+'">'+(e.ativo?'🟢 Aberto':'🔴 Encerrado')+'</span>'):''}
-        </span>
+        <span class="date-info">📢 Publicado ${fmtData(e.data_inicio)} · ⏳ Prazo ${fmtData(e.data_fim)}</span>
+        <span style="display:flex;gap:6px;align-items:center">${statusBadge(e)}</span>
       </div>
     </div>`;
   }).join('');
@@ -365,9 +389,11 @@ function openModal(id){
 
       <h3>📍 Informações</h3>
       <div class="requirement-row"><span class="req-label">Local</span><span class="req-value">${esc(e.local||'NI')}</span></div>
-      <div class="requirement-row"><span class="req-label">Prazo</span><span class="req-value">📅 ${e.data_fim||'NI'}</span></div>
+      <div class="requirement-row"><span class="req-label">Publicado em</span><span class="req-value">📢 ${fmtData(e.data_inicio)}</span></div>
+      <div class="requirement-row"><span class="req-label">Prazo final</span><span class="req-value">⏳ ${fmtData(e.data_fim)}</span></div>
       <div class="requirement-row"><span class="req-label">Órgão</span><span class="req-value">${esc(e.orgao_parceiro||'NI')}</span></div>
-      <div class="requirement-row"><span class="req-label">Status</span><span class="req-value">${esc(e.status||'NI')}</span></div>
+      <div class="requirement-row"><span class="req-label">Status no portal</span><span class="req-value">${esc(e.status||'NI')}</span></div>
+      ${prazoVencidoNoPortal(e)?('<div class="aviso-prazo">⚠️ O prazo final foi '+fmtData(e.data_fim)+', mas o edital ainda aparece no portal '+esc(fonteLabel(e.fonte))+'. Confira no portal se ainda aceita propostas antes de se candidatar.</div>'):''}
 
       ${req.graduacao?.length?('<h3>🎓 Graduações Exigidas</h3><div class="modal-desc">'+esc((req.graduacao||[]).join(', '))+'</div>'):''}
       ${req.ferramentas?.length?('<h3>🔧 Ferramentas</h3><div class="modal-desc">'+esc((req.ferramentas||[]).join(', '))+'</div>'):''}

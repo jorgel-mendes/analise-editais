@@ -170,7 +170,7 @@ def _parsear_detalhe(url: str, lastmod: str = "") -> dict | None:
             break
 
     inicio = data_publicada or (lastmod[:10] if lastmod else "")
-    fim = _parse_data_oei(fecha_fin) or inicio
+    fim = _parse_data_oei(fecha_fin)  # sem data na página → "não informado", nunca a de publicação
 
     m_orgao = re.search(r"OEI[/-]([A-Z0-9]{2,15})", titulo)
     orgao = f"OEI/{m_orgao.group(1)}" if m_orgao else "OEI"
