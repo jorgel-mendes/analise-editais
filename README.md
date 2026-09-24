@@ -3,11 +3,11 @@
 ### 👉 [Acessar o dashboard](https://jorgel-mendes.github.io/analise-editais/)
 Atualizado automaticamente todo dia às 9h BRT.
 
-Scraping, persistência e análise de editais (bidding notices) do PNUD, UNESCO e OEI no Brasil, com classificação automática por perfil profissional e recomendações de estudo personalizadas.
+Scraping, persistência e análise de editais (bidding notices) do PNUD, UNESCO e OEI no Brasil, com classificação automática por área, tipo e perfil profissional.
 
 **Fontes**:
 - PNUD — [parceiros.undp.org.br/opportunities](https://parceiros.undp.org.br/opportunities)
-- UNESCO — [roster.brasilia.unesco.org](https://roster.brasilia.unesco.org/app/selection-process-list)
+- UNESCO — [roster.brasilia.unesco.org](https://roster.brasilia.unesco.org/)
 - OEI — [oei.int/licitaciones-y-convocatorias](https://oei.int/licitaciones-y-convocatorias/)
 
 ---
@@ -16,13 +16,34 @@ Scraping, persistência e análise de editais (bidding notices) do PNUD, UNESCO 
 
 - **Scraping diário multi-fonte** — PNUD via Playwright (API `icnim-api.undp.org.br`), UNESCO via API JSON pública, OEI via sitemap + páginas de detalhe
 - **Persistência histórica** — snapshots diários com detecção de novos/encerrados, por fonte
-- **Classificação automática** — tipo (PF/PJ), área temática, órgão parceiro, perfil profissional
+- **Classificação automática** — tipo (PF/PJ), área temática, órgão parceiro, perfil profissional (IA via DeepSeek, com fallback determinístico)
 - **4 perfis pré-configurados** — engenheiro_dados, economista, pesquisador_computacao, analista_powerbi
-- **Match detalhado por edital** — graduação, ferramentas, idiomas, valor vs. perfil
-- **Recomendações de estudo** — segmentadas em curto/médio/longo prazo, baseadas no histórico de 12 meses
+- **Match detalhado por edital** e **recomendações de estudo** (curto/médio/longo prazo) — calculados e gravados no JSON, mas hoje fora do dashboard público
 - **Frontend SPA** — dashboard com filtros, cards de editais e detalhes (GitHub Pages)
-- **Relatórios Excel + PDF** — gerados a cada execução, com aba/seção por fonte
-- **Pipeline diário** — GitHub Actions (cron 9h BRT), custo R$ 0
+- **Relatórios Excel + PDF** — gerados a cada execução completa, com aba/seção por fonte
+- **Pipeline diário** — GitHub Actions (cron 9h BRT); a IA só roda em dias com edital novo
+
+## Dashboard
+
+- **Datas** — cada edital mostra quando foi publicado e o prazo final (dd/mm/aaaa)
+- **Filtros** — área, fonte (PNUD/UNESCO/OEI), tipo, busca livre e "Ocultar prazo vencido" (marcado por padrão)
+- **Selo 🟡 "Prazo vencido · ainda no portal"** — o prazo já passou, mas a fonte ainda publica o edital; o detalhe traz um aviso para conferir no portal
+- **Abas** — ativos de hoje e histórico de 12 meses (🟢 aberto / 🔴 encerrado)
+- **Links** — OEI abre a página do próprio edital; PNUD e UNESCO não têm página pública por edital, então o link vai para a listagem do portal, e a UNESCO ganha também um botão para o PDF do edital (só enquanto ele está ativo, porque a UNESCO remove o arquivo quando o edital fecha)
+
+## Quando um edital é ativo ou encerrado
+
+Um edital é **ativo** enquanto aparece na coleta do dia e **encerrado** quando some dela:
+
+- **PNUD e UNESCO** — as APIs só devolvem o que está publicado; sai da API, sai da lista
+- **OEI** — o campo "Estado" da página é lido; estados como adjudicado, desierto, cancelado ou cerrado encerram o edital. A busca olha páginas atualizadas nos últimos 60 dias
+- **Regra dos 90 dias** — passados 90 dias do prazo final, o edital conta como encerrado mesmo que a fonte ainda o publique (`DIAS_APOS_PRAZO_ENCERRADO` em `core/scraper.py`)
+- **Falha numa fonte** — os editais dela ficam como estavam no dia anterior, em vez de parecerem encerrados
+
+A execução diária compara o dia com o snapshot anterior:
+
+- **Com edital novo** — análise completa com IA, relatórios Excel/PDF e site regerados
+- **Sem edital novo** — sem IA; o site é atualizado a partir da análise já publicada, removendo os encerrados e recalculando os números (`--force` força a análise completa)
 
 ## Estrutura
 
@@ -33,6 +54,7 @@ analise_editais/
 │   ├── config.py            # Constantes, classificações, caminhos, fontes disponíveis
 │   ├── scraper.py           # Orquestrador multi-fonte — chama core/sources/* e persiste
 │   ├── sources/
+│   │   ├── __init__.py      # Links por fonte (portal, página do edital, PDF)
 │   │   ├── pnud.py          # Playwright — intercepta API e captura editais
 │   │   ├── unesco.py        # API JSON pública (apiroster.brasilia.unesco.org)
 │   │   └── oei.py           # Sitemap XML + parsing de páginas de detalhe (HTML)
@@ -43,7 +65,8 @@ analise_editais/
 │   ├── analyzer.py          # Engine de análise com filtros de período, perfil e fonte
 │   ├── recommender.py       # Recomendações de estudo por perfil (curto/médio/longo prazo)
 │   ├── reporter.py          # Geração de relatórios Excel + PDF
-│   ├── site_generator.py    # Gera JSON consumido pelo frontend
+│   ├── llm.py               # Classificação e recomendações via DeepSeek
+│   ├── site_generator.py    # Gera JSON do frontend (com IA ou atualização sem IA)
 │   ├── tor_pipeline.py      # Download (Playwright) + extração de ToRs — só PNUD
 │   ├── tor_direct.py        # Download direto (HTTP) + extração de ToRs — UNESCO/OEI
 │   └── tor_texts.py         # Texto dos ToRs, gravado comprimido e versionado
@@ -72,8 +95,11 @@ playwright install --with-deps chromium
 ### Comandos
 
 ```bash
-# Pipeline completo (scrape + análise + relatório + site)
+# Pipeline diário (scrape + análise + relatório + site; IA só com edital novo)
 uv run analise-editais daily
+
+# Forçar a análise completa mesmo sem edital novo
+uv run analise-editais daily --force
 
 # Apenas buscar e persistir editais
 uv run analise-editais fetch
@@ -122,7 +148,7 @@ Crie arquivos JSON em `perfis/`:
 }
 ```
 
-O sistema automaticamente classifica cada edital com o perfil mais compatível e gera recomendações de estudo.
+O sistema classifica cada edital com o perfil mais compatível e gera recomendações de estudo. Esses resultados ficam em `docs/data/analise.json` e nos relatórios, mas não aparecem no dashboard público.
 
 ## Recomendações de estudo
 
