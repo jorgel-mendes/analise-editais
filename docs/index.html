@@ -182,7 +182,7 @@ let state = {data:null, filtroArea:'', filtroTipo:'', filtroBusca:'', view:'ativ
 
 async function load(){
   try{
-    const r = await fetch(DATA_URL);
+    const r = await fetch(DATA_URL, {cache:'no-cache'})  // dados mudam todo dia; não usar cópia velha do navegador;
     if(!r.ok) throw new Error('HTTP '+r.status);
     state.data = await r.json();
     document.getElementById('footer-date').textContent =
