@@ -158,9 +158,6 @@ a:hover{text-decoration:underline}
       <h1>📋 Editais PNUD · UNESCO · OEI Brasil</h1>
       <div class="sub">parceiros.undp.org.br · roster.brasilia.unesco.org · oei.int</div>
     </div>
-    <select id="profile-select">
-      <option value="">Todos os perfis</option>
-    </select>
   </div>
 </div>
 
@@ -179,7 +176,7 @@ a:hover{text-decoration:underline}
 
 <script>
 const DATA_URL = './data/analise.json';
-let state = {data:null, perfil:null, filtroArea:'', filtroTipo:'', filtroBusca:'', view:'ativos'};
+let state = {data:null, filtroArea:'', filtroTipo:'', filtroBusca:'', view:'ativos'};
 
 async function load(){
   try{
@@ -188,7 +185,6 @@ async function load(){
     state.data = await r.json();
     document.getElementById('footer-date').textContent =
       new Date(state.data.gerado_em).toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
-    renderProfiles();
     renderAll();
   }catch(e){
     document.getElementById('dashboard').innerHTML =
@@ -196,40 +192,16 @@ async function load(){
   }
 }
 
-function renderProfiles(){
-  const sel = document.getElementById('profile-select');
-  sel.innerHTML = '<option value="">Todos os perfis</option>';
-  if(!state.data?.perfis) return;
-  state.data.perfis.forEach(p => {
-    sel.innerHTML += '<option value="'+p.nome+'">'+p.descricao+' ('+p.match_count+' editais)</option>';
-  });
-  sel.onchange = ()=> { state.perfil = sel.value || null; renderAll(); };
+// Sem repetir o órgão quando ele é a própria fonte (ex.: tag "OEI" duas vezes)
+function orgaoTag(e){
+  const o = e.orgao_parceiro||'';
+  if(!o || o===fonteLabel(e.fonte)) return '';
+  return '<span class="tag tag-orgao">'+esc(o)+'</span>';
 }
 
-function getMatchScore(e,perfil){
-  if(!perfil||!e.matches||!e.matches[perfil]) return null;
-  return e.matches[perfil].score;
-}
-
-function matchClass(s){
-  if(s===null) return 'match-none';
-  if(s>=.6) return 'match-high';
-  if(s>=.3) return 'match-mid';
-  if(s>=.15) return 'match-low';
-  return 'match-none';
-}
-
-function matchEmoji(s){
-  if(s===null) return '—';
-  if(s>=.6) return '✅';
-  if(s>=.3) return '⚠️';
-  if(s>=.15) return '🔸';
-  return '⚪';
-}
-
-function matchPct(s){
-  if(s===null) return '—';
-  return Math.round(s*100)+'%';
+function valorTag(e){
+  const txt = e.valor_estimado_num ? formatMoney(e.valor_estimado_num) : (e.valor_estimado||'');
+  return txt ? '<span class="tag tag-valor">'+esc(txt)+'</span>' : '';
 }
 
 function formatMoney(v){
@@ -237,111 +209,13 @@ function formatMoney(v){
   return 'R$ '+v.toLocaleString('pt-BR',{minimumFractionDigits:0,maximumFractionDigits:0});
 }
 
-function renderRecomendacoes(perfilNome){
-  const section = document.getElementById('recs-section');
-  if(!perfilNome||!state.data?.recomendacoes){
-    section.className = 'recs';
-    section.innerHTML = '';
-    return;
-  }
-  const rec = state.data.recomendacoes[perfilNome];
-  if(!rec||!rec.curto_prazo){
-    section.className = 'recs';
-    section.innerHTML = '<div class="no-recs">Nenhuma recomendação disponível para este perfil.</div>';
-    return;
-  }
-  section.className = 'recs active';
-
-  const tipoClass = t=>'tag-'+t;
-  const valorStr = rec.valor_total_oportunidades > 0
-    ? formatMoney(rec.valor_total_oportunidades) : 'NI';
-
-  function renderPrazo(key, data, color){
-    const gaps = (data.gaps||[]).slice(0,6);
-    const plano = data.plano||[];
-    if(!gaps.length && !plano.length) return '';
-
-    const gapsHTML = gaps.map(g => {
-      const cursosHTML = (g.cursos||[]).slice(0,2).map((c,i) =>
-        '<div class="gap-course">'+(g.cursos.length>1?(i+1)+'. ':'')+
-        '<a href="'+esc(c.link)+'" target="_blank">'+esc(c.curso)+'</a>'+
-        ' <span class="cost">('+esc(c.custo)+' · '+esc(c.carga)+')</span></div>'
-      ).join('');
-
-      let impactoHTML = '';
-      if(g.impacto_financeiro && g.impacto_financeiro > 0){
-        impactoHTML = ' · R$ '+g.impacto_financeiro.toLocaleString('pt-BR',{maximumFractionDigits:0})+' em oportunidades';
-      }
-
-      return `
-      <div class="gap-card">
-        <div class="gap-priority" style="background:${color}"></div>
-        <div class="gap-body">
-          <div class="gap-name">
-            <span class="gap-tag ${tipoClass(g.tipo)}">${esc(g.tipo)}</span>
-            ${esc(g.nome)}
-          </div>
-          <div class="gap-meta">Exigido em ${g.editais} edital${g.editais!==1?'e is':'es'}${impactoHTML}</div>
-          ${g.nota?'<div class="gap-meta">'+esc(g.nota)+'</div>':''}
-          ${cursosHTML}
-        </div>
-      </div>`;
-    }).join('');
-
-    const planoHTML = plano.map((c,i) =>
-      `<div class="course-row">
-        <div class="course-rank" style="color:${color}">#${i+1}</div>
-        <div class="course-info">
-          <strong>${esc(c.curso)}</strong>
-          <div class="course-meta">${esc(c.custo)} · ${esc(c.carga)} · ${esc(c.nivel)} · Gap: ${esc(c.gap)}</div>
-        </div>
-        <a class="course-link" href="${esc(c.link)}" target="_blank">Ver →</a>
-      </div>`
-    ).join('');
-
-    const label = {curto:'⚡ Curto Prazo', medio:'📈 Médio Prazo', longo:'🎓 Longo Prazo'}[key]||key;
-    const desc = {curto:'3 a 6 meses', medio:'6 a 18 meses', longo:'1 a 3 anos'}[key]||'';
-    const explicacao = {
-      curto: 'Cursos rápidos e certificações para fechar as lacunas mais recorrentes nos editais atuais — o caminho mais rápido pra aumentar sua compatibilidade agora.',
-      medio: 'Especializações que aprofundam áreas com demanda consistente ao longo do tempo, sem exigir uma formação longa.',
-      longo: 'Mestrado, doutorado ou formações extensas — investimento maior que abre editais mais exigentes e mais bem remunerados no futuro.',
-    }[key]||'';
-
-    return `
-    <div class="recs-cursos" style="margin-bottom:14px">
-      <h4 style="color:${color}">${label} <span style="font-weight:400;font-size:.72rem;color:#8892a5">${desc}</span></h4>
-      ${explicacao?('<p class="prazo-explicacao">'+esc(explicacao)+'</p>'):''}
-      <div class="recs-grid" style="margin-bottom:${planoHTML?'8px':'0'}">${gapsHTML}</div>
-      ${planoHTML?('<h4 style="font-size:.76rem;font-weight:600;margin:10px 0 6px;color:'+color+'">🎯 Cursos sugeridos</h4>'+planoHTML):''}
-    </div>`;
-  }
-
-  section.innerHTML = `
-    <div class="recs-title">📚 Recomendações de Estudo <span class="badge">${esc(perfilNome)} · base: ${esc(rec.periodo_analise||'histórico')}</span></div>
-    <div class="recs-summary">
-      <div class="stat"><div class="num">${rec.total_editais_analisados||0}</div><div class="lbl">Editais analisados (12m)</div></div>
-      <div class="stat"><div class="num">${rec.total_editais_compativeis}</div><div class="lbl">Compatíveis com perfil</div></div>
-      <div class="stat"><div class="num">${valorStr}</div><div class="lbl">Valor em oportunidades</div></div>
-    </div>
-    ${renderPrazo('curto', rec.curto_prazo||{}, '#137333')}
-    ${renderPrazo('medio', rec.medio_prazo||{}, '#b06000')}
-    ${renderPrazo('longo', rec.longo_prazo||{}, '#1967d2')}
-  `;
-}
-
 function renderAll(){
   const d = state.data;
   if(!d) return;
 
-  // Dashboard cards
-  const p = state.perfil;
-  let filtered = [...d.editais];
-  if(p) filtered = filtered.filter(e => {
-    const s = getMatchScore(e,p);
-    return s !== null && s >= 0.15;
-  });
-
-  const byProfile = p ? filtered.length : d.resumo.total_editais;
+  const porFonte = {};
+  (d.editais||[]).forEach(e=>{ const f=fonteLabel(e.fonte); porFonte[f]=(porFonte[f]||0)+1; });
+  const fontesSub = Object.entries(porFonte).map(([f,n])=>f+' '+n).join(' · ');
   const v = d.resumo.valores||{};
 
   const areaSet = new Set(), tipoSet = new Set();
@@ -353,12 +227,11 @@ function renderAll(){
   const filterOptions = {areas:[...areaSet].sort(), tipos:[...tipoSet].sort()};
 
   document.getElementById('dashboard').innerHTML = `
-    ${d.resumo_ia?('<div class="summary-banner"><div class="sum-label">📋 Resumo</div>'+esc(d.resumo_ia)+'<div class="sum-mode">🤖 Gerado por DeepSeek · '+(d.modo==='ia'?'análise IA':'análise determinística')+'</div></div>'):''}
     <div class="cards">
       <div class="card">
         <div class="card-label">Editais ativos</div>
         <div class="card-value">${d.resumo.total_editais}</div>
-        <div class="card-sub">${byProfile} compatíveis ${p?'com seu perfil':''}</div>
+        <div class="card-sub">${esc(fontesSub)}</div>
       </div>
       <div class="card">
         <div class="card-label">Novos hoje</div>
@@ -370,14 +243,7 @@ function renderAll(){
         <div class="card-value">${v.medio?formatMoney(v.medio):'NI'}</div>
         <div class="card-sub">${v.quantidade_com_valor||0} editais com valor</div>
       </div>
-      <div class="card">
-        <div class="card-label">Perfis</div>
-        <div class="card-value">${(d.perfis||[]).length}</div>
-        <div class="card-sub">pré-configurados</div>
-      </div>
     </div>
-
-    <div class="recs" id="recs-section"></div>
 
     <div class="view-tabs">
       <button class="view-tab ${state.view==='ativos'?'active':''}" id="tab-ativos" onclick="setView('ativos')">🟢 Ativos (${(d.editais||[]).length})</button>
@@ -401,7 +267,6 @@ function renderAll(){
   `;
 
   renderEditalList();
-  renderRecomendacoes(p);
 }
 
 function setView(v){
@@ -442,20 +307,12 @@ function renderEditalList(){
     );
   }
 
-  // Sort by match if profile selected
-  if(state.perfil){
-    list.forEach(e => { e._score = getMatchScore(e,state.perfil)??0; });
-    list.sort((a,b)=>b._score - a._score);
-  }
-
   if(!list.length){
     grid.innerHTML = '<div class="empty">Nenhum edital encontrado com esses filtros.</div>';
     return;
   }
 
   grid.innerHTML = list.map(e => {
-    const s = state.perfil ? (e._score??null) : null;
-    const cls = matchClass(s);
     const areas = Array.isArray(e.areas_tematicas)?e.areas_tematicas:[e.areas_tematicas];
     const ferrs = (e.requisitos?.ferramentas||[]).slice(0,3);
 
@@ -467,15 +324,14 @@ function renderEditalList(){
         <span class="tag tag-tipo">${esc(fonteLabel(e.fonte))}</span>
         ${areas.map(a=>'<span class="tag tag-area">'+esc(a)+'</span>').join('')}
         <span class="tag tag-tipo">${esc(e.tipo||'')}</span>
-        <span class="tag tag-orgao">${esc(e.orgao_parceiro||'')}</span>
-        ${e.valor_estimado?'<span class="tag tag-valor">'+esc('R$ '+e.valor_estimado)+'</span>':''}
+        ${orgaoTag(e)}
+        ${valorTag(e)}
         ${ferrs.map(f=>'<span class="tag tag-area">'+esc(f)+'</span>').join('')}
       </div>
       <div class="edital-footer">
         <span class="date-info">📅 ${e.data_fim||'NI'}</span>
         <span style="display:flex;gap:6px;align-items:center">
           ${state.view==='historico'?('<span class="status-badge '+(e.ativo?'status-aberto':'status-encerrado')+'">'+(e.ativo?'🟢 Aberto':'🔴 Encerrado')+'</span>'):''}
-          ${s!==null?('<span class="match-badge '+cls+'">'+matchEmoji(s)+' '+matchPct(s)+'</span>'):''}
         </span>
       </div>
     </div>`;
@@ -486,34 +342,8 @@ function openModal(id){
   const e = currentList().find(x=>String(x.id)===String(id));
   if(!e) return;
 
-  const m = e.matches||{};
-  const sel = state.perfil;
-  const matchData = sel ? (m[sel]||null) : null;
   const req = e.requisitos||{};
   const areas = Array.isArray(e.areas_tematicas)?e.areas_tematicas.join(', '):(e.areas_tematicas||'');
-
-  let matchHTML = '';
-  if(matchData){
-    const d = matchData.detalhes||{};
-    const grad = d.graduacao||{};
-    const ferr = d.ferramentas||{};
-    const lang = d.idiomas||{};
-    const areasD = (d.areas||{}).match;
-
-    matchHTML = `
-      <div class="match-section">
-        <div class="match-header"><strong>Match: ${matchPct(matchData.score)}</strong> <span>${matchEmoji(matchData.score)}</span></div>
-        <div class="requirement-row">
-          <span class="req-icon">${areasD?'✅':'🔸'}</span>
-          <span class="req-label">Áreas</span>
-          <span class="req-value">${areasD?'Compatível':'Não compatível'}</span>
-        </div>
-        ${grad.exigidas?.length?('<div class="requirement-row"><span class="req-icon '+(grad.match?.length?'req-ok':'req-no')+'">'+(grad.match?.length?'✅':'❌')+'</span><span class="req-label">Graduação</span><span class="req-value">Exigida: '+esc(grad.exigidas.join(', '))+' | Você: '+esc((grad.match||[]).join(', ')||'nenhuma')+'</span></div>'):''}
-        ${ferr.exigidas?.length?('<div class="requirement-row"><span class="req-icon '+(ferr.match?.length?'req-ok':'req-no')+'">'+(ferr.match?.length?'✅':'❌')+'</span><span class="req-label">Ferramentas</span><span class="req-value">Exigidas: '+esc(ferr.exigidas.join(', '))+' | Você: '+esc((ferr.match||[]).join(', ')||'nenhuma')+'</span></div>'):''}
-        ${lang.exigidos?.length?('<div class="requirement-row"><span class="req-icon '+(lang.match?.length?'req-ok':'req-no')+'">'+(lang.match?.length?'✅':'❌')+'</span><span class="req-label">Idiomas</span><span class="req-value">Exigidos: '+esc(lang.exigidos.join(', '))+' | Você: '+esc((lang.match||[]).join(', ')||'nenhum')+'</span></div>'):''}
-        ${d.valor?('<div class="requirement-row"><span class="req-icon '+(d.valor.acima_minimo?'req-ok':'req-warn')+'">'+(d.valor.acima_minimo?'✅':'⚠️')+'</span><span class="req-label">Valor</span><span class="req-value">Edital: '+formatMoney(d.valor.edital)+' | Mínimo: '+formatMoney(d.valor.minimo_perfil)+'</span></div>'):''}
-      </div>`;
-  }
 
   document.getElementById('modal-content').innerHTML = `
     <div class="modal-header">
@@ -525,8 +355,8 @@ function openModal(id){
         ${e.ativo===false?'<span class="status-badge status-encerrado">🔴 Encerrado</span>':''}
         <span class="tag tag-tipo">${esc(fonteLabel(e.fonte))}</span>
         <span class="tag tag-tipo">${esc(e.tipo||'')}</span>
-        <span class="tag tag-orgao">${esc(e.orgao_parceiro||'')}</span>
-        ${e.valor_estimado?'<span class="tag tag-valor">R$ '+esc(e.valor_estimado)+'</span>':''}
+        ${orgaoTag(e)}
+        ${valorTag(e)}
         <span class="tag tag-area">${esc(areas)}</span>
       </div>
 
@@ -538,7 +368,6 @@ function openModal(id){
       <div class="requirement-row"><span class="req-label">Prazo</span><span class="req-value">📅 ${e.data_fim||'NI'}</span></div>
       <div class="requirement-row"><span class="req-label">Órgão</span><span class="req-value">${esc(e.orgao_parceiro||'NI')}</span></div>
       <div class="requirement-row"><span class="req-label">Status</span><span class="req-value">${esc(e.status||'NI')}</span></div>
-      <div class="requirement-row"><span class="req-label">Perfil</span><span class="req-value">${esc(e.perfil_classificado||'Não classificado')}</span></div>
 
       ${req.graduacao?.length?('<h3>🎓 Graduações Exigidas</h3><div class="modal-desc">'+esc((req.graduacao||[]).join(', '))+'</div>'):''}
       ${req.ferramentas?.length?('<h3>🔧 Ferramentas</h3><div class="modal-desc">'+esc((req.ferramentas||[]).join(', '))+'</div>'):''}
@@ -546,8 +375,6 @@ function openModal(id){
       ${req.anos_experiencia?'<div class="requirement-row"><span class="req-label">Experiência</span><span class="req-value">'+esc(String(req.anos_experiencia))+' anos</span></div>':''}
       ${req.mestrado?'<div class="requirement-row"><span class="req-label">Mestrado</span><span class="req-value">✅ Exigido ou pontuável</span></div>':''}
       ${req.doutorado?'<div class="requirement-row"><span class="req-label">Doutorado</span><span class="req-value">✅ Exigido ou pontuável</span></div>':''}
-
-      ${matchHTML}
 
       <a class="external-link" href="${esc(e.url_externo||'https://parceiros.undp.org.br/opportunities')}" target="_blank">🔗 Ver no portal ${esc(fonteLabel(e.fonte))} →</a>
       ${e.url_pdf?('<a class="external-link" href="'+esc(e.url_pdf)+'" target="_blank">📄 Abrir edital (PDF) →</a>'):''}

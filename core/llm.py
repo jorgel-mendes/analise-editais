@@ -362,4 +362,4 @@ def _gerar_recomendacoes_ia(classificados: list, perfis: dict) -> dict:
 def _format_valor(v):
     if v is None:
         return None
-    return f"R$ {v:,.2f}".replace(".", ",")
+    return f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")

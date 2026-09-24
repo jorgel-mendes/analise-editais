@@ -33,7 +33,6 @@ def gerar_dados_site(analise: dict, novidades: dict | None = None) -> tuple[Path
         site_data["gerado_em"] = datetime.now().isoformat()
         site_data["resumo"]["novos_hoje"] = novidades["novos_count"] if novidades else 0
         site_data["resumo"]["encerrados_hoje"] = novidades["encerrados_count"] if novidades else 0
-        site_data["resumo_ia"] = _gerar_resumo(site_data)
         site_data["historico"] = _montar_historico(historicos, site_data["editais"])
         _mesclar_valores_tors(site_data["historico"])
 
@@ -219,41 +218,3 @@ def _mesclar_valores_tors(editais: list):
                 e["valor_estimado_num"] = v
                 e["valor_estimado"] = f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
             e.setdefault("requisitos", {})["valor_tor"] = v
-
-
-def _gerar_resumo(site_data: dict) -> str | None:
-    import os
-    if not os.environ.get("DEEPSEEK_API_KEY"):
-        return None
-
-    try:
-        from openai import OpenAI
-
-        stats = json.dumps({
-            "total": site_data["resumo"]["total_editais"],
-            "por_tipo": site_data["resumo"].get("por_tipo", {}),
-            "por_orgao": site_data["resumo"].get("por_orgao", {}),
-            "por_area": dict(list(site_data["resumo"].get("por_area", {}).items())[:5]),
-            "perfis": [{"nome": p["nome"], "match": p["match_count"]} for p in site_data.get("perfis", [])],
-        }, ensure_ascii=False)
-
-        client = OpenAI(
-            api_key=os.environ["DEEPSEEK_API_KEY"],
-            base_url="https://api.deepseek.com",
-        )
-
-        response = client.chat.completions.create(
-            model="deepseek-chat",
-            messages=[
-                {"role": "system", "content": "Você é um analista. Escreva um resumo de 3-4 frases em português sobre os editais do PNUD, UNESCO e OEI no Brasil. Destaque: total, áreas mais quentes, órgãos principais, e perfis mais demandados. Seja direto e informativo."},
-                {"role": "user", "content": f"Resuma estes dados:\n{stats}"},
-            ],
-            temperature=0.3,
-            max_tokens=300,
-        )
-
-        return response.choices[0].message.content.strip()
-    except Exception as e:
-        logger.warning("Falha ao gerar resumo IA: %s", e)
-        return None
-
