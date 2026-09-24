@@ -3,6 +3,8 @@ import logging
 import os
 from collections import Counter
 
+from core.sources import aplicar_links
+
 logger = logging.getLogger(__name__)
 
 DEEPSEEK_BASE = "https://api.deepseek.com"
@@ -214,7 +216,7 @@ def _processar_resposta(resultado: dict, perfis: dict, raw_editais: list) -> dic
                     },
                 },
             }
-        ec["url_externo"] = "https://parceiros.undp.org.br/opportunities"
+        aplicar_links(ec, id_to_raw.get(ec["id"], {"id": ec["id"]}))
 
     recom = {}
     try:

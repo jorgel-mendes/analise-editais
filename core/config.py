@@ -18,7 +18,8 @@ API_URL = "https://parceiros.undp.org.br/opportunities"
 API_ENDPOINT = "icnim-api.undp.org.br/v1/publish/list/active"
 
 UNESCO_API_URL = "https://apiroster.brasilia.unesco.org/api/public/published"
-UNESCO_PORTAL_URL = "https://roster.brasilia.unesco.org/app/selection-process-list"
+# A Roster não tem página pública por processo — a lista pública fica na raiz.
+UNESCO_PORTAL_URL = "https://roster.brasilia.unesco.org/"
 
 OEI_SITEMAP_INDEX = "https://oei.int/sitemap_index.xml"
 OEI_PORTAL_URL = "https://oei.int/licitaciones-y-convocatorias/"

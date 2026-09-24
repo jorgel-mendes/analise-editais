@@ -1,9 +1,11 @@
 import json
 import logging
+from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
-from core.config import API_URL, ROOT
+from core.config import ROOT
+from core.sources import aplicar_links
 from core.bridge import carregar_qualificacoes, enriquecer_edital, calcular_match_detalhado
 from core.perfil import carregar_perfis
 from core.recommender import gerar_recomendacoes_todos_perfis
@@ -43,6 +45,49 @@ def gerar_dados_site(analise: dict, novidades: dict | None = None) -> tuple[Path
     return SITE_ANALISE_FILE, SITE_PERFIS_FILE
 
 
+def atualizar_site_sem_ia(editais_atuais: list, novidades: dict | None = None) -> Path | None:
+    """Atualiza o site nos dias sem edital novo, sem chamar a IA.
+
+    Reaproveita a análise já publicada: tira os editais que saíram das
+    fontes, marca o histórico e recalcula os números do resumo.
+    """
+    if not SITE_ANALISE_FILE.exists():
+        return None
+    site_data = json.loads(SITE_ANALISE_FILE.read_text())
+
+    raw_por_id = {e["id"]: e for e in editais_atuais}
+    editais = [e for e in site_data.get("editais", []) if e.get("id") in raw_por_id]
+    for e in editais:
+        aplicar_links(e, raw_por_id[e["id"]])
+    site_data["editais"] = editais
+
+    for item in site_data.get("historico", []):
+        item["ativo"] = item.get("id") in raw_por_id
+        aplicar_links(item, raw_por_id.get(item.get("id"), item))
+        if not item["ativo"]:
+            item["url_pdf"] = ""  # a UNESCO tira o PDF do ar quando o edital fecha
+
+    resumo = site_data["resumo"]
+    resumo["total_editais"] = len(editais)
+    resumo["por_tipo"] = dict(Counter(e.get("tipo", "") for e in editais).most_common())
+    resumo["por_orgao"] = dict(Counter(e.get("orgao_parceiro", "") for e in editais).most_common())
+    areas = Counter(a for e in editais for a in (e.get("areas_tematicas") or []))
+    resumo["por_area"] = dict(areas.most_common(10))
+    resumo["valores"] = {"quantidade_com_valor": 0}
+    _recalcular_valores(site_data)
+    resumo["novos_hoje"] = 0
+    resumo["encerrados_hoje"] = novidades["encerrados_count"] if novidades else 0
+
+    for p in site_data.get("perfis", []):
+        p["match_count"] = sum(
+            1 for e in editais if e.get("matches", {}).get(p["nome"], {}).get("score", 0) >= 0.15
+        )
+
+    site_data["gerado_em"] = datetime.now().isoformat()
+    SITE_ANALISE_FILE.write_text(json.dumps(site_data, indent=2, ensure_ascii=False))
+    return SITE_ANALISE_FILE
+
+
 def _tentar_ia(analise: dict) -> dict | None:
     from core.persistence import carregar_editais_historico
     from core.llm import analisar_com_ia
@@ -71,8 +116,7 @@ def _analise_deterministica(analise: dict, qualificacoes: dict, perfis: dict, hi
         for nome_perfil, perfil in perfis.items():
             matches[nome_perfil] = calcular_match_detalhado(e, perfil)
         e["matches"] = matches
-        if not e.get("url_externo"):
-            e["url_externo"] = API_URL
+        aplicar_links(e, edital)
         editais_enriquecidos.append(e)
 
     perfil_list = []
@@ -138,8 +182,9 @@ def _montar_historico(historicos: list, editais_ativos: list) -> list:
             matches.items(), key=lambda kv: kv[1].get("score", 0), default=(None, {"score": 0})
         )
         item["perfil_classificado"] = melhor_nome if melhor.get("score", 0) >= 0.15 else "Não classificado"
-        if not item.get("url_externo"):
-            item["url_externo"] = API_URL
+        aplicar_links(item, e)
+        if not item["ativo"]:
+            item["url_pdf"] = ""  # a UNESCO tira o PDF do ar quando o edital fecha
         historico.append(item)
 
     historico.sort(key=lambda e: e.get("data_inicio", ""), reverse=True)

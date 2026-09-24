@@ -62,6 +62,8 @@ def executar_scraping(fontes: list[str] | None = None) -> tuple[list, dict | Non
         if novidades["novos_count"] > 0 or novidades["encerrados_count"] > 0:
             print(f"🆕 {novidades['novos_count']} editais novos")
             print(f"🔒 {novidades['encerrados_count']} editais encerrados")
-            return editais_atuais, novidades
+            return editais_atuais + preservados, novidades
 
-    return editais_atuais, None
+    # Os preservados seguem ativos até a fonte deles voltar a rodar — sem
+    # isso, uma falha pontual tira os editais daquela fonte do site.
+    return editais_atuais + preservados, None

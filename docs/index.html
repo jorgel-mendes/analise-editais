@@ -549,7 +549,8 @@ function openModal(id){
 
       ${matchHTML}
 
-      <a class="external-link" href="${e.url_externo||'https://parceiros.undp.org.br/opportunities'}" target="_blank">🔗 Ver no portal ${esc(fonteLabel(e.fonte))} →</a>
+      <a class="external-link" href="${esc(e.url_externo||'https://parceiros.undp.org.br/opportunities')}" target="_blank">🔗 Ver no portal ${esc(fonteLabel(e.fonte))} →</a>
+      ${e.url_pdf?('<a class="external-link" href="'+esc(e.url_pdf)+'" target="_blank">📄 Abrir edital (PDF) →</a>'):''}
     </div>`;
 
   document.getElementById('modal-overlay').style.display = 'flex';

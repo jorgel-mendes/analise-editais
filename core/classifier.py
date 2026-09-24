@@ -1,6 +1,7 @@
 import re
 
 from core.config import CLASSIFICACAO_TIPOS, AREAS_TEMATICAS, DOMINIO_ORGAO
+from core.sources import url_pdf, url_portal
 
 
 def _classificar_tipo(titulo: str, descricao: str = "") -> str:
@@ -72,5 +73,6 @@ def classificar_edital(edital: dict) -> dict:
         "valor_estimado_num": valor_num,
         "status": edital.get("statusDescription", ""),
         "data_criacao": edital.get("created", "")[:10] if edital.get("created") else "",
-        "url_externo": edital.get("url_externo", ""),
+        "url_externo": url_portal(edital),
+        "url_pdf": url_pdf(edital),
     }

@@ -45,10 +45,14 @@ def daily(periodo, perfil, todos, force, fonte):
     tem_encerrados = novidades and novidades.get("encerrados_count", 0) > 0
 
     if not tem_novos and not force:
+        from core.site_generator import atualizar_site_sem_ia
+
         if tem_encerrados:
             click.echo(f"\n🔒 {novidades['encerrados_count']} editais encerrados, mas nenhum novo.")
-        click.echo(f"\n📋 {len(editais_atuais)} editais ativos — sem novidades. Análise ignorada.")
-        click.echo("   Use --force para forçar a análise mesmo assim.")
+        click.echo(f"\n📋 {len(editais_atuais)} editais ativos — sem novidades. Análise IA ignorada.")
+        if atualizar_site_sem_ia(editais_atuais, novidades):
+            click.echo("🌐 Site atualizado (encerrados removidos, sem IA).")
+        click.echo("   Use --force para forçar a análise completa mesmo assim.")
         return
 
     if novidades:
