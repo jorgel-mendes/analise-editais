@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, timedelta
 
 from core.config import FONTES_DISPONIVEIS
 from core.persistence import salvar_snapshot, atualizar_editais_todos, detectar_novidades, carregar_ultimo_snapshot
@@ -9,6 +9,17 @@ _BUSCADORES = {
     "unesco": unesco.buscar_ativos,
     "oei": oei.buscar_ativos,
 }
+
+
+# Algumas fontes (sobretudo a OEI) deixam o edital no ar muito depois do
+# prazo. Passado esse limite do prazo final, o edital conta como encerrado.
+DIAS_APOS_PRAZO_ENCERRADO = 90
+
+
+def _dentro_do_prazo_de_tolerancia(edital: dict, hoje: date) -> bool:
+    fim = (edital.get("endDate") or "")[:10]
+    corte = (hoje - timedelta(days=DIAS_APOS_PRAZO_ENCERRADO)).isoformat()
+    return not fim or fim >= corte
 
 
 def executar_scraping(fontes: list[str] | None = None) -> tuple[list, dict | None]:
@@ -51,10 +62,21 @@ def executar_scraping(fontes: list[str] | None = None) -> tuple[list, dict | Non
     preservados = [e for e in anteriores_completos if e.get("fonte", "pnud") in fontes_pendentes]
 
     hoje = date.today()
+
+    # O acumulado guarda tudo o que as fontes publicam; o snapshot (lista de
+    # ativos) já descarta os que passaram do limite após o prazo.
+    novos, atualizados = atualizar_editais_todos(editais_atuais)
+
+    vencidos = [e for e in editais_atuais + preservados if not _dentro_do_prazo_de_tolerancia(e, hoje)]
+    if vencidos:
+        print(f"⌛ {len(vencidos)} edital(is) ainda publicados mas com prazo vencido há mais de "
+              f"{DIAS_APOS_PRAZO_ENCERRADO} dias — tratados como encerrados")
+    editais_atuais = [e for e in editais_atuais if _dentro_do_prazo_de_tolerancia(e, hoje)]
+    preservados = [e for e in preservados if _dentro_do_prazo_de_tolerancia(e, hoje)]
+
     snapshot_file = salvar_snapshot(editais_atuais + preservados, hoje)
     print(f"💾 Snapshot salvo em: {snapshot_file}")
 
-    novos, atualizados = atualizar_editais_todos(editais_atuais)
     print(f"📊 {novos} novos, {atualizados} atualizados, {len(editais_atuais)} ativos no total")
 
     if anteriores and anteriores != editais_atuais:

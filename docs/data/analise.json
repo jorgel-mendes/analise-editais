@@ -60631,7 +60631,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista",
       "url_pdf": ""
     }

@@ -40,6 +40,9 @@ a:hover{text-decoration:underline}
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
 .filters select,.filters input{padding:7px 10px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#333;min-width:130px}
 .filters input{flex:1;min-width:200px}
+.filtro-check{display:flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#333;cursor:pointer;white-space:nowrap}
+.filtro-check input{margin:0;min-width:0;flex:none}
+.filtro-contagem{font-size:.75rem;color:#8892a5;margin:-10px 0 12px}
 .clear-filters-btn{padding:7px 12px;border:1px solid #dde1e8;border-radius:6px;font-size:.8rem;background:#fff;color:#555;cursor:pointer;white-space:nowrap}
 .clear-filters-btn:hover{background:#f1f3f4;border-color:#c5cdd8}
 
@@ -178,7 +181,7 @@ a:hover{text-decoration:underline}
 
 <script>
 const DATA_URL = './data/analise.json';
-let state = {data:null, filtroArea:'', filtroTipo:'', filtroBusca:'', view:'ativos'};
+let state = {data:null, filtroArea:'', filtroTipo:'', filtroFonte:'', filtroBusca:'', ocultarVencidos:true, view:'ativos'};
 
 async function load(){
   try{
@@ -239,8 +242,10 @@ function renderAll(){
   const d = state.data;
   if(!d) return;
 
+  const emDia = (d.editais||[]).filter(e=>!prazoVencidoNoPortal(e));
+  const nVencidos = (d.editais||[]).length - emDia.length;
   const porFonte = {};
-  (d.editais||[]).forEach(e=>{ const f=fonteLabel(e.fonte); porFonte[f]=(porFonte[f]||0)+1; });
+  emDia.forEach(e=>{ const f=fonteLabel(e.fonte); porFonte[f]=(porFonte[f]||0)+1; });
   const fontesSub = Object.entries(porFonte).map(([f,n])=>f+' '+n).join(' · ');
   const v = d.resumo.valores||{};
 
@@ -255,9 +260,9 @@ function renderAll(){
   document.getElementById('dashboard').innerHTML = `
     <div class="cards">
       <div class="card">
-        <div class="card-label">Editais ativos</div>
-        <div class="card-value">${d.resumo.total_editais}</div>
-        <div class="card-sub">${esc(fontesSub)}</div>
+        <div class="card-label">Editais abertos</div>
+        <div class="card-value">${emDia.length}</div>
+        <div class="card-sub">${esc(fontesSub)}${nVencidos?' · +'+nVencidos+' com prazo vencido ainda no portal':''}</div>
       </div>
       <div class="card">
         <div class="card-label">Novos hoje</div>
@@ -272,8 +277,8 @@ function renderAll(){
     </div>
 
     <div class="view-tabs">
-      <button class="view-tab ${state.view==='ativos'?'active':''}" id="tab-ativos" onclick="setView('ativos')">🟢 Ativos (${(d.editais||[]).length})</button>
-      <button class="view-tab ${state.view==='historico'?'active':''}" id="tab-historico" onclick="setView('historico')">🕘 Histórico · 12 meses (${(d.historico||[]).length})</button>
+      <button class="view-tab ${state.view==='ativos'?'active':''}" id="tab-ativos" onclick="setView('ativos')">🟢 Ativos</button>
+      <button class="view-tab ${state.view==='historico'?'active':''}" id="tab-historico" onclick="setView('historico')">🕘 Histórico · 12 meses</button>
     </div>
 
     <div class="filters">
@@ -281,13 +286,19 @@ function renderAll(){
         <option value="">Todas as áreas</option>
         ${filterOptions.areas.map(a=>'<option value="'+esc(a)+'">'+esc(a)+'</option>').join('')}
       </select>
+      <select onchange="state.filtroFonte=this.value;renderEditalList()">
+        <option value="">Todas as fontes</option>
+        ${Object.entries(FONTE_NOMES).map(([k,n])=>'<option value="'+k+'"'+(state.filtroFonte===k?' selected':'')+'>'+n+'</option>').join('')}
+      </select>
       <select onchange="state.filtroTipo=this.value;renderEditalList()">
         <option value="">Todos os tipos</option>
         ${filterOptions.tipos.map(t=>'<option value="'+esc(t)+'">'+esc(t)+'</option>').join('')}
       </select>
       <input type="text" id="filtro-busca" placeholder="Buscar por título, órgão ou ferramenta..." oninput="state.filtroBusca=this.value.toLowerCase();renderEditalList()">
+      <label class="filtro-check"><input type="checkbox" ${state.ocultarVencidos?'checked':''} onchange="state.ocultarVencidos=this.checked;renderEditalList()"> Ocultar prazo vencido</label>
       <button class="clear-filters-btn" onclick="limparBusca()">✖ Limpar busca</button>
     </div>
+    <div class="filtro-contagem" id="filtro-contagem"></div>
 
     <div class="edital-grid" id="edital-grid"></div>
   `;
@@ -316,9 +327,12 @@ function limparBusca(){
 function renderEditalList(){
   const grid = document.getElementById('edital-grid');
   if(!grid) return;
-  let list = [...currentList()];
+  const todos = currentList();
+  let list = [...todos];
 
   // Filters
+  if(state.ocultarVencidos) list = list.filter(e => !prazoVencidoNoPortal(e));
+  if(state.filtroFonte) list = list.filter(e => (e.fonte||'pnud')===state.filtroFonte);
   if(state.filtroArea) list = list.filter(e => {
     const a = e.areas_tematicas||[];
     return (Array.isArray(a)?a:a.split(', ')).some(x => x===state.filtroArea);
@@ -332,6 +346,9 @@ function renderEditalList(){
       (e.requisitos?.ferramentas||[]).some(f=>f.includes(q))
     );
   }
+
+  const contagem = document.getElementById('filtro-contagem');
+  if(contagem) contagem.textContent = 'Mostrando '+list.length+' de '+todos.length+' editais';
 
   if(!list.length){
     grid.innerHTML = '<div class="empty">Nenhum edital encontrado com esses filtros.</div>';
