@@ -1,5 +1,43 @@
 [
   {
+    "id": "unesco:4d25520a-6684-41e6-3080-08df1a5635e8",
+    "title": "914BRZ1161.2 - Edital nº 02/2026 - 01 vaga - Consultor Individual",
+    "description": "Consultoria especializada em modelagem, extração, análise e visualização de dados educacionais.",
+    "comments": "",
+    "startDate": "2026-09-26T00:00:00",
+    "endDate": "2026-09-30T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-26T00:00:00",
+    "torid": "unesco:4d25520a-6684-41e6-3080-08df1a5635e8",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/4a3650be-01e4-46ce-06ad-08df1ae4a70e"
+    ]
+  },
+  {
+    "id": "unesco:c0a1d55e-84e2-4c98-3081-08df1a5635e8",
+    "title": "914BRZ1161.2 - Edital nº 03/2026 - 01 vaga - Consultor Individual",
+    "description": "Consultoria especializada em assessoria de projetos e ações de cooperação internacional da UNESCO, na área de Educação",
+    "comments": "",
+    "startDate": "2026-09-26T00:00:00",
+    "endDate": "2026-09-30T00:00:00",
+    "local": "",
+    "receivingEmail": "",
+    "statusDescription": "Ongoing",
+    "created": "2026-09-26T00:00:00",
+    "torid": "unesco:c0a1d55e-84e2-4c98-3081-08df1a5635e8",
+    "fonte": "unesco",
+    "orgao_parceiro": "UNESCO",
+    "url_externo": "https://roster.brasilia.unesco.org/",
+    "tor_urls": [
+      "https://apiroster.brasilia.unesco.org/api/public/download/1623bb43-4f6e-4d76-8415-08df1a29f3a2"
+    ]
+  },
+  {
     "id": 1568,
     "torid": 146396,
     "createdBy": "marcio.freire",
@@ -54,6 +92,25 @@
     "url_externo": "https://roster.brasilia.unesco.org/",
     "tor_urls": [
       "https://apiroster.brasilia.unesco.org/api/public/download/fd3a5192-a36f-4fbb-e24f-08df1963c20b"
+    ]
+  },
+  {
+    "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13272",
+    "title": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR13272",
+    "description": "Contratação de 1 (um) consultor especializado em Normas Jurídicas, Conformidade Normativa e Desenvolvimento de Instrumentos Jurídico-Administrativos para assessorar a execução e o acompanhamento do ACTI e do Plano de Trabalho. Além de realizar análises de conformidade normativa e elaborar estudos, notas técnicas e instrumentos jurídico-administrativos, o consultor prestará apoio à OEI e à SEDUC-RS nas demandas relacionadas às contratações, à execução contratual, à formalização de parcerias e às demais atividades do Acordo. Isso inclui a identificação e mitigação de riscos normativos, administrativos, contratuais e de integridade, bem como o fortalecimento da governança, da transparência e da segurança jurídica dos procedimentos, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
+    "comments": "Não informado",
+    "startDate": "2026-09-25",
+    "endDate": "2026-09-29",
+    "local": "Porto Alegre - RS",
+    "receivingEmail": "selecao.bra@oei.int",
+    "statusDescription": "En evaluación",
+    "created": "2026-09-25",
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13272",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13272/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2026/09/termo-de-referencia-tr13272.pdf"
     ]
   },
   {
