@@ -7482,5 +7482,38 @@
     "descricao": "Contratação de 1 (um) consultor especializado em Normas Jurídicas, Conformidade Normativa e Desenvolvimento de Instrumentos Jurídico-Administrativos para assessorar a execução e o acompanhamento do ACTI e do Plano de Trabalho. Além de realizar análises de conformidade normativa e elaborar estudos, notas técnicas e instrumentos jurídico-administrativos, o consultor prestará apoio à OEI e à SEDUC-RS nas demandas relacionadas às contratações, à execução contratual, à formalização de parcerias e às demais atividades do Acordo. Isso inclui a identificação e mitigação de riscos normativos, administrativos, contratuais e de integridade, bem como o fortalecimento da governança, da transparência e da segurança jurídica dos procedimentos, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
     "local": "Porto Alegre - RS",
     "data_fim": "2026-09-29"
+  },
+  {
+    "torid": "unesco:80185502-579b-44a1-e3c6-08df13ea9ffe",
+    "graduacao": [
+      "economia",
+      "administração",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Projeto 914BRZ3051 - EDITAL 22/2026",
+    "descricao": "Especialista em Elaboração de subsídios técnicos voltados a acompanhar a Pós - Concessão de Microcrédito Produtivo como Fator de Sustentabilidade de Microempreendimentos de pessoas do CadÚnico",
+    "local": "",
+    "data_fim": "2026-10-04"
   }
 ]
