@@ -7515,5 +7515,282 @@
     "descricao": "Especialista em Elaboração de subsídios técnicos voltados a acompanhar a Pós - Concessão de Microcrédito Produtivo como Fator de Sustentabilidade de Microempreendimentos de pessoas do CadÚnico",
     "local": "",
     "data_fim": "2026-10-04"
+  },
+  {
+    "torid": "146354",
+    "graduacao": [
+      "ciência da computação",
+      "engenharia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciência de dados",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "14.025,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 88/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA PROPOSIÇÃO DE SOLUÇÕES DE CIÊNCIA DE DADOS EM SENSORIAMENTO REMOTO.",
+    "descricao": "Contratação de Consultoria especializada para definição, avaliação e proposição de métodos, algoritmos e processos fundamentados em técnicas de aprendizado de máquina, destinados à segmentação e/ou classificação de dados espaciais e tabulares destinados ao Censo Demográfico 2022 e ao Censo Agropecuário 2017, em conformidade com os padrões adotados pela estatística oficial. ",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "146382",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "9.150,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 140/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA A AVALIAÇÃO DA OPERAÇÕES CENSITÁRIAS EM TERRAS INDÍGENAS DE RORAIMA.",
+    "descricao": "Contratação de Consultoria especializada (pessoa física) para a avaliação do levantamento, organização, sistematização, monitoramento e análise de informações territoriais, sociais e operacionais relacionadas aos povos indígenas em Terras Indígenas de Roraima, com ênfase nas Terras Indígenas Auaris, Missão Catrimani e Surucucu, incluindo informações provenientes das operações censitárias e agropecuárias realizadas pelo IBGE.",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "146379",
+    "graduacao": [
+      "ciência da computação",
+      "engenharia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "arquitetura",
+      "ciência de dados",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "12.150,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 132/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA ANÁLISE DOS MÉTODOS DE ROTEAMENTO PARA OPERAÇÕES DE PESQUISA EM CAMPO.",
+    "descricao": "Contratação de consultoria especializada para análise dos métodos de otimização ao roteamento para operações de pesquisa em campo, tendo como foco as restrições de janelas de tempo a fim de modelar o agendamento prévio de entrevistas para coleta de dados.",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "146378",
+    "graduacao": [
+      "ciência da computação",
+      "engenharia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciência de dados",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "18.225,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 131/2026 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE PROPOSTA DE SOLUÇÕES DE GEOPROCESSAMENTO.",
+    "descricao": "Contratação de Consultoria especializada para desenvolvimento de proposta de soluções de geoprocessamento e consolidação de uma base nacional de vias de deslocamento, com foco na validação em escala dos modelos propostos, no aprimoramento dos algoritmos e técnicas desenvolvidas, na ampliação do uso de sensoriamento remoto como apoio às operações censitárias e na sistematização do conhecimento.",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "146377",
+    "graduacao": [
+      "ciência da computação",
+      "engenharia da computação",
+      "engenharia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "arquitetura",
+      "ciência de dados",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "18.700,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 130/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA O DESENVOLVIMENTO DE PROPOSTA DE SOLUÇÕES DE CIÊNCIA DE DADOS E SENSORIAMENTO REMOTO.",
+    "descricao": "Contratação de consultoria especializada para a proposição de soluções de sensoriamento remoto aplicadas ao mapeamento de culturas agrícolas (CropMapping), com o intuito de aprimorar as metodologias iniciais de aprendizado de máquina por meio de técnicas avançadas de engenharia de dados e aprendizado semisupervisionado.",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "146355",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "23.375,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 119/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA DESENVOLVIMENTO DE PROPOSTA DE APRIMORAMENTO DO SISTEMA INTEGRADO DE PESQUISAS DOMICILIARES.",
+    "descricao": "Contratação de Consultoria especializada para o desenvolvimento de proposta de melhorias quanto à adoção da nova amostra e de orientações estratégicas de divulgação com base na confiabilidade das estimativas.",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "146376",
+    "graduacao": [
+      "tecnologia da informação",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "inteligência artificial",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sql",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "8.680,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 116/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA MAPEAMENTO DE INOVAÇÕES NO PROCESSO DE PRODUÇÃO ESTATÍSTICA.",
+    "descricao": "Contratação de consultoria especializada para o desenvolvimento de proposta de aprimoramento metodológico do processo de produção estatística, incorporando a melhoria contínua e a análise exploratória do potencial da Inteligência Artificial para a gestão de qualidade com base nos dados disseminados do Censo Demográfico 2022.",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13268",
+    "graduacao": [
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "5,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13268",
+    "descricao": "A presente contratação tem como objetivo selecionar um(a) consultor(a) para executar as atividades estabelecidas neste Termo de Referência, com o propósito de fornecer subsídios técnicos para a articulação territorial das políticas de participação social. A atuação do profissional terá ênfase nas atividades de mobilização social e no apoio direto aos colegiados de desenvolvimento territorial, bem como às instâncias vinculadas ao Programa de Produção e Consumo de Alimentos Saudáveis nos Territórios do Nordeste (PAS Nordeste). Espera-se que o trabalho desenvolvido viabilize a promoção e o fortalecimento de processos participativos, reconhecendo as dinâmicas dos espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social. Somado a isso, a consultoria permitirá uma melhor articulação das ações do Governo Federal nos territórios, em especial daquelas relacionadas ao PAS Nordeste. Essa abordagem assegurará a integração fundamental entre a escuta da sociedade, a mobilização comunitária e a sistematização técnica das demandas expressas nos colegiados de desenvolvimento local. Por fim, a execução dessas atividades resultará na produção de registros, análises e outros insumos técnicos essenciais. Esses produtos contribuirão de forma contínua para o aprimoramento e a consolidação das estratégias institucionais de territorialização da participação social conduzidas pela Secretaria Nacional de Participação Social.",
+    "local": "Articulação territorial - PAS Nordeste Articulação territorial - PAS Nordeste Trabalho Remoto",
+    "data_fim": "2026-10-03"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr-13274",
+    "graduacao": [
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "5,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR 13274",
+    "descricao": "O objetivo da contratação é selecionar 1 (um) consultor(a), responsável pelo desenvolvimento das atividades técnicas previstas neste Termo de Referência no estado do Rio Grande do Norte, com a finalidade de subsidiar tecnicamente a articulação territorial das políticas de participação social, com ênfase: a) no apoio técnico à promoção e ao fortalecimento de processos participativos nos territórios, reconhecendo espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social b) no apoio à articulação das ações do Governo Federal nos territórios, em especial aquelas relacionadas às iniciativas do Governo do Brasil na Rua, do Orçamento do Povo e do Fóruns de Participação no estado do Rio Grande do Norte, contribuindo para a integração entre escuta social, mobilização comunitária e sistematização técnica das demandas territoriais c) na produção de registros sistematizados, análises e subsídios técnicos que contribuam para o aprimoramento das estratégias institucionais de territorialização da participação social no âmbito da Secretaria Nacional de Participação Social. A atuação do(a) consultor(a) deverá observar as diretrizes metodológicas fornecidas pela SNPS, os princípios da educação popular, a diversidade socioterritorial brasileira e a necessidade de padronização dos registros e das análises para fins de consolidação institucional.",
+    "local": "Articulação Estadual - Rio Grande do Norte",
+    "data_fim": "2026-10-03"
   }
 ]
