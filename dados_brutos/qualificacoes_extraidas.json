@@ -7792,5 +7792,73 @@
     "descricao": "O objetivo da contratação é selecionar 1 (um) consultor(a), responsável pelo desenvolvimento das atividades técnicas previstas neste Termo de Referência no estado do Rio Grande do Norte, com a finalidade de subsidiar tecnicamente a articulação territorial das políticas de participação social, com ênfase: a) no apoio técnico à promoção e ao fortalecimento de processos participativos nos territórios, reconhecendo espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social b) no apoio à articulação das ações do Governo Federal nos territórios, em especial aquelas relacionadas às iniciativas do Governo do Brasil na Rua, do Orçamento do Povo e do Fóruns de Participação no estado do Rio Grande do Norte, contribuindo para a integração entre escuta social, mobilização comunitária e sistematização técnica das demandas territoriais c) na produção de registros sistematizados, análises e subsídios técnicos que contribuam para o aprimoramento das estratégias institucionais de territorialização da participação social no âmbito da Secretaria Nacional de Participação Social. A atuação do(a) consultor(a) deverá observar as diretrizes metodológicas fornecidas pela SNPS, os princípios da educação popular, a diversidade socioterritorial brasileira e a necessidade de padronização dos registros e das análises para fins de consolidação institucional.",
     "local": "Articulação Estadual - Rio Grande do Norte",
     "data_fim": "2026-10-03"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-projeto-abdi-tr-13260",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "direito",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "120.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor PROJETO ABDI – TR 13260",
+    "descricao": "Contratação de consultoria técnica individual, especializada em engenharia de plataformas e infraestrutura de nuvem, para prestação de serviços técnicos de apoio à ABDI no âmbito do Projeto Nuvem Brasileira, compreendendo a sistematização da Escuta de Mercado, o diagnóstico da capacidade de oferta do ecossistema nacional, o aprimoramento metodológico do Gradiente de Soberania e a produção de subsídios técnicos para a modelagem da solução e do futuro instrumento convocatório.",
+    "local": "Remota e/ou presencial em Brasília - DF",
+    "data_fim": "2026-10-02"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13271",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "direito",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13271",
+    "descricao": "Consultoria técnica especializada para mapeamento, sistematização e análise das demandas administrativas das Unidades Regionais de Ensino (URE) da Rede Estadual de Ensino de São Paulo, visando à consolidação de um diagnóstico comparativo e estruturado e à formulação de recomendações técnicas para o aperfeiçoamento dos fluxos e serviços administrativos.",
+    "local": "São Paulo - SP",
+    "data_fim": "2026-10-10"
   }
 ]
