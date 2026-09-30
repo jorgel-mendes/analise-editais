@@ -7860,5 +7860,40 @@
     "descricao": "Consultoria técnica especializada para mapeamento, sistematização e análise das demandas administrativas das Unidades Regionais de Ensino (URE) da Rede Estadual de Ensino de São Paulo, visando à consolidação de um diagnóstico comparativo e estruturado e à formulação de recomendações técnicas para o aperfeiçoamento dos fluxos e serviços administrativos.",
     "local": "São Paulo - SP",
     "data_fim": "2026-10-10"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-002-tr13290",
+    "graduacao": [
+      "economia",
+      "direito",
+      "inteligência artificial",
+      "física",
+      "comunicação",
+      "biblioteconomia"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "55.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/002 – TR13290",
+    "descricao": "A consultoria tem por objetivo reunir e categorizar os materiais a serem disponibilizados no repositório digital da Escult, bem como apresentar protótipo do sítio e do funcionamento do repositório digital da Escul",
+    "local": "Remoto",
+    "data_fim": "2026-10-05"
   }
 ]
