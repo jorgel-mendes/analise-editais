@@ -7895,5 +7895,213 @@
     "descricao": "A consultoria tem por objetivo reunir e categorizar os materiais a serem disponibilizados no repositório digital da Escult, bem como apresentar protótipo do sítio e do funcionamento do repositório digital da Escul",
     "local": "Remoto",
     "data_fim": "2026-10-05"
+  },
+  {
+    "torid": "unesco:ec486dce-4c41-4830-4e64-08df1817d7a0",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "políticas públicas",
+      "saúde pública",
+      "medicina",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Projeto 914BRZ1085 - Edital nº 05/2026 - 02 vagas - Consultores Individuais",
+    "descricao": "Consultores especializados em Ciências da Saúde, Humanas ou Sociais Aplicadas para realizar pesquisa e análise abrangente das condições sóciossanitárias e culturais dos Povos Ciganos no RN.",
+    "local": "",
+    "data_fim": "2026-10-08"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026-tr13275",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "previsto neste termo de referência. descrições genéricas ou incompletas poderão ensejar não",
+      "pontuação, com possível eliminação do candidato."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13275",
+    "descricao": "Contratar consultor(a) técnico(a) especializado(a) para elaboração de análises jurídicas e institucionais aplicadas à estruturação, qualificação e aprimoramento de instrumentos de cooperação e arranjos de governança em políticas culturais, com foco na integração entre entes federativos e na consolidação de modelos jurídicos e estratégicos que assegurem segurança normativa, eficiência na execução e coerência com as diretrizes do Programa de Cooperação OEI-MinC.",
+    "local": "Brasília - DF",
+    "data_fim": "2026-10-05"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13269",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "60.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13269",
+    "descricao": "Contratação de 1 (um/uma) pesquisador(a) para atuar na produção de subsídios e elaboração de propostas voltadas ao aperfeiçoamento das políticas públicas territorializadas, da participação social e do desenvolvimento territorial no âmbito do Governo Federal brasileiro. São objetivos da consultoria: - Coordenar o levantamento, a sistematização e a análise de políticas públicas territorializadas executadas pelo Governo Federal, elaborando subsídios técnicos para seu aperfeiçoamento, integração, avaliação e monitoramento, com ênfase nas iniciativas voltadas ao fortalecimento da participação social, do trabalho sociocomunitário e do desenvolvimento territorial. - Desenvolver análises comparadas entre as experiências brasileiras e as políticas territorializadas e de agentes comunitários estudadas em países da América Latina, identificando convergências, potencialidades, desafios e possibilidades de adaptação ao contexto brasileiro. - Elaborar propostas técnicas para o fortalecimento da coordenação intersetorial e da integração entre políticas públicas territorializadas, contribuindo para a construção de uma estratégia nacional de participação social e desenvolvimento territorial. - Elaborar relatórios técnicos parciais e final contendo diagnóstico, análises, recomendações e propostas de aperfeiçoamento das políticas públicas estudadas.",
+    "local": "Remoto",
+    "data_fim": "2026-10-05"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13296",
+    "graduacao": [
+      "economia",
+      "direito",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "7,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR13296",
+    "descricao": "Contratação de 02 (dois) profissionais para exercer a função de Analista de Comunicação e Redes Sociais do Cais das Artes, responsáveis pela produção, gestão e monitoramento de conteúdos para redes sociais e demais canais digitais do equipamento, apoiando a Gerência de Comunicação na execução das estratégias de comunicação digital, divulgação institucional e relacionamento com os diversos públicos do Cais das Artes.",
+    "local": "Vitória - ES",
+    "data_fim": "2026-10-05"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13298",
+    "graduacao": [
+      "economia",
+      "direito",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "7,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR13298",
+    "descricao": "Contratação de profissional para exercer a função de Assessor de Imprensa / Analista de Comunicação (Imprensa) do Cais das Artes, responsável pela produção de conteúdo jornalístico, relacionamento com veículos de comunicação e jornalistas, assessoria de imprensa, divulgação institucional das ações do equipamento cultural e apoio à Gerência de Comunicação na execução das estratégias de comunicação e posicionamento institucional do Cais das Artes.",
+    "local": "Vitória - ES",
+    "data_fim": "2026-10-05"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr13300",
+    "graduacao": [
+      "economia",
+      "direito",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "5,50",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR13300",
+    "descricao": "Contratação de 2 (dois) profissionais Designers Gráficos para atuar no desenvolvimento de peças e materiais de comunicação visual, identidade gráfica e conteúdos digitais do Cais das Artes, incluindo criação, adaptação e diagramação de materiais para divulgação das ações, projetos, eventos e programação do equipamento, em apoio à Gerência de Comunicação e em consonância com as diretrizes institucionais da OEI e da SECULT/ES.",
+    "local": "Vitória - ES",
+    "data_fim": "2026-10-05"
   }
 ]
