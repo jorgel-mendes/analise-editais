@@ -8103,5 +8103,83 @@
     "descricao": "Contratação de 2 (dois) profissionais Designers Gráficos para atuar no desenvolvimento de peças e materiais de comunicação visual, identidade gráfica e conteúdos digitais do Cais das Artes, incluindo criação, adaptação e diagramação de materiais para divulgação das ações, projetos, eventos e programação do equipamento, em apoio à Gerência de Comunicação e em consonância com as diretrizes institucionais da OEI e da SECULT/ES.",
     "local": "Vitória - ES",
     "data_fim": "2026-10-05"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13304",
+    "graduacao": [
+      "tecnologia da informação",
+      "engenharia",
+      "administração",
+      "direito",
+      "física",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 10,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [
+      "scrum"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13304",
+    "descricao": "Consultoria técnica especializada para mapeamento, análise e melhoria de processos de gestão da Secretaria da Educação do Estado de São Paulo (Seduc-SP), com utilização da plataforma ARPO como ferramenta institucional de modelagem e gestão de processos.",
+    "local": "São Paulo - SP",
+    "data_fim": "2026-10-16"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13221",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "inteligência artificial",
+      "física",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13221",
+    "descricao": "Consultoria técnica para elaboração de especificação funcional e definição de requisitos e critérios técnicos necessários à futura aplicação de soluções de automação inteligente e inteligência artificial às rotinas de gestão de contratos, convênios e procedimentos sancionatórios no âmbito da Diretoria de Contratos e Convênios DICON e de suas coordenadorias.",
+    "local": "São Paulo - SP",
+    "data_fim": "2026-10-16"
   }
 ]
