@@ -8461,5 +8461,122 @@
     "descricao": "Contratação de pessoa jurídica especializada para a execução da Etapa 1 do piloto de convergência entre energias renováveis e agricultura familiar do PTE-NE, compreendendo o diagnóstico territorial, a estruturação técnica, financeira e institucional dos pilotos, a execução de adequações elétricas preliminares de infraestrutura, a realização de oficinas de capacitação, a formação de agentes solares comunitários e a execução da Parte 1 do respectivos Plano de Compartilhamento e Divulgação, conforme especificações constantes do termo de Referência, Anexo “A”, deste Edital.",
     "local": "Território Nacional",
     "data_fim": "2026-10-27"
+  },
+  {
+    "torid": "unesco:8e654be2-3b1f-4782-d2b4-08df1fb02468",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 57/2026 - 3 vagas - Consultor Individual",
+    "descricao": "Contratação de consultores técnicos especializados para subsidiarem a Secretaria de Educação Continuada, Alfabetização de Jovens e Adultos, Diversidade e Inclusão do Ministério da Educação (SECADI/MEC",
+    "local": "",
+    "data_fim": "2026-10-14"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-fp-26-05-brasil-em-rede-tr13321",
+    "graduacao": [
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "previsto neste termo de referência. descrições genéricas ou incompletas poderão ensejar não",
+      "pontuação, com possível eliminação do candidato."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO FP-26-05 – Brasil em Rede – TR13321",
+    "descricao": "Contratar profissional especialista para sistematização e análise de informações técnicas relacionadas às interações com entes subnacionais, com vistas à qualificação dos processos de articulação institucional e à consolidação de insumos para as ações de diagnóstico e cooperação territorial no âmbito do projeto.",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-projeto-abdi-tr-13312",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "direito",
+      "arquitetura",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "120.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "avaliação técnica dos candidatos habilitados, com pontuação máxima de 100 pontos.",
+      "os requisitos mínimos não devem gerar pontuação automaticamente. a pontuação deverá considerar",
+      "evidências adicionais de experiência, aderência ao objeto e capacidade de execução. a matriz abaixo",
+      "constitui proposta de operacionalização do perfil definido no formulário, sujeita à aprovação da",
+      "regra de pontuação proposta:",
+      "1. formação acadêmica relacionada ao objeto: pós-graduação stricto sensu em andamento, com",
+      "pesquisa em construção industrializada ou métodos modernos de construção: 5 pontos mestrado",
+      "concluído nessa temática: 8 pontos doutorado concluído nessa temática: 10 pontos. considerar",
+      "apenas a condição de maior pontuação. (máximo 10 pontos)",
+      "2. liderança e gestão estratégica de projetos: 5 pontos por projeto ou portfólio comprovado em que"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor PROJETO ABDI – TR 13312",
+    "descricao": "Contratar consultoria técnica especializada, na modalidade individual, para apoiar a ABDI na estruturação, condução e execução de iniciativas estratégicas da agenda BIM e Construção Industrializada, com foco no acompanhamento técnico da Pesquisa de Maturidade BIM em Habitação de Interesse Social, realizada em parceria com o Ministério das Cidades, e no suporte às frentes do Projeto Construção 4.0.",
+    "local": "Remoto",
+    "data_fim": "2026-10-12"
   }
 ]
