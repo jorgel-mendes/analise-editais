@@ -8578,5 +8578,129 @@
     "descricao": "Contratar consultoria técnica especializada, na modalidade individual, para apoiar a ABDI na estruturação, condução e execução de iniciativas estratégicas da agenda BIM e Construção Industrializada, com foco no acompanhamento técnico da Pesquisa de Maturidade BIM em Habitação de Interesse Social, realizada em parceria com o Ministério das Cidades, e no suporte às frentes do Projeto Construção 4.0.",
     "local": "Remoto",
     "data_fim": "2026-10-12"
+  },
+  {
+    "torid": "unesco:d8649b2a-6267-450d-bf98-08df23ad085e",
+    "graduacao": [
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 56/2026 - Arquitetura e Urbanismo - Iphan-SP",
+    "descricao": "Consultor Individual -  Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-10-14"
+  },
+  {
+    "torid": "unesco:ec3e284f-74b2-4ad2-bf99-08df23ad085e",
+    "graduacao": [
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 57/2026 - Arquitetura e Urbanismo - Centro Vivo",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-10-14"
+  },
+  {
+    "torid": "unesco:fb72c64e-511e-4325-60e3-08df20839863",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 15,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1162 - Edital 05/2026 - 01 vaga - Consultor Individual",
+    "descricao": "Consultoria técnica especializada em planejamento e gestão de políticas educacionais para apoiar a coordenação na elaboração do novo Plano Municipal de Educação de Leme",
+    "local": "",
+    "data_fim": "2026-10-15"
+  },
+  {
+    "torid": "unesco:df21a7d3-d7d5-44ad-60e4-08df20839863",
+    "graduacao": [
+      "administração",
+      "direito",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 10,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1162 - Edital 06/2026 - 01 vaga - Consultor Individual",
+    "descricao": "Consultoria técnica especializada em planejamento educacional, gestão democrática e metodologias participativas, para desenvolver e aplicar abordagens metodológicas destinadas a orientar a coleta, org",
+    "local": "",
+    "data_fim": "2026-10-15"
   }
 ]
