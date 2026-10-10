@@ -8702,5 +8702,211 @@
     "descricao": "Consultoria técnica especializada em planejamento educacional, gestão democrática e metodologias participativas, para desenvolver e aplicar abordagens metodológicas destinadas a orientar a coleta, org",
     "local": "",
     "data_fim": "2026-10-15"
+  },
+  {
+    "torid": "146421",
+    "graduacao": [
+      "sistemas de informação",
+      "tecnologia da informação",
+      "engenharia",
+      "economia",
+      "estatística",
+      "ciência de dados",
+      "física",
+      "gestão pública",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "100.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior, em engenharia de computação, ciência da",
+      "computação, sistemas de informação, gestão de tecnologia da informação, estatística, ciências",
+      "contábeis, ciência de dados ou áreas afins, comprovada por diploma emitido por instituição de ensino",
+      "superior; experiência profissional comprovada mínima de 3 (três) anos, contada a partir da conclusão do"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital 9/2026 - Levantamento SIGAP - SENAD/MJSP",
+    "descricao": "Seleção de 01 (um/a) consultor/a pessoa física, para a realização de estudo técnico e levantamento analítico acerca dos bens apreendidos ou declarados perdidos em favor da União, cadastrados no Sistema Informatizado de Gestão de Ativos Apreendidos – SIGAP, sob a responsabilidade da Diretoria de Gestão de Ativos e Justiça/SENAD.",
+    "local": "Híbrido",
+    "data_fim": "2026-10-18"
+  },
+  {
+    "torid": "146422",
+    "graduacao": [
+      "ciência da computação",
+      "tecnologia da informação",
+      "engenharia",
+      "estatística",
+      "arquitetura",
+      "ciência de dados",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "60.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior em ciência de dados, sistemas de",
+      "informação, ciência da computação, design da informação, design de interação, estatística,",
+      "comunicação, engenharia de dados, tecnologia da informação ou áreas afins, comprovada por diploma",
+      "emitido por instituição de ensino superior. experiência profissional comprovada mínima de 3 (três) anos,",
+      "contada a partir da conclusão do curso superior, em pelo menos uma das seguintes áreas: análise de dados,",
+      "visualização de dados, business intelligence, experiência do usuário, arquitetura da informação,",
+      "transformação digital, transparência pública, monitoramento governamental ou temas correlatos."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital 10/2026 - Reformulação painéis POWER BI",
+    "descricao": "Selecionar 01 (um/a) consultor/a pessoa física para realizar estudo técnico, analítico e propositivo destinado à reformulação dos painéis de Business Intelligence (BI) da SENAD/MJSP\r\n",
+    "local": "Híbrido",
+    "data_fim": "2026-10-18"
+  },
+  {
+    "torid": "146423",
+    "graduacao": [
+      "ciência da computação",
+      "administração",
+      "estatística",
+      "direito",
+      "ciência de dados",
+      "inteligência artificial",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "102.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior completa, pós-graduação ou especialização",
+      "em ciência da computação, ciência de dados, estatística ou área correlata; experiência profissional",
+      "comprovada, mínima de 2 (dois) anos, em análise de dados jurídicos, pesquisa empírica em direito ou",
+      "termo de referência no 146423",
+      "contrato por produto - nacional",
+      "jurimetria, incluindo tratamento e análise de bases de dados e elaboração de produtos técnicos e analíticos."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "EDITAL 11/2026 - Padrões decisões judiciais destinação bens FUNAD",
+    "descricao": "Selecionar 1 (um/uma) consultor(a) individual para desenvolver estudo técnico especializado voltado à identificação e análise de padrões de decisões judiciais relacionadas à destinação de bens, direitos e valores vinculados ao tráfico ilícito de drogas, mediante extração, estruturação, tratamento e análise de dados e verificar sua eventual reversão ao Fundo Nacional Antidrogas – FUNAD.",
+    "local": "Híbrido",
+    "data_fim": "2026-10-18"
+  },
+  {
+    "torid": "146424",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "60.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação superior completa em direito, comprovada por",
+      "diploma emitido por instituição de ensino superior; experiência profissional comprovada, mínima de 2",
+      "(dois) anos, contada a partir da conclusão do curso superior, em direito penal, processual penal,",
+      "constitucional, administrativo, recuperação de ativos, lavagem de dinheiro, destinação de bens",
+      "apreendidos ou áreas correlatas, incluindo análise de decisões judiciais e elaboração de produtos técnicos",
+      "jurídicos. b.1 a experiência profissional poderá ser comprovada por meio de declarações, atestados de",
+      "termo de referência no 146424",
+      "contrato por produto - nacional",
+      "capacidade técnica, certidões de execução de serviços, contratos acompanhados de termo de aceite ou",
+      "declaração de conclusão, carteira de trabalho, atos de nomeação ou designação, portarias, termos de"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "EDITAL 12/2026 - DIAGNÓSTICO COMPARADO RELACIONADO À DESTINAÇÃO DE BENS FUNAD",
+    "descricao": "4.1.\tContratar 1 (um) consultor individual para desenvolver estudo técnico-jurídico especializado contendo diagnóstico comparado, sistematização de fundamentos normativos e jurisprudenciais, classificação de entendimentos e análise de padrões decisórios relacionados à destinação de ativos vinculados ao tráfico de drogas e à lavagem de dinheiro, com vistas à produção de subsídios técnicos para o aprimoramento da gestão do Fundo Nacional Antidrogas (FUNAD) e das políticas públicas correlatas.",
+    "local": "Híbrido",
+    "data_fim": "2026-10-18"
+  },
+  {
+    "torid": "146425",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "saúde pública"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "40.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "perfil \"consultor 1\" ensino superior e mestrado (stricto",
+      "sensu) em saúde pública, epidemiologia, estatística, demografia, ciências sociais, políticas públicas ou áreas",
+      "correlatas, comprovada por diploma emitido por instituição de ensino superior; experiência profissional",
+      "comprovada mínima de 5 (cinco) anos, na temática da consultoria, contada a partir da conclusão do curso"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "EDITAL 13/2026 - Metodologia realização do Levantamento Nacional de Álcool e Drogas (LENAD)",
+    "descricao": "Contratação de 02 (dois) consultores especializados, pessoa física, para desenvolver estudos comparados, análises técnicas e proposições metodológicas voltadas ao aprimoramento e à inovação do modelo de realização do Levantamento Nacional de Álcool e Drogas (LENAD), incluindo a elaboração dos documentos técnicos necessários à definição dos requisitos e especificações para futura contratação da pesquisa.",
+    "local": "Híbrido",
+    "data_fim": "2026-10-18"
   }
 ]
