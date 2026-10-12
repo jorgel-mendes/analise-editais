@@ -1,19 +1,19 @@
 {
-  "gerado_em": "2026-10-11T17:22:39.116824",
+  "gerado_em": "2026-10-12T20:56:52.918354",
   "resumo": {
-    "total_editais": 61,
+    "total_editais": 58,
     "novos_hoje": 0,
-    "encerrados_hoje": 0,
+    "encerrados_hoje": 3,
     "por_tipo": {
-      "Consultoria (tipo não especificado)": 25,
       "Consultoria Pessoa Física (PF)": 23,
+      "Consultoria (tipo não especificado)": 22,
       "Consultoria Especializada (não especifica PF/PJ)": 9,
       "Consultoria Pessoa Jurídica (PJ) / Empresa": 4
     },
     "por_area": {
-      "Tecnologia da Informação / Dados": 42,
-      "Estatística / Pesquisa / Metodologia": 33,
-      "Gestão / Administração Pública": 28,
+      "Tecnologia da Informação / Dados": 40,
+      "Estatística / Pesquisa / Metodologia": 31,
+      "Gestão / Administração Pública": 26,
       "Meio Ambiente / Clima / Geografia": 12,
       "Não classificada": 5,
       "Direito / Jurídico": 4,
@@ -21,8 +21,8 @@
       "Saúde": 1
     },
     "por_orgao": {
-      "OEI/BRA": 16,
-      "OEI": 14,
+      "OEI/BRA": 14,
+      "OEI": 13,
       "UNESCO": 11,
       "Não identificado": 7,
       "IBGE": 7,
@@ -34,9 +34,9 @@
     "valores": {
       "minimo": 21000.0,
       "maximo": 2778901.38,
-      "medio": 189460.9,
-      "mediano": 70000.0,
-      "quantidade_com_valor": 46
+      "medio": 195618.21,
+      "mediano": 78400.0,
+      "quantidade_com_valor": 44
     }
   },
   "perfis": [
@@ -69,7 +69,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 49
+      "match_count": 46
     },
     {
       "nome": "pesquisador_computacao",
@@ -108,7 +108,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 52
+      "match_count": 49
     },
     {
       "nome": "economista",
@@ -135,7 +135,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 57
+      "match_count": 54
     },
     {
       "nome": "engenheiro_dados",
@@ -178,7 +178,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 50
+      "match_count": 47
     }
   ],
   "editais": [
@@ -7769,863 +7769,6 @@
               "edital": 0,
               "minimo_perfil": 50000,
               "acima_minimo": null
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204",
-      "fonte": "oei",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/25/001 – TR13204",
-      "descricao": "Tem-se como objetivo contratar consultor(a) técnico(a) especializado(a) para apoiar o aprimoramento da interface e experiência de uso do Sistema de Proteção à Trajetória do Estudante e a especificação funcional e de interface para integração da Ficha de Registro de Ocorrência Escolar da CIPAVE ao Sistema, fortalecendo os instrumentos digitais de diagnóstico, monitoramento e gestão da permanência escolar, contribuindo para a redução da evasão escolar na Rede Estadual.",
-      "tipo": "Consultoria (tipo não especificado)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-08-12",
-      "data_fim": "2026-08-23",
-      "local": "Porto Alegre/RS",
-      "orgao_parceiro": "OEI/BRA",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "54.000,00",
-      "valor_estimado_num": 54000.0,
-      "status": "En evaluación",
-      "data_criacao": "2026-08-12",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13204/",
-      "url_pdf": "",
-      "perfil_classificado": "analista_powerbi",
-      "score_perfil": 0.4,
-      "requisitos": {
-        "graduacao": [
-          "administração",
-          "direito",
-          "ciências sociais",
-          "arquitetura",
-          "física",
-          "comunicação"
-        ],
-        "pos_graduacao": [],
-        "mestrado": false,
-        "doutorado": false,
-        "anos_experiencia": null,
-        "ferramentas": [
-          "r",
-          "excel",
-          "sic",
-          "sas",
-          "git"
-        ],
-        "idiomas": [
-          "Espanhol"
-        ],
-        "certificacoes": [],
-        "valor_tor": "10,00",
-        "obrigatorios": [
-          "previsto neste termo de referência. descrições genéricas ou incompletas poderão ensejar não",
-          "pontuação, com possível eliminação do candidato."
-        ],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.275,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "excel"
-              ],
-              "faltando": [
-                "power bi",
-                "sql",
-                "dax",
-                "power query",
-                "power automate",
-                "python"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "direito",
-                "ciências sociais",
-                "arquitetura",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": [
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 54000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.463,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Tecnologia da Informação / Dados"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "r",
-                "sas",
-                "git"
-              ],
-              "faltando": [
-                "python",
-                "sql",
-                "stata",
-                "spss",
-                "matlab",
-                "docker",
-                "qgis",
-                "power bi"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "direito",
-                "ciências sociais",
-                "arquitetura",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "espanhol"
-              ],
-              "exigidos": [
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 54000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.325,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Gestão / Administração Pública"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "excel",
-                "r"
-              ],
-              "faltando": [
-                "python",
-                "power bi",
-                "sql",
-                "stata"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "administração"
-              ],
-              "exigidas": [
-                "administração",
-                "direito",
-                "ciências sociais",
-                "arquitetura",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": [
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 54000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.325,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "r",
-                "git"
-              ],
-              "faltando": [
-                "python",
-                "sql",
-                "estatística",
-                "pyspark",
-                "databricks",
-                "azure data factory",
-                "airflow",
-                "azure",
-                "aws",
-                "gcp",
-                "shell script",
-                "linux",
-                "informatica powercenter",
-                "oracle",
-                "selenium",
-                "scrapy",
-                "beautiful soup",
-                "docker"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "direito",
-                "ciências sociais",
-                "arquitetura",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": [
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 54000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "oei:contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199",
-      "torid": "oei:contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199",
-      "fonte": "oei",
-      "titulo": "Contratação de consultor PROJETO FP-26-02 Ciência, Inovação e Desenvolvimento – TR 13199",
-      "descricao": "Contratar profissional especialista para elaboração de diagnóstico e análise institucional de potenciais patrocinadores e de plano de ação para captação de patrocínios e desenvolvimento de ações de legado da Copa do Mundo Feminina 2027, no âmbito do projeto Ciência, Inovação e Desenvolvimento Sustentável no Brasil, com a finalidade de subsidiar tecnicamente a tomada de decisão e o aprimoramento das estratégias institucionais da OEI.",
-      "tipo": "Consultoria (tipo não especificado)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "data_inicio": "2026-08-12",
-      "data_fim": "2026-08-16",
-      "local": "Brasília - DF | Híbrido",
-      "orgao_parceiro": "OEI",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "En fase de apresentação",
-      "data_criacao": "2026-08-12",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-fp-26-02-ciencia-inovacao-e-desenvolvimento-tr-13199/",
-      "url_pdf": "",
-      "perfil_classificado": "analista_powerbi",
-      "score_perfil": 0.3,
-      "requisitos": {
-        "graduacao": [
-          "engenharia",
-          "administração",
-          "direito",
-          "física",
-          "comunicação"
-        ],
-        "pos_graduacao": [
-          "mba"
-        ],
-        "mestrado": false,
-        "doutorado": false,
-        "anos_experiencia": null,
-        "ferramentas": [
-          "r",
-          "sei",
-          "sic",
-          "sas",
-          "git"
-        ],
-        "idiomas": [],
-        "certificacoes": [],
-        "valor_tor": "120.000,00",
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.175,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
-              ]
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "power bi",
-                "sql",
-                "excel",
-                "dax",
-                "power query",
-                "power automate",
-                "python"
-              ],
-              "exigidas": [
-                "r",
-                "sei",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "engenharia da computação"
-              ],
-              "exigidas": [
-                "engenharia",
-                "administração",
-                "direito",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 0,
-              "minimo_perfil": 35000,
-              "acima_minimo": null
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.325,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "r",
-                "sas",
-                "git"
-              ],
-              "faltando": [
-                "python",
-                "sql",
-                "stata",
-                "spss",
-                "matlab",
-                "docker",
-                "qgis",
-                "power bi"
-              ],
-              "exigidas": [
-                "r",
-                "sei",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "engenharia de software"
-              ],
-              "exigidas": [
-                "engenharia",
-                "administração",
-                "direito",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 0,
-              "minimo_perfil": 40000,
-              "acima_minimo": null
-            }
-          }
-        },
-        "economista": {
-          "score": 0.183,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Estatística / Pesquisa / Metodologia"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "r"
-              ],
-              "faltando": [
-                "python",
-                "excel",
-                "power bi",
-                "sql",
-                "stata"
-              ],
-              "exigidas": [
-                "r",
-                "sei",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "administração"
-              ],
-              "exigidas": [
-                "engenharia",
-                "administração",
-                "direito",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 0,
-              "minimo_perfil": 30000,
-              "acima_minimo": null
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.375,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Estatística / Pesquisa / Metodologia"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "r",
-                "git"
-              ],
-              "faltando": [
-                "python",
-                "sql",
-                "estatística",
-                "pyspark",
-                "databricks",
-                "azure data factory",
-                "airflow",
-                "azure",
-                "aws",
-                "gcp",
-                "shell script",
-                "linux",
-                "informatica powercenter",
-                "oracle",
-                "selenium",
-                "scrapy",
-                "beautiful soup",
-                "docker"
-              ],
-              "exigidas": [
-                "r",
-                "sei",
-                "sic",
-                "sas",
-                "git"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "engenharia química",
-                "engenharia",
-                "engenharia de software"
-              ],
-              "exigidas": [
-                "engenharia",
-                "administração",
-                "direito",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 0,
-              "minimo_perfil": 50000,
-              "acima_minimo": null
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13202",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13202",
-      "fonte": "oei",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/25/001 – TR13202",
-      "descricao": "Tem-se como objetivo contratar consultor(a) técnico(a) especializado(a) para realizar análise da estrutura de gestão da Política de Proteção à Trajetória do Estudante e elaborar proposta de aprimoramento de sua governança e articulação institucional, mediante a produção de diagnósticos, diretrizes operacionais e recomendações técnicas voltadas ao fortalecimento dos mecanismos de coordenação, implementação e acompanhamento da política, contribuindo para o aperfeiçoamento das ações de prevenção da evasão escolar na Rede Estadual de Educação do Rio Grande do Sul.",
-      "tipo": "Consultoria (tipo não especificado)",
-      "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-08-12",
-      "data_fim": "2026-08-23",
-      "local": "Porto Alegre/RS",
-      "orgao_parceiro": "OEI/BRA",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "54.000,00",
-      "valor_estimado_num": 54000.0,
-      "status": "En evaluación",
-      "data_criacao": "2026-08-12",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-25-001-tr13202/",
-      "url_pdf": "",
-      "perfil_classificado": "analista_powerbi",
-      "score_perfil": 0.4,
-      "requisitos": {
-        "graduacao": [
-          "administração",
-          "direito",
-          "ciências sociais",
-          "física",
-          "comunicação"
-        ],
-        "pos_graduacao": [],
-        "mestrado": false,
-        "doutorado": false,
-        "anos_experiencia": null,
-        "ferramentas": [
-          "r",
-          "excel",
-          "sic",
-          "sas"
-        ],
-        "idiomas": [
-          "Espanhol"
-        ],
-        "certificacoes": [],
-        "valor_tor": "54.000,00",
-        "obrigatorios": [
-          "previsto neste termo de referência. descrições genéricas ou incompletas poderão ensejar não",
-          "pontuação, com possível eliminação do candidato."
-        ],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.287,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Estatística / Pesquisa / Metodologia",
-                "Gestão / Administração Pública"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "excel"
-              ],
-              "faltando": [
-                "power bi",
-                "sql",
-                "dax",
-                "power query",
-                "power automate",
-                "python"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "direito",
-                "ciências sociais",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": [
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 54000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.438,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Estatística / Pesquisa / Metodologia"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "r",
-                "sas"
-              ],
-              "faltando": [
-                "python",
-                "sql",
-                "stata",
-                "spss",
-                "matlab",
-                "git",
-                "docker",
-                "qgis",
-                "power bi"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "direito",
-                "ciências sociais",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "espanhol"
-              ],
-              "exigidos": [
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 54000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.442,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "excel",
-                "r"
-              ],
-              "faltando": [
-                "python",
-                "power bi",
-                "sql",
-                "stata"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "administração"
-              ],
-              "exigidas": [
-                "administração",
-                "direito",
-                "ciências sociais",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": [
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 54000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.287,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": [
-                "Gestão / Administração Pública",
-                "Estatística / Pesquisa / Metodologia"
-              ]
-            },
-            "ferramentas": {
-              "match": [
-                "r"
-              ],
-              "faltando": [
-                "python",
-                "sql",
-                "estatística",
-                "pyspark",
-                "databricks",
-                "azure data factory",
-                "airflow",
-                "azure",
-                "aws",
-                "gcp",
-                "shell script",
-                "linux",
-                "informatica powercenter",
-                "oracle",
-                "selenium",
-                "scrapy",
-                "beautiful soup",
-                "git",
-                "docker"
-              ],
-              "exigidas": [
-                "r",
-                "excel",
-                "sic",
-                "sas"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "direito",
-                "ciências sociais",
-                "física",
-                "comunicação"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": [
-                "espanhol"
-              ]
-            },
-            "valor": {
-              "edital": 54000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
             }
           }
         }
@@ -63212,7 +62355,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "engenheiro_dados"
     },
     {
@@ -63495,7 +62638,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -64069,7 +63212,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
