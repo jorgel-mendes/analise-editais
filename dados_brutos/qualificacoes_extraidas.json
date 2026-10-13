@@ -8908,5 +8908,215 @@
     "descricao": "Contratação de 02 (dois) consultores especializados, pessoa física, para desenvolver estudos comparados, análises técnicas e proposições metodológicas voltadas ao aprimoramento e à inovação do modelo de realização do Levantamento Nacional de Álcool e Drogas (LENAD), incluindo a elaboração dos documentos técnicos necessários à definição dos requisitos e especificações para futura contratação da pesquisa.",
     "local": "Híbrido",
     "data_fim": "2026-10-18"
+  },
+  {
+    "torid": "146427",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "10.400,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "/ eliminatórios (registrados no cv)",
+      "15.1 formação acadêmica:",
+      "diploma de nível superior completo em instituição reconhecida pelo ministério da",
+      "educação na área de comunicação social.",
+      "pós-graduação ou especialização em instituição reconhecida pelo ministério da",
+      "educação na área de comunicação social, ciências sociais ou áreas correlatas.",
+      "15.2 experiência profissional",
+      "• no mínimo 5 anos de experiência como profissional da área de comunicação com",
+      "trabalhos realizados anteriormente no mesmo formato (texto e diagramação).",
+      "• pelo menos 1 publicação de artigo científico e/ou obra literária;"
+    ],
+    "requisitos_desejaveis": [
+      "/pontuáveis (registrados no cv)",
+      "• mestrado ou doutorado na área de ciências humanas;",
+      "• experiência na área de comunicação social;",
+      "• experiência como designer gráfico e diagramação, comprovado por meio de",
+      "materiais publicados;",
+      "• experiência de trabalho com organismos multilaterais, redes de cidades ou",
+      "instituições similares;",
+      "• experiências em produção de artigos científicos;",
+      "• experiência com elaboração de materiais técnicos na/para órgãos da",
+      "administração pública ."
+    ],
+    "titulo": "BRA/23/006 - CONSULTORIA TÉCNICA EM COMUNICAÇÃO E PRODUÇÃO DE CONTEÚDO",
+    "descricao": "CONTRATAÇÃO DE CONSULTOR ESPECIALIZADO PARA CONSULTORIA TÉCNICA EM COMUNICAÇÃO E PRODUÇÃO DE CONTEÚDO",
+    "local": "HOME OFFICE",
+    "data_fim": "2026-10-21"
+  },
+  {
+    "torid": "146428",
+    "graduacao": [
+      "administração",
+      "direito",
+      "física",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "14.500,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "/ eliminatórios (registrados no cv):",
+      "15.1. formação acadêmica:",
+      "diploma de nível superior completo em design, comunicação social, publicidade e",
+      "propaganda, artes visuais, produção editorial ou áreas afins, em instituição reconhecida",
+      "pelo ministério da educação.",
+      "pós-graduação (lato ou stricto sensu) em design, comunicação, produção editorial, gestão",
+      "do design, design de produtos digitais ou áreas afins.",
+      "15.2. experiência profissional:",
+      "no mínimo 05 (cinco) anos de experiência em produção editorial, diagramação e criação de",
+      "peças gráficas, em agência de comunicação, editora, órgão público, organização não"
+    ],
+    "requisitos_desejaveis": [
+      "/pontuáveis (registrados no cv):",
+      "• pós-graduação em design, comunicação, produção editorial ou áreas afins;",
+      "• experiência em diagramação e produção editorial de publicações (livros, revistas,",
+      "coleções, fascículos, relatórios institucionais);",
+      "• experiência em concepção de identidade visual e direção de arte;",
+      "• experiência em agências de publicidade, comunicação ou editoras com direção de",
+      "• experiência em produção de materiais institucionais para órgãos públicos,",
+      "consórcios públicos, organismos internacionais, redes de cidades ou organizações",
+      "• experiência em design de produtos digitais, ux/ui ou webdesign aplicada à",
+      "concepção de publicações eletrônicas acessíveis;"
+    ],
+    "titulo": "BRA/23/006 - CONSULTORIA TÉCNICA EM PRODUÇÃO EDITORIAL, DESIGN E DIAGRAMAÇÃO DE PUBLICAÇÕES INSTITUCIONAIS",
+    "descricao": "CONTRATAÇÃO DE CONSULTOR ESPECIALIZADO PARA PRODUÇÃO EDITORIAL, DESIGN E DIAGRAMAÇÃO DE PUBLICAÇÕES INSTITUCIONAIS",
+    "local": "HOME OFFICE",
+    "data_fim": "2026-10-21"
+  },
+  {
+    "torid": "unesco:1b397c59-629f-47bf-bf95-08df23ad085e",
+    "graduacao": [
+      "engenharia de software",
+      "tecnologia da informação",
+      "engenharia",
+      "administração",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "sql",
+      "excel",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "os participantes que não apresentarem os requisitos obrigatórios de qualificação não serão",
+      "considerados para o processo de avaliação.",
+      "6.1.1 formação acadêmica",
+      "é obrigatório que possua graduação em qualquer área do conhecimento, em instituição devidamente",
+      "reconhecida pelo mec.",
+      "6.1.2 experiência profissional",
+      "é obrigatório que possua experiência mínima de 05 (cinco) anos em domínio no desenvolvimento em",
+      "linguagem de programação php 8.2 - laravel 10 - react 18.3 - conhecimento prévio em uso de esteira"
+    ],
+    "requisitos_desejaveis": [
+      "é desejável que possua certificações profissionais em sua área de atuação e/ou em processos ágeis, emitida",
+      "por entidade certificadora reconhecida.",
+      "é desejável que possua pós-graduação na área de tecnologia da informação.",
+      "6. produtos e suas respectivas atividades:",
+      "perfil 1 – consultoria especializada em desenvolvimento de sotware - fortalecimento da",
+      "arquitetura tecnológica",
+      "produto 1: documento técnico contendo diagnóstico da arquitetura atual do novo par e levantamento",
+      "das necessidades de evolução tecnológica da plataforma.",
+      "1.1 analisar a arquitetura existente do novo par",
+      "1.2 mapear os componentes tecnológicos."
+    ],
+    "titulo": "914BRZ1159 - Republicação - Edital 33/2026 - 2 vagas - Consultor Individual",
+    "descricao": "Graduação em qualquer área.",
+    "local": "",
+    "data_fim": "2026-10-18"
+  },
+  {
+    "torid": "oei:procedimento-simplificado-no-13340-2026-oei-secult-es-menor-preco",
+    "graduacao": [
+      "tecnologia da informação",
+      "engenharia",
+      "economia",
+      "administração",
+      "direito",
+      "arquitetura",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "teams",
+      "r",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "120.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROCEDIMENTO SIMPLIFICADO Nº 13340/2026- OEI/SECULT-ES MENOR PREÇO",
+    "descricao": "Contratação de empresa especializada para o fornecimento de equipamentos de tecnologia da informação e periféricos destinados ao Cais das Artes, localizado em Vitória/ES, contemplando computadores, monitores e conjuntos de teclado e mouse necessários à estruturação dos postos de trabalho e ao desenvolvimento das atividades administrativas, técnicas, operacionais e institucionais do equipamento, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Procedimento Simplificado n 13340/2026 – OEI/SECULT-ES.",
+    "local": "Vitória/ES.",
+    "data_fim": "2026-10-26"
   }
 ]
