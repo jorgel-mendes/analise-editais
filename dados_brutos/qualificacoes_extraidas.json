@@ -9118,5 +9118,70 @@
     "descricao": "Contratação de empresa especializada para o fornecimento de equipamentos de tecnologia da informação e periféricos destinados ao Cais das Artes, localizado em Vitória/ES, contemplando computadores, monitores e conjuntos de teclado e mouse necessários à estruturação dos postos de trabalho e ao desenvolvimento das atividades administrativas, técnicas, operacionais e institucionais do equipamento, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Procedimento Simplificado n 13340/2026 – OEI/SECULT-ES.",
     "local": "Vitória/ES.",
     "data_fim": "2026-10-26"
+  },
+  {
+    "torid": "unesco:048a1d3b-843f-4613-60de-08df20839863",
+    "graduacao": [
+      "administração",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1159 - Publicação Edital 42/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para subsidiar o aprimoramento da organização, da gestão do conhecimento e da comunicação institucional da DIMAM/SEB/MEC.",
+    "local": "",
+    "data_fim": "2026-10-19"
+  },
+  {
+    "torid": "unesco:28aedd59-87d7-4b85-60e5-08df20839863",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "direito",
+      "ciências sociais",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 10,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1162 - Edital 07/2026 - 01 vaga - Consultor Individual",
+    "descricao": "Consultoria técnica especializada em pesquisa, sistematização e análise de dados e documentação educacional para subsidiar a formulação do novo Plano Municipal de Educação de Leme.",
+    "local": "",
+    "data_fim": "2026-10-20"
   }
 ]
