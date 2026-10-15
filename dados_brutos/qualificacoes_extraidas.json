@@ -9183,5 +9183,96 @@
     "descricao": "Consultoria técnica especializada em pesquisa, sistematização e análise de dados e documentação educacional para subsidiar a formulação do novo Plano Municipal de Educação de Leme.",
     "local": "",
     "data_fim": "2026-10-20"
+  },
+  {
+    "torid": "146334",
+    "graduacao": [
+      "economia",
+      "direito",
+      "ciências contábeis"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "17.870,14",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Consultoria individual para estudo sobre os impactos regulatórios da Reforma Tributária no setor de saneamento básico",
+    "descricao": "null",
+    "local": "brasília",
+    "data_fim": "2026-10-25"
+  },
+  {
+    "torid": "unesco:5e9b99bd-04d4-46aa-60df-08df20839863",
+    "graduacao": [
+      "direito",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "A2101B5102 | Edital 01/2026 – 01 vaga - Consultor individual",
+    "descricao": "Consultoria especializada em Educação para o Desenvolvimento Sustentável (EDS), educação ambiental e ação climática.",
+    "local": "",
+    "data_fim": "2026-10-22"
+  },
+  {
+    "torid": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "direito",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "microsoft 365",
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "570BRZ2005 - Edital 01/2026 - Consultor individual",
+    "descricao": "Profissional da área de Engenharia Elétrica",
+    "local": "",
+    "data_fim": "2026-10-20"
   }
 ]
