@@ -9480,5 +9480,178 @@
     "descricao": "Consultoria especializada em design editorial, diagramação e projeto gráfico para desenvolvimento de dois e-books institucionais sobre intersetorialidade com a educação.",
     "local": "",
     "data_fim": "2026-10-25"
+  },
+  {
+    "torid": "146434",
+    "graduacao": [
+      "administração",
+      "direito",
+      "arquitetura",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "3.200,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "• graduação em ciências humanas ou áreas afins, em instituição",
+      "reconhecida pelo ministério da educação; • pós-graduação stricto sensu em nível de mestrado, em áreas",
+      "correlatas; • experiência profissional, mínima de 2 anos, em políticas públicas relacionadas a direitos",
+      "humanos, cidadania ou registro civil de nascimento e documentação básica. • experiência profissional,",
+      "mínima de 1 ano, na utilização de ambiente virtual de aprendizagem (ava), especialmente plataforma",
+      "moodle, incluindo inserção, organização e configuração de conteúdos, atividades e recursos educacionais",
+      "em cursos à distância."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital 07/2026 - Curso “Direito à Identidade, Cidadania e Documentação\" para a Plataforma EV.G/Enap.",
+    "descricao": "Contratação de consultor pessoa física, na modalidade produto, para elaboração de novo curso da Enap “Direito à Identidade, Cidadania e Documentação”, em formato online, autoinstrucional e assíncrono, com carga horária de 30 horas, abrangendo a concepção pedagógica e instrucional, a produção de conteúdo técnico e atividades educacionais e a implementação do curso no AVA da Enap/EV.G, em plataforma Moodle. assíncrono, com carga horária de 30 horas, e utilizará materiais diversificados (ebooks, vídeos, textos, atividades interativas).",
+    "local": "Brasília",
+    "data_fim": "2026-11-04"
+  },
+  {
+    "torid": "unesco:8e0c9386-3ad1-41de-cc73-08df25fc88d5",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "UNESCO 914BRZ3051 - EDITAL 18/2026 (REPUBLICAÇÃO)",
+    "descricao": "Realização de análise técnica especializada sobre barreiras e conflitos no acesso e usufruto do Microcrédito Produtivo Orientado por Microempreendedores Individuais e pessoas inscritas no CadÚnico.",
+    "local": "",
+    "data_fim": "2026-10-25"
+  },
+  {
+    "torid": "unesco:bb750b64-4229-4e0c-7b7f-08df26180ec9",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "políticas públicas",
+      "comunicação",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 11,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "570BRZ3012 - Edital 01/2026 - Consultor individual",
+    "descricao": "Profissional da área de Administração, Ciências Sociais Aplicadas, Relações Internacionais, Comunicação, Políticas Públicas",
+    "local": "",
+    "data_fim": "2026-10-23"
+  },
+  {
+    "torid": "unesco:27856fe5-63c2-4c4c-7b80-08df26180ec9",
+    "graduacao": [
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 58/2026 - Arquitetura e Urbanismo - Iphan-PB",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "local": "",
+    "data_fim": "2026-10-23"
+  },
+  {
+    "torid": "unesco:006fb387-0b8e-43ce-7b81-08df26180ec9",
+    "graduacao": [
+      "administração",
+      "direito",
+      "arquitetura",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 2,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 59/2026 - Fotografia - Iphan-Sede",
+    "descricao": "Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "local": "",
+    "data_fim": "2026-10-23"
   }
 ]
