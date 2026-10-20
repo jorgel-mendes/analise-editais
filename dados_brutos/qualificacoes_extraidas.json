@@ -9653,5 +9653,121 @@
     "descricao": "Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
     "local": "",
     "data_fim": "2026-10-23"
+  },
+  {
+    "torid": "146438",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "estatística",
+      "direito",
+      "ciência de dados"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "3.480,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "(eliminatória) graduação superior, reconhecida pelo mec, em economia,",
+      "engenharia, estatística, ciência de dados ou em áreas correlatas ao objeto da consultoria. especialização",
+      "em economia, engenharia, estatística, ciência de dados ou em áreas correlatas ao objeto da consultoria.",
+      "ressalta-se que a titulação em mestrado ou doutorado requerido no item 10.2.a), além da pontuação",
+      "equivalente garante a qualificação mínima requerida neste item. experiência mínima: 5 (cinco) anos em",
+      "atividades, consultoria, cargos ou desenvolvimento de trabalhos relacionados ao perfil requerido para a",
+      "contratação, conforme descrito no item 3 do termo de referência"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": " Contratação de 1 (um) Consultor para elaborar estudo técnico especializado para projeção de oferta e demanda de combustíveis, conforme produtos descritos no item 6 deste Termo de Referência. A contratação está vinculada ao Projeto BRA/26/002 e ao fortalecimento institucional da Infra S.A., com foco na elaboração de estudos técnicos estratégicos",
+    "descricao": "Consultor(a), na modalidade produto, com experiência em modelagem quantitativa, econométrica e/ou estatística aplicada; elaboração de estudos e projeções de oferta e demanda; análise, tratamento e integração de bases de dados; desenvolvimento e análise de cenários econômicos, energéticos e/ou setoriais; planejamento e análise nos setores de energia, combustíveis, transportes e/ou infraestrutura; desenvolvimento de modelos e ferramentas para análise, simulação e projeção de dados.",
+    "local": "BRASÍLIA DF",
+    "data_fim": "2026-10-26"
+  },
+  {
+    "torid": "unesco:bcb9ad69-010a-48cb-2c80-08df29fb4e16",
+    "graduacao": [
+      "análise de sistemas",
+      "economia",
+      "administração",
+      "estatística",
+      "direito",
+      "ciências sociais",
+      "história",
+      "arquitetura",
+      "ciência de dados",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "218,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3061 - EDITAL Nº 16/2026 - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "descricao": "Graduação de nível superior completa em Administração, Economia, Políticas Públicas, Gestão Pública, Ciência da Informação, Ciência de Dados, Ciências Sociais, Estatística reconhecida pelo MEC.  ",
+    "local": "",
+    "data_fim": "2026-10-30"
+  },
+  {
+    "torid": "unesco:1c199ce7-1aec-45f2-2c7f-08df29fb4e16",
+    "graduacao": [
+      "administração",
+      "direito",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "218,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3061 - EDITAL Nº 14/2026-REPUBLICAÇÃO - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "descricao": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
+    "local": "",
+    "data_fim": "2026-10-25"
   }
 ]
