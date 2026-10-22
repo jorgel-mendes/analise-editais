@@ -9936,5 +9936,207 @@
     "descricao": "Contratação de pessoa assistente de projeto para apoio em demandas diárias relacionadas ao cumprimento das metas e objetivos pactuados na gestão do Cais das Artes.",
     "local": "Vitória - ES",
     "data_fim": "2026-10-25"
+  },
+  {
+    "torid": "146439",
+    "graduacao": [
+      "administração",
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "3.900,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "formação acadêmica: especialização (pós-graduação lato sensu) em",
+      "jornalismo, comunicação social, letras ou áreas afins, em instituição de ensino superior reconhecida pelo",
+      "ministério da educação; experiência profissional mínima de 1 (um) ano em atividades de pesquisa",
+      "documental, sistematização de informações, produção de conteúdo técnico/editorial ou comunicação",
+      "institucional, na área de direitos humanos ou administração pública."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 08/2026 - Pesquisa e Sistematização Metodológica da Atuação da Ouvidoria Nacional de Direitos Humanos – 2023-2026",
+    "descricao": "Contratação de consultoria de pessoa física, na modalidade produto, para realização de pesquisa técnica destinada ao levantamento, análise e sistematização de dados, documentos, registros, fluxos, práticas e experiências desenvolvidas pela Ouvidoria Nacional de Direitos Humanos (ONDH) no período de 2023 a 2026, com vistas à consolidação de sua metodologia de atuação, à preservação e transferência do conhecimento institucional e ao aprimoramento contínuo dos mecanismos de ouvidoria em direitos humanos, mediante elaboração de documento técnico final com os resultados da pesquisa.",
+    "local": "Território Nacional",
+    "data_fim": "2026-11-09"
+  },
+  {
+    "torid": "146440",
+    "graduacao": [
+      "sistemas de informação",
+      "direito",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "4.800,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "graduação na área das ciências humanas e sociais aplicadas, em",
+      "instituição reconhecida pelo ministério da educação; mestrado na área das ciências humanas e sociais",
+      "aplicadas, em instituição reconhecida pelo ministério da educação; experiência profissional, mínimo de 1",
+      "(um) ano, em políticas públicas de direitos humanos, assistência social, cidadania ou atendimento a",
+      "populações em situação de vulnerabilidade."
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Edital nº 09/2026 – Guia orientador para profissionais dos Centros POP",
+    "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para elaboração de material técnico para orientação de profissionais que atendem nos equipamentos do Cidadania Pop Rua.",
+    "local": "Brasília/DF",
+    "data_fim": "2026-11-09"
+  },
+  {
+    "torid": "146450",
+    "graduacao": [
+      "comunicação",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "9.129,75",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "educação: pós-graduação completa em ciências econômicas,",
+      "comércio exterior ou relações internacionais, ou áreas afins, reconhecida pelo mec; fluência oral e",
+      "escrita na língua inglesa; experiência: experiência comprovada em projetos de ativação institucional,",
+      "promoção comercial, atração de investimentos, imagem-país ou relacionamento empresarial realizados em",
+      "contexto de eventos de grande porte; -"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor(a) para a elaboração de plano metodológico de ativação da promoção comercial do Brasil e atração de investimentos por ocasião da Copa do Mundo de Futebol FIFA 2027 (feminina)",
+    "descricao": "Consultor(a) com experiência comprovada em projetos de ativação institucional, promoção comercial, atração de investimentos, imagem-país ou relacionamento empresarial realizados em contexto de eventos de grande porte; \r\n",
+    "local": "Brasília - DF",
+    "data_fim": "2026-11-06"
+  },
+  {
+    "torid": "unesco:2d2ddee7-4f8a-450e-b90a-08df2de36002",
+    "graduacao": [
+      "administração",
+      "matemática",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1159 - Publicação Edital 43/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada em Políticas Educacionais para apoiar a SEB/MEC no desenvolvimento de estudos, análises e metodologias de gestão, avaliação e monitoramento na implementação do PNRA.",
+    "local": "",
+    "data_fim": "2026-10-27"
+  },
+  {
+    "torid": "unesco:22e78a51-d6d6-45ea-b90b-08df2de36002",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 60/2026 - Comunicação Social - Iphan-Sede",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-10-26"
+  },
+  {
+    "torid": "unesco:579f17c1-d8be-4531-b90c-08df2de36002",
+    "graduacao": [
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 61/2026 - Arquitetura e Urbanismo - Iphan-Sede",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "local": "",
+    "data_fim": "2026-10-26"
   }
 ]

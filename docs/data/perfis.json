@@ -1,37 +1,6 @@
 {
   "perfis": [
     {
-      "nome": "economista",
-      "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
-      "graduacoes": [
-        "economia",
-        "políticas públicas",
-        "gestão pública",
-        "administração"
-      ],
-      "ferramentas": [
-        "python",
-        "excel",
-        "power bi",
-        "sql",
-        "r",
-        "stata"
-      ],
-      "areas_interesse": [
-        "Economia / Finanças Públicas",
-        "Gestão / Administração Pública",
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "idiomas": [
-        "inglês"
-      ],
-      "valor_minimo": 30000,
-      "experiencia_anos": 2,
-      "tem_pos_graduacao": false,
-      "tem_mestrado": false,
-      "tem_doutorado": false
-    },
-    {
       "nome": "analista_powerbi",
       "descricao": "Analista de BI (Engenharia da Computação + Técnico em Computação), 5+ anos em Power BI/SQL, 3 anos com dados públicos, econômicos e sociais",
       "graduacoes": [
@@ -66,6 +35,76 @@
       "tem_mestrado": false,
       "tem_doutorado": false,
       "contexto": "5+ anos de experiência geral em Power BI e SQL, com 3 anos específicos trabalhando com dados públicos, econômicos e sociais. Formação técnica em computação, sem pós-graduação."
+    },
+    {
+      "nome": "pesquisador_computacao",
+      "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
+      "graduacoes": [
+        "ciência da computação",
+        "ciência de dados",
+        "inteligência artificial",
+        "estatística",
+        "matemática",
+        "engenharia de software",
+        "sistemas de informação",
+        "geografia",
+        "economia"
+      ],
+      "ferramentas": [
+        "python",
+        "r",
+        "sql",
+        "stata",
+        "spss",
+        "sas",
+        "matlab",
+        "git",
+        "docker",
+        "qgis",
+        "power bi"
+      ],
+      "areas_interesse": [
+        "Estatística / Pesquisa / Metodologia",
+        "Tecnologia da Informação / Dados",
+        "Economia / Finanças Públicas",
+        "Meio Ambiente / Clima / Geografia"
+      ],
+      "idiomas": [
+        "inglês",
+        "espanhol"
+      ],
+      "valor_minimo": 40000
+    },
+    {
+      "nome": "economista",
+      "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
+      "graduacoes": [
+        "economia",
+        "políticas públicas",
+        "gestão pública",
+        "administração"
+      ],
+      "ferramentas": [
+        "python",
+        "excel",
+        "power bi",
+        "sql",
+        "r",
+        "stata"
+      ],
+      "areas_interesse": [
+        "Economia / Finanças Públicas",
+        "Gestão / Administração Pública",
+        "Estatística / Pesquisa / Metodologia"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 30000,
+      "experiencia_anos": 2,
+      "tem_pos_graduacao": false,
+      "tem_mestrado": false,
+      "tem_doutorado": false
     },
     {
       "nome": "engenheiro_dados",
@@ -114,45 +153,6 @@
       "tem_mestrado": false,
       "tem_doutorado": false,
       "contexto": "Engenheiro de Dados com +50 pipelines de ETL/web scraping (Python, PySpark, Databricks, Azure Data Factory) em manufatura, setor público e telecom, além de projeto envolvendo privacidade diferencial (PySyft) com IBGE/PNUD. Cursos complementares em Python, R e estatística básica. Mestrado (Software Engineering) e especialização (Indústria 4.0) em andamento — ainda não concluídos, por isso continuam como gap."
-    },
-    {
-      "nome": "pesquisador_computacao",
-      "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
-      "graduacoes": [
-        "ciência da computação",
-        "ciência de dados",
-        "inteligência artificial",
-        "estatística",
-        "matemática",
-        "engenharia de software",
-        "sistemas de informação",
-        "geografia",
-        "economia"
-      ],
-      "ferramentas": [
-        "python",
-        "r",
-        "sql",
-        "stata",
-        "spss",
-        "sas",
-        "matlab",
-        "git",
-        "docker",
-        "qgis",
-        "power bi"
-      ],
-      "areas_interesse": [
-        "Estatística / Pesquisa / Metodologia",
-        "Tecnologia da Informação / Dados",
-        "Economia / Finanças Públicas",
-        "Meio Ambiente / Clima / Geografia"
-      ],
-      "idiomas": [
-        "inglês",
-        "espanhol"
-      ],
-      "valor_minimo": 40000
     }
   ]
 }
