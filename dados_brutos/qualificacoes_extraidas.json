@@ -10138,5 +10138,39 @@
     "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
     "local": "",
     "data_fim": "2026-10-26"
+  },
+  {
+    "torid": "unesco:2551e6c6-0d6f-4d2f-0608-08df2ea2a444",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "física",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 62/2026 - Gestão - Iphan-Sede",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural - 914BRZ4027",
+    "local": "",
+    "data_fim": "2026-10-27"
   }
 ]
