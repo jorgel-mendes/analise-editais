@@ -10252,5 +10252,38 @@
     "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
     "local": "São Paulo - SP",
     "data_fim": "2026-10-29"
+  },
+  {
+    "torid": "unesco:bafb5b38-137e-42cd-2c81-08df29fb4e16",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 59/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para apoiar o diagnóstico, apoiar o monitoramento e o aperfeiçoamento da implementação do Curso Práticas em Equidade e da rede de Agentes PNEERQ.",
+    "local": "",
+    "data_fim": "2026-11-02"
   }
 ]
