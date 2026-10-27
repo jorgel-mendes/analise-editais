@@ -19,6 +19,27 @@
     ]
   },
   {
+    "id": "oei:licitacao-no-13360-2026-oei-funai-aecid-tecnica-e-preco",
+    "title": "LICITAÇÃO Nº 13360/2026- OEI/FUNAI-AECID TÉCNICA E PREÇO",
+    "description": "Contratação de pessoa jurídica especializada para apoio técnico e operacional à FUNAI e à OEI no planejamento e no desenvolvimento dos três encontros formativos e do encontro nacional de intercâmbio, incluindo o levantamento de necessidades, apoio à seleção de participantes, elaboração de propostas de metodológicas, sistematização de informações, articulação com fornecedores e acompanhamento da execução dos serviços necessários à realização das atividades, sob orientação, supervisão da Funai e da OEI e validação da FUNAI, da OEI e da AECID, conforme especificações contidas no Termo de Referência, Anexo “A”, do Edital.",
+    "comments": "R$ 1.097.756,00",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-17",
+    "local": "Territórios Indígenas definidos, Brasília, híbrido",
+    "receivingEmail": "compras.bra@oei.int",
+    "statusDescription": "En fase de apresentação",
+    "created": "2026-10-26",
+    "torid": "oei:licitacao-no-13360-2026-oei-funai-aecid-tecnica-e-preco",
+    "fonte": "oei",
+    "orgao_parceiro": "OEI/FUNAI",
+    "url_externo": "https://oei.int/oficinas/brasil/contrataciones/licitacao-no-13360-2026-oei-funai-aecid-tecnica-e-preco/",
+    "tor_urls": [
+      "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/edital-licitacao-no-13360-2026-oei-funai-aecid-pdf-d4sign.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/link-para-licitacao-13360-2026-oei-funai-aecid.pdf"
+    ]
+  },
+  {
     "id": "unesco:4e03075d-fa9c-444b-bf96-08df23ad085e",
     "title": "570BRZ2005 - Edital 01/2026 - Consultor individual",
     "description": "Profissional da área de Engenharia Elétrica",
@@ -343,7 +364,8 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2026/10/edital-concorrencia-no-13320-2026-oei-seed-pr.pdf",
       "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-13320-2026-oei-seed-pr.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13320-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-01-13320-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/resposta-a-pedido-de-esclarecimento-02-13320-2026.pdf"
     ]
   },
   {
@@ -961,7 +983,8 @@
     "tor_urls": [
       "https://oei.int/wp-content/uploads/2024/09/procedimento-de-contratacao-v7-publico.pdf",
       "https://oei.int/wp-content/uploads/2026/10/edital-licitacao-no-13292-2026-oei-fpos.pdf",
-      "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-licitacao-13292-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/10/link-para-sala-virtual-licitacao-13292-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/10/ata-sessao-recebimento-documentacao-e-propostas-13292-2026-oei-fpos.pdf"
     ]
   },
   {
@@ -4619,7 +4642,9 @@
       "https://oei.int/wp-content/uploads/2026/07/link-para-sala-virtua-concorrencia-no-13046-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/07/resposta-a-pedido-de-esclarecimento-no-01-concorrencia-no-13046-2026-oei-mdhc.pdf",
       "https://oei.int/wp-content/uploads/2026/07/errata-a-pedido-de-esclarecimento-concorrencia-n-13046-2026-oei-mdhc.pdf",
-      "https://oei.int/wp-content/uploads/2026/07/ata-da-sessao-de-recebimento-das-prpostas-e-abertura-envelope-proposta-tecnica-13046-2026.pdf"
+      "https://oei.int/wp-content/uploads/2026/07/ata-da-sessao-de-recebimento-das-prpostas-e-abertura-envelope-proposta-tecnica-13046-2026.pdf",
+      "https://oei.int/wp-content/uploads/2026/07/relatorio-de-avaliacao-propostas-tecnicas-13046-2026-oei-mdhc.pdf",
+      "https://oei.int/wp-content/uploads/2026/07/convocacao-abertura-proposta-de-preco-13046-2026-oei-mdhc.pdf"
     ]
   },
   {

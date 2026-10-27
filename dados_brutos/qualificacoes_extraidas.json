@@ -10285,5 +10285,69 @@
     "descricao": "Consultoria especializada para apoiar o diagnóstico, apoiar o monitoramento e o aperfeiçoamento da implementação do Curso Práticas em Equidade e da rede de Agentes PNEERQ.",
     "local": "",
     "data_fim": "2026-11-02"
+  },
+  {
+    "torid": "oei:licitacao-no-13360-2026-oei-funai-aecid-tecnica-e-preco",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "ecologia",
+      "direito",
+      "antropologia",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "teams",
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "120.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "listados no item 6.2.",
+      "profissional indicado nominalmente, com experiência comprovada em 03",
+      "ou mais projetos de formação em políticas públicas e/ou agroecologia, in- 10 pontos",
+      "cluindo atuação com povos indígenas.",
+      "profissional indicado nominalmente, com experiência em 02 projetos de",
+      "formação em políticas públicas e/ou agroecologia, incluindo atuação com 7 pontos",
+      "profissional indicado nominalmente, com experiência em 01 projeto de",
+      "formação em políticas públicas e/ou agroecologia, incluindo atuação com 03 pontos",
+      "2. coordenador(a) de comunicação e produção audiovisual – avalia-",
+      "ção da experiência em produção audiovisual. conforme perfil indicado máximo 10"
+    ],
+    "requisitos_desejaveis": [
+      "experiência em produção de material didático e audiovi-",
+      "comprovação de experiência prévia na elaboração de ma-",
+      "d4sign 01a17948-0883-7c3e-9a8c-674fbfbe9f72 - para confirmar as assinaturas acesse https://secure.d4sign.com.br/verificar",
+      "documento assinado eletronicamente, conforme mp 2.200-2/01, art. 10º, §2. brasil",
+      "teriais didáticos e/ou conteúdos audiovisuais (cartilhas, ma-",
+      "nuais, vídeos institucionais, documentários ou conteúdos",
+      "experiência em 15 ou mais produções (somados materiais",
+      "didáticos e audiovisuais)",
+      "experiência em 08 a 14 produções (somados materiais didáti-",
+      "experiência em 03 a 07 produções. 05 pontos"
+    ],
+    "titulo": "LICITAÇÃO Nº 13360/2026- OEI/FUNAI-AECID TÉCNICA E PREÇO",
+    "descricao": "Contratação de pessoa jurídica especializada para apoio técnico e operacional à FUNAI e à OEI no planejamento e no desenvolvimento dos três encontros formativos e do encontro nacional de intercâmbio, incluindo o levantamento de necessidades, apoio à seleção de participantes, elaboração de propostas de metodológicas, sistematização de informações, articulação com fornecedores e acompanhamento da execução dos serviços necessários à realização das atividades, sob orientação, supervisão da Funai e da OEI e validação da FUNAI, da OEI e da AECID, conforme especificações contidas no Termo de Referência, Anexo “A”, do Edital.",
+    "local": "Territórios Indígenas definidos, Brasília, híbrido",
+    "data_fim": "2026-11-17"
   }
 ]
