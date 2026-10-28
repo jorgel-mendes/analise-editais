@@ -10349,5 +10349,302 @@
     "descricao": "Contratação de pessoa jurídica especializada para apoio técnico e operacional à FUNAI e à OEI no planejamento e no desenvolvimento dos três encontros formativos e do encontro nacional de intercâmbio, incluindo o levantamento de necessidades, apoio à seleção de participantes, elaboração de propostas de metodológicas, sistematização de informações, articulação com fornecedores e acompanhamento da execução dos serviços necessários à realização das atividades, sob orientação, supervisão da Funai e da OEI e validação da FUNAI, da OEI e da AECID, conforme especificações contidas no Termo de Referência, Anexo “A”, do Edital.",
     "local": "Territórios Indígenas definidos, Brasília, híbrido",
     "data_fim": "2026-11-17"
+  },
+  {
+    "torid": "146442",
+    "graduacao": [
+      "engenharia da computação",
+      "engenharia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "arquitetura",
+      "ciência de dados",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 144/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA DESENVOLVIMENTO DE PROPOSTA DE MODELO PARA AULAS ALTAMENTE DESBALANCEADAS EM SENSORIAMENTO REMOTO.",
+    "descricao": "Contratação de consultoria especializada (pessoa física) para o desenvolvimento de proposta de modelos, tendo como foco as classes que apresentam maior desbalanceamento e menos amostras de treino no contexto de mapeamento da atividade agropecuária no Brasil.",
+    "local": "Remoto",
+    "data_fim": "2026-11-06"
+  },
+  {
+    "torid": "146443",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "história",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 147/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA O DESENVOLVIMENTO E SISTEMATIZAÇÃO DE METODOLOGIAS E TÉCNICAS DE PESQUISAS CENSITÁRIAS COM ABORDAGEM DE GÊNERO.",
+    "descricao": "Contratação de Consultoria especializada (pessoa física) para o desenvolvimento de metodologias e técnicas de pesquisas censitárias e outros tipos de pesquisas primárias, a partir da perspectiva de gênero, visando a disseminação dos dados estatísticos e geográficos do Censo 2022 e a  construção de futuras metodologias.",
+    "local": "Remoto",
+    "data_fim": "2026-11-06"
+  },
+  {
+    "torid": "146444",
+    "graduacao": [
+      "ciência da computação",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciência de dados",
+      "inteligência artificial",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu"
+    ],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 148/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA ANÁLISE DAS NORMATIVAS REGULATÓRIAS DA OFERTA, DA ESPECIALIZAÇÃO EM CIÊNCIA DE DADOS, BIG DATA E INTELIGÊNCIA ARTIFICIAL.",
+    "descricao": "Contratação de consultoria especializada (pessoa física) para análise dos normativos regulatórios aplicáveis à oferta, na modalidade EAD, de cursos de especialização Lato Sensu em Ciência de Dados, Big Data e Inteligência Artificial, para a produção e uso de informações estatísticas e geocientíficas públicas.",
+    "local": "Remoto",
+    "data_fim": "2026-11-06"
+  },
+  {
+    "torid": "146445",
+    "graduacao": [
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciência de dados",
+      "matemática",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "sql",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 149/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA AVALIAÇÃO DA QUALIDADE DO CADASTRO DE PESSOAS PARA FINS ESTATÍSTICOS (CAPEFE)",
+    "descricao": "CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA AVALIAÇÃO  DA QUALIDADE DO CADASTRO DE PESSOAS PARA FINS ESTATÍSTICOS (CAPEFE).",
+    "local": "Remoto",
+    "data_fim": "2026-11-06"
+  },
+  {
+    "torid": "146446",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "história",
+      "ciência de dados",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 150/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA O DESENVOLVIMENTO DE ANÁLISES ESTATÍSTICAS E METODOLÓGICAS SOBRE A RODADA DOS CENSOS DA SEGUNDA DÉCADA DOS ANOS 2000.",
+    "descricao": "Contratação de Consultoria especializada (pessoa física) para desenvolvimento, aprimoramento e disseminação de análises estatísticas e de indicadores produzidos a partir de fontes oficiais de dados, com ênfase no Censo Demográfico 2022, na PNAD Contínua e demais fontes oficiais, incluindo a proposição de estratégias metodológicas destinadas a qualificar a produção e a divulgação de informações estatísticas.",
+    "local": "Remoto",
+    "data_fim": "2026-11-06"
+  },
+  {
+    "torid": "146447",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "sociologia",
+      "inteligência artificial",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 151/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA O DESENVOLVIMENTO DE PESQUISA SOBRE TRANSFORMAÇÃO TECNOLÓGICA E IMPACTOS NO MERCADO DE TRABALHO E NO DESENVOLVIMENTO HUMANO.",
+    "descricao": "Contratação de consultoria especializada (pessoa física) para a elaboração de pesquisa analítica sobre os impactos da transformação tecnológica, incluindo inteligência artificial e tecnologias digitais, no mercado de trabalho, na produtividade e na demanda por habilidades no Brasil, contribuindo para o desenvolvimento de abordagens prospectivas alinhadas ao marco conceitual do Desenvolvimento Humano. A pesquisa deverá contemplar tendências em nível macro e desagregadas, considerando que os impactos variam entre setores, ocupações, estágios da carreira, características demográficas e estruturas dos mercados de trabalho locais.",
+    "local": "Remoto",
+    "data_fim": "2026-11-06"
+  },
+  {
+    "torid": "146441",
+    "graduacao": [
+      "engenharia da computação",
+      "engenharia",
+      "administração",
+      "estatística",
+      "geografia",
+      "direito",
+      "arquitetura",
+      "ciência de dados",
+      "física",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "python",
+      "r",
+      "sic"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "25.300,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "PROJETO BRA 23/023 - TR 143/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA MAPEAMENTO DE DADOS, COM FOCO EM DADOS ESPACIAIS, VISANDO O APRENDIZADO DE MÁQUINA.",
+    "descricao": "ria especializada (pessoa física) para o mapeamento do processo de preparação, ingestão e automatização de dados, com foco em dados espaciais e outros elementos envolvidos, identificando todo e qualquer processo de aprendizado de máquina que dependa dos dados espaciais para processamento.",
+    "local": "Remoto",
+    "data_fim": "2026-11-06"
+  },
+  {
+    "torid": "146464",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "ecologia",
+      "direito",
+      "ciências sociais",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "7.150.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "implicará a não habilitação da proponente para a etapa",
+      "de avaliação técnica classificatória.",
+      "8.1. requisitos da instituição proponente",
+      "a instituição proponente deverá comprovar:",
+      "• existência jurídica há, no mínimo, 5 (cinco) anos;",
+      "• situação regular perante os órgãos fiscais e trabalhistas competentes;",
+      "• inexistência de impedimentos ou sanções que inviabilizem a celebração de parceria com o pnud;",
+      "• experiência comprovada em, no mínimo, 2 (dois) projetos de fortalecimento institucional de organizações",
+      "da sociedade civil, preferencialmente no meio rural;",
+      "• experiência comprovada em, no mínimo, 2 (dois) projetos envolvendo diagnósticos organizacionais e/ou"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Seleção de OSC para atuar como Parte Responsável (RPA) no fortalecimento de organizações da agricultura familiar no PR e MS – Projeto BRA/25/015 - Caminhos Sustentáveis",
+    "descricao": "null",
+    "local": "null",
+    "data_fim": "2026-11-16"
   }
 ]
