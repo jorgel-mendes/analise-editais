@@ -10646,5 +10646,122 @@
     "descricao": "null",
     "local": "null",
     "data_fim": "2026-11-16"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr-13384",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "direito",
+      "física",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "120.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR 13384",
+    "descricao": "Contratação de Especialista em Infraestrutura e Operações, de nível gerencial, para planejar, coordenar e monitorar a infraestrutura e os serviços operacionais do Complexo Cultural Cais das Artes, com entregas técnicas mensais.",
+    "local": "Cais das Artes -Vitória ES",
+    "data_fim": "2026-11-01"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13221-2",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "inteligência artificial",
+      "física",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13221",
+    "descricao": "Consultoria técnica para elaboração de especificação funcional e definição de requisitos e critérios técnicos necessários à futura aplicação de soluções de automação inteligente e inteligência artificial às rotinas de gestão de contratos, convênios e procedimentos sancionatórios no âmbito da Diretoria de Contratos e Convênios DICON e de suas coordenadorias.",
+    "local": "São Paulo - SP",
+    "data_fim": "2026-10-18"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-16-002-tr13096",
+    "graduacao": [
+      "direito",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "experiência profissional mínima de 2 (dois) anos na temática dos direitos de crianças e adolescentes."
+    ],
+    "requisitos_desejaveis": [
+      "experiência profissional comprovada em processos legislativos ou em acompanhamento legislativo",
+      "no âmbito do congresso nacional",
+      "pesquisas ou publicações sobre processo legislativo, produção normativa ou direitos da criança e do",
+      "experiência profissional comprovada na elaboração de guias, documentos técnicos, materiais",
+      "formativos, condução de oficinas e/ou processos participativos.",
+      "7. produtos ou resultados previstos",
+      "7.1 produtos (consultoria para diagnóstico e análise das proposições legislativas)",
+      "enquadramentodescrição da parcela",
+      "elaboração de plano de trabalho detalhado da",
+      "consultoria, contemplando o conjunto de atividades,"
+    ],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/16/002 – TR13096",
+    "descricao": "Contratação de consultoria de pessoa física por produto para subsidiar tecnicamente a atuação do Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda), mediante a realização de diagnóstico, análise e sistematização de proposições legislativas, normativas nacionais e instrumentos internacionais relacionados aos direitos de crianças e adolescentes, bem como a elaboração de subsídios técnicos, guia orientador e atividade formativa voltados ao fortalecimento da capacidade institucional do Conselho para o acompanhamento legislativo, a construção de posicionamentos temáticos e a produção de notas técnicas sobre assuntos prioritários.",
+    "local": "Brasília - DF",
+    "data_fim": "2026-08-04"
   }
 ]
