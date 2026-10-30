@@ -10763,5 +10763,220 @@
     "descricao": "Contratação de consultoria de pessoa física por produto para subsidiar tecnicamente a atuação do Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda), mediante a realização de diagnóstico, análise e sistematização de proposições legislativas, normativas nacionais e instrumentos internacionais relacionados aos direitos de crianças e adolescentes, bem como a elaboração de subsídios técnicos, guia orientador e atividade formativa voltados ao fortalecimento da capacidade institucional do Conselho para o acompanhamento legislativo, a construção de posicionamentos temáticos e a produção de notas técnicas sobre assuntos prioritários.",
     "local": "Brasília - DF",
     "data_fim": "2026-08-04"
+  },
+  {
+    "torid": "146457",
+    "graduacao": [
+      "administração",
+      "direito",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "56.160,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "/ eliminatórios (registrados no cv)",
+      "15.1 formação acadêmica:",
+      "diploma de nível superior completo em instituição reconhecida pelo ministério da",
+      "educação na área de ciências humanas ou exatas.",
+      "15.2 experiência profissional",
+      "experiência profissional mínima de 05 anos na área de gestão pública, planejamento",
+      "estratégico, desenvolvimento institucional ou formulação ou avaliação de políticas"
+    ],
+    "requisitos_desejaveis": [
+      "/pontuáveis (registrados no cv)",
+      "• mestrado ou doutorado na área de ciências humanas ou exatas;",
+      "• experiência em coordenação na administração pública;",
+      "• experiência de trabalho com consultoria ou coordenação com organismos",
+      "multilaterais, redes de cidades ou instituições similares;",
+      "• experiências com sistematização de dados;",
+      "• experiências de realização/coordenação de atividades de planejamento estratégico",
+      "para consórcios intermunicipais e/ou interestaduais.",
+      "16.1 habilidades e competências",
+      "visão sistêmica e analítica, concentração, disciplina, agilidade, iniciativa, comunicação"
+    ],
+    "titulo": "BRA/23/006 - CONSULTORIA TÉCNICA PARA ELABORAÇÃO DE PLANEJAMENTO ESTRATÉGICO PARA O BIÊNIO 2027–2028",
+    "descricao": "CONTRATAÇÃO DE CONSULTORIA TÉCNICA PARA ELABORAÇÃO DE PLANEJAMENTO ESTRATÉGICO PARA O BIÊNIO 2027–2028",
+    "local": "HOME OFFICE",
+    "data_fim": "2026-11-08"
+  },
+  {
+    "torid": "unesco:c753ce2a-1954-4c23-a633-08df31054438",
+    "graduacao": [
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 12,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1162 - Edital 08/2026 - Consultor Individual",
+    "descricao": "Consultoria técnica especializada em planejamento e gestão de políticas educacionais para apoiar a coordenação na elaboração do novo Plano Municipal de Educação de Leme.",
+    "local": "",
+    "data_fim": "2026-11-05"
+  },
+  {
+    "torid": "unesco:5f92b37f-baf0-48fe-a634-08df31054438",
+    "graduacao": [
+      "administração",
+      "direito",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 10,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1162 - Edital 09/2026 - Consultor Individual",
+    "descricao": "Consultoria técnica especializada em planejamento educacional, gestão democrática e metodologias participativas, para desenvolver e aplicar abordagens metodológicas destinadas a orientar a coleta, org",
+    "local": "",
+    "data_fim": "2026-11-05"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-fpos-2-open-society-foundation-tr13370",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "195.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "primeira etapa: análise de currículo",
+      "nesta etapa, será aferida pontuação para os currículos inscritos na plataforma de currículos da oei,",
+      "conforme pontuação especificada neste tr.",
+      "serão convocados para a entrevista os candidatos com maior pontuação na primeira etapa (análise",
+      "em caso de empate, serão chamados para entrevista todos os candidatos que obtiveram a mesma",
+      "os comprovantes devem ser anexados ao currículo cadastrado na plataforma da oei até o",
+      "encerramento do período de inscrições do edital.",
+      "a apresentação de documentos em branco, ilegíveis ou que não correspondem à qualificação exigida",
+      "no edital implicará em sua desconsideração.",
+      "a não apresentação dos documentos comprobatórios de qualificação ou sua apresentação"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO FPOS 2 – OPEN SOCIETY FOUNDATION – TR13370",
+    "descricao": "O presente termo destina-se à contratação de pessoa física para a realização do monitoramento técnico, físicofinanceiro e territorial da implantação da Etapa 1 do Piloto de Convergência: Fortalecimento da Agricultura Familiar por meio de Energia Renovável e Armazenamento, no âmbito do PTE-NE, compreendendo a estruturação do sistema de monitoramento, a análise técnica dos produtos da pessoa jurídica executora, a verificação in loco das atividades nos territórios, a gestão de riscos e a avaliação final da Etapa, com vistas a subsidiar o Consórcio Nordeste (custeadas pelo projeto) e a OEI na validação das entregas e na preparação da Etapa 2.",
+    "local": "Remoto",
+    "data_fim": "2026-11-04"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-projeto-fpos-2-open-society-foundation-tr-13370",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "direito",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "120.000,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "primeira etapa: análise de currículo",
+      "nesta etapa, será aferida pontuação para os currículos inscritos na plataforma de currículos da oei,",
+      "conforme pontuação especificada neste tr.",
+      "serão convocados para a entrevista os candidatos com maior pontuação na primeira etapa (análise",
+      "em caso de empate, serão chamados para entrevista todos os candidatos que obtiveram a mesma",
+      "os comprovantes devem ser anexados ao currículo cadastrado na plataforma da oei até o",
+      "encerramento do período de inscrições do edital.",
+      "a apresentação de documentos em branco, ilegíveis ou que não correspondem à qualificação exigida",
+      "no edital implicará em sua desconsideração.",
+      "a não apresentação dos documentos comprobatórios de qualificação ou sua apresentação"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor PROJETO FPOS 2 – OPEN SOCIETY FOUNDATION – TR 13370",
+    "descricao": "O presente termo destina-se à contratação de pessoa física para a realização do monitoramento técnico, físicofinanceiro e territorial da implantação da Etapa 1 do Piloto de Convergência: Fortalecimento da Agricultura Familiar por meio de Energia Renovável e Armazenamento, no âmbito do PTE-NE, compreendendo a estruturação do sistema de monitoramento, a análise técnica dos produtos da pessoa jurídica executora, a verificação in loco das atividades nos territórios, a gestão de riscos e a avaliação final da Etapa, com vistas a subsidiar o Consórcio Nordeste (custeadas pelo projeto) e a OEI na validação das entregas e na preparação da Etapa 2",
+    "local": "Remoto com visitas de campo nos locais de implementação",
+    "data_fim": "2026-11-04"
   }
 ]
