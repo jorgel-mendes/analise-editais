@@ -1,39 +1,39 @@
 {
-  "gerado_em": "2026-10-30T17:52:11.322648",
+  "gerado_em": "2026-10-31T16:51:51.119302",
   "resumo": {
-    "total_editais": 58,
-    "novos_hoje": 5,
-    "encerrados_hoje": 0,
+    "total_editais": 56,
+    "novos_hoje": 0,
+    "encerrados_hoje": 2,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 51,
+      "Consultoria Pessoa Física (PF)": 49,
       "Concorrência (Pessoa Jurídica)": 3,
       "Licitação (Pessoa Jurídica)": 2,
       "Seleção de OSC (Pessoa Jurídica)": 1,
       "Procedimento Simplificado (Pessoa Jurídica)": 1
     },
     "por_area": {
-      "Gestão / Administração Pública": 22,
+      "Gestão / Administração Pública": 21,
       "Cultura / Patrimônio": 13,
       "Educação": 12,
       "Tecnologia da Informação / Dados": 12,
-      "Meio Ambiente / Clima / Geografia": 7,
-      "Estatística / Pesquisa / Metodologia": 7,
+      "Meio Ambiente / Clima / Geografia": 6,
+      "Estatística / Pesquisa / Metodologia": 6,
       "Direitos Humanos": 6,
-      "Economia / Finanças Públicas": 4,
       "Comunicação": 4,
-      "Agricultura Familiar / Energia": 3
+      "Agricultura Familiar / Energia": 3,
+      "Economia / Finanças Públicas": 3
     },
     "por_orgao": {
       "OEI / Seduc-SP": 8,
       "IBGE": 7,
       "OEI / Cais das Artes": 5,
       "OEI / Governo Federal": 4,
-      "UNESCO": 3,
-      "OEI / SEBRAE": 3,
+      "UNESCO": 2,
       "OEI / Open Society Foundation": 2,
       "OEI / SEED-PR": 2,
       "OEI / SECULT-BA": 2,
       "OEI / ABDI": 2,
+      "OEI / SEBRAE": 2,
       "OEI / MinC": 2,
       "OEI / MUSEDUCA-RS": 2,
       "OEI / MDHC": 2,
@@ -55,9 +55,9 @@
     "valores": {
       "minimo": 18000.0,
       "maximo": 7150000.0,
-      "medio": 397578.51,
-      "mediano": 83900.0,
-      "quantidade_com_valor": 50
+      "medio": 405080.11,
+      "mediano": 86800.0,
+      "quantidade_com_valor": 49
     }
   },
   "perfis": [
@@ -90,7 +90,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 39
+      "match_count": 38
     },
     {
       "nome": "engenheiro_dados",
@@ -133,7 +133,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 33
+      "match_count": 31
     },
     {
       "nome": "economista",
@@ -160,7 +160,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 37
+      "match_count": 35
     },
     {
       "nome": "pesquisador_computacao",
@@ -199,7 +199,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 33
+      "match_count": 32
     }
   ],
   "editais": [
@@ -3861,210 +3861,6 @@
       "fonte": "pnud",
       "url_externo": "https://parceiros.undp.org.br/opportunities",
       "url_pdf": ""
-    },
-    {
-      "id": "unesco:bcb9ad69-010a-48cb-2c80-08df29fb4e16",
-      "torid": "unesco:bcb9ad69-010a-48cb-2c80-08df29fb4e16",
-      "titulo": "914BRZ3061 - EDITAL Nº 16/2026 - 01 VAGA - CONSULTOR INDIVIDUAL",
-      "descricao": "Graduação de nível superior completa em Administração, Economia, Políticas Públicas, Gestão Pública, Ciência da Informação, Ciência de Dados, Ciências Sociais, Estatística reconhecida pelo MEC.  ",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "data_inicio": "2026-10-20",
-      "data_fim": "2026-10-30",
-      "local": "",
-      "orgao_parceiro": "UNESCO",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-10-20",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [
-          "administração",
-          "economia",
-          "políticas públicas",
-          "gestão pública",
-          "ciência da informação",
-          "ciência de dados",
-          "ciências sociais",
-          "estatística"
-        ],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": [
-                "administração",
-                "economia",
-                "políticas públicas",
-                "gestão pública",
-                "ciência da informação",
-                "ciência de dados",
-                "ciências sociais",
-                "estatística"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": [
-                "administração",
-                "economia",
-                "políticas públicas",
-                "gestão pública",
-                "ciência da informação",
-                "ciência de dados",
-                "ciências sociais",
-                "estatística"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.5,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "economia",
-                "políticas públicas",
-                "gestão pública",
-                "administração"
-              ],
-              "exigidas": [
-                "administração",
-                "economia",
-                "políticas públicas",
-                "gestão pública",
-                "ciência da informação",
-                "ciência de dados",
-                "ciências sociais",
-                "estatística"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação",
-                "estatística"
-              ],
-              "exigidas": [
-                "administração",
-                "economia",
-                "políticas públicas",
-                "gestão pública",
-                "ciência da informação",
-                "ciência de dados",
-                "ciências sociais",
-                "estatística"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/4f0ad4cf-3aa1-435a-4893-08df2aa96073"
     },
     {
       "id": "oei:concorrencia-no-13320-2026-oei-seed-pr-tecnica-e-preco",
@@ -8610,155 +8406,6 @@
       },
       "fonte": "oei",
       "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216/",
-      "url_pdf": ""
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MEMP/SEBRAE/2024 – TR13211",
-      "descricao": "Contratação de consultor individual especialista em bioeconomia para desenvolver subsídios técnicos e metodológicos que apoiem a incorporação qualificada da bioeconomia às ações do Empreender Clima, com foco na caracterização de empreendimentos e cadeias de valor, identificação de desafios e oportunidades e proposição de critérios, instrumentos e recomendações aplicáveis ao atendimento de micro e pequenos negócios.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Meio Ambiente / Clima / Geografia",
-        "Economia / Finanças Públicas"
-      ],
-      "data_inicio": "2026-08-31",
-      "data_fim": "2026-09-05",
-      "local": "Remoto",
-      "orgao_parceiro": "OEI / SEBRAE",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "R$ 30.000,00",
-      "valor_estimado_num": 30000.0,
-      "status": "En evaluación",
-      "data_criacao": "2026-08-31",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 30000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 30000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "economia"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 30000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 30000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "oei",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-memp-sebrae-2024-tr13211/",
       "url_pdf": ""
     },
     {
@@ -19283,7 +18930,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-10-20",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/4f0ad4cf-3aa1-435a-4893-08df2aa96073",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "análise de sistemas",
@@ -19585,7 +19232,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -57605,7 +57252,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -80839,7 +80486,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -83534,7 +83181,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "economista"
     },
     {
