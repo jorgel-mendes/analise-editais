@@ -10978,5 +10978,42 @@
     "descricao": "O presente termo destina-se à contratação de pessoa física para a realização do monitoramento técnico, físicofinanceiro e territorial da implantação da Etapa 1 do Piloto de Convergência: Fortalecimento da Agricultura Familiar por meio de Energia Renovável e Armazenamento, no âmbito do PTE-NE, compreendendo a estruturação do sistema de monitoramento, a análise técnica dos produtos da pessoa jurídica executora, a verificação in loco das atividades nos territórios, a gestão de riscos e a avaliação final da Etapa, com vistas a subsidiar o Consórcio Nordeste (custeadas pelo projeto) e a OEI na validação das entregas e na preparação da Etapa 2",
     "local": "Remoto com visitas de campo nos locais de implementação",
     "data_fim": "2026-11-04"
+  },
+  {
+    "torid": "unesco:5e6a42e5-299c-46ca-b73c-08df2f6c6b33",
+    "graduacao": [
+      "sistemas de informação",
+      "economia",
+      "administração",
+      "direito",
+      "ciências sociais",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "UNESCO 914BRZ3051 - EDITAL 23/2026",
+    "descricao": "Contratação de duas pessoas consultoras individuais para realizar estudos e instrumentos de indução para a articulação intersetorial e interfederativa do PBF nos níveis estadual e municipal",
+    "local": "",
+    "data_fim": "2026-11-08"
   }
 ]
