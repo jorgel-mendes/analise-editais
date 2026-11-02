@@ -11015,5 +11015,37 @@
     "descricao": "Contratação de duas pessoas consultoras individuais para realizar estudos e instrumentos de indução para a articulação intersetorial e interfederativa do PBF nos níveis estadual e municipal",
     "local": "",
     "data_fim": "2026-11-08"
+  },
+  {
+    "torid": "unesco:23568958-aa17-4ecf-d7dc-08df30419bc1",
+    "graduacao": [
+      "sistemas de informação",
+      "administração",
+      "direito",
+      "arquitetura",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "power bi",
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 61/2026 - 1 vaga - Consultor Individual ",
+    "descricao": "Contratação de consultoria especializada para apoiar o desenvolvimento de instrumentos de monitoramento, análise e gestão de informações estratégicas relacionadas às políticas, programas e ações condu",
+    "local": "",
+    "data_fim": "2026-11-08"
   }
 ]
