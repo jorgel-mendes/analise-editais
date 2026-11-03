@@ -11047,5 +11047,38 @@
     "descricao": "Contratação de consultoria especializada para apoiar o desenvolvimento de instrumentos de monitoramento, análise e gestão de informações estratégicas relacionadas às políticas, programas e ações condu",
     "local": "",
     "data_fim": "2026-11-08"
+  },
+  {
+    "torid": "unesco:896b11b8-0531-45d7-cf0b-08df35c1db12",
+    "graduacao": [
+      "administração",
+      "direito",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "stata",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "218,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3061 - EDITAL Nº 17/2026 - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "descricao": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
+    "local": "",
+    "data_fim": "2026-11-07"
   }
 ]
