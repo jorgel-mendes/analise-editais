@@ -11080,5 +11080,181 @@
     "descricao": "Graduação de nível superior completa em qualquer área do conhecimento, desde que o curso seja devidamente reconhecido pelo Ministério da Educação (MEC).",
     "local": "",
     "data_fim": "2026-11-07"
+  },
+  {
+    "torid": "unesco:ed1c1839-fc37-4462-cf0d-08df35c1db12",
+    "graduacao": [
+      "economia",
+      "administração",
+      "ciências sociais",
+      "ciência de dados",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "power bi",
+      "python",
+      "r",
+      "sql",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1163 - Publicação -  Edital 70/2026 - 01 Vaga consultor Individual",
+    "descricao": "Consultoria especializada em análise de dados aplicada a políticas públicas educacionais para monitorar os indicadores do Programa Bora pra Escola",
+    "local": "",
+    "data_fim": "2026-11-10"
+  },
+  {
+    "torid": "unesco:b292f001-960c-47d9-cf0c-08df35c1db12",
+    "graduacao": [
+      "administração",
+      "direito",
+      "ciências sociais",
+      "arquitetura",
+      "políticas públicas",
+      "comunicação",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 11,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [
+      "Inglês"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "570BRZ3012 - Edital 02/2026 - Consultor individual",
+    "descricao": "Profissional da área de Administração, Ciências Sociais Aplicadas, Relações Internacionais, Comunicação, Políticas Públicas",
+    "local": "",
+    "data_fim": "2026-11-09"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13400",
+    "graduacao": [
+      "tecnologia da informação",
+      "administração",
+      "direito",
+      "física",
+      "gestão pública"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [
+      "pmp"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "6.1formação acadêmica",
+      "graduação completa em nível superior, em qualquer área de formação, com diploma reconhecido",
+      "pós-graduação lato sensu (especialização ou mba) concluída em gestão de projetos, gestão pública,",
+      "administração, gestão do conhecimento, tecnologia da informação ou áreas afins.",
+      "6.2experiência profissional",
+      "mínimo de 8 (oito) anos de experiência profissional em gestão de projetos ou de processos.",
+      "mínimo de 5 (cinco) anos de experiência em gestão de contratos, convênios ou parcerias, incluindo",
+      "acompanhamento de entregas, pagamentos e prestação de contas, na administração pública, em",
+      "entidades do sistema s ou em projetos de organismos internacionais.",
+      "experiência em mapeamento e modelagem de processos e na elaboração de fluxos, checklists,"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ABDI – TR13400",
+    "descricao": "Contratar consultoria técnica especializada em gestão de projetos e processos, na modalidade individual por produto, para apoiar a ABDI na estruturação, na padronização e no acompanhamento do fluxo das demandas no âmbito do Instrumento de Cooperação com OEI. A contratação tem como finalidades: Mapear o fluxo atual das demandas ABDIOEI e a carteira de solicitações, identificando gargalos e riscos. Redesenhar o fluxo e definir a matriz de responsabilidades entre ABDI, OEI e unidades demandantes. Elaborar manual de procedimentos e modelos padronizados de documentos. Implantar e manter painel de gestão da carteira de consultorias, com status, prazos, produtos, pagamentos e indicadores. Apoiar a tramitação das demandas e a interlocução regular com a OEI. Avaliar a aderência ao fluxo e consolidar lições aprendidas e proposta de continuidade da gestão do Instrumento.",
+    "local": "Brasília - DF",
+    "data_fim": "2026-11-09"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13396",
+    "graduacao": [
+      "administração",
+      "direito",
+      "arquitetura",
+      "inteligência artificial",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 8,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "101.400,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "6.1formação acadêmica",
+      "graduação completa em comunicação social, administração, marketing, publicidade ou áreas afins,",
+      "com diploma reconhecido pelo mec.",
+      "pós-graduação lato sensu (especialização ou mba) concluída em comunicação, marketing,",
+      "marketing digital ou áreas afins.",
+      "6.2experiência profissional",
+      "mínimo de 8 (oito) anos de experiência profissional em comunicação, publicidade ou marketing.",
+      "mínimo de 5 (cinco) anos em cargos de direção, coordenação ou gestão de equipes",
+      "multidisciplinares de comunicação.",
+      "mínimo de 3 (três) anos de experiência em comunicação pública ou governamental, em órgão ou"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ABDI – TR13396",
+    "descricao": "Contratar consultoria técnica especializada, na modalidade individual por produto, para apoiar a ABDI na formulação e na implementação inicial de sua estratégia de comunicação institucional, fortalecendo seu posicionamento como executora e articuladora da Nova Indústria Brasil e ampliando a visibilidade de seus programas, projetos e resultados. A contratação tem como finalidades: Diagnosticar a comunicação da ABDI, abrangendo canais, públicos, marca, imprensa, presença digital, contratos e fluxos com agências. Elaborar o Plano Estratégico de Comunicação 20272028, com posicionamento, narrativa institucional, objetivos, metas e indicadores. Propor estratégia de comunicação digital da Agência. Planejar campanhas integradas e o calendário de eventos para os projetos prioritários do Plano de Ação da ABDI. Propor modelo de governança, fluxos de trabalho e instrumentos de acompanhamento das ações e dos contratos de comunicação. Capacitar a equipe interna e consolidar recomendações para a continuidade da execução.",
+    "local": "Consultor(a) em Planejamento Estratégico e Gestão da Comunicação Institucional Híbrido,com atividades presenciais na sede da ABDI,em BSB DF",
+    "data_fim": "2026-11-09"
   }
 ]
