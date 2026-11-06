@@ -11256,5 +11256,101 @@
     "descricao": "Contratar consultoria técnica especializada, na modalidade individual por produto, para apoiar a ABDI na formulação e na implementação inicial de sua estratégia de comunicação institucional, fortalecendo seu posicionamento como executora e articuladora da Nova Indústria Brasil e ampliando a visibilidade de seus programas, projetos e resultados. A contratação tem como finalidades: Diagnosticar a comunicação da ABDI, abrangendo canais, públicos, marca, imprensa, presença digital, contratos e fluxos com agências. Elaborar o Plano Estratégico de Comunicação 20272028, com posicionamento, narrativa institucional, objetivos, metas e indicadores. Propor estratégia de comunicação digital da Agência. Planejar campanhas integradas e o calendário de eventos para os projetos prioritários do Plano de Ação da ABDI. Propor modelo de governança, fluxos de trabalho e instrumentos de acompanhamento das ações e dos contratos de comunicação. Capacitar a equipe interna e consolidar recomendações para a continuidade da execução.",
     "local": "Consultor(a) em Planejamento Estratégico e Gestão da Comunicação Institucional Híbrido,com atividades presenciais na sede da ABDI,em BSB DF",
     "data_fim": "2026-11-09"
+  },
+  {
+    "torid": "unesco:4b338ea4-ac5f-4e67-6ac2-08df39b7cc38",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 63/2026 - Arq ou Eng - Iphan-MG - Diamantina",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-11-15"
+  },
+  {
+    "torid": "unesco:4fd2fdcb-eeb8-4988-6ac3-08df39b7cc38",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 64/2026 - Arq ou Eng - Iphan-MG - Mariana e Ouro Preto",
+    "descricao": "Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-11-15"
+  },
+  {
+    "torid": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 65/2026 - Arq ou Eng - Iphan-MG - Serro",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-11-15"
   }
 ]
