@@ -1,34 +1,34 @@
 {
-  "gerado_em": "2026-11-06T19:03:55.903883",
+  "gerado_em": "2026-11-07T17:28:03.867310",
   "resumo": {
-    "total_editais": 61,
-    "novos_hoje": 3,
-    "encerrados_hoje": 2,
+    "total_editais": 55,
+    "novos_hoje": 0,
+    "encerrados_hoje": 6,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 54,
+      "Consultoria Pessoa Física (PF)": 48,
       "Pessoa Jurídica (PJ)": 6,
       "Seleção de OSC": 1
     },
     "por_area": {
-      "Gestão / Administração Pública": 31,
-      "Tecnologia da Informação / Dados": 11,
+      "Gestão / Administração Pública": 30,
+      "Tecnologia da Informação / Dados": 10,
       "Cultura": 7,
       "Educação": 6,
-      "Estatística / Pesquisa / Metodologia": 6,
       "Políticas Públicas": 6,
-      "Comunicação": 6,
       "Meio Ambiente / Clima / Geografia": 6,
+      "Comunicação": 5,
+      "Estatística / Pesquisa / Metodologia": 4,
       "Agricultura Familiar": 4,
       "Direitos Humanos": 4
     },
     "por_orgao": {
       "OEI/BRA/24/004": 8,
-      "IBGE": 7,
       "UNESCO": 5,
       "Cais das Artes/ES": 5,
       "ABDI": 4,
+      "IBGE": 4,
       "OEI/BRA/24/003": 4,
-      "IPHAN": 3,
+      "IPHAN": 2,
       "Open Society Foundation": 2,
       "MDH": 2,
       "SECULT/SA": 2,
@@ -39,8 +39,6 @@
       "Consórcio Nordeste": 1,
       "PNUD": 1,
       "FUNAI": 1,
-      "Itamaraty": 1,
-      "MGI": 1,
       "SEED-PR": 1,
       "SECULT/ES": 1,
       "OEI/BRA/22/001": 1,
@@ -51,9 +49,9 @@
     "valores": {
       "minimo": 18000.0,
       "maximo": 7150000.0,
-      "medio": 400234.51,
-      "mediano": 91750.0,
-      "quantidade_com_valor": 50
+      "medio": 432180.68,
+      "mediano": 90000.0,
+      "quantidade_com_valor": 45
     }
   },
   "perfis": [
@@ -86,7 +84,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 40
+      "match_count": 36
     },
     {
       "nome": "pesquisador_computacao",
@@ -125,7 +123,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 23
+      "match_count": 20
     },
     {
       "nome": "economista",
@@ -152,7 +150,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 38
+      "match_count": 33
     },
     {
       "nome": "engenheiro_dados",
@@ -195,7 +193,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 30
+      "match_count": 27
     }
   ],
   "editais": [
@@ -526,170 +524,6 @@
       "fonte": "unesco",
       "url_externo": "https://roster.brasilia.unesco.org/",
       "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/2a767f83-1dbd-4fd6-da24-08df39989a49"
-    },
-    {
-      "id": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
-      "torid": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
-      "titulo": "914BRZ4027 - Edital 65/2026 - Arq ou Eng - Iphan-MG - Serro",
-      "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Patrimônio Cultural",
-        "Gestão Pública"
-      ],
-      "data_inicio": "2026-11-06",
-      "data_fim": "2026-11-15",
-      "local": "",
-      "orgao_parceiro": "IPHAN",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-11-06",
-      "perfil_classificado": "engenheiro_dados",
-      "requisitos": {
-        "graduacao": [
-          "arquitetura",
-          "engenharia"
-        ],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.05,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.05,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.05,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "engenharia"
-              ],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/81cfd574-6563-4c46-da28-08df39989a49"
     },
     {
       "id": "unesco:ed1c1839-fc37-4462-cf0d-08df35c1db12",
@@ -3023,524 +2857,6 @@
       "url_pdf": ""
     },
     {
-      "id": 1590,
-      "torid": 146443,
-      "titulo": "PROJETO BRA 23/023 - TR 147/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA O DESENVOLVIMENTO E SISTEMATIZAÇÃO DE METODOLOGIAS E TÉCNICAS DE PESQUISAS CENSITÁRIAS COM ABORDAGEM DE GÊNERO.",
-      "descricao": "Contratação de Consultoria especializada (pessoa física) para o desenvolvimento de metodologias e técnicas de pesquisas censitárias e outros tipos de pesquisas primárias, a partir da perspectiva de gênero, visando a disseminação dos dados estatísticos e geográficos do Censo 2022 e a  construção de futuras metodologias.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gênero"
-      ],
-      "data_inicio": "2026-10-28",
-      "data_fim": "2026-11-06",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": "R$ 81.000,00",
-      "valor_estimado_num": 81000.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-19",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [
-          "metodologia de pesquisa"
-        ],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "metodologia de pesquisa"
-              ],
-              "exigidas": [
-                "metodologia de pesquisa"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 81000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "metodologia de pesquisa"
-              ],
-              "exigidas": [
-                "metodologia de pesquisa"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 81000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.25,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "metodologia de pesquisa"
-              ],
-              "exigidas": [
-                "metodologia de pesquisa"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 81000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "metodologia de pesquisa"
-              ],
-              "exigidas": [
-                "metodologia de pesquisa"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 81000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
-      "id": 1593,
-      "torid": 146446,
-      "titulo": "PROJETO BRA 23/023 - TR 150/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA O DESENVOLVIMENTO DE ANÁLISES ESTATÍSTICAS E METODOLÓGICAS SOBRE A RODADA DOS CENSOS DA SEGUNDA DÉCADA DOS ANOS 2000.",
-      "descricao": "Contratação de Consultoria especializada (pessoa física) para desenvolvimento, aprimoramento e disseminação de análises estatísticas e de indicadores produzidos a partir de fontes oficiais de dados, com ênfase no Censo Demográfico 2022, na PNAD Contínua e demais fontes oficiais, incluindo a proposição de estratégias metodológicas destinadas a qualificar a produção e a divulgação de informações estatísticas.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "data_inicio": "2026-10-28",
-      "data_fim": "2026-11-06",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": "R$ 93.500,00",
-      "valor_estimado_num": 93500.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-19",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [
-          "análise estatística"
-        ],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "sql"
-              ],
-              "faltando": [
-                "análise estatística"
-              ],
-              "exigidas": [
-                "análise estatística"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 93500.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.45,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "r",
-                "stata"
-              ],
-              "faltando": [],
-              "exigidas": [
-                "análise estatística"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 93500.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "r",
-                "stata"
-              ],
-              "faltando": [],
-              "exigidas": [
-                "análise estatística"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 93500.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "r"
-              ],
-              "faltando": [],
-              "exigidas": [
-                "análise estatística"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 93500.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
-      "id": 1594,
-      "torid": 146447,
-      "titulo": "PROJETO BRA 23/023 - TR 151/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA O DESENVOLVIMENTO DE PESQUISA SOBRE TRANSFORMAÇÃO TECNOLÓGICA E IMPACTOS NO MERCADO DE TRABALHO E NO DESENVOLVIMENTO HUMANO.",
-      "descricao": "Contratação de consultoria especializada (pessoa física) para a elaboração de pesquisa analítica sobre os impactos da transformação tecnológica, incluindo inteligência artificial e tecnologias digitais, no mercado de trabalho, na produtividade e na demanda por habilidades no Brasil, contribuindo para o desenvolvimento de abordagens prospectivas alinhadas ao marco conceitual do Desenvolvimento Humano. A pesquisa deverá contemplar tendências em nível macro e desagregadas, considerando que os impactos variam entre setores, ocupações, estágios da carreira, características demográficas e estruturas dos mercados de trabalho locais.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Economia / Finanças Públicas"
-      ],
-      "data_inicio": "2026-10-28",
-      "data_fim": "2026-11-06",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": "R$ 126.500,00",
-      "valor_estimado_num": 126500.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-19",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [
-          "pesquisa analítica",
-          "inteligência artificial"
-        ],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.25,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python"
-              ],
-              "faltando": [
-                "pesquisa analítica",
-                "inteligência artificial"
-              ],
-              "exigidas": [
-                "pesquisa analítica",
-                "inteligência artificial"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 126500.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.45,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python"
-              ],
-              "faltando": [
-                "pesquisa analítica",
-                "inteligência artificial"
-              ],
-              "exigidas": [
-                "pesquisa analítica",
-                "inteligência artificial"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 126500.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python"
-              ],
-              "faltando": [
-                "pesquisa analítica",
-                "inteligência artificial"
-              ],
-              "exigidas": [
-                "pesquisa analítica",
-                "inteligência artificial"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 126500.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python"
-              ],
-              "faltando": [
-                "pesquisa analítica",
-                "inteligência artificial"
-              ],
-              "exigidas": [
-                "pesquisa analítica",
-                "inteligência artificial"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 126500.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr-13384",
       "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-cais-das-artes-es-tr-13384",
       "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO CAIS DAS ARTES/ES – TR 13384",
@@ -4855,344 +4171,6 @@
               "edital": 60000.0,
               "minimo_perfil": 50000,
               "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
-      "id": 1596,
-      "torid": 146450,
-      "titulo": "Contratação de consultor(a) para a elaboração de plano metodológico de ativação da promoção comercial do Brasil e atração de investimentos por ocasião da Copa do Mundo de Futebol FIFA 2027 (feminina)",
-      "descricao": "Consultor(a) com experiência comprovada em projetos de ativação institucional, promoção comercial, atração de investimentos, imagem-país ou relacionamento empresarial realizados em contexto de eventos de grande porte; \r\n",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Comunicação",
-        "Economia / Finanças Públicas"
-      ],
-      "data_inicio": "2026-10-22",
-      "data_fim": "2026-11-06",
-      "local": "Brasília - DF",
-      "orgao_parceiro": "Itamaraty",
-      "email_submissao": "dpg@itamaraty.gov.br",
-      "valor_estimado": "R$ 182.595,00",
-      "valor_estimado_num": 182595.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-21",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [
-          "promoção comercial",
-          "atração de investimentos"
-        ],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": 182595.0,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "promoção comercial",
-                "atração de investimentos"
-              ],
-              "exigidas": [
-                "promoção comercial",
-                "atração de investimentos"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.05,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "promoção comercial",
-                "atração de investimentos"
-              ],
-              "exigidas": [
-                "promoção comercial",
-                "atração de investimentos"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.25,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "promoção comercial",
-                "atração de investimentos"
-              ],
-              "exigidas": [
-                "promoção comercial",
-                "atração de investimentos"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.05,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "promoção comercial",
-                "atração de investimentos"
-              ],
-              "exigidas": [
-                "promoção comercial",
-                "atração de investimentos"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
-      "id": 1577,
-      "torid": 146426,
-      "titulo": "Edital nº 31/2026 - Contratação de Consultoria Individual para realizar estudo sobre alternativas organizacionais para assistência técnica a Estados e Municípios ",
-      "descricao": "Edital nº 31/2026 - Contratação de Consultoria Individual para realizar estudo sobre alternativas organizacionais para assistência técnica a Estados e Municípios ",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-10-20",
-      "data_fim": "2026-11-06",
-      "local": "Remoto",
-      "orgao_parceiro": "MGI",
-      "email_submissao": "prodoc.mgi@gestao.gov.br",
-      "valor_estimado": "R$ 80.000,00",
-      "valor_estimado_num": 80000.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-09",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [
-          "estudo organizacional"
-        ],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": 80000.0,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "estudo organizacional"
-              ],
-              "exigidas": [
-                "estudo organizacional"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "estudo organizacional"
-              ],
-              "exigidas": [
-                "estudo organizacional"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "estudo organizacional"
-              ],
-              "exigidas": [
-                "estudo organizacional"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "estudo organizacional"
-              ],
-              "exigidas": [
-                "estudo organizacional"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
             }
           }
         }
@@ -12624,7 +11602,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-11-06",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/81cfd574-6563-4c46-da28-08df39989a49",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "engenharia",
@@ -12869,7 +11847,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -18168,7 +17146,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -18462,7 +17440,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -18776,7 +17754,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -22246,7 +21224,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "Não classificado"
     },
     {
@@ -23881,7 +22859,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -88157,7 +87135,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "economista"
     },
     {
