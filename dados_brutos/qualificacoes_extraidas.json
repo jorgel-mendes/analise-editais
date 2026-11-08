@@ -11352,5 +11352,85 @@
     "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
     "local": "",
     "data_fim": "2026-11-15"
+  },
+  {
+    "torid": "unesco:7c6c777d-8895-444a-0f56-08df342c4c53",
+    "graduacao": [
+      "administração",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "sociologia",
+      "antropologia",
+      "história",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "UNESCO 914BRZ3051 - EDITAL 24/2026",
+    "descricao": "Elaborar caderno de orient técnicas dirigidas à gestão mun para realização de diag socioterritoriais em mun situados em áreas rurais, em sit de fronteira e com forte presença de povos e com tradic",
+    "local": "",
+    "data_fim": "2026-11-15"
+  },
+  {
+    "torid": "unesco:65527f71-27c3-45f8-0f57-08df342c4c53",
+    "graduacao": [
+      "administração",
+      "geografia",
+      "direito",
+      "ciências sociais",
+      "sociologia",
+      "antropologia",
+      "história",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "UNESCO 914BRZ3051 - EDITAL 25/2026",
+    "descricao": "Consultor para realizar análise de dados  e formulação de proposta de conteúdo e material instrucional referente ao uso de ferramentas qualitativas de vigilância socioassistencial.",
+    "local": "",
+    "data_fim": "2026-11-15"
   }
 ]
