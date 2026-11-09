@@ -1,29 +1,29 @@
 {
-  "gerado_em": "2026-11-08T17:47:28.675230",
+  "gerado_em": "2026-11-09T21:57:58.881933",
   "resumo": {
-    "total_editais": 56,
-    "novos_hoje": 2,
-    "encerrados_hoje": 1,
+    "total_editais": 53,
+    "novos_hoje": 0,
+    "encerrados_hoje": 3,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 49,
+      "Consultoria Pessoa Física (PF)": 46,
       "Concorrência (Pessoa Jurídica)": 3,
       "Licitação (Pessoa Jurídica)": 2,
       "Seleção de OSC (Pessoa Jurídica)": 1,
       "Procedimento Simplificado (Pessoa Jurídica)": 1
     },
     "por_area": {
-      "Gestão / Administração Pública": 49,
+      "Gestão / Administração Pública": 46,
       "Tecnologia da Informação / Dados": 12,
-      "Estatística / Pesquisa / Metodologia": 10,
+      "Estatística / Pesquisa / Metodologia": 9,
       "Meio Ambiente / Clima / Geografia": 7
     },
     "por_orgao": {
       "OEI/SEDUC-SP": 8,
       "OEI/Cais das Artes": 5,
       "OEI": 5,
-      "UNESCO": 4,
       "ABDI": 4,
       "IBGE": 4,
+      "UNESCO": 3,
       "IPHAN/UNESCO": 2,
       "OEI/Open Society Foundation": 2,
       "MDHC": 2,
@@ -34,8 +34,6 @@
       "OEI/MUSEDUCA-RS": 2,
       "OEI/MDHC": 2,
       "MEC/UNESCO": 1,
-      "MDS/UNESCO": 1,
-      "Consórcio Nordeste / PNUD": 1,
       "PNUD": 1,
       "OEI/FUNAI": 1,
       "OEI/SECULT-ES": 1,
@@ -45,9 +43,9 @@
     "valores": {
       "minimo": 18000.0,
       "maximo": 7150000.0,
-      "medio": 432180.68,
-      "mediano": 90000.0,
-      "quantidade_com_valor": 45
+      "medio": 434912.06,
+      "mediano": 88400.0,
+      "quantidade_com_valor": 44
     }
   },
   "perfis": [
@@ -80,7 +78,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 33
+      "match_count": 30
     },
     {
       "nome": "pesquisador_computacao",
@@ -119,7 +117,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 31
+      "match_count": 28
     },
     {
       "nome": "economista",
@@ -146,7 +144,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 36
+      "match_count": 33
     },
     {
       "nome": "engenheiro_dados",
@@ -189,7 +187,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 26
+      "match_count": 25
     }
   ],
   "editais": [
@@ -1451,458 +1449,6 @@
       },
       "fonte": "oei",
       "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13396/",
-      "url_pdf": ""
-    },
-    {
-      "id": "unesco:23568958-aa17-4ecf-d7dc-08df30419bc1",
-      "torid": "unesco:23568958-aa17-4ecf-d7dc-08df30419bc1",
-      "titulo": "914BRZ1155 - EDITAL Nº 61/2026 - 1 vaga - Consultor Individual ",
-      "descricao": "Contratação de consultoria especializada para apoiar o desenvolvimento de instrumentos de monitoramento, análise e gestão de informações estratégicas relacionadas às políticas, programas e ações condu",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-11-02",
-      "data_fim": "2026-11-08",
-      "local": "",
-      "orgao_parceiro": "UNESCO",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-11-02",
-      "perfil_classificado": "analista_powerbi",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.55,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "power bi",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.45,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql",
-                "power bi"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "power bi",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/7f31fd57-d511-4cfd-8b39-08df30fd52e7"
-    },
-    {
-      "id": "unesco:5e6a42e5-299c-46ca-b73c-08df2f6c6b33",
-      "torid": "unesco:5e6a42e5-299c-46ca-b73c-08df2f6c6b33",
-      "titulo": "UNESCO 914BRZ3051 - EDITAL 23/2026",
-      "descricao": "Contratação de duas pessoas consultoras individuais para realizar estudos e instrumentos de indução para a articulação intersetorial e interfederativa do PBF nos níveis estadual e municipal",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-11-01",
-      "data_fim": "2026-11-08",
-      "local": "",
-      "orgao_parceiro": "MDS/UNESCO",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-11-01",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/d1c8df7b-e382-466f-8b40-08df30fd52e7"
-    },
-    {
-      "id": 1597,
-      "torid": 146457,
-      "titulo": "BRA/23/006 - CONSULTORIA TÉCNICA PARA ELABORAÇÃO DE PLANEJAMENTO ESTRATÉGICO PARA O BIÊNIO 2027–2028",
-      "descricao": "CONTRATAÇÃO DE CONSULTORIA TÉCNICA PARA ELABORAÇÃO DE PLANEJAMENTO ESTRATÉGICO PARA O BIÊNIO 2027–2028",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-10-30",
-      "data_fim": "2026-11-08",
-      "local": "HOME OFFICE",
-      "orgao_parceiro": "Consórcio Nordeste / PNUD",
-      "email_submissao": "curriculos@consorcionordeste.gov.br",
-      "valor_estimado": "R$ 312.000,00",
-      "valor_estimado_num": 312000.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-27",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": 312000.0,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
       "url_pdf": ""
     },
     {
@@ -12203,7 +11749,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-11-02",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/7f31fd57-d511-4cfd-8b39-08df30fd52e7",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "sistemas de informação",
@@ -12464,7 +12010,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -12487,7 +12033,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-11-01",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/d1c8df7b-e382-466f-8b40-08df30fd52e7",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "sistemas de informação",
@@ -12760,7 +12306,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -13055,7 +12601,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -85979,7 +85525,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "economista"
     },
     {
