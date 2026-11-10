@@ -1,20 +1,20 @@
 {
-  "gerado_em": "2026-11-09T21:57:58.881933",
+  "gerado_em": "2026-11-10T19:21:44.575712",
   "resumo": {
-    "total_editais": 53,
+    "total_editais": 49,
     "novos_hoje": 0,
-    "encerrados_hoje": 3,
+    "encerrados_hoje": 4,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 46,
+      "Consultoria Pessoa Física (PF)": 42,
       "Concorrência (Pessoa Jurídica)": 3,
       "Licitação (Pessoa Jurídica)": 2,
       "Seleção de OSC (Pessoa Jurídica)": 1,
       "Procedimento Simplificado (Pessoa Jurídica)": 1
     },
     "por_area": {
-      "Gestão / Administração Pública": 46,
+      "Gestão / Administração Pública": 42,
       "Tecnologia da Informação / Dados": 12,
-      "Estatística / Pesquisa / Metodologia": 9,
+      "Estatística / Pesquisa / Metodologia": 8,
       "Meio Ambiente / Clima / Geografia": 7
     },
     "por_orgao": {
@@ -23,14 +23,12 @@
       "OEI": 5,
       "ABDI": 4,
       "IBGE": 4,
-      "UNESCO": 3,
+      "UNESCO": 2,
       "IPHAN/UNESCO": 2,
       "OEI/Open Society Foundation": 2,
-      "MDHC": 2,
       "OEI/SEED-PR": 2,
       "OEI/SECULT-BA": 2,
       "OEI/SEBRAE": 2,
-      "OEI/MinC": 2,
       "OEI/MUSEDUCA-RS": 2,
       "OEI/MDHC": 2,
       "MEC/UNESCO": 1,
@@ -38,14 +36,15 @@
       "OEI/FUNAI": 1,
       "OEI/SECULT-ES": 1,
       "OEI/FPOS": 1,
-      "OEI/Brasil em Rede": 1
+      "OEI/Brasil em Rede": 1,
+      "OEI/MinC": 1
     },
     "valores": {
       "minimo": 18000.0,
       "maximo": 7150000.0,
-      "medio": 434912.06,
-      "mediano": 88400.0,
-      "quantidade_com_valor": 44
+      "medio": 463576.35,
+      "mediano": 93500.0,
+      "quantidade_com_valor": 41
     }
   },
   "perfis": [
@@ -78,7 +77,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 30
+      "match_count": 28
     },
     {
       "nome": "pesquisador_computacao",
@@ -117,7 +116,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 28
+      "match_count": 27
     },
     {
       "nome": "economista",
@@ -144,7 +143,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 33
+      "match_count": 29
     },
     {
       "nome": "engenheiro_dados",
@@ -187,7 +186,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 25
+      "match_count": 24
     }
   ],
   "editais": [
@@ -970,184 +969,6 @@
       "fonte": "unesco",
       "url_externo": "https://roster.brasilia.unesco.org/",
       "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/c9e792f6-9542-46bd-da30-08df39989a49"
-    },
-    {
-      "id": "unesco:b292f001-960c-47d9-cf0c-08df35c1db12",
-      "torid": "unesco:b292f001-960c-47d9-cf0c-08df35c1db12",
-      "titulo": "570BRZ3012 - Edital 02/2026 - Consultor individual",
-      "descricao": "Profissional da área de Administração, Ciências Sociais Aplicadas, Relações Internacionais, Comunicação, Políticas Públicas",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-11-05",
-      "data_fim": "2026-11-09",
-      "local": "",
-      "orgao_parceiro": "UNESCO",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-11-05",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [
-          "administração",
-          "ciências sociais aplicadas",
-          "relações internacionais",
-          "comunicação",
-          "políticas públicas"
-        ],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "ciências sociais aplicadas",
-                "relações internacionais",
-                "comunicação",
-                "políticas públicas"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "ciências sociais aplicadas",
-                "relações internacionais",
-                "comunicação",
-                "políticas públicas"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "administração"
-              ],
-              "exigidas": [
-                "administração",
-                "ciências sociais aplicadas",
-                "relações internacionais",
-                "comunicação",
-                "políticas públicas"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.05,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "administração",
-                "ciências sociais aplicadas",
-                "relações internacionais",
-                "comunicação",
-                "políticas públicas"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/280d67fc-e2e9-4c1e-c3d6-08df35afa1f7"
     },
     {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13400",
@@ -3287,299 +3108,6 @@
       },
       "fonte": "oei",
       "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13375/",
-      "url_pdf": ""
-    },
-    {
-      "id": 1586,
-      "torid": 146439,
-      "titulo": "Edital nº 08/2026 - Pesquisa e Sistematização Metodológica da Atuação da Ouvidoria Nacional de Direitos Humanos – 2023-2026",
-      "descricao": "Contratação de consultoria de pessoa física, na modalidade produto, para realização de pesquisa técnica destinada ao levantamento, análise e sistematização de dados, documentos, registros, fluxos, práticas e experiências desenvolvidas pela Ouvidoria Nacional de Direitos Humanos (ONDH) no período de 2023 a 2026, com vistas à consolidação de sua metodologia de atuação, à preservação e transferência do conhecimento institucional e ao aprimoramento contínuo dos mecanismos de ouvidoria em direitos humanos, mediante elaboração de documento técnico final com os resultados da pesquisa.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-10-22",
-      "data_fim": "2026-11-09",
-      "local": "Território Nacional",
-      "orgao_parceiro": "MDHC",
-      "email_submissao": "ouvidoria@mdh.gov.br",
-      "valor_estimado": "R$ 19.500,00",
-      "valor_estimado_num": 19500.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-15",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 19500.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 19500.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.25,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 19500.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 19500.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
-      "id": 1587,
-      "torid": 146440,
-      "titulo": "Edital nº 09/2026 – Guia orientador para profissionais dos Centros POP",
-      "descricao": "Contratação de consultoria pessoa física, na modalidade produto, para elaboração de material técnico para orientação de profissionais que atendem nos equipamentos do Cidadania Pop Rua.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-10-22",
-      "data_fim": "2026-11-09",
-      "local": "Brasília/DF",
-      "orgao_parceiro": "MDHC",
-      "email_submissao": "rcn_cidadania@mdh.gov.br",
-      "valor_estimado": "R$ 60.000,00",
-      "valor_estimado_num": 60000.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-16",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": 60000.0,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 60000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 60000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 60000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.05,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 60000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
       "url_pdf": ""
     },
     {
@@ -7535,152 +7063,6 @@
       "url_pdf": ""
     },
     {
-      "id": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
-      "torid": "oei:ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO MINC-CV-2026 – TR13230",
-      "descricao": "Contratar profissional especializado para prestar apoio técnico na organização de informações, elaboração de instrumentos de acompanhamento e produção de subsídios técnicos relacionados às ações desenvolvidas, com foco no aprimoramento de mecanismos de monitoramento, sistematização de dados e suporte à gestão administrativa das iniciativas apoiadas.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-09-10",
-      "data_fim": "2026-09-15",
-      "local": "Brasília - DF",
-      "orgao_parceiro": "OEI/MinC",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "R$ 50.000,00",
-      "valor_estimado_num": 50000.0,
-      "status": "En evaluación",
-      "data_criacao": "2026-09-10",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 50000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 50000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.25,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 50000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.05,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 50000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "oei",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/ontratacao-de-consultor-na-modalidade-produto-projeto-minc-cv-2026/",
-      "url_pdf": ""
-    },
-    {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
       "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
       "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR 13238",
@@ -10551,7 +9933,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-11-05",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/280d67fc-e2e9-4c1e-c3d6-08df35afa1f7",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "administração",
@@ -10817,7 +10199,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -19104,7 +18486,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -19367,7 +18749,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -54595,7 +53977,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "analista_powerbi"
     },
     {
