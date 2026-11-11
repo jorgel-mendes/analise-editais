@@ -11432,5 +11432,105 @@
     "descricao": "Consultor para realizar análise de dados  e formulação de proposta de conteúdo e material instrucional referente ao uso de ferramentas qualitativas de vigilância socioassistencial.",
     "local": "",
     "data_fim": "2026-11-15"
+  },
+  {
+    "torid": "unesco:7ab5fc1c-c3c4-46e1-1822-08df3e61959c",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "história",
+      "arquitetura",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": 7,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "570RLA4000 - Edital 07/2026 - Consultor Individual",
+    "descricao": "Consultoria individual especializada em arquitetura ",
+    "local": "",
+    "data_fim": "2026-11-17"
+  },
+  {
+    "torid": "unesco:d4784a3a-ac19-43bd-0638-08df3c4ba711",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "arquitetura",
+      "urbanismo",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 3,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ4027 - Edital 66/2026 - Arq ou Eng - Iphan-SE",
+    "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
+    "local": "",
+    "data_fim": "2026-11-20"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13409",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "física",
+      "gestão pública",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação"
+    ],
+    "mestrado": true,
+    "doutorado": false,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": "101.400,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ABDI – TR13409",
+    "descricao": "Contratar consultoria técnica especializada em gestão de projetos, na modalidade individual por produto, para apoiar a implementação do Projeto Destrava Brasil nas frentes Anvisa, ANM e INPI, por meio de suporte ao planejamento, à gestão, ao acompanhamento e ao monitoramento das ações e iniciativas. A contratação tem como finalidades: Estruturar o modelo de gestão e acompanhamento do projeto, com cronograma consolidado e instrumentos de controle de entregas, riscos, indicadores, pendências e planos de ação. Organizar a rotina de acompanhamento e reporte à gerência responsável. Consolidar periodicamente a execução das frentes, com análise de desvios, riscos e pendências e recomendações para a gestão. Manter atualizados os instrumentos de acompanhamento ao longo da vigência. Consolidar os resultados de gestão do período e as recomendações para a continuidade do projeto.",
+    "local": "Brasil Híbrido, com atividades presenciais em Brasília",
+    "data_fim": "2026-11-17"
   }
 ]
