@@ -1,43 +1,42 @@
 {
-  "gerado_em": "2026-11-11T19:24:01.420119",
+  "gerado_em": "2026-11-12T19:42:39.036420",
   "resumo": {
-    "total_editais": 50,
-    "novos_hoje": 4,
-    "encerrados_hoje": 1,
+    "total_editais": 52,
+    "novos_hoje": 2,
+    "encerrados_hoje": 0,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 45,
+      "Consultoria Pessoa Física (PF)": 47,
       "Licitação (Pessoa Jurídica)": 2,
       "Seleção de OSC (Pessoa Jurídica)": 1,
       "Concorrência (Pessoa Jurídica)": 1,
       "Procedimento Simplificado (Pessoa Jurídica)": 1
     },
     "por_area": {
-      "Gestão / Administração Pública": 13,
-      "Tecnologia da Informação / Dados": 9,
-      "Gestão Pública": 8,
-      "Gestão de Processos": 6,
-      "Patrimônio Cultural": 5,
+      "Gestão / Administração Pública": 21,
+      "Tecnologia da Informação / Dados": 12,
+      "Cultura": 6,
+      "Cultura / Patrimônio": 5,
+      "Arquitetura / Engenharia": 5,
+      "Comunicação": 5,
+      "Educação": 5,
+      "Meio Ambiente / Clima / Geografia": 4,
       "Agricultura Familiar": 4,
-      "Educação": 4,
-      "Gestão Cultural": 4,
-      "Inteligência Artificial": 4,
-      "Comunicação": 4
+      "Estatística / Pesquisa / Metodologia": 3
     },
     "por_orgao": {
+      "UNESCO": 8,
       "ABDI": 5,
       "Cais das Artes/ES": 5,
       "OEI/BRA/24/004": 5,
-      "IPHAN": 4,
       "IBGE": 4,
       "OEI/BRA/24/003": 4,
-      "UNESCO": 3,
       "Seduc-SP": 3,
+      "PNUD": 2,
       "Open Society Foundation": 2,
       "SEED-PR": 2,
-      "SECULT/SA": 2,
+      "SECULT-SA": 2,
       "SEBRAE": 2,
       "MUSEDUCA RS": 2,
-      "PNUD": 1,
       "FUNAI": 1,
       "SECULT-ES": 1,
       "FPOS": 1,
@@ -83,7 +82,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 29
+      "match_count": 32
     },
     {
       "nome": "pesquisador_computacao",
@@ -122,7 +121,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 28
+      "match_count": 29
     },
     {
       "nome": "economista",
@@ -149,7 +148,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 25
+      "match_count": 30
     },
     {
       "nome": "engenheiro_dados",
@@ -192,10 +191,321 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 25
+      "match_count": 29
     }
   ],
   "editais": [
+    {
+      "id": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
+      "torid": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
+      "titulo": "914BRZ4027 - Edital 67/2026 - Gestão - Centro Vivo",
+      "descricao": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Cultura / Patrimônio"
+      ],
+      "data_inicio": "2026-11-12",
+      "data_fim": "2026-11-16",
+      "local": "",
+      "orgao_parceiro": "UNESCO",
+      "email_submissao": "",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "Ongoing",
+      "data_criacao": "2026-11-12",
+      "perfil_classificado": "gestao_cultural",
+      "requisitos": {
+        "graduacao": [],
+        "ferramentas": [],
+        "idiomas": [],
+        "anos_experiencia": null,
+        "mestrado": false,
+        "doutorado": false,
+        "pos_graduacao": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "analista_powerbi": {
+          "score": 0.05,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": null,
+              "minimo_perfil": 35000,
+              "acima_minimo": false
+            }
+          }
+        },
+        "pesquisador_computacao": {
+          "score": 0.05,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": null,
+              "minimo_perfil": 40000,
+              "acima_minimo": false
+            }
+          }
+        },
+        "economista": {
+          "score": 0.1,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": null,
+              "minimo_perfil": 30000,
+              "acima_minimo": false
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.05,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": null,
+              "minimo_perfil": 50000,
+              "acima_minimo": false
+            }
+          }
+        }
+      },
+      "fonte": "unesco",
+      "url_externo": "https://roster.brasilia.unesco.org/",
+      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/4e71438a-bd8a-4cda-b5b2-08df3f21ab3b"
+    },
+    {
+      "id": 1605,
+      "torid": 146487,
+      "titulo": "IC - Individual Consultant (IC) Assignment to Conduct a Digital Readiness Assessment (DRA) of Brazil’s Transport Sector",
+      "descricao": null,
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Transporte / Infraestrutura",
+        "Tecnologia da Informação / Dados"
+      ],
+      "data_inicio": "2026-11-11",
+      "data_fim": "2026-11-25",
+      "local": "Remoto",
+      "orgao_parceiro": "PNUD",
+      "email_submissao": "ic.procurement.br@undp.org",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "Aprovada",
+      "data_criacao": "2026-11-11",
+      "perfil_classificado": "digital_readiness",
+      "requisitos": {
+        "graduacao": [],
+        "ferramentas": [],
+        "idiomas": [
+          "inglês"
+        ],
+        "anos_experiencia": null,
+        "mestrado": false,
+        "doutorado": false,
+        "pos_graduacao": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "analista_powerbi": {
+          "score": 0.35,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": null,
+              "minimo_perfil": 35000,
+              "acima_minimo": false
+            }
+          }
+        },
+        "pesquisador_computacao": {
+          "score": 0.4,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": null,
+              "minimo_perfil": 40000,
+              "acima_minimo": false
+            }
+          }
+        },
+        "economista": {
+          "score": 0.2,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": null,
+              "minimo_perfil": 30000,
+              "acima_minimo": false
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.35,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [],
+              "faltando": [],
+              "exigidas": []
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês"
+              ]
+            },
+            "valor": {
+              "edital": null,
+              "minimo_perfil": 50000,
+              "acima_minimo": false
+            }
+          }
+        }
+      },
+      "fonte": "pnud",
+      "url_externo": "https://parceiros.undp.org.br/opportunities",
+      "url_pdf": ""
+    },
     {
       "id": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
       "torid": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
@@ -203,13 +513,13 @@
       "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Patrimônio Cultural",
-        "Gestão Pública"
+        "Cultura / Patrimônio",
+        "Arquitetura / Engenharia"
       ],
       "data_inicio": "2026-11-11",
       "data_fim": "2026-11-20",
       "local": "",
-      "orgao_parceiro": "IPHAN",
+      "orgao_parceiro": "UNESCO",
       "email_submissao": "",
       "valor_estimado": null,
       "valor_estimado_num": null,
@@ -324,7 +634,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
@@ -336,9 +646,7 @@
               "exigidas": []
             },
             "graduacao": {
-              "match": [
-                "engenharia"
-              ],
+              "match": [],
               "exigidas": [
                 "arquitetura",
                 "engenharia"
@@ -367,8 +675,7 @@
       "descricao": "Consultoria individual especializada em arquitetura ",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Arquitetura",
-        "Patrimônio Cultural"
+        "Arquitetura / Engenharia"
       ],
       "data_inicio": "2026-11-11",
       "data_fim": "2026-11-17",
@@ -397,7 +704,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.05,
+          "score": 0.0,
           "detalhes": {
             "areas": {
               "match": false,
@@ -426,7 +733,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.05,
+          "score": 0.0,
           "detalhes": {
             "areas": {
               "match": false,
@@ -455,7 +762,7 @@
           }
         },
         "economista": {
-          "score": 0.05,
+          "score": 0.0,
           "detalhes": {
             "areas": {
               "match": false,
@@ -484,7 +791,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.05,
+          "score": 0.0,
           "detalhes": {
             "areas": {
               "match": false,
@@ -524,13 +831,13 @@
       "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Patrimônio Cultural",
-        "Gestão Pública"
+        "Cultura / Patrimônio",
+        "Arquitetura / Engenharia"
       ],
       "data_inicio": "2026-11-11",
       "data_fim": "2026-11-20",
       "local": "",
-      "orgao_parceiro": "IPHAN",
+      "orgao_parceiro": "UNESCO",
       "email_submissao": "",
       "valor_estimado": null,
       "valor_estimado_num": null,
@@ -645,7 +952,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
@@ -657,9 +964,7 @@
               "exigidas": []
             },
             "graduacao": {
-              "match": [
-                "engenharia"
-              ],
+              "match": [],
               "exigidas": [
                 "arquitetura",
                 "engenharia"
@@ -688,8 +993,7 @@
       "descricao": "Contratar consultoria técnica especializada em gestão de projetos, na modalidade individual por produto, para apoiar a implementação do Projeto Destrava Brasil nas frentes Anvisa, ANM e INPI, por meio de suporte ao planejamento, à gestão, ao acompanhamento e ao monitoramento das ações e iniciativas. A contratação tem como finalidades: Estruturar o modelo de gestão e acompanhamento do projeto, com cronograma consolidado e instrumentos de controle de entregas, riscos, indicadores, pendências e planos de ação. Organizar a rotina de acompanhamento e reporte à gerência responsável. Consolidar periodicamente a execução das frentes, com análise de desvios, riscos e pendências e recomendações para a gestão. Manter atualizados os instrumentos de acompanhamento ao longo da vigência. Consolidar os resultados de gestão do período e as recomendações para a continuidade do projeto.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Gestão de Projetos"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-11-11",
       "data_fim": "2026-11-17",
@@ -797,10 +1101,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -835,8 +1139,7 @@
       "descricao": "Elaborar caderno de orient técnicas dirigidas à gestão mun para realização de diag socioterritoriais em mun situados em áreas rurais, em sit de fronteira e com forte presença de povos e com tradic",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Políticas Sociais",
-        "Território"
+        "Assistência Social / Políticas Sociais"
       ],
       "data_inicio": "2026-11-08",
       "data_fim": "2026-11-15",
@@ -917,10 +1220,10 @@
           }
         },
         "economista": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
@@ -982,8 +1285,8 @@
       "descricao": "Consultor para realizar análise de dados  e formulação de proposta de conteúdo e material instrucional referente ao uso de ferramentas qualitativas de vigilância socioassistencial.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Políticas Sociais"
+        "Assistência Social / Políticas Sociais",
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-11-08",
       "data_fim": "2026-11-15",
@@ -997,9 +1300,7 @@
       "perfil_classificado": "analista_dados_sociais",
       "requisitos": {
         "graduacao": [],
-        "ferramentas": [
-          "análise de dados"
-        ],
+        "ferramentas": [],
         "idiomas": [],
         "anos_experiencia": null,
         "mestrado": false,
@@ -1021,9 +1322,7 @@
             "ferramentas": {
               "match": [],
               "faltando": [],
-              "exigidas": [
-                "análise de dados"
-              ]
+              "exigidas": []
             },
             "graduacao": {
               "match": [],
@@ -1041,7 +1340,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.35,
+          "score": 0.4,
           "detalhes": {
             "areas": {
               "match": true,
@@ -1050,9 +1349,7 @@
             "ferramentas": {
               "match": [],
               "faltando": [],
-              "exigidas": [
-                "análise de dados"
-              ]
+              "exigidas": []
             },
             "graduacao": {
               "match": [],
@@ -1079,9 +1376,7 @@
             "ferramentas": {
               "match": [],
               "faltando": [],
-              "exigidas": [
-                "análise de dados"
-              ]
+              "exigidas": []
             },
             "graduacao": {
               "match": [],
@@ -1099,7 +1394,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.3,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": true,
@@ -1108,9 +1403,7 @@
             "ferramentas": {
               "match": [],
               "faltando": [],
-              "exigidas": [
-                "análise de dados"
-              ]
+              "exigidas": []
             },
             "graduacao": {
               "match": [],
@@ -1139,13 +1432,13 @@
       "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Patrimônio Cultural",
-        "Gestão Pública"
+        "Cultura / Patrimônio",
+        "Arquitetura / Engenharia"
       ],
       "data_inicio": "2026-11-06",
       "data_fim": "2026-11-15",
       "local": "",
-      "orgao_parceiro": "IPHAN",
+      "orgao_parceiro": "UNESCO",
       "email_submissao": "",
       "valor_estimado": null,
       "valor_estimado_num": null,
@@ -1260,7 +1553,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
@@ -1272,9 +1565,7 @@
               "exigidas": []
             },
             "graduacao": {
-              "match": [
-                "engenharia"
-              ],
+              "match": [],
               "exigidas": [
                 "arquitetura",
                 "engenharia"
@@ -1303,13 +1594,13 @@
       "descricao": "Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Patrimônio Cultural",
-        "Gestão Pública"
+        "Cultura / Patrimônio",
+        "Arquitetura / Engenharia"
       ],
       "data_inicio": "2026-11-06",
       "data_fim": "2026-11-15",
       "local": "",
-      "orgao_parceiro": "IPHAN",
+      "orgao_parceiro": "UNESCO",
       "email_submissao": "",
       "valor_estimado": null,
       "valor_estimado_num": null,
@@ -1424,7 +1715,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
@@ -1436,9 +1727,7 @@
               "exigidas": []
             },
             "graduacao": {
-              "match": [
-                "engenharia"
-              ],
+              "match": [],
               "exigidas": [
                 "arquitetura",
                 "engenharia"
@@ -1467,8 +1756,7 @@
       "descricao": "Contratar consultoria técnica especializada em gestão de projetos e processos, na modalidade individual por produto, para apoiar a ABDI na estruturação, na padronização e no acompanhamento do fluxo das demandas no âmbito do Instrumento de Cooperação com OEI. A contratação tem como finalidades: Mapear o fluxo atual das demandas ABDIOEI e a carteira de solicitações, identificando gargalos e riscos. Redesenhar o fluxo e definir a matriz de responsabilidades entre ABDI, OEI e unidades demandantes. Elaborar manual de procedimentos e modelos padronizados de documentos. Implantar e manter painel de gestão da carteira de consultorias, com status, prazos, produtos, pagamentos e indicadores. Apoiar a tramitação das demandas e a interlocução regular com a OEI. Avaliar a aderência ao fluxo e consolidar lições aprendidas e proposta de continuidade da gestão do Instrumento.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Gestão de Processos"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-11-05",
       "data_fim": "2026-11-09",
@@ -1576,10 +1864,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -1614,7 +1902,7 @@
       "descricao": "Contratar consultoria técnica especializada, na modalidade individual por produto, para apoiar a ABDI na formulação e na implementação inicial de sua estratégia de comunicação institucional, fortalecendo seu posicionamento como executora e articuladora da Nova Indústria Brasil e ampliando a visibilidade de seus programas, projetos e resultados. A contratação tem como finalidades: Diagnosticar a comunicação da ABDI, abrangendo canais, públicos, marca, imprensa, presença digital, contratos e fluxos com agências. Elaborar o Plano Estratégico de Comunicação 20272028, com posicionamento, narrativa institucional, objetivos, metas e indicadores. Propor estratégia de comunicação digital da Agência. Planejar campanhas integradas e o calendário de eventos para os projetos prioritários do Plano de Ação da ABDI. Propor modelo de governança, fluxos de trabalho e instrumentos de acompanhamento das ações e dos contratos de comunicação. Capacitar a equipe interna e consolidar recomendações para a continuidade da execução.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Comunicação Institucional"
+        "Comunicação"
       ],
       "data_inicio": "2026-11-05",
       "data_fim": "2026-11-09",
@@ -1625,7 +1913,7 @@
       "valor_estimado_num": 101400.0,
       "status": "En evaluación",
       "data_criacao": "2026-11-05",
-      "perfil_classificado": "comunicador",
+      "perfil_classificado": "comunicacao",
       "requisitos": {
         "graduacao": [
           "comunicação"
@@ -1770,9 +2058,8 @@
       "descricao": "O presente termo destina-se à contratação de pessoa física para a realização do monitoramento técnico, físicofinanceiro e territorial da implantação da Etapa 1 do Piloto de Convergência: Fortalecimento da Agricultura Familiar por meio de Energia Renovável e Armazenamento, no âmbito do PTE-NE, compreendendo a estruturação do sistema de monitoramento, a análise técnica dos produtos da pessoa jurídica executora, a verificação in loco das atividades nos territórios, a gestão de riscos e a avaliação final da Etapa, com vistas a subsidiar o Consórcio Nordeste (custeadas pelo projeto) e a OEI na validação das entregas e na preparação da Etapa 2.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima",
-        "Agricultura Familiar",
-        "Energia"
+        "Meio Ambiente / Clima / Geografia",
+        "Agricultura Familiar"
       ],
       "data_inicio": "2026-10-29",
       "data_fim": "2026-11-04",
@@ -1783,7 +2070,7 @@
       "valor_estimado_num": 195000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-29",
-      "perfil_classificado": "analista_territorial",
+      "perfil_classificado": "monitoramento_territorial",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -1799,7 +2086,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -1826,7 +2113,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -1853,7 +2140,7 @@
           }
         },
         "economista": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -1880,7 +2167,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -1918,9 +2205,8 @@
       "descricao": "O presente termo destina-se à contratação de pessoa física para a realização do monitoramento técnico, físicofinanceiro e territorial da implantação da Etapa 1 do Piloto de Convergência: Fortalecimento da Agricultura Familiar por meio de Energia Renovável e Armazenamento, no âmbito do PTE-NE, compreendendo a estruturação do sistema de monitoramento, a análise técnica dos produtos da pessoa jurídica executora, a verificação in loco das atividades nos territórios, a gestão de riscos e a avaliação final da Etapa, com vistas a subsidiar o Consórcio Nordeste (custeadas pelo projeto) e a OEI na validação das entregas e na preparação da Etapa 2",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima",
-        "Agricultura Familiar",
-        "Energia"
+        "Meio Ambiente / Clima / Geografia",
+        "Agricultura Familiar"
       ],
       "data_inicio": "2026-10-29",
       "data_fim": "2026-11-04",
@@ -1931,7 +2217,7 @@
       "valor_estimado_num": 600000.0,
       "status": "En fase de apresentação",
       "data_criacao": "2026-10-29",
-      "perfil_classificado": "analista_territorial",
+      "perfil_classificado": "monitoramento_territorial",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -1947,7 +2233,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -1974,7 +2260,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2001,7 +2287,7 @@
           }
         },
         "economista": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2028,7 +2314,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2067,8 +2353,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Tecnologia da Informação / Dados",
-        "Sensoriamento Remoto",
-        "Machine Learning"
+        "Sensoriamento Remoto"
       ],
       "data_inicio": "2026-10-28",
       "data_fim": "2026-11-13",
@@ -2083,8 +2368,8 @@
       "requisitos": {
         "graduacao": [],
         "ferramentas": [
-          "machine learning",
-          "sensoriamento remoto"
+          "python",
+          "machine learning"
         ],
         "idiomas": [],
         "anos_experiencia": null,
@@ -2098,21 +2383,22 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python"
+              ],
               "faltando": [
-                "machine learning",
-                "sensoriamento remoto"
+                "machine learning"
               ],
               "exigidas": [
-                "machine learning",
-                "sensoriamento remoto"
+                "python",
+                "machine learning"
               ]
             },
             "graduacao": {
@@ -2131,7 +2417,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.4,
+          "score": 0.45,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2142,11 +2428,11 @@
                 "python"
               ],
               "faltando": [
-                "sensoriamento remoto"
+                "machine learning"
               ],
               "exigidas": [
-                "machine learning",
-                "sensoriamento remoto"
+                "python",
+                "machine learning"
               ]
             },
             "graduacao": {
@@ -2165,21 +2451,22 @@
           }
         },
         "economista": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python"
+              ],
               "faltando": [
-                "machine learning",
-                "sensoriamento remoto"
+                "machine learning"
               ],
               "exigidas": [
-                "machine learning",
-                "sensoriamento remoto"
+                "python",
+                "machine learning"
               ]
             },
             "graduacao": {
@@ -2198,7 +2485,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.35,
+          "score": 0.4,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2209,11 +2496,11 @@
                 "python"
               ],
               "faltando": [
-                "sensoriamento remoto"
+                "machine learning"
               ],
               "exigidas": [
-                "machine learning",
-                "sensoriamento remoto"
+                "python",
+                "machine learning"
               ]
             },
             "graduacao": {
@@ -2244,8 +2531,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Tecnologia da Informação / Dados",
-        "Educação",
-        "Regulação"
+        "Educação"
       ],
       "data_inicio": "2026-10-28",
       "data_fim": "2026-11-13",
@@ -2256,7 +2542,7 @@
       "valor_estimado_num": 123500.0,
       "status": "Aprovada",
       "data_criacao": "2026-10-19",
-      "perfil_classificado": "analista_regulatorio",
+      "perfil_classificado": "analista_regulatorio_dados",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -2272,7 +2558,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2299,7 +2585,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.25,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2326,7 +2612,7 @@
           }
         },
         "economista": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2353,7 +2639,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2392,7 +2678,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Estatística / Pesquisa / Metodologia",
-        "Dados Públicos"
+        "Tecnologia da Informação / Dados"
       ],
       "data_inicio": "2026-10-28",
       "data_fim": "2026-11-13",
@@ -2403,7 +2689,7 @@
       "valor_estimado_num": 86800.0,
       "status": "Aprovada",
       "data_criacao": "2026-10-19",
-      "perfil_classificado": "analista_dados",
+      "perfil_classificado": "analista_qualidade_dados",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -2419,7 +2705,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.45,
+          "score": 0.4,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2473,7 +2759,7 @@
           }
         },
         "economista": {
-          "score": 0.35,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2500,7 +2786,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.35,
+          "score": 0.4,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2539,8 +2825,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Tecnologia da Informação / Dados",
-        "Dados Espaciais",
-        "Machine Learning"
+        "Estatística / Pesquisa / Metodologia"
       ],
       "data_inicio": "2026-10-28",
       "data_fim": "2026-11-13",
@@ -2551,12 +2836,13 @@
       "valor_estimado_num": 126500.0,
       "status": "Aprovada",
       "data_criacao": "2026-10-19",
-      "perfil_classificado": "engenheiro_dados_geo",
+      "perfil_classificado": "engenheiro_dados_ml",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [
-          "dados espaciais",
-          "machine learning"
+          "python",
+          "machine learning",
+          "dados espaciais"
         ],
         "idiomas": [],
         "anos_experiencia": null,
@@ -2570,21 +2856,24 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python"
+              ],
               "faltando": [
-                "dados espaciais",
-                "machine learning"
+                "machine learning",
+                "dados espaciais"
               ],
               "exigidas": [
-                "dados espaciais",
-                "machine learning"
+                "python",
+                "machine learning",
+                "dados espaciais"
               ]
             },
             "graduacao": {
@@ -2603,7 +2892,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.4,
+          "score": 0.45,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2611,13 +2900,16 @@
             },
             "ferramentas": {
               "match": [
-                "python",
-                "qgis"
+                "python"
               ],
-              "faltando": [],
+              "faltando": [
+                "machine learning",
+                "dados espaciais"
+              ],
               "exigidas": [
-                "dados espaciais",
-                "machine learning"
+                "python",
+                "machine learning",
+                "dados espaciais"
               ]
             },
             "graduacao": {
@@ -2636,21 +2928,24 @@
           }
         },
         "economista": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python"
+              ],
               "faltando": [
-                "dados espaciais",
-                "machine learning"
+                "machine learning",
+                "dados espaciais"
               ],
               "exigidas": [
-                "dados espaciais",
-                "machine learning"
+                "python",
+                "machine learning",
+                "dados espaciais"
               ]
             },
             "graduacao": {
@@ -2677,15 +2972,16 @@
             },
             "ferramentas": {
               "match": [
-                "python",
-                "sql"
+                "python"
               ],
               "faltando": [
+                "machine learning",
                 "dados espaciais"
               ],
               "exigidas": [
-                "dados espaciais",
-                "machine learning"
+                "python",
+                "machine learning",
+                "dados espaciais"
               ]
             },
             "graduacao": {
@@ -2715,8 +3011,8 @@
       "descricao": "Contratação de Especialista em Infraestrutura e Operações, de nível gerencial, para planejar, coordenar e monitorar a infraestrutura e os serviços operacionais do Complexo Cultural Cais das Artes, com entregas técnicas mensais.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Infraestrutura",
-        "Gestão Cultural"
+        "Infraestrutura / Operações",
+        "Cultura"
       ],
       "data_inicio": "2026-10-28",
       "data_fim": "2026-11-01",
@@ -2743,7 +3039,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2797,7 +3093,7 @@
           }
         },
         "economista": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -2863,8 +3159,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Tecnologia da Informação / Dados",
-        "Inteligência Artificial",
-        "Gestão Pública"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-10-28",
       "data_fim": "2026-10-18",
@@ -2875,11 +3170,12 @@
       "valor_estimado_num": 70000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-28",
-      "perfil_classificado": "analista_ia_processos",
+      "perfil_classificado": "analista_requisitos_ia",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [
-          "inteligência artificial"
+          "ia",
+          "automação"
         ],
         "idiomas": [],
         "anos_experiencia": null,
@@ -2893,7 +3189,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.3,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2902,10 +3198,12 @@
             "ferramentas": {
               "match": [],
               "faltando": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ],
               "exigidas": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ]
             },
             "graduacao": {
@@ -2931,12 +3229,14 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [
-                "python"
+              "match": [],
+              "faltando": [
+                "ia",
+                "automação"
               ],
-              "faltando": [],
               "exigidas": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ]
             },
             "graduacao": {
@@ -2955,7 +3255,7 @@
           }
         },
         "economista": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -2964,10 +3264,12 @@
             "ferramentas": {
               "match": [],
               "faltando": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ],
               "exigidas": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ]
             },
             "graduacao": {
@@ -2993,12 +3295,14 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [
-                "python"
+              "match": [],
+              "faltando": [
+                "ia",
+                "automação"
               ],
-              "faltando": [],
               "exigidas": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ]
             },
             "graduacao": {
@@ -3029,7 +3333,7 @@
       "tipo": "Seleção de OSC (Pessoa Jurídica)",
       "areas_tematicas": [
         "Agricultura Familiar",
-        "Meio Ambiente"
+        "Meio Ambiente / Clima / Geografia"
       ],
       "data_inicio": "2026-10-27",
       "data_fim": "2026-11-16",
@@ -3040,7 +3344,7 @@
       "valor_estimado_num": 7150000.0,
       "status": "Aprovada",
       "data_criacao": "2026-10-27",
-      "perfil_classificado": "organizacao_sociedade_civil",
+      "perfil_classificado": "osc_agricultura_familiar",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -3176,7 +3480,7 @@
       "tipo": "Licitação (Pessoa Jurídica)",
       "areas_tematicas": [
         "Povos Indígenas",
-        "Formação"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-10-26",
       "data_fim": "2026-11-17",
@@ -3322,8 +3626,7 @@
       "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Gestão de Processos"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-10-23",
       "data_fim": "2026-11-06",
@@ -3334,7 +3637,7 @@
       "valor_estimado_num": 70000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-23",
-      "perfil_classificado": "gestor_processos",
+      "perfil_classificado": "analista_processos",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -3431,10 +3734,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -3469,8 +3772,7 @@
       "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP).",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Gestão de Processos"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-10-23",
       "data_fim": "2026-10-23",
@@ -3481,7 +3783,7 @@
       "valor_estimado_num": 70000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-23",
-      "perfil_classificado": "gestor_processos",
+      "perfil_classificado": "analista_processos",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -3578,10 +3880,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -3616,8 +3918,7 @@
       "descricao": "Contratação de pessoa jurídica especializada para o desenvolvimento e a implementação  de tri-lha formativa híbrida voltada aos diretores escolares, articuladores e equipes técnicas vinculadas ao Programa Parceiro da Escola da Secretaria de Estado da Educação do Paraná, com foco no fortalecimento de competências estratégicas, gerenciais e de liderança aplicadas ao contexto da gestão escolar contemporânea, visando apoiar a consolidação do modelo de governança do pro-grama, fortalecer a atuação institucional dos gestores escolares e potencializar os resultados educacionais das unidades participantes, conforme especificações técnicas constantes do Termo de Referência, Anexo “A”, do Edital.",
       "tipo": "Concorrência (Pessoa Jurídica)",
       "areas_tematicas": [
-        "Educação",
-        "Formação"
+        "Educação"
       ],
       "data_inicio": "2026-10-20",
       "data_fim": "2026-12-15",
@@ -3763,8 +4064,8 @@
       "descricao": "Contratação de pessoa assistente de projeto para apoio em demandas diárias relacionadas ao cumprimento das metas e objetivos pactuados na gestão do Cais das Artes.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão Cultural",
-        "Apoio Administrativo"
+        "Gestão / Administração Pública",
+        "Cultura"
       ],
       "data_inicio": "2026-10-20",
       "data_fim": "2026-10-25",
@@ -3791,7 +4092,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
@@ -3818,7 +4119,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -3845,10 +4146,10 @@
           }
         },
         "economista": {
-          "score": 0.1,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
@@ -3872,7 +4173,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -3910,19 +4211,19 @@
       "descricao": "Contratação de Consultoria Técnica em Planejamento e Gestão de Projetos e Parcerias nos equipamentos do Complexo Cultural de Salvador sob gestão da OEI. (01 vaga)",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão Cultural",
-        "Gestão de Projetos"
+        "Gestão / Administração Pública",
+        "Cultura"
       ],
       "data_inicio": "2026-10-16",
       "data_fim": "2026-10-20",
       "local": "Salvador/BA",
-      "orgao_parceiro": "SECULT/SA",
+      "orgao_parceiro": "SECULT-SA",
       "email_submissao": "selecao.bra@oei.int",
       "valor_estimado": "R$ 600.000,00",
       "valor_estimado_num": 600000.0,
       "status": "En fase de apresentação",
       "data_criacao": "2026-10-16",
-      "perfil_classificado": "gestor_projetos_culturais",
+      "perfil_classificado": "gestor_projetos_cultura",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -3938,10 +4239,10 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
@@ -3992,7 +4293,7 @@
           }
         },
         "economista": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -4057,13 +4358,13 @@
       "descricao": "Contratação de Consultoria Técnica em Gestão Operacional nos equipamentos do Complexo Cultural de Salvador sob gestão da OEI.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão Cultural",
-        "Gestão Operacional"
+        "Gestão / Administração Pública",
+        "Cultura"
       ],
       "data_inicio": "2026-10-16",
       "data_fim": "2026-10-20",
       "local": "Salvador - BA",
-      "orgao_parceiro": "SECULT/SA",
+      "orgao_parceiro": "SECULT-SA",
       "email_submissao": "selecao.bra@oei.int",
       "valor_estimado": "R$ 600.000,00",
       "valor_estimado_num": 600000.0,
@@ -4085,7 +4386,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
@@ -4112,7 +4413,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -4139,10 +4440,10 @@
           }
         },
         "economista": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
-              "match": false,
+              "match": true,
               "encontradas": []
             },
             "ferramentas": {
@@ -4166,7 +4467,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -4350,9 +4651,8 @@
       "descricao": "Contratar consultoria técnica especializada, na modalidade individual, para apoiar a ABDI na estruturação, condução e execução de iniciativas estratégicas da agenda BIM e Construção Industrializada, com foco no acompanhamento técnico da Pesquisa de Maturidade BIM em Habitação de Interesse Social, realizada em parceria com o Ministério das Cidades, e no suporte às frentes do Projeto Construção 4.0.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Construção",
-        "BIM",
-        "Pesquisa"
+        "Engenharia / Construção",
+        "Tecnologia da Informação / Dados"
       ],
       "data_inicio": "2026-10-08",
       "data_fim": "2026-10-16",
@@ -4384,7 +4684,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -4486,7 +4786,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": false,
@@ -4502,9 +4802,7 @@
               ]
             },
             "graduacao": {
-              "match": [
-                "engenharia"
-              ],
+              "match": [],
               "exigidas": [
                 "engenharia",
                 "arquitetura"
@@ -4533,8 +4831,7 @@
       "descricao": "Contratar consultoria especializada em gestão de processos para diagnosticar, mapear e propor redesenho de processos, elaborar manual de diretrizes para Acordos de Cooperação Técnica Internacional, propor soluções inovadoras e capacitar a equipe técnica, visando à modernização e ao fortalecimento da gestão.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Gestão de Processos"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-10-07",
       "data_fim": "2026-10-12",
@@ -4545,7 +4842,7 @@
       "valor_estimado_num": 140000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-07",
-      "perfil_classificado": "gestor_processos",
+      "perfil_classificado": "analista_processos",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -4642,10 +4939,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -4680,8 +4977,7 @@
       "descricao": "Contratação de pessoa jurídica especializada para a execução da Etapa 1 do piloto de convergência entre energias renováveis e agricultura familiar do PTE-NE, compreendendo o diagnóstico territorial, a estruturação técnica, financeira e institucional dos pilotos, a execução de adequações elétricas preliminares de infraestrutura, a realização de oficinas de capacitação, a formação de agentes solares comunitários e a execução da Parte 1 do respectivos Plano de Compartilhamento e Divulgação, conforme especificações constantes do termo de Referência, Anexo “A”, deste Edital.",
       "tipo": "Licitação (Pessoa Jurídica)",
       "areas_tematicas": [
-        "Meio Ambiente / Clima",
-        "Energia",
+        "Meio Ambiente / Clima / Geografia",
         "Agricultura Familiar"
       ],
       "data_inicio": "2026-10-07",
@@ -4693,7 +4989,7 @@
       "valor_estimado_num": 2778901.38,
       "status": "En fase de apresentação",
       "data_criacao": "2026-10-07",
-      "perfil_classificado": "empresa_energia",
+      "perfil_classificado": "empresa_energia_agricultura",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -4829,7 +5125,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Gestão / Administração Pública",
-        "Articulação Institucional"
+        "Relações Federativas"
       ],
       "data_inicio": "2026-10-07",
       "data_fim": "2026-10-12",
@@ -4910,7 +5206,7 @@
           }
         },
         "economista": {
-          "score": 0.25,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": true,
@@ -4937,7 +5233,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.15,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -4975,8 +5271,7 @@
       "descricao": "Contratação de consultor individual especialista em Comunicação para planejar, produzir e acompanhar as ações de comunicação da Plataforma Empreender Clima e das soluções de inteligência artificial do projeto, destinadas a microempreendedores individuais, microempresas e empresas de pequeno porte, com o objetivo de: traduzir em linguagem acessível os benefícios econômicos e ambientais de soluções sustentáveis e as possibilidades de financiamento orientar o uso da Plataforma e de suas ferramentas elaborar o plano de comunicação, as peças e os criativos do projeto e planejar e acompanhar campanhas de mobilização e adesão de empreendedores nas fases de piloto e lançamento ao público, com monitoramento de resultados por métricas",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Comunicação",
-        "Inteligência Artificial"
+        "Comunicação"
       ],
       "data_inicio": "2026-10-06",
       "data_fim": "2026-10-10",
@@ -4987,7 +5282,7 @@
       "valor_estimado_num": 62500.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-06",
-      "perfil_classificado": "comunicador",
+      "perfil_classificado": "comunicacao",
       "requisitos": {
         "graduacao": [
           "comunicação"
@@ -5133,7 +5428,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Gestão / Administração Pública",
-        "Gestão de Processos"
+        "Educação"
       ],
       "data_inicio": "2026-10-02",
       "data_fim": "2026-10-16",
@@ -5144,7 +5439,7 @@
       "valor_estimado_num": 90000.0,
       "status": "Suspendida",
       "data_criacao": "2026-10-02",
-      "perfil_classificado": "gestor_processos",
+      "perfil_classificado": "analista_processos",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [
@@ -5255,10 +5550,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -5298,8 +5593,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Tecnologia da Informação / Dados",
-        "Inteligência Artificial",
-        "Gestão Pública"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-10-02",
       "data_fim": "2026-10-16",
@@ -5310,11 +5604,12 @@
       "valor_estimado_num": 70000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-02",
-      "perfil_classificado": "analista_ia_processos",
+      "perfil_classificado": "analista_requisitos_ia",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [
-          "inteligência artificial"
+          "ia",
+          "automação"
         ],
         "idiomas": [],
         "anos_experiencia": null,
@@ -5328,7 +5623,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.3,
+          "score": 0.35,
           "detalhes": {
             "areas": {
               "match": true,
@@ -5337,10 +5632,12 @@
             "ferramentas": {
               "match": [],
               "faltando": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ],
               "exigidas": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ]
             },
             "graduacao": {
@@ -5366,12 +5663,14 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [
-                "python"
+              "match": [],
+              "faltando": [
+                "ia",
+                "automação"
               ],
-              "faltando": [],
               "exigidas": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ]
             },
             "graduacao": {
@@ -5390,7 +5689,7 @@
           }
         },
         "economista": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -5399,10 +5698,12 @@
             "ferramentas": {
               "match": [],
               "faltando": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ],
               "exigidas": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ]
             },
             "graduacao": {
@@ -5428,12 +5729,14 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [
-                "python"
+              "match": [],
+              "faltando": [
+                "ia",
+                "automação"
               ],
-              "faltando": [],
               "exigidas": [
-                "inteligência artificial"
+                "ia",
+                "automação"
               ]
             },
             "graduacao": {
@@ -5463,8 +5766,8 @@
       "descricao": "Contratar consultor(a) técnico(a) especializado(a) para elaboração de análises jurídicas e institucionais aplicadas à estruturação, qualificação e aprimoramento de instrumentos de cooperação e arranjos de governança em políticas culturais, com foco na integração entre entes federativos e na consolidação de modelos jurídicos e estratégicos que assegurem segurança normativa, eficiência na execução e coerência com as diretrizes do Programa de Cooperação OEI-MinC.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Políticas Culturais",
-        "Jurídico"
+        "Cultura",
+        "Jurídico / Governança"
       ],
       "data_inicio": "2026-10-01",
       "data_fim": "2026-10-05",
@@ -5475,7 +5778,7 @@
       "valor_estimado_num": 60000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-01",
-      "perfil_classificado": "jurista",
+      "perfil_classificado": "juridico",
       "requisitos": {
         "graduacao": [
           "direito"
@@ -5551,7 +5854,7 @@
           }
         },
         "economista": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -5621,8 +5924,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Gestão / Administração Pública",
-        "Políticas Públicas",
-        "Território"
+        "Desenvolvimento Territorial"
       ],
       "data_inicio": "2026-10-01",
       "data_fim": "2026-10-05",
@@ -5676,7 +5978,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.25,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": true,
@@ -5768,8 +6070,7 @@
       "descricao": "Contratação de 02 (dois) profissionais para exercer a função de Analista de Comunicação e Redes Sociais do Cais das Artes, responsáveis pela produção, gestão e monitoramento de conteúdos para redes sociais e demais canais digitais do equipamento, apoiando a Gerência de Comunicação na execução das estratégias de comunicação digital, divulgação institucional e relacionamento com os diversos públicos do Cais das Artes.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Comunicação",
-        "Redes Sociais"
+        "Comunicação"
       ],
       "data_inicio": "2026-10-01",
       "data_fim": "2026-10-05",
@@ -5780,7 +6081,7 @@
       "valor_estimado_num": 36000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-01",
-      "perfil_classificado": "comunicador",
+      "perfil_classificado": "comunicacao",
       "requisitos": {
         "graduacao": [
           "comunicação"
@@ -5925,8 +6226,7 @@
       "descricao": "Contratação de profissional para exercer a função de Assessor de Imprensa / Analista de Comunicação (Imprensa) do Cais das Artes, responsável pela produção de conteúdo jornalístico, relacionamento com veículos de comunicação e jornalistas, assessoria de imprensa, divulgação institucional das ações do equipamento cultural e apoio à Gerência de Comunicação na execução das estratégias de comunicação e posicionamento institucional do Cais das Artes.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Comunicação",
-        "Imprensa"
+        "Comunicação"
       ],
       "data_inicio": "2026-10-01",
       "data_fim": "2026-10-05",
@@ -5937,11 +6237,11 @@
       "valor_estimado_num": 21000.0,
       "status": "En evaluación",
       "data_criacao": "2026-10-01",
-      "perfil_classificado": "jornalista",
+      "perfil_classificado": "comunicacao",
       "requisitos": {
         "graduacao": [
-          "jornalismo",
-          "comunicação"
+          "comunicação",
+          "jornalismo"
         ],
         "ferramentas": [],
         "idiomas": [],
@@ -5970,8 +6270,8 @@
             "graduacao": {
               "match": [],
               "exigidas": [
-                "jornalismo",
-                "comunicação"
+                "comunicação",
+                "jornalismo"
               ]
             },
             "idiomas": {
@@ -6000,8 +6300,8 @@
             "graduacao": {
               "match": [],
               "exigidas": [
-                "jornalismo",
-                "comunicação"
+                "comunicação",
+                "jornalismo"
               ]
             },
             "idiomas": {
@@ -6030,8 +6330,8 @@
             "graduacao": {
               "match": [],
               "exigidas": [
-                "jornalismo",
-                "comunicação"
+                "comunicação",
+                "jornalismo"
               ]
             },
             "idiomas": {
@@ -6060,8 +6360,8 @@
             "graduacao": {
               "match": [],
               "exigidas": [
-                "jornalismo",
-                "comunicação"
+                "comunicação",
+                "jornalismo"
               ]
             },
             "idiomas": {
@@ -6087,8 +6387,8 @@
       "descricao": "Contratação de 2 (dois) profissionais Designers Gráficos para atuar no desenvolvimento de peças e materiais de comunicação visual, identidade gráfica e conteúdos digitais do Cais das Artes, incluindo criação, adaptação e diagramação de materiais para divulgação das ações, projetos, eventos e programação do equipamento, em apoio à Gerência de Comunicação e em consonância com as diretrizes institucionais da OEI e da SECULT/ES.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Design Gráfico",
-        "Comunicação"
+        "Comunicação",
+        "Design"
       ],
       "data_inicio": "2026-10-01",
       "data_fim": "2026-10-05",
@@ -6245,7 +6545,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Tecnologia da Informação / Dados",
-        "Cloud"
+        "Cloud / Infraestrutura"
       ],
       "data_inicio": "2026-09-29",
       "data_fim": "2026-10-16",
@@ -6261,8 +6561,8 @@
         "graduacao": [],
         "ferramentas": [
           "cloud",
-          "azure",
           "aws",
+          "azure",
           "gcp"
         ],
         "idiomas": [],
@@ -6277,7 +6577,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.15,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": true,
@@ -6287,14 +6587,14 @@
               "match": [],
               "faltando": [
                 "cloud",
-                "azure",
                 "aws",
+                "azure",
                 "gcp"
               ],
               "exigidas": [
                 "cloud",
-                "azure",
                 "aws",
+                "azure",
                 "gcp"
               ]
             },
@@ -6321,18 +6621,17 @@
               "encontradas": []
             },
             "ferramentas": {
-              "match": [
-                "docker"
-              ],
+              "match": [],
               "faltando": [
-                "azure",
+                "cloud",
                 "aws",
+                "azure",
                 "gcp"
               ],
               "exigidas": [
                 "cloud",
-                "azure",
                 "aws",
+                "azure",
                 "gcp"
               ]
             },
@@ -6352,7 +6651,7 @@
           }
         },
         "economista": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -6362,14 +6661,14 @@
               "match": [],
               "faltando": [
                 "cloud",
-                "azure",
                 "aws",
+                "azure",
                 "gcp"
               ],
               "exigidas": [
                 "cloud",
-                "azure",
                 "aws",
+                "azure",
                 "gcp"
               ]
             },
@@ -6399,14 +6698,15 @@
               "match": [
                 "azure",
                 "aws",
-                "gcp",
-                "docker"
+                "gcp"
               ],
-              "faltando": [],
+              "faltando": [
+                "cloud"
+              ],
               "exigidas": [
                 "cloud",
-                "azure",
                 "aws",
+                "azure",
                 "gcp"
               ]
             },
@@ -6546,10 +6846,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -6584,8 +6884,8 @@
       "descricao": "A consultoria tem por objetivo reunir e categorizar os materiais a serem disponibilizados no repositório digital da Escult, bem como apresentar protótipo do sítio e do funcionamento do repositório digital da Escul",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Repositório Digital"
+        "Cultura",
+        "Tecnologia da Informação / Dados"
       ],
       "data_inicio": "2026-09-29",
       "data_fim": "2026-10-05",
@@ -6596,7 +6896,7 @@
       "valor_estimado_num": 55000.0,
       "status": "En evaluación",
       "data_criacao": "2026-09-29",
-      "perfil_classificado": "analista_sistemas",
+      "perfil_classificado": "repositorio_digital",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -6639,7 +6939,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.3,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -6693,7 +6993,7 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.25,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": true,
@@ -6743,7 +7043,7 @@
       "valor_estimado_num": 30000.0,
       "status": "En evaluación",
       "data_criacao": "2026-09-28",
-      "perfil_classificado": "analista_territorial",
+      "perfil_classificado": "articulador_territorial",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -6890,7 +7190,7 @@
       "valor_estimado_num": 21000.0,
       "status": "En fase de apresentação",
       "data_criacao": "2026-09-28",
-      "perfil_classificado": "analista_territorial",
+      "perfil_classificado": "articulador_territorial",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -7025,8 +7325,7 @@
       "descricao": "Contratação de 1 (um) consultor especializado em Normas Jurídicas, Conformidade Normativa e Desenvolvimento de Instrumentos Jurídico-Administrativos para assessorar a execução e o acompanhamento do ACTI e do Plano de Trabalho. Além de realizar análises de conformidade normativa e elaborar estudos, notas técnicas e instrumentos jurídico-administrativos, o consultor prestará apoio à OEI e à SEDUC-RS nas demandas relacionadas às contratações, à execução contratual, à formalização de parcerias e às demais atividades do Acordo. Isso inclui a identificação e mitigação de riscos normativos, administrativos, contratuais e de integridade, bem como o fortalecimento da governança, da transparência e da segurança jurídica dos procedimentos, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Jurídico",
-        "Gestão Pública"
+        "Jurídico / Governança"
       ],
       "data_inicio": "2026-09-25",
       "data_fim": "2026-09-29",
@@ -7037,7 +7336,7 @@
       "valor_estimado_num": null,
       "status": "En evaluación",
       "data_criacao": "2026-09-25",
-      "perfil_classificado": "jurista",
+      "perfil_classificado": "juridico",
       "requisitos": {
         "graduacao": [
           "direito"
@@ -7113,7 +7412,7 @@
           }
         },
         "economista": {
-          "score": 0.05,
+          "score": 0.1,
           "detalhes": {
             "areas": {
               "match": false,
@@ -7194,7 +7493,7 @@
       "valor_estimado_num": 30000.0,
       "status": "En evaluación",
       "data_criacao": "2026-09-17",
-      "perfil_classificado": "analista_territorial",
+      "perfil_classificado": "articulador_territorial",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -7330,7 +7629,6 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Tecnologia da Informação / Dados",
-        "Machine Learning",
         "Inteligência Artificial"
       ],
       "data_inicio": "2026-09-16",
@@ -7347,7 +7645,7 @@
         "graduacao": [],
         "ferramentas": [
           "machine learning",
-          "ciência de dados"
+          "python"
         ],
         "idiomas": [],
         "anos_experiencia": null,
@@ -7361,20 +7659,22 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.2,
+          "score": 0.3,
           "detalhes": {
             "areas": {
               "match": true,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python"
+              ],
               "faltando": [
                 "machine learning"
               ],
               "exigidas": [
                 "machine learning",
-                "ciência de dados"
+                "python"
               ]
             },
             "graduacao": {
@@ -7403,10 +7703,12 @@
               "match": [
                 "python"
               ],
-              "faltando": [],
+              "faltando": [
+                "machine learning"
+              ],
               "exigidas": [
                 "machine learning",
-                "ciência de dados"
+                "python"
               ]
             },
             "graduacao": {
@@ -7425,20 +7727,22 @@
           }
         },
         "economista": {
-          "score": 0.1,
+          "score": 0.15,
           "detalhes": {
             "areas": {
               "match": false,
               "encontradas": []
             },
             "ferramentas": {
-              "match": [],
+              "match": [
+                "python"
+              ],
               "faltando": [
                 "machine learning"
               ],
               "exigidas": [
                 "machine learning",
-                "ciência de dados"
+                "python"
               ]
             },
             "graduacao": {
@@ -7467,10 +7771,12 @@
               "match": [
                 "python"
               ],
-              "faltando": [],
+              "faltando": [
+                "machine learning"
+              ],
               "exigidas": [
                 "machine learning",
-                "ciência de dados"
+                "python"
               ]
             },
             "graduacao": {
@@ -7501,7 +7807,7 @@
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
         "Educação",
-        "Gestão de Conhecimento"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-09-13",
       "data_fim": "2026-09-30",
@@ -7512,7 +7818,7 @@
       "valor_estimado_num": null,
       "status": "En fase de apresentação",
       "data_criacao": "2026-09-13",
-      "perfil_classificado": "analista_conhecimento",
+      "perfil_classificado": "analista_conteudo",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -7555,7 +7861,7 @@
           }
         },
         "pesquisador_computacao": {
-          "score": 0.25,
+          "score": 0.2,
           "detalhes": {
             "areas": {
               "match": true,
@@ -7647,8 +7953,7 @@
       "descricao": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão de Projetos",
-        "Gestão Pública"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-09-10",
       "data_fim": "2026-09-16",
@@ -7675,7 +7980,7 @@
       },
       "matches": {
         "analista_powerbi": {
-          "score": 0.2,
+          "score": 0.25,
           "detalhes": {
             "areas": {
               "match": true,
@@ -7756,10 +8061,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -7794,8 +8099,7 @@
       "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
       "tipo": "Consultoria Pessoa Física (PF)",
       "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Gestão de Processos"
+        "Gestão / Administração Pública"
       ],
       "data_inicio": "2026-09-01",
       "data_fim": "2026-09-23",
@@ -7806,7 +8110,7 @@
       "valor_estimado_num": 70000.0,
       "status": "En evaluación",
       "data_criacao": "2026-09-01",
-      "perfil_classificado": "gestor_processos",
+      "perfil_classificado": "analista_processos",
       "requisitos": {
         "graduacao": [],
         "ferramentas": [],
@@ -7903,10 +8207,10 @@
           }
         },
         "engenheiro_dados": {
-          "score": 0.2,
+          "score": 0.15,
           "detalhes": {
             "areas": {
-              "match": true,
+              "match": false,
               "encontradas": []
             },
             "ferramentas": {
@@ -7939,9 +8243,9 @@
     "analista_powerbi": {
       "perfil": "analista_powerbi",
       "descricao": "Analista de BI (Engenharia da Computação + Técnico em Computação), 5+ anos em Power BI/SQL, 3 anos com dados públicos, econômicos e sociais",
-      "total_editais_analisados": 50,
-      "total_editais_compativeis": 29,
-      "valor_total_oportunidades": 2116940.0,
+      "total_editais_analisados": 52,
+      "total_editais_compativeis": 32,
+      "valor_total_oportunidades": 2162940.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek v4 Pro)",
       "curto_prazo": {
         "gaps": [
@@ -7963,12 +8267,12 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "inteligência artificial",
+            "nome": "ia",
             "editais": 2,
             "impacto_financeiro": 140000.0,
             "cursos": [
               {
-                "curso": "Aprenda inteligência artificial (busque na Udemy/Coursera)",
+                "curso": "Aprenda ia (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -7979,12 +8283,12 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "sensoriamento remoto",
-            "editais": 1,
-            "impacto_financeiro": 93500.0,
+            "nome": "automação",
+            "editais": 2,
+            "impacto_financeiro": 140000.0,
             "cursos": [
               {
-                "curso": "Aprenda sensoriamento remoto (busque na Udemy/Coursera)",
+                "curso": "Aprenda automação (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -8043,30 +8347,6 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "azure",
-            "editais": 1,
-            "impacto_financeiro": 96840.0,
-            "cursos": [
-              {
-                "curso": "Microsoft AZ-900 — Azure Fundamentals",
-                "custo": "R$ 210 (prova)",
-                "carga": "15h",
-                "nivel": "Certificação",
-                "prazo": "curto",
-                "link": "https://learn.microsoft.com/pt-br/certifications/azure-fundamentals/"
-              },
-              {
-                "curso": "Microsoft DP-203 — Azure Data Engineer",
-                "custo": "R$ 500 (prova)",
-                "carga": "80h",
-                "nivel": "Certificação",
-                "prazo": "medio",
-                "link": "https://learn.microsoft.com/pt-br/certifications/azure-data-engineer/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
             "nome": "aws",
             "editais": 1,
             "impacto_financeiro": 96840.0,
@@ -8091,6 +8371,30 @@
           },
           {
             "tipo": "ferramenta",
+            "nome": "azure",
+            "editais": 1,
+            "impacto_financeiro": 96840.0,
+            "cursos": [
+              {
+                "curso": "Microsoft AZ-900 — Azure Fundamentals",
+                "custo": "R$ 210 (prova)",
+                "carga": "15h",
+                "nivel": "Certificação",
+                "prazo": "curto",
+                "link": "https://learn.microsoft.com/pt-br/certifications/azure-fundamentals/"
+              },
+              {
+                "curso": "Microsoft DP-203 — Azure Data Engineer",
+                "custo": "R$ 500 (prova)",
+                "carga": "80h",
+                "nivel": "Certificação",
+                "prazo": "medio",
+                "link": "https://learn.microsoft.com/pt-br/certifications/azure-data-engineer/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "gcp",
             "editais": 1,
             "impacto_financeiro": 96840.0,
@@ -8104,100 +8408,92 @@
                 "link": "https://www.udemy.com/"
               }
             ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "ciência de dados",
-            "editais": 1,
-            "impacto_financeiro": 110000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda ciência de dados (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
           }
         ],
         "plano": [
           {
-            "gap": "machine learning",
-            "curso": "Machine Learning (Andrew Ng) - Coursera",
-            "custo": "Auditoria gratuita; certificado pago",
-            "carga": "60 horas",
-            "nivel": "Intermediário",
-            "link": "https://www.coursera.org/learn/machine-learning"
+            "gap": "azure",
+            "curso": "Fundamentos do Microsoft Azure (AZ-900)",
+            "custo": "Gratuito",
+            "carga": "10h",
+            "nivel": "Iniciante",
+            "link": "https://learn.microsoft.com/pt-br/training/paths/azure-fundamentals/"
           },
           {
-            "gap": "inteligência artificial",
-            "curso": "Aprenda inteligência artificial (busque na Udemy/Coursera)",
+            "gap": "aws",
+            "curso": "AWS Cloud Practitioner Essentials",
+            "custo": "Gratuito para auditar; certificado pago",
+            "carga": "6h",
+            "nivel": "Iniciante",
+            "link": "https://www.edx.org/search?q=aws%20cloud%20practitioner%20essentials"
+          },
+          {
+            "gap": "ia",
+            "curso": "Aprenda ia (busque na Udemy/Coursera)",
             "custo": "Variável",
             "carga": "Variável",
             "nivel": "Curso",
             "link": "https://www.udemy.com/",
             "editais_com_gap": 2
-          },
-          {
-            "gap": "dados espaciais",
-            "curso": "Catálogo de Treinamento em GIS e ArcGIS - ESRI",
-            "custo": "Gratuito (alguns cursos podem exigir licença)",
-            "carga": "Variável",
-            "nivel": "Iniciante a Intermediário",
-            "link": "https://www.esri.com/training/catalog/search/"
           }
         ]
       },
       "medio_prazo": {
-        "gaps": [
-          {
-            "tipo": "ferramenta",
-            "nome": "análise de dados",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Google Data Analytics Certificate — Coursera",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "180h",
-                "nivel": "Certificado profissional",
-                "prazo": "medio",
-                "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
-              },
-              {
-                "curso": "IBM Data Science Professional — Coursera",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "200h",
-                "nivel": "Certificado profissional",
-                "prazo": "medio",
-                "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
-              }
-            ]
-          }
-        ],
+        "gaps": [],
         "plano": [
           {
-            "gap": "análise de dados",
-            "curso": "Google Data Analytics Professional Certificate - Coursera",
-            "custo": "Assinatura Coursera (pago)",
-            "carga": "6 meses (5h/semana)",
-            "nivel": "Iniciante a Intermediário",
-            "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            "gap": "machine learning",
+            "curso": "Machine Learning Specialization (DeepLearning.AI no Coursera)",
+            "custo": "Assinatura Coursera (cerca de US$ 49/mês)",
+            "carga": "3 meses (10h/semana)",
+            "nivel": "Intermediário",
+            "link": "https://www.coursera.org/"
+          },
+          {
+            "gap": "automação",
+            "curso": "Automação de processos com Power Automate RPA",
+            "custo": "Gratuito",
+            "carga": "6h",
+            "nivel": "Intermediário",
+            "link": "https://learn.microsoft.com/pt-br/training/browse/?terms=Power%20Automate%20RPA"
           }
         ]
       },
       "longo_prazo": {
         "gaps": [],
-        "plano": []
+        "plano": [
+          {
+            "gap": "machine learning/ia",
+            "curso": "Mestrado em Ciência da Computação com ênfase em IA (UFBA)",
+            "custo": "Gratuito (instituição pública)",
+            "carga": "2 anos",
+            "nivel": "Pós-graduação stricto sensu",
+            "link": "https://www.ufba.br/"
+          },
+          {
+            "gap": "dados espaciais",
+            "curso": "Mestrado em Sensoriamento Remoto (INPE)",
+            "custo": "Gratuito (instituição pública)",
+            "carga": "2 anos",
+            "nivel": "Pós-graduação stricto sensu",
+            "link": "http://www.dpi.inpe.br/"
+          },
+          {
+            "gap": "cloud",
+            "curso": "Doutorado em Computação Aplicada com pesquisa em Cloud Computing (INPE)",
+            "custo": "Gratuito (instituição pública)",
+            "carga": "4 anos",
+            "nivel": "Doutorado",
+            "link": "http://www.dpi.inpe.br/"
+          }
+        ]
       }
     },
     "pesquisador_computacao": {
       "perfil": "pesquisador_computacao",
       "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
-      "total_editais_analisados": 50,
-      "total_editais_compativeis": 28,
+      "total_editais_analisados": 52,
+      "total_editais_compativeis": 29,
       "valor_total_oportunidades": 2092940.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek v4 Pro)",
       "curto_prazo": {
@@ -8220,12 +8516,12 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "inteligência artificial",
+            "nome": "ia",
             "editais": 2,
             "impacto_financeiro": 140000.0,
             "cursos": [
               {
-                "curso": "Aprenda inteligência artificial (busque na Udemy/Coursera)",
+                "curso": "Aprenda ia (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -8236,12 +8532,12 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "sensoriamento remoto",
-            "editais": 1,
-            "impacto_financeiro": 93500.0,
+            "nome": "automação",
+            "editais": 2,
+            "impacto_financeiro": 140000.0,
             "cursos": [
               {
-                "curso": "Aprenda sensoriamento remoto (busque na Udemy/Coursera)",
+                "curso": "Aprenda automação (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -8300,30 +8596,6 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "azure",
-            "editais": 1,
-            "impacto_financeiro": 96840.0,
-            "cursos": [
-              {
-                "curso": "Microsoft AZ-900 — Azure Fundamentals",
-                "custo": "R$ 210 (prova)",
-                "carga": "15h",
-                "nivel": "Certificação",
-                "prazo": "curto",
-                "link": "https://learn.microsoft.com/pt-br/certifications/azure-fundamentals/"
-              },
-              {
-                "curso": "Microsoft DP-203 — Azure Data Engineer",
-                "custo": "R$ 500 (prova)",
-                "carga": "80h",
-                "nivel": "Certificação",
-                "prazo": "medio",
-                "link": "https://learn.microsoft.com/pt-br/certifications/azure-data-engineer/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
             "nome": "aws",
             "editais": 1,
             "impacto_financeiro": 96840.0,
@@ -8348,6 +8620,30 @@
           },
           {
             "tipo": "ferramenta",
+            "nome": "azure",
+            "editais": 1,
+            "impacto_financeiro": 96840.0,
+            "cursos": [
+              {
+                "curso": "Microsoft AZ-900 — Azure Fundamentals",
+                "custo": "R$ 210 (prova)",
+                "carga": "15h",
+                "nivel": "Certificação",
+                "prazo": "curto",
+                "link": "https://learn.microsoft.com/pt-br/certifications/azure-fundamentals/"
+              },
+              {
+                "curso": "Microsoft DP-203 — Azure Data Engineer",
+                "custo": "R$ 500 (prova)",
+                "carga": "80h",
+                "nivel": "Certificação",
+                "prazo": "medio",
+                "link": "https://learn.microsoft.com/pt-br/certifications/azure-data-engineer/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
             "nome": "gcp",
             "editais": 1,
             "impacto_financeiro": 96840.0,
@@ -8361,88 +8657,38 @@
                 "link": "https://www.udemy.com/"
               }
             ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "ciência de dados",
-            "editais": 1,
-            "impacto_financeiro": 110000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda ciência de dados (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
           }
         ],
         "plano": [
           {
             "gap": "machine learning",
-            "curso": "Introdução ao Machine Learning com Python",
-            "custo": "gratuito",
-            "carga": "40 horas",
-            "nivel": "intermediário",
+            "curso": "Machine Learning",
+            "custo": "Gratuito para auditá-lo",
+            "carga": "60h",
+            "nivel": "Intermediário",
+            "link": "https://www.coursera.org/search?query=machine%20learning"
+          },
+          {
+            "gap": "ia",
+            "curso": "Introdução à Inteligência Artificial",
+            "custo": "Gratuito",
+            "carga": "20h",
+            "nivel": "Básico",
             "link": "https://learn.microsoft.com/training/"
           },
           {
-            "gap": "inteligência artificial",
-            "curso": "Fundamentos de Inteligência Artificial",
-            "custo": "gratuito",
-            "carga": "20 horas",
-            "nivel": "básico",
-            "link": "https://learn.microsoft.com/training/"
-          },
-          {
-            "gap": "sensoriamento remoto e dados espaciais",
-            "curso": "Introdução ao Sensoriamento Remoto e Geoprocessamento",
-            "custo": "gratuito",
-            "carga": "30 horas",
-            "nivel": "básico",
-            "link": "https://www.gov.br/inpe/"
+            "gap": "cloud / aws / azure",
+            "curso": "Azure Fundamentals",
+            "custo": "Gratuito",
+            "carga": "24h",
+            "nivel": "Básico",
+            "link": "https://learn.microsoft.com/training/paths/azure-fundamentals/"
           }
         ]
       },
       "medio_prazo": {
-        "gaps": [
-          {
-            "tipo": "ferramenta",
-            "nome": "análise de dados",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Google Data Analytics Certificate — Coursera",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "180h",
-                "nivel": "Certificado profissional",
-                "prazo": "medio",
-                "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
-              },
-              {
-                "curso": "IBM Data Science Professional — Coursera",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "200h",
-                "nivel": "Certificado profissional",
-                "prazo": "medio",
-                "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
-              }
-            ]
-          }
-        ],
-        "plano": [
-          {
-            "gap": "análise de dados",
-            "curso": "Especialização em Análise de Dados",
-            "custo": "pago",
-            "carga": "6 meses",
-            "nivel": "intermediário",
-            "link": "https://www.coursera.org/search?query=an%C3%A1lise%20de%20dados"
-          }
-        ]
+        "gaps": [],
+        "plano": []
       },
       "longo_prazo": {
         "gaps": [],
@@ -8452,20 +8698,68 @@
     "economista": {
       "perfil": "economista",
       "descricao": "Economista com stack técnica em análise de dados e políticas públicas, sem pós-graduação",
-      "total_editais_analisados": 50,
-      "total_editais_compativeis": 25,
-      "valor_total_oportunidades": 1663100.0,
+      "total_editais_analisados": 52,
+      "total_editais_compativeis": 30,
+      "valor_total_oportunidades": 2011100.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek v4 Pro)",
       "curto_prazo": {
         "gaps": [
           {
             "tipo": "ferramenta",
-            "nome": "inteligência artificial",
+            "nome": "machine learning",
+            "editais": 3,
+            "impacto_financeiro": 330000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda machine learning (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "ia",
             "editais": 2,
             "impacto_financeiro": 140000.0,
             "cursos": [
               {
-                "curso": "Aprenda inteligência artificial (busque na Udemy/Coursera)",
+                "curso": "Aprenda ia (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "automação",
+            "editais": 2,
+            "impacto_financeiro": 140000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda automação (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
+          {
+            "tipo": "ferramenta",
+            "nome": "dados espaciais",
+            "editais": 1,
+            "impacto_financeiro": 126500.0,
+            "cursos": [
+              {
+                "curso": "Aprenda dados espaciais (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -8493,76 +8787,35 @@
         ],
         "plano": [
           {
-            "gap": "inteligência artificial",
-            "curso": "Microsoft Azure AI Fundamentals (AI-900)",
-            "custo": "Gratuito (certificação paga)",
-            "carga": "8-10 horas",
-            "nivel": "Iniciante",
-            "link": "https://learn.microsoft.com/pt-br/training/browse/?terms=inteligencia%20artificial"
+            "gap": "machine learning",
+            "curso": "Machine Learning (buscar por cursos introdutórios e aplicados)",
+            "custo": "gratuito ou pago",
+            "carga": "40-60h",
+            "nivel": "intermediário",
+            "link": "https://www.coursera.org/search?query=machine%20learning"
           },
           {
-            "gap": "arpo (interpretado como análise de regressão e previsão)",
-            "curso": "Regression Models (Johns Hopkins University)",
-            "custo": "Gratuito para auditoria; certificado pago",
-            "carga": "20 horas",
-            "nivel": "Intermediário",
-            "link": "https://www.coursera.org/learn/regression-models"
+            "gap": "ia",
+            "curso": "Fundamentos de Inteligência Artificial (Microsoft Learn)",
+            "custo": "gratuito",
+            "carga": "10-20h",
+            "nivel": "iniciante",
+            "link": "https://learn.microsoft.com/training/"
           },
           {
-            "gap": "inteligência artificial",
-            "curso": "Introdução à Inteligência Artificial",
-            "custo": "Gratuito para auditoria; certificado pago",
-            "carga": "30 horas",
-            "nivel": "Iniciante",
-            "link": "https://www.edx.org/learn/artificial-intelligence"
+            "gap": "automação",
+            "curso": "Aprenda automação (busque na Udemy/Coursera)",
+            "custo": "Variável",
+            "carga": "Variável",
+            "nivel": "Curso",
+            "link": "https://www.udemy.com/",
+            "editais_com_gap": 2
           }
         ]
       },
       "medio_prazo": {
-        "gaps": [
-          {
-            "tipo": "ferramenta",
-            "nome": "análise de dados",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Google Data Analytics Certificate — Coursera",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "180h",
-                "nivel": "Certificado profissional",
-                "prazo": "medio",
-                "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
-              },
-              {
-                "curso": "IBM Data Science Professional — Coursera",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "200h",
-                "nivel": "Certificado profissional",
-                "prazo": "medio",
-                "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
-              }
-            ]
-          }
-        ],
-        "plano": [
-          {
-            "gap": "análise de dados",
-            "curso": "Google Data Analytics Professional Certificate",
-            "custo": "Assinatura Coursera (aprox. US$ 39/mês)",
-            "carga": "6 meses (10 h/semana)",
-            "nivel": "Iniciante a intermediário",
-            "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
-          },
-          {
-            "gap": "análise de dados",
-            "curso": "Especialização em Análise de Dados",
-            "custo": "Varia conforme o curso",
-            "carga": "6-12 meses",
-            "nivel": "Intermediário",
-            "link": "https://www.coursera.org/search?query=an%C3%A1lise%20de%20dados"
-          }
-        ]
+        "gaps": [],
+        "plano": []
       },
       "longo_prazo": {
         "gaps": [],
@@ -8572,12 +8825,28 @@
     "engenheiro_dados": {
       "perfil": "engenheiro_dados",
       "descricao": "Engenheiro de Dados (Eng. Química + Ciência da Computação), 5 anos em pipelines ETL, Spark/Databricks/Azure e web scraping",
-      "total_editais_analisados": 50,
-      "total_editais_compativeis": 25,
-      "valor_total_oportunidades": 2152940.0,
+      "total_editais_analisados": 52,
+      "total_editais_compativeis": 29,
+      "valor_total_oportunidades": 2125940.0,
       "periodo_analise": "Últimos 12 meses (DeepSeek v4 Pro)",
       "curto_prazo": {
         "gaps": [
+          {
+            "tipo": "ferramenta",
+            "nome": "arquitetura",
+            "editais": 5,
+            "impacto_financeiro": 141000.0,
+            "cursos": [
+              {
+                "curso": "Aprenda arquitetura (busque na Udemy/Coursera)",
+                "custo": "Variável",
+                "carga": "Variável",
+                "nivel": "Curso",
+                "prazo": "curto",
+                "link": "https://www.udemy.com/"
+              }
+            ]
+          },
           {
             "tipo": "ferramenta",
             "nome": "machine learning",
@@ -8596,12 +8865,12 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "inteligência artificial",
+            "nome": "ia",
             "editais": 2,
             "impacto_financeiro": 140000.0,
             "cursos": [
               {
-                "curso": "Aprenda inteligência artificial (busque na Udemy/Coursera)",
+                "curso": "Aprenda ia (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -8612,12 +8881,12 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "sensoriamento remoto",
-            "editais": 1,
-            "impacto_financeiro": 93500.0,
+            "nome": "automação",
+            "editais": 2,
+            "impacto_financeiro": 140000.0,
             "cursos": [
               {
-                "curso": "Aprenda sensoriamento remoto (busque na Udemy/Coursera)",
+                "curso": "Aprenda automação (busque na Udemy/Coursera)",
                 "custo": "Variável",
                 "carga": "Variável",
                 "nivel": "Curso",
@@ -8660,22 +8929,6 @@
           },
           {
             "tipo": "ferramenta",
-            "nome": "arquitetura",
-            "editais": 1,
-            "impacto_financeiro": 141000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda arquitetura (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
-          },
-          {
-            "tipo": "ferramenta",
             "nome": "arpo",
             "editais": 1,
             "impacto_financeiro": 90000.0,
@@ -8705,97 +8958,621 @@
                 "link": "https://cloud.google.com/learn/certification"
               }
             ]
-          },
-          {
-            "tipo": "ferramenta",
-            "nome": "ciência de dados",
-            "editais": 1,
-            "impacto_financeiro": 110000.0,
-            "cursos": [
-              {
-                "curso": "Aprenda ciência de dados (busque na Udemy/Coursera)",
-                "custo": "Variável",
-                "carga": "Variável",
-                "nivel": "Curso",
-                "prazo": "curto",
-                "link": "https://www.udemy.com/"
-              }
-            ]
           }
         ],
         "plano": [
           {
             "gap": "cloud",
-            "curso": "Percurso de aprendizagem Microsoft Azure Data Engineer (DP-203)",
-            "custo": "Gratuito",
-            "carga": "20-30h",
-            "nivel": "Intermediário",
-            "link": "https://learn.microsoft.com/pt-br/training/roles/data-engineer/"
-          },
-          {
-            "gap": "machine learning e inteligência artificial",
-            "curso": "Machine Learning & Artificial Intelligence (Coursera)",
-            "custo": "Assinatura ou gratuito para auditar",
+            "curso": "Microsoft Azure Data Engineer Associate (DP-203) - Trilha de Aprendizado",
+            "custo": "Gratuito (Microsoft Learn)",
             "carga": "40-60h",
             "nivel": "Intermediário",
-            "link": "https://www.coursera.org/search?query=machine%20learning"
+            "link": "https://learn.microsoft.com/en-us/training/"
           },
           {
-            "gap": "sensoriamento remoto e dados espaciais",
-            "curso": "Treinamentos Esri - Sensoriamento Remoto e GIS",
-            "custo": "Gratuito/pago conforme curso",
-            "carga": "10-20h",
-            "nivel": "Básico/Intermediário",
-            "link": "https://www.esri.com/training/"
+            "gap": "machine learning",
+            "curso": "Machine Learning Specialization (DeepLearning.AI/Stanford)",
+            "custo": "Assinatura Coursera (US$ 49/mês, 7 dias grátis)",
+            "carga": "~3 meses",
+            "nivel": "Iniciante-Intermediário",
+            "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+          },
+          {
+            "gap": "ia",
+            "curso": "Aprenda ia (busque na Udemy/Coursera)",
+            "custo": "Variável",
+            "carga": "Variável",
+            "nivel": "Curso",
+            "link": "https://www.udemy.com/",
+            "editais_com_gap": 2
           }
         ]
       },
       "medio_prazo": {
-        "gaps": [
-          {
-            "tipo": "ferramenta",
-            "nome": "análise de dados",
-            "editais": 1,
-            "impacto_financeiro": null,
-            "cursos": [
-              {
-                "curso": "Google Data Analytics Certificate — Coursera",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "180h",
-                "nivel": "Certificado profissional",
-                "prazo": "medio",
-                "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
-              },
-              {
-                "curso": "IBM Data Science Professional — Coursera",
-                "custo": "Grátis (auxílio financeiro)",
-                "carga": "200h",
-                "nivel": "Certificado profissional",
-                "prazo": "medio",
-                "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
-              }
-            ]
-          }
-        ],
+        "gaps": [],
         "plano": [
           {
-            "gap": "análise de dados",
-            "curso": "Especialização em Análise de Dados (Coursera)",
-            "custo": "Assinatura ou gratuito para auditar",
-            "carga": "3-6 meses",
+            "gap": "arquitetura",
+            "curso": "Data Architecture Foundations / Data Warehouse Design (busca Coursera)",
+            "custo": "Assinatura Coursera",
+            "carga": "40-80h",
             "nivel": "Intermediário",
-            "link": "https://www.coursera.org/search?query=data%20analysis"
+            "link": "https://www.coursera.org/search?query=data%20architecture"
+          },
+          {
+            "gap": "automação",
+            "curso": "Automação com Microsoft Power Automate",
+            "custo": "Gratuito (Microsoft Learn)",
+            "carga": "15-25h",
+            "nivel": "Iniciante-Intermediário",
+            "link": "https://learn.microsoft.com/en-us/training/"
+          },
+          {
+            "gap": "dados espaciais",
+            "curso": "ArcGIS Pro / GIS Fundamentals (ESRI Academy)",
+            "custo": "Gratuito com conta pública / planos pagos",
+            "carga": "20-40h",
+            "nivel": "Iniciante-Intermediário",
+            "link": "https://www.esri.com/training/"
           }
         ]
       },
       "longo_prazo": {
         "gaps": [],
-        "plano": []
+        "plano": [
+          {
+            "gap": "bim",
+            "curso": "Especialização/Mestrado em BIM e Construção Digital (busca Coursera/UFBA)",
+            "custo": "Pago ou gratuito (UFBA)",
+            "carga": "1-2 anos",
+            "nivel": "Avançado",
+            "link": "https://www.coursera.org/search?query=BIM"
+          },
+          {
+            "gap": "arpo",
+            "curso": "Mestrado/Especialização em Automação de Processos Robóticos (RPA/ARPO) - ENAP/UFBA",
+            "custo": "Pago ou gratuito",
+            "carga": "1-3 anos",
+            "nivel": "Avançado",
+            "link": "https://www.escolavirtual.gov.br/"
+          }
+        ]
       }
     }
   },
   "modo": "ia",
   "historico": [
+    {
+      "id": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
+      "torid": "unesco:ff2147dc-c4fa-42ca-9a25-08df3f30f747",
+      "fonte": "unesco",
+      "titulo": "914BRZ4027 - Edital 67/2026 - Gestão - Centro Vivo",
+      "descricao": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
+      "tipo": "Consultoria Pessoa Física (PF)",
+      "areas_tematicas": [
+        "Gestão / Administração Pública"
+      ],
+      "data_inicio": "2026-11-12",
+      "data_fim": "2026-11-16",
+      "local": "",
+      "orgao_parceiro": "UNESCO",
+      "email_submissao": "",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "Ongoing",
+      "data_criacao": "2026-11-12",
+      "url_externo": "https://roster.brasilia.unesco.org/",
+      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/4e71438a-bd8a-4cda-b5b2-08df3f21ab3b",
+      "requisitos": {
+        "graduacao": [
+          "economia",
+          "administração",
+          "direito",
+          "gestão pública",
+          "comunicação"
+        ],
+        "pos_graduacao": [
+          "pós-graduação",
+          "lato sensu"
+        ],
+        "mestrado": true,
+        "doutorado": true,
+        "anos_experiencia": 11,
+        "ferramentas": [
+          "r",
+          "excel",
+          "sei",
+          "sas"
+        ],
+        "idiomas": [],
+        "certificacoes": [],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "analista_powerbi": {
+          "score": 0.125,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": [
+                "Gestão / Administração Pública"
+              ]
+            },
+            "ferramentas": {
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "power bi",
+                "sql",
+                "dax",
+                "power query",
+                "power automate",
+                "python"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sei",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": [
+                "economia",
+                "administração",
+                "direito",
+                "gestão pública",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        },
+        "pesquisador_computacao": {
+          "score": 0.175,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "r",
+                "sas"
+              ],
+              "faltando": [
+                "python",
+                "sql",
+                "stata",
+                "spss",
+                "matlab",
+                "git",
+                "docker",
+                "qgis",
+                "power bi"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sei",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "economia"
+              ],
+              "exigidas": [
+                "economia",
+                "administração",
+                "direito",
+                "gestão pública",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 40000,
+              "acima_minimo": null
+            }
+          }
+        },
+        "economista": {
+          "score": 0.358,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": [
+                "Gestão / Administração Pública"
+              ]
+            },
+            "ferramentas": {
+              "match": [
+                "excel",
+                "r"
+              ],
+              "faltando": [
+                "python",
+                "power bi",
+                "sql",
+                "stata"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sei",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [
+                "economia",
+                "gestão pública",
+                "administração"
+              ],
+              "exigidas": [
+                "economia",
+                "administração",
+                "direito",
+                "gestão pública",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 30000,
+              "acima_minimo": null
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.125,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": [
+                "Gestão / Administração Pública"
+              ]
+            },
+            "ferramentas": {
+              "match": [
+                "r"
+              ],
+              "faltando": [
+                "python",
+                "sql",
+                "estatística",
+                "pyspark",
+                "databricks",
+                "azure data factory",
+                "airflow",
+                "azure",
+                "aws",
+                "gcp",
+                "shell script",
+                "linux",
+                "informatica powercenter",
+                "oracle",
+                "selenium",
+                "scrapy",
+                "beautiful soup",
+                "git",
+                "docker"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "sei",
+                "sas"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": [
+                "economia",
+                "administração",
+                "direito",
+                "gestão pública",
+                "comunicação"
+              ]
+            },
+            "idiomas": {
+              "match": [],
+              "exigidos": []
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 50000,
+              "acima_minimo": null
+            }
+          }
+        }
+      },
+      "ativo": true,
+      "perfil_classificado": "economista"
+    },
+    {
+      "id": 1605,
+      "torid": 146487,
+      "fonte": "pnud",
+      "titulo": "IC - Individual Consultant (IC) Assignment to Conduct a Digital Readiness Assessment (DRA) of Brazil’s Transport Sector",
+      "descricao": null,
+      "tipo": "Edital Genérico / IC",
+      "areas_tematicas": [
+        "Tecnologia da Informação / Dados"
+      ],
+      "data_inicio": "2026-11-11",
+      "data_fim": "2026-11-25",
+      "local": "Remoto",
+      "orgao_parceiro": "PNUD (Direto)",
+      "email_submissao": "ic.procurement.br@undp.org",
+      "valor_estimado": null,
+      "valor_estimado_num": null,
+      "status": "Aprovada",
+      "data_criacao": "2026-11-11",
+      "url_externo": "https://parceiros.undp.org.br/opportunities",
+      "url_pdf": "",
+      "requisitos": {
+        "graduacao": [],
+        "pos_graduacao": [],
+        "mestrado": false,
+        "doutorado": false,
+        "anos_experiencia": null,
+        "ferramentas": [
+          "r",
+          "excel",
+          "access",
+          "sic",
+          "git"
+        ],
+        "idiomas": [
+          "Inglês",
+          "Espanhol"
+        ],
+        "certificacoes": [
+          "bsafe",
+          "security clearance"
+        ],
+        "valor_tor": null,
+        "obrigatorios": [],
+        "desejaveis": []
+      },
+      "matches": {
+        "analista_powerbi": {
+          "score": 0.188,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": [
+                "Tecnologia da Informação / Dados"
+              ]
+            },
+            "ferramentas": {
+              "match": [
+                "excel"
+              ],
+              "faltando": [
+                "power bi",
+                "sql",
+                "dax",
+                "power query",
+                "power automate",
+                "python"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "access",
+                "sic",
+                "git"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês",
+                "espanhol"
+              ]
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 35000,
+              "acima_minimo": null
+            }
+          }
+        },
+        "pesquisador_computacao": {
+          "score": 0.312,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": [
+                "Tecnologia da Informação / Dados"
+              ]
+            },
+            "ferramentas": {
+              "match": [
+                "r",
+                "git"
+              ],
+              "faltando": [
+                "python",
+                "sql",
+                "stata",
+                "spss",
+                "sas",
+                "matlab",
+                "docker",
+                "qgis",
+                "power bi"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "access",
+                "sic",
+                "git"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [
+                "inglês",
+                "espanhol"
+              ],
+              "exigidos": [
+                "inglês",
+                "espanhol"
+              ]
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 40000,
+              "acima_minimo": null
+            }
+          }
+        },
+        "economista": {
+          "score": 0.175,
+          "detalhes": {
+            "areas": {
+              "match": false,
+              "encontradas": []
+            },
+            "ferramentas": {
+              "match": [
+                "excel",
+                "r"
+              ],
+              "faltando": [
+                "python",
+                "power bi",
+                "sql",
+                "stata"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "access",
+                "sic",
+                "git"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês",
+                "espanhol"
+              ]
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 30000,
+              "acima_minimo": null
+            }
+          }
+        },
+        "engenheiro_dados": {
+          "score": 0.237,
+          "detalhes": {
+            "areas": {
+              "match": true,
+              "encontradas": [
+                "Tecnologia da Informação / Dados"
+              ]
+            },
+            "ferramentas": {
+              "match": [
+                "r",
+                "git"
+              ],
+              "faltando": [
+                "python",
+                "sql",
+                "estatística",
+                "pyspark",
+                "databricks",
+                "azure data factory",
+                "airflow",
+                "azure",
+                "aws",
+                "gcp",
+                "shell script",
+                "linux",
+                "informatica powercenter",
+                "oracle",
+                "selenium",
+                "scrapy",
+                "beautiful soup",
+                "docker"
+              ],
+              "exigidas": [
+                "r",
+                "excel",
+                "access",
+                "sic",
+                "git"
+              ]
+            },
+            "graduacao": {
+              "match": [],
+              "exigidas": []
+            },
+            "idiomas": {
+              "match": [
+                "inglês"
+              ],
+              "exigidos": [
+                "inglês",
+                "espanhol"
+              ]
+            },
+            "valor": {
+              "edital": 0,
+              "minimo_perfil": 50000,
+              "acima_minimo": null
+            }
+          }
+        }
+      },
+      "ativo": true,
+      "perfil_classificado": "pesquisador_computacao"
+    },
     {
       "id": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
       "torid": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
@@ -14316,8 +15093,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -14437,9 +15214,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -14638,8 +15415,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -14764,9 +15541,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -16164,8 +16941,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -16281,8 +17058,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -22126,8 +22903,8 @@
               "match": true,
               "encontradas": [
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Economia / Finanças Públicas"
+                "Economia / Finanças Públicas",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -22252,8 +23029,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Gestão / Administração Pública",
-                "Economia / Finanças Públicas"
+                "Economia / Finanças Públicas",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -26409,8 +27186,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -26505,8 +27282,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -32129,8 +32906,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -32239,9 +33016,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -33063,8 +33840,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -33188,9 +33965,9 @@
             "areas": {
               "match": true,
               "encontradas": [
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -34858,8 +35635,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -34977,9 +35754,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -36005,8 +36782,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -36114,8 +36891,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -37147,8 +37924,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -37257,9 +38034,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -38844,8 +39621,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -38954,9 +39731,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -39076,8 +39853,8 @@
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Economia / Finanças Públicas"
+                "Economia / Finanças Públicas",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -39128,8 +39905,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
                 "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados",
                 "Economia / Finanças Públicas"
               ]
             },
@@ -39187,8 +39964,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Gestão / Administração Pública",
-                "Economia / Finanças Públicas"
+                "Economia / Finanças Públicas",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -39240,9 +40017,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -44022,8 +44799,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -44148,8 +44925,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -44333,8 +45110,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -44459,8 +45236,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -49102,8 +49879,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -49212,9 +49989,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -49717,8 +50494,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -49862,8 +50639,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -56212,8 +56989,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -56319,9 +57096,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -57902,8 +58679,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -58016,8 +58793,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -60213,8 +60990,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
                 "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados",
                 "Economia / Finanças Públicas"
               ]
             },
@@ -60335,8 +61112,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -61071,8 +61848,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -61180,8 +61957,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -75448,8 +76225,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -75570,9 +76347,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -81072,8 +81849,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -81183,8 +81960,8 @@
             "areas": {
               "match": true,
               "encontradas": [
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -81306,8 +82083,8 @@
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Economia / Finanças Públicas"
+                "Economia / Finanças Públicas",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -81358,8 +82135,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
                 "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados",
                 "Economia / Finanças Públicas"
               ]
             },
@@ -81417,8 +82194,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Gestão / Administração Pública",
-                "Economia / Finanças Públicas"
+                "Economia / Finanças Públicas",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -81470,9 +82247,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -82839,8 +83616,8 @@
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Economia / Finanças Públicas"
+                "Economia / Finanças Públicas",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -82890,8 +83667,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
                 "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados",
                 "Economia / Finanças Públicas"
               ]
             },
@@ -82949,8 +83726,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Gestão / Administração Pública",
-                "Economia / Finanças Públicas"
+                "Economia / Finanças Públicas",
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -83002,9 +83779,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -84059,8 +84836,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -84173,8 +84950,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -89380,8 +90157,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -89488,9 +90265,9 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
+                "Meio Ambiente / Clima / Geografia",
                 "Tecnologia da Informação / Dados",
-                "Gestão / Administração Pública",
-                "Meio Ambiente / Clima / Geografia"
+                "Gestão / Administração Pública"
               ]
             },
             "ferramentas": {
@@ -92655,8 +93432,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -92756,8 +93533,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -92916,8 +93693,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -93021,8 +93798,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -93490,8 +94267,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -93595,8 +94372,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -93764,8 +94541,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
@@ -93879,8 +94656,8 @@
               "match": true,
               "encontradas": [
                 "Estatística / Pesquisa / Metodologia",
-                "Tecnologia da Informação / Dados",
-                "Meio Ambiente / Clima / Geografia"
+                "Meio Ambiente / Clima / Geografia",
+                "Tecnologia da Informação / Dados"
               ]
             },
             "ferramentas": {
