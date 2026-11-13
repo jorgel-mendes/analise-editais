@@ -11596,5 +11596,118 @@
     "descricao": "Consultor Individual - Bases para descentralização e gestão compartilhada do PAC Patrimônio Cultural",
     "local": "",
     "data_fim": "2026-11-16"
+  },
+  {
+    "torid": "unesco:7ed22d90-36bd-45d7-be2b-08df3b425e79",
+    "graduacao": [
+      "sistemas de informação",
+      "administração",
+      "direito",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 5,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 64/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para subsidiar a Secadi na produção, sistematização e análise de dados e informações gerenciais relacionadas à implementação da PNEERQ",
+    "local": "",
+    "data_fim": "2026-11-19"
+  },
+  {
+    "torid": "unesco:10a56ab6-52e5-4c24-be2e-08df3b425e79",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 62/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para desenvolvimento de estratégias de acompanhamento, monitoramento e avaliação de programas e mecanismos de incidência para apoio e financiamento das redes de educação para",
+    "local": "",
+    "data_fim": "2026-11-19"
+  },
+  {
+    "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13401",
+    "graduacao": [
+      "ciência da computação",
+      "tecnologia da informação",
+      "engenharia",
+      "administração",
+      "direito",
+      "arquitetura",
+      "física",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "especialização"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [
+      "Espanhol"
+    ],
+    "certificacoes": [
+      "cissp",
+      "comptia"
+    ],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/22/003 – TR13401",
+    "descricao": "Contratar consultoria técnica especializada, de natureza temporária e por produto, para a elaboração de estudos, diagnósticos, metodologias e propostas de arquitetura de referência voltados ao aprimoramento da governança de segurança da informação e da interoperabilidade dos sistemas tecnológicos da Secretaria de Educação do Recife. A consultoria terá como finalidade o desenvolvimento e a transferência de conhecimentos técnicos especializados, a formulação de modelos de integração e a proposição de diretrizes institucionais que contribuam para o fortalecimento das capacidades técnicas da Secretaria, em consonância com os objetivos e resultados previstos no Projeto de Cooperação Técnica Internacional OEI/BRA/22/003.",
+    "local": "Recife - PE",
+    "data_fim": "2026-11-18"
   }
 ]
