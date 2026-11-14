@@ -1,27 +1,27 @@
 {
-  "gerado_em": "2026-11-13T19:22:20.302529",
+  "gerado_em": "2026-11-14T17:41:34.621071",
   "resumo": {
-    "total_editais": 55,
-    "novos_hoje": 3,
-    "encerrados_hoje": 0,
+    "total_editais": 50,
+    "novos_hoje": 0,
+    "encerrados_hoje": 5,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 50,
+      "Consultoria Pessoa Física (PF)": 45,
       "Licitação (Pessoa Jurídica)": 2,
       "Seleção de OSC (Pessoa Jurídica)": 1,
       "Concorrência (Pessoa Jurídica)": 1,
       "Procedimento Simplificado (Pessoa Jurídica)": 1
     },
     "por_area": {
-      "Gestão / Administração Pública": 26,
+      "Gestão / Administração Pública": 24,
       "Cultura": 12,
-      "Tecnologia da Informação / Dados": 11,
-      "Educação": 6,
+      "Tecnologia da Informação / Dados": 8,
+      "Educação": 5,
       "Comunicação": 5,
-      "Estatística / Pesquisa / Metodologia": 4,
       "Arquitetura/Engenharia": 4,
       "Meio Ambiente / Clima / Geografia": 4,
       "Agricultura Familiar": 4,
-      "Participação Social": 3
+      "Participação Social": 3,
+      "Estatística / Pesquisa / Metodologia": 2
     },
     "por_orgao": {
       "OEI/SEDUC-SP": 8,
@@ -29,7 +29,6 @@
       "IPHAN": 5,
       "ABDI": 5,
       "OEI/Cais das Artes": 5,
-      "IBGE": 4,
       "MEC/SECADI": 2,
       "PNUD": 2,
       "MDS": 2,
@@ -37,19 +36,19 @@
       "OEI/SEED-PR": 2,
       "OEI/SECULT-BA": 2,
       "OEI/SEBRAE": 2,
-      "OEI/MUSEDUCA-RS": 2,
       "UNESCO": 1,
       "OEI/FUNAI": 1,
       "OEI/SECULT-ES": 1,
       "OEI/FPOS": 1,
-      "OEI/MinC": 1
+      "OEI/MinC": 1,
+      "OEI/MUSEDUCA-RS": 1
     },
     "valores": {
       "minimo": 18000.0,
       "maximo": 7150000.0,
-      "medio": 438805.62,
-      "mediano": 93500.0,
-      "quantidade_com_valor": 41
+      "medio": 474614.34,
+      "mediano": 90000.0,
+      "quantidade_com_valor": 37
     }
   },
   "perfis": [
@@ -82,7 +81,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 36
+      "match_count": 31
     },
     {
       "nome": "pesquisador_computacao",
@@ -121,7 +120,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 33
+      "match_count": 28
     },
     {
       "nome": "economista",
@@ -148,7 +147,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 35
+      "match_count": 30
     },
     {
       "nome": "engenheiro_dados",
@@ -191,7 +190,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 39
+      "match_count": 34
     }
   ],
   "editais": [
@@ -2828,669 +2827,6 @@
       },
       "fonte": "oei",
       "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-projeto-fpos-2-open-society-foundation-tr-13370/",
-      "url_pdf": ""
-    },
-    {
-      "id": 1589,
-      "torid": 146442,
-      "titulo": "PROJETO BRA 23/023 - TR 144/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA DESENVOLVIMENTO DE PROPOSTA DE MODELO PARA AULAS ALTAMENTE DESBALANCEADAS EM SENSORIAMENTO REMOTO.",
-      "descricao": "Contratação de consultoria especializada (pessoa física) para o desenvolvimento de proposta de modelos, tendo como foco as classes que apresentam maior desbalanceamento e menos amostras de treino no contexto de mapeamento da atividade agropecuária no Brasil.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Sensoriamento Remoto"
-      ],
-      "data_inicio": "2026-10-28",
-      "data_fim": "2026-11-13",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": "R$ 93.500,00",
-      "valor_estimado_num": 93500.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-19",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [
-          "machine learning",
-          "sensoriamento remoto"
-        ],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "machine learning",
-                "sensoriamento remoto"
-              ],
-              "exigidas": [
-                "machine learning",
-                "sensoriamento remoto"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 93500.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.45,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python"
-              ],
-              "faltando": [
-                "sensoriamento remoto"
-              ],
-              "exigidas": [
-                "machine learning",
-                "sensoriamento remoto"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 93500.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "machine learning",
-                "sensoriamento remoto"
-              ],
-              "exigidas": [
-                "machine learning",
-                "sensoriamento remoto"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 93500.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python"
-              ],
-              "faltando": [
-                "sensoriamento remoto"
-              ],
-              "exigidas": [
-                "machine learning",
-                "sensoriamento remoto"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 93500.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
-      "id": 1591,
-      "torid": 146444,
-      "titulo": "PROJETO BRA 23/023 - TR 148/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA ANÁLISE DAS NORMATIVAS REGULATÓRIAS DA OFERTA, DA ESPECIALIZAÇÃO EM CIÊNCIA DE DADOS, BIG DATA E INTELIGÊNCIA ARTIFICIAL.",
-      "descricao": "Contratação de consultoria especializada (pessoa física) para análise dos normativos regulatórios aplicáveis à oferta, na modalidade EAD, de cursos de especialização Lato Sensu em Ciência de Dados, Big Data e Inteligência Artificial, para a produção e uso de informações estatísticas e geocientíficas públicas.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Educação",
-        "Tecnologia da Informação / Dados"
-      ],
-      "data_inicio": "2026-10-28",
-      "data_fim": "2026-11-13",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": "R$ 123.500,00",
-      "valor_estimado_num": 123500.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-19",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 123500.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 123500.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 123500.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 123500.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
-      "id": 1592,
-      "torid": 146445,
-      "titulo": "PROJETO BRA 23/023 - TR 149/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA AVALIAÇÃO DA QUALIDADE DO CADASTRO DE PESSOAS PARA FINS ESTATÍSTICOS (CAPEFE)",
-      "descricao": "CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA (PESSOA FÍSICA) PARA AVALIAÇÃO  DA QUALIDADE DO CADASTRO DE PESSOAS PARA FINS ESTATÍSTICOS (CAPEFE).",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-10-28",
-      "data_fim": "2026-11-13",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": "R$ 86.800,00",
-      "valor_estimado_num": 86800.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-19",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 86800.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.45,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 86800.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 86800.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 86800.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
-      "url_pdf": ""
-    },
-    {
-      "id": 1595,
-      "torid": 146441,
-      "titulo": "PROJETO BRA 23/023 - TR 143/26 - CONTRATAÇÃO DE CONSULTORIA ESPECIALIZADA PARA MAPEAMENTO DE DADOS, COM FOCO EM DADOS ESPACIAIS, VISANDO O APRENDIZADO DE MÁQUINA.",
-      "descricao": "ria especializada (pessoa física) para o mapeamento do processo de preparação, ingestão e automatização de dados, com foco em dados espaciais e outros elementos envolvidos, identificando todo e qualquer processo de aprendizado de máquina que dependa dos dados espaciais para processamento.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Tecnologia da Informação / Dados",
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "data_inicio": "2026-10-28",
-      "data_fim": "2026-11-13",
-      "local": "Remoto",
-      "orgao_parceiro": "IBGE",
-      "email_submissao": "projetos.especiais@ibge.gov.br",
-      "valor_estimado": "R$ 126.500,00",
-      "valor_estimado_num": 126500.0,
-      "status": "Aprovada",
-      "data_criacao": "2026-10-19",
-      "perfil_classificado": "engenheiro_dados",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [
-          "machine learning",
-          "dados espaciais"
-        ],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": 126500.0,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "machine learning",
-                "dados espaciais"
-              ],
-              "exigidas": [
-                "machine learning",
-                "dados espaciais"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 126500.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.45,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python"
-              ],
-              "faltando": [
-                "dados espaciais"
-              ],
-              "exigidas": [
-                "machine learning",
-                "dados espaciais"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 126500.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [
-                "machine learning",
-                "dados espaciais"
-              ],
-              "exigidas": [
-                "machine learning",
-                "dados espaciais"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 126500.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.5,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql"
-              ],
-              "faltando": [
-                "dados espaciais"
-              ],
-              "exigidas": [
-                "machine learning",
-                "dados espaciais"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 126500.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "pnud",
-      "url_externo": "https://parceiros.undp.org.br/opportunities",
       "url_pdf": ""
     },
     {
@@ -8403,152 +7739,6 @@
       },
       "fonte": "oei",
       "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
-      "url_pdf": ""
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO ACORDO EXEC MUSEDUCA RS – TR 13238",
-      "descricao": "Contratação de 1 (um) consultor especialista em Gestão de Projetos para assessorar a execução e o monitoramento no âmbito do projeto de cooperação técnica internacional. Além de produzir relatórios técnicos e financeiros demonstrando a evolução das atividades, o consultor especialista dará apoio à OEI e à SEDUC-RS nas atividades diárias, fornecerá orientações e recomendações que serão fundamentais para decisões em diferentes etapas do projeto. Isso inclui a identificação e mitigação de riscos, bem como o alinhamento com padrões de qualidade e eficiência, sempre em conformidade com as diretrizes estabelecidas neste Termo de Referência.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-09-10",
-      "data_fim": "2026-09-16",
-      "local": "Porto Alegre - RS",
-      "orgao_parceiro": "OEI/MUSEDUCA-RS",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "En evaluación",
-      "data_criacao": "2026-09-10",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "analista_powerbi": {
-          "score": 0.25,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "engenheiro_dados": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "oei",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-acordo-exec-museduca-rs-tr13238/",
       "url_pdf": ""
     },
     {
@@ -17474,7 +16664,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -17783,7 +16973,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -18088,7 +17278,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -18392,7 +17582,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "engenheiro_dados"
     },
     {
@@ -57900,7 +57090,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "Não classificado"
     },
     {
@@ -75409,7 +74599,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "economista"
     },
     {
@@ -75722,7 +74912,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -88672,7 +87862,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "economista"
     },
     {
