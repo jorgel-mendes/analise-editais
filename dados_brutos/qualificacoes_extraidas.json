@@ -11709,5 +11709,88 @@
     "descricao": "Contratar consultoria técnica especializada, de natureza temporária e por produto, para a elaboração de estudos, diagnósticos, metodologias e propostas de arquitetura de referência voltados ao aprimoramento da governança de segurança da informação e da interoperabilidade dos sistemas tecnológicos da Secretaria de Educação do Recife. A consultoria terá como finalidade o desenvolvimento e a transferência de conhecimentos técnicos especializados, a formulação de modelos de integração e a proposição de diretrizes institucionais que contribuam para o fortalecimento das capacidades técnicas da Secretaria, em consonância com os objetivos e resultados previstos no Projeto de Cooperação Técnica Internacional OEI/BRA/22/003.",
     "local": "Recife - PE",
     "data_fim": "2026-11-18"
+  },
+  {
+    "torid": "unesco:9fcfde7f-79f8-4408-9cfc-08df3a9c6c25",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "ciências sociais",
+      "sociologia",
+      "políticas públicas"
+    ],
+    "pos_graduacao": [
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sic",
+      "sas",
+      "git"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "15,05",
+    "area_principal": "",
+    "requisitos_obrigatorios": [
+      "a ser considerado mais importante para a formação da lista curta: experiência",
+      "profissional de pelo menos 2 (dois) anos em (a) estudos e pesquisas sobre o programa bolsa família",
+      "e (b) experiência profissional de pelo menos 2 (dois) anos em estudos e pesquisas sobre o cadastro",
+      "5.2 critérios desejáveis",
+      "o candidato que atender aos critérios mínimos obrigatórios será elegível para a avaliação do",
+      "atendimento aos critérios desejáveis.",
+      "embora não sejam eliminatórios, os critérios desejáveis serão importantes para contribuir para uma",
+      "melhor colocação do candidato no cômputo de pontuação no"
+    ],
+    "requisitos_desejaveis": [],
+    "titulo": "Projeto 914BRZ3051 - EDITAL 26/2026",
+    "descricao": "Especialista em realizar mapeamento dos reflexos da gestão dos dados do Cadastro Único para Programas Sociais do Governo Federal (CadÚnico) na gestão de benefícios do Programa Bolsa Família",
+    "local": "",
+    "data_fim": "2026-11-22"
+  },
+  {
+    "torid": "unesco:9211db00-690e-4889-9a23-08df3f30f747",
+    "graduacao": [
+      "economia",
+      "administração",
+      "direito",
+      "ciências sociais",
+      "inteligência artificial",
+      "gestão pública",
+      "políticas públicas",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": null,
+    "ferramentas": [
+      "r",
+      "excel",
+      "word",
+      "sei",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "Projeto 914BRZ3051 - EDITAL 27/2026",
+    "descricao": "Especialista em desenvolver modelo de planejamento e material orientador para o apoio técnico dos Estados aos municípios no âmbito do Programa Bolsa Família",
+    "local": "",
+    "data_fim": "2026-11-22"
   }
 ]

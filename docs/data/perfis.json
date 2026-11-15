@@ -37,6 +37,54 @@
       "contexto": "5+ anos de experiência geral em Power BI e SQL, com 3 anos específicos trabalhando com dados públicos, econômicos e sociais. Formação técnica em computação, sem pós-graduação."
     },
     {
+      "nome": "engenheiro_dados",
+      "descricao": "Engenheiro de Dados (Eng. Química + Ciência da Computação), 5 anos em pipelines ETL, Spark/Databricks/Azure e web scraping",
+      "graduacoes": [
+        "engenharia química",
+        "ciência da computação",
+        "engenharia",
+        "engenharia de software",
+        "sistemas de informação"
+      ],
+      "ferramentas": [
+        "python",
+        "sql",
+        "r",
+        "estatística",
+        "pyspark",
+        "databricks",
+        "azure data factory",
+        "airflow",
+        "azure",
+        "aws",
+        "gcp",
+        "shell script",
+        "linux",
+        "informatica powercenter",
+        "oracle",
+        "selenium",
+        "scrapy",
+        "beautiful soup",
+        "git",
+        "docker"
+      ],
+      "areas_interesse": [
+        "Tecnologia da Informação / Dados",
+        "Estatística / Pesquisa / Metodologia",
+        "Meio Ambiente / Clima / Geografia",
+        "Gestão / Administração Pública"
+      ],
+      "idiomas": [
+        "inglês"
+      ],
+      "valor_minimo": 50000,
+      "experiencia_anos": 5,
+      "tem_pos_graduacao": false,
+      "tem_mestrado": false,
+      "tem_doutorado": false,
+      "contexto": "Engenheiro de Dados com +50 pipelines de ETL/web scraping (Python, PySpark, Databricks, Azure Data Factory) em manufatura, setor público e telecom, além de projeto envolvendo privacidade diferencial (PySyft) com IBGE/PNUD. Cursos complementares em Python, R e estatística básica. Mestrado (Software Engineering) e especialização (Indústria 4.0) em andamento — ainda não concluídos, por isso continuam como gap."
+    },
+    {
       "nome": "pesquisador_computacao",
       "descricao": "Pesquisador acadêmico com foco em computação, dados e metodologia científica",
       "graduacoes": [
@@ -105,54 +153,6 @@
       "tem_pos_graduacao": false,
       "tem_mestrado": false,
       "tem_doutorado": false
-    },
-    {
-      "nome": "engenheiro_dados",
-      "descricao": "Engenheiro de Dados (Eng. Química + Ciência da Computação), 5 anos em pipelines ETL, Spark/Databricks/Azure e web scraping",
-      "graduacoes": [
-        "engenharia química",
-        "ciência da computação",
-        "engenharia",
-        "engenharia de software",
-        "sistemas de informação"
-      ],
-      "ferramentas": [
-        "python",
-        "sql",
-        "r",
-        "estatística",
-        "pyspark",
-        "databricks",
-        "azure data factory",
-        "airflow",
-        "azure",
-        "aws",
-        "gcp",
-        "shell script",
-        "linux",
-        "informatica powercenter",
-        "oracle",
-        "selenium",
-        "scrapy",
-        "beautiful soup",
-        "git",
-        "docker"
-      ],
-      "areas_interesse": [
-        "Tecnologia da Informação / Dados",
-        "Estatística / Pesquisa / Metodologia",
-        "Meio Ambiente / Clima / Geografia",
-        "Gestão / Administração Pública"
-      ],
-      "idiomas": [
-        "inglês"
-      ],
-      "valor_minimo": 50000,
-      "experiencia_anos": 5,
-      "tem_pos_graduacao": false,
-      "tem_mestrado": false,
-      "tem_doutorado": false,
-      "contexto": "Engenheiro de Dados com +50 pipelines de ETL/web scraping (Python, PySpark, Databricks, Azure Data Factory) em manufatura, setor público e telecom, além de projeto envolvendo privacidade diferencial (PySyft) com IBGE/PNUD. Cursos complementares em Python, R e estatística básica. Mestrado (Software Engineering) e especialização (Indústria 4.0) em andamento — ainda não concluídos, por isso continuam como gap."
     }
   ]
 }
