@@ -11969,5 +11969,83 @@
     "descricao": "Contratar consultoria técnica especializada, na modalidade individual por produto, para atuar no planejamento estratégico, no acompanhamento do portfólio de programas e projetos e na avaliação de políticas industriais vinculadas à Nova Indústria Brasil, no âmbito da DIEI, de modo a apoiar a tomada de decisão e o cumprimento das entregas. A contratação tem como finalidades: Mapear o portfólio de programas e projetos da DIEI e seu alinhamento às missões e objetivos da NIB. Analisar os indicadores de desempenho, as metas pactuadas e os critérios de mensuração dos resultados. Acompanhar a execução física e orçamentária e identificar riscos aos resultados previstos. Diagnosticar o desempenho do portfólio, com identificação de desvios e gargalos operacionais. Avaliar os resultados alcançados e a contribuição das iniciativas para a NIB, incluindo análises ex ante e ex post quando aplicável. Consolidar as análises em relatório gerencial integrado, com medidas de aprimoramento.",
     "local": "Híbrido com atividades presenciais na sede ABDI em Brasília",
     "data_fim": "2026-11-22"
+  },
+  {
+    "torid": "unesco:074ee562-e379-4f4a-c877-08df3fd4a652",
+    "graduacao": [
+      "engenharia",
+      "economia",
+      "administração",
+      "ciências sociais",
+      "física",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação",
+      "ciência política",
+      "relações internacionais"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 10,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ2024 - Edital nº 03/2026 - 01 vaga",
+    "descricao": "Consultor individual: profissional da área de avaliação de políticas públicas, programas e projetos de pesenvolvimento e Inovação.",
+    "local": "",
+    "data_fim": "2026-11-22"
+  },
+  {
+    "torid": "unesco:193efde8-8989-4962-c876-08df3fd4a652",
+    "graduacao": [
+      "economia",
+      "administração",
+      "estatística",
+      "direito",
+      "ciências sociais",
+      "sociologia",
+      "gestão pública",
+      "políticas públicas",
+      "comunicação",
+      "ciência política"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu",
+      "mba"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 10,
+    "ferramentas": [
+      "python",
+      "r",
+      "excel",
+      "stata",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": "218,00",
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ3061 - EDITAL Nº 18/2026 - 01 VAGA - CONSULTOR INDIVIDUAL",
+    "descricao": "Graduação completa em Ciências Sociais, Ciência Política, Sociologia, Economia, Administração, Administração Pública, Políticas Públicas, Gestão Pública, Estatística, Demografia ou Serviço Social,",
+    "local": "",
+    "data_fim": "2026-11-22"
   }
 ]
