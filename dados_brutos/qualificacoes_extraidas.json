@@ -12047,5 +12047,41 @@
     "descricao": "Graduação completa em Ciências Sociais, Ciência Política, Sociologia, Economia, Administração, Administração Pública, Políticas Públicas, Gestão Pública, Estatística, Demografia ou Serviço Social,",
     "local": "",
     "data_fim": "2026-11-22"
+  },
+  {
+    "torid": "unesco:f4423d15-7f48-4013-c875-08df3fd4a652",
+    "graduacao": [
+      "administração",
+      "ciências sociais",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [
+      "pós-graduação",
+      "lato sensu"
+    ],
+    "mestrado": true,
+    "doutorado": true,
+    "anos_experiencia": 6,
+    "ferramentas": [
+      "r",
+      "excel",
+      "powerpoint",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1019 - Publicação - Edital 08/2026 - 01 Vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para desenvolver estudos e análises sobre experiências e referências internacionais em  Educação Ambiental e Centros de Educação Ambiental.",
+    "local": "",
+    "data_fim": "2026-11-29"
   }
 ]
