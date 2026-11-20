@@ -1,17 +1,17 @@
 {
-  "gerado_em": "2026-11-19T20:06:26.882742",
+  "gerado_em": "2026-11-20T19:38:54.853834",
   "resumo": {
-    "total_editais": 56,
-    "novos_hoje": 5,
-    "encerrados_hoje": 0,
+    "total_editais": 54,
+    "novos_hoje": 0,
+    "encerrados_hoje": 2,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 52,
+      "Consultoria Pessoa Física (PF)": 50,
       "Pessoa Jurídica (PJ)": 4
     },
     "por_area": {
-      "Gestão / Administração Pública": 49,
-      "Estatística / Pesquisa / Metodologia": 11,
+      "Gestão / Administração Pública": 47,
       "Tecnologia da Informação / Dados": 11,
+      "Estatística / Pesquisa / Metodologia": 9,
       "Meio Ambiente / Clima / Geografia": 6,
       "Economia / Finanças Públicas": 2
     },
@@ -22,18 +22,17 @@
       "OEI/SEDUC-SP": 4,
       "SEDUC-SP/OEI": 4,
       "IBGE": 3,
-      "MEC": 2,
       "MDS": 2,
       "IPHAN": 2,
       "OEI/Open Society": 2,
       "SEED-PR/OEI": 2,
       "SECULT-BA/OEI": 2,
+      "MEC": 1,
       "MinC/IPHAN": 1,
       "MMA/MEC": 1,
       "MCTI": 1,
       "Governo Federal": 1,
       "MTE": 1,
-      "MEC/SECADI": 1,
       "PNUD": 1,
       "FUNAI/OEI": 1,
       "SECULT-ES/OEI": 1,
@@ -93,7 +92,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 40
+      "match_count": 38
     },
     {
       "nome": "economista",
@@ -120,7 +119,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 44
+      "match_count": 42
     },
     {
       "nome": "pesquisador_computacao",
@@ -159,7 +158,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 38
+      "match_count": 36
     },
     {
       "nome": "analista_powerbi",
@@ -190,7 +189,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 36
+      "match_count": 34
     }
   ],
   "editais": [
@@ -2797,338 +2796,6 @@
       "fonte": "unesco",
       "url_externo": "https://roster.brasilia.unesco.org/",
       "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/42d5730b-84ba-48fb-c9ef-08df3fd71ecc"
-    },
-    {
-      "id": "unesco:7ed22d90-36bd-45d7-be2b-08df3b425e79",
-      "torid": "unesco:7ed22d90-36bd-45d7-be2b-08df3b425e79",
-      "titulo": "914BRZ1155 - EDITAL Nº 64/2026 - 1 vaga - Consultor Individual",
-      "descricao": "Consultoria especializada para subsidiar a Secadi na produção, sistematização e análise de dados e informações gerenciais relacionadas à implementação da PNEERQ",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Estatística / Pesquisa / Metodologia",
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-11-13",
-      "data_fim": "2026-11-19",
-      "local": "",
-      "orgao_parceiro": "MEC/SECADI",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-11-13",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "engenheiro_dados": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês",
-                "espanhol"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "sql",
-                "python"
-              ],
-              "faltando": [
-                "power bi"
-              ],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/1d5a4b87-dfd5-4aaf-af63-08df3e51b662"
-    },
-    {
-      "id": "unesco:10a56ab6-52e5-4c24-be2e-08df3b425e79",
-      "torid": "unesco:10a56ab6-52e5-4c24-be2e-08df3b425e79",
-      "titulo": "914BRZ1155 - EDITAL Nº 62/2026 - 1 vaga - Consultor Individual",
-      "descricao": "Consultoria especializada para desenvolvimento de estratégias de acompanhamento, monitoramento e avaliação de programas e mecanismos de incidência para apoio e financiamento das redes de educação para",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Estatística / Pesquisa / Metodologia"
-      ],
-      "data_inicio": "2026-11-13",
-      "data_fim": "2026-11-19",
-      "local": "",
-      "orgao_parceiro": "MEC",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-11-13",
-      "perfil_classificado": "pesquisador_computacao",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "engenheiro_dados": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "políticas públicas"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês",
-                "espanhol"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/1a2384fb-c659-4202-af5f-08df3e51b662"
     },
     {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-003-tr13401",
@@ -15139,7 +14806,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-11-13",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/1d5a4b87-dfd5-4aaf-af63-08df3e51b662",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "sistemas de informação",
@@ -15413,7 +15080,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -15436,7 +15103,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-11-13",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/1a2384fb-c659-4202-af5f-08df3e51b662",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "economia",
@@ -15686,7 +15353,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -80550,7 +80217,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "economista"
     },
     {
@@ -80863,7 +80530,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -93813,7 +93480,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "economista"
     },
     {
