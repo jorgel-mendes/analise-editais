@@ -1,15 +1,15 @@
 {
-  "gerado_em": "2026-11-20T19:38:54.853834",
+  "gerado_em": "2026-11-21T18:44:03.724337",
   "resumo": {
-    "total_editais": 54,
+    "total_editais": 52,
     "novos_hoje": 0,
     "encerrados_hoje": 2,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 50,
+      "Consultoria Pessoa Física (PF)": 48,
       "Pessoa Jurídica (PJ)": 4
     },
     "por_area": {
-      "Gestão / Administração Pública": 47,
+      "Gestão / Administração Pública": 45,
       "Tecnologia da Informação / Dados": 11,
       "Estatística / Pesquisa / Metodologia": 9,
       "Meio Ambiente / Clima / Geografia": 6,
@@ -23,7 +23,6 @@
       "SEDUC-SP/OEI": 4,
       "IBGE": 3,
       "MDS": 2,
-      "IPHAN": 2,
       "OEI/Open Society": 2,
       "SEED-PR/OEI": 2,
       "SECULT-BA/OEI": 2,
@@ -92,7 +91,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 38
+      "match_count": 36
     },
     {
       "nome": "economista",
@@ -3132,350 +3131,6 @@
       "fonte": "pnud",
       "url_externo": "https://parceiros.undp.org.br/opportunities",
       "url_pdf": ""
-    },
-    {
-      "id": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
-      "torid": "unesco:7aea783d-4de4-4b76-6ac4-08df39b7cc38",
-      "titulo": "914BRZ4027 - Edital 65/2026 - Arq ou Eng - Iphan-MG - Serro",
-      "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-11-11",
-      "data_fim": "2026-11-20",
-      "local": "",
-      "orgao_parceiro": "IPHAN",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-11-11",
-      "perfil_classificado": "engenheiro_dados",
-      "requisitos": {
-        "graduacao": [
-          "arquitetura",
-          "engenharia"
-        ],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "engenheiro_dados": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "engenharia química"
-              ],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês",
-                "espanhol"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/81cfd574-6563-4c46-da28-08df39989a49"
-    },
-    {
-      "id": "unesco:d4784a3a-ac19-43bd-0638-08df3c4ba711",
-      "torid": "unesco:d4784a3a-ac19-43bd-0638-08df3c4ba711",
-      "titulo": "914BRZ4027 - Edital 66/2026 - Arq ou Eng - Iphan-SE",
-      "descricao": "Consultor Individual - Bases para a Descentralização e Gestão Compartilhada do PAC Patrimônio Cultural",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-11-11",
-      "data_fim": "2026-11-20",
-      "local": "",
-      "orgao_parceiro": "IPHAN",
-      "email_submissao": "",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "Ongoing",
-      "data_criacao": "2026-11-11",
-      "perfil_classificado": "engenheiro_dados",
-      "requisitos": {
-        "graduacao": [
-          "arquitetura",
-          "engenharia"
-        ],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "engenheiro_dados": {
-          "score": 0.2,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "engenharia química"
-              ],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês",
-                "espanhol"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "arquitetura",
-                "engenharia"
-              ]
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "unesco",
-      "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/37115b5f-b220-42b6-9ac7-08df3bf3ca2a"
     },
     {
       "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-abdi-tr13409",
@@ -15965,7 +15620,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-11-11",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/81cfd574-6563-4c46-da28-08df39989a49",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "engenharia",
@@ -16210,7 +15865,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "economista"
     },
     {
@@ -16494,7 +16149,7 @@
       "status": "Ongoing",
       "data_criacao": "2026-11-11",
       "url_externo": "https://roster.brasilia.unesco.org/",
-      "url_pdf": "https://apiroster.brasilia.unesco.org/api/public/download/37115b5f-b220-42b6-9ac7-08df3bf3ca2a",
+      "url_pdf": "",
       "requisitos": {
         "graduacao": [
           "engenharia",
@@ -16744,7 +16399,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "engenheiro_dados"
     },
     {
