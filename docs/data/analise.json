@@ -1,15 +1,15 @@
 {
-  "gerado_em": "2026-11-21T18:44:03.724337",
+  "gerado_em": "2026-11-22T19:04:25.043752",
   "resumo": {
-    "total_editais": 52,
+    "total_editais": 51,
     "novos_hoje": 0,
-    "encerrados_hoje": 2,
+    "encerrados_hoje": 1,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 48,
+      "Consultoria Pessoa Física (PF)": 47,
       "Pessoa Jurídica (PJ)": 4
     },
     "por_area": {
-      "Gestão / Administração Pública": 45,
+      "Gestão / Administração Pública": 44,
       "Tecnologia da Informação / Dados": 11,
       "Estatística / Pesquisa / Metodologia": 9,
       "Meio Ambiente / Clima / Geografia": 6,
@@ -20,8 +20,8 @@
       "OEI": 6,
       "OEI/Cais das Artes": 5,
       "OEI/SEDUC-SP": 4,
-      "SEDUC-SP/OEI": 4,
       "IBGE": 3,
+      "SEDUC-SP/OEI": 3,
       "MDS": 2,
       "OEI/Open Society": 2,
       "SEED-PR/OEI": 2,
@@ -44,9 +44,9 @@
     "valores": {
       "minimo": 18000.0,
       "maximo": 2778901.38,
-      "medio": 286681.68,
-      "mediano": 97450.0,
-      "quantidade_com_valor": 42
+      "medio": 291966.6,
+      "mediano": 101400.0,
+      "quantidade_com_valor": 41
     }
   },
   "perfis": [
@@ -91,7 +91,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 36
+      "match_count": 35
     },
     {
       "nome": "economista",
@@ -118,7 +118,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 42
+      "match_count": 41
     },
     {
       "nome": "pesquisador_computacao",
@@ -157,7 +157,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 36
+      "match_count": 35
     },
     {
       "nome": "analista_powerbi",
@@ -188,7 +188,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 34
+      "match_count": 33
     }
   ],
   "editais": [
@@ -8646,164 +8646,6 @@
       },
       "fonte": "oei",
       "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
-      "url_pdf": ""
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR13216",
-      "descricao": "Consultoria técnica para o mapeamento analítico, diagnóstico institucional, definição de processos operacionais e elaboração dos Manuais Operacionais Padronizados da Diretoria de Contratos, Convênios e Sanções DICON e suas coordenadorias: Coordenadoria de Contratos (CONTR), Coordenadoria de Convênios (CONVE) e Coordenadoria de Processos Sancionatórios (COPSA), visando ao fortalecimento da governança para monitoramento das iniciativas estratégicas da Diretoria, à mitigação de riscos operacionais, à padronização das rotinas administrativas e à implementação de estratégia de transferência de conhecimento para as equipes da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública"
-      ],
-      "data_inicio": "2026-09-01",
-      "data_fim": "2026-09-23",
-      "local": "São Paulo - SP",
-      "orgao_parceiro": "SEDUC-SP/OEI",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "R$ 70.000,00",
-      "valor_estimado_num": 70000.0,
-      "status": "En evaluación",
-      "data_criacao": "2026-09-01",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "engenheiro_dados": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 70000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "economista": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "administração",
-                "gestão pública"
-              ],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 70000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês",
-                "espanhol"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 70000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": []
-            },
-            "idiomas": {
-              "match": [
-                "inglês"
-              ],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 70000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": true
-            }
-          }
-        }
-      },
-      "fonte": "oei",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr13216/",
       "url_pdf": ""
     }
   ],
@@ -66619,7 +66461,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
