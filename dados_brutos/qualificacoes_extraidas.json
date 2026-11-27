@@ -12609,5 +12609,63 @@
     "descricao": "Contratação de pessoa jurídica especializada para apoio técnico e operacional à FUNAI e  à OEI no planejamento e no desenvolvimento dos três encontros formativos e do encontro  nacional de intercâmbio, incluindo o levantamento de necessidades, apoio à seleção de parti\u0002cipantes, elaboração de propostas de metodológicas, sistematização de informações, articula\u0002ção com fornecedores e acompanhamento da execução dos serviços necessários à realização  das atividades, sob orientação, supervisão da Funai e da OEI e validação da FUNAI, da OEI e  da AECID, conforme especificações contidas no Termo de Referência, Anexo “A”, deste Edital.",
     "local": "Territórios Indígenas definidos, Brasília, híbrido",
     "data_fim": "2027-01-19"
+  },
+  {
+    "torid": "unesco:2244fcc3-fbe4-4cd6-2333-08df4bcf4a2d",
+    "graduacao": [
+      "engenharia",
+      "administração",
+      "arquitetura",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": false,
+    "anos_experiencia": 10,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "570RLA4000 - Edital 08/2026 - Consultor Individual",
+    "descricao": "Consultoria individual especializada em arquitetura ou engenharia.",
+    "local": "",
+    "data_fim": "2026-12-03"
+  },
+  {
+    "torid": "unesco:1e5f6b5a-e658-4249-f9f6-08df2aad5b6b",
+    "graduacao": [
+      "administração",
+      "direito",
+      "sociologia",
+      "políticas públicas",
+      "comunicação"
+    ],
+    "pos_graduacao": [],
+    "mestrado": false,
+    "doutorado": true,
+    "anos_experiencia": 4,
+    "ferramentas": [
+      "r",
+      "excel",
+      "sic",
+      "sas"
+    ],
+    "idiomas": [],
+    "certificacoes": [],
+    "valor": null,
+    "area_principal": "",
+    "requisitos_obrigatorios": [],
+    "requisitos_desejaveis": [],
+    "titulo": "914BRZ1155 - EDITAL Nº 60/2026 - 1 vaga - Consultor Individual",
+    "descricao": "Consultoria especializada para realizar estudo sociológico e socioeducacional sobre o Cursinho Popular Fanadeiro – CPOP Minas Novas",
+    "local": "",
+    "data_fim": "2026-12-03"
   }
 ]
