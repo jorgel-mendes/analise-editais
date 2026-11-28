@@ -1,17 +1,17 @@
 {
-  "gerado_em": "2026-11-27T20:49:51.990107",
+  "gerado_em": "2026-11-28T19:35:17.375363",
   "resumo": {
-    "total_editais": 53,
-    "novos_hoje": 2,
-    "encerrados_hoje": 0,
+    "total_editais": 50,
+    "novos_hoje": 0,
+    "encerrados_hoje": 3,
     "por_tipo": {
-      "Consultoria Pessoa Física (PF)": 48,
+      "Consultoria Pessoa Física (PF)": 45,
       "Pessoa Jurídica (PJ)": 5
     },
     "por_area": {
-      "Gestão / Administração Pública": 16,
-      "Educação": 12,
-      "Tecnologia da Informação / Dados": 10,
+      "Gestão / Administração Pública": 14,
+      "Educação": 11,
+      "Tecnologia da Informação / Dados": 9,
       "Cultura": 9,
       "Meio Ambiente / Clima / Geografia": 6,
       "Estatística / Pesquisa / Metodologia": 5,
@@ -21,13 +21,12 @@
       "Dados": 4
     },
     "por_orgao": {
-      "SEDUC-SP": 9,
+      "SEDUC-SP": 8,
       "ABDI": 8,
       "Cais das Artes/ES": 5,
       "UNESCO": 4,
       "IBGE": 4,
       "SEDUC-RS / MUSEDUCA": 4,
-      "OEI/BRA/24/003": 3,
       "FUNAI": 2,
       "Open Society Foundation": 2,
       "SEED-PR": 2,
@@ -39,14 +38,15 @@
       "Brasil em Rede": 1,
       "SEBRAE": 1,
       "MINC": 1,
+      "OEI/BRA/24/003": 1,
       "OEI/BRA/22/002": 1
     },
     "valores": {
       "minimo": 18000.0,
       "maximo": 2778901.38,
-      "medio": 343216.73,
-      "mediano": 101400.0,
-      "quantidade_com_valor": 47
+      "medio": 357337.48,
+      "mediano": 126500.0,
+      "quantidade_com_valor": 45
     }
   },
   "perfis": [
@@ -91,7 +91,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 34
+      "match_count": 33
     },
     {
       "nome": "economista",
@@ -118,7 +118,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 37
+      "match_count": 34
     },
     {
       "nome": "pesquisador_computacao",
@@ -157,7 +157,7 @@
         "inglês",
         "espanhol"
       ],
-      "match_count": 24
+      "match_count": 21
     },
     {
       "nome": "analista_powerbi",
@@ -188,7 +188,7 @@
       "idiomas": [
         "inglês"
       ],
-      "match_count": 18
+      "match_count": 17
     }
   ],
   "editais": [
@@ -9003,550 +9003,6 @@
       },
       "fonte": "oei",
       "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-22-002-tr13290/",
-      "url_pdf": ""
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13268",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13268",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR13268",
-      "descricao": "A presente contratação tem como objetivo selecionar um(a) consultor(a) para executar as atividades estabelecidas neste Termo de Referência, com o propósito de fornecer subsídios técnicos para a articulação territorial das políticas de participação social. A atuação do profissional terá ênfase nas atividades de mobilização social e no apoio direto aos colegiados de desenvolvimento territorial, bem como às instâncias vinculadas ao Programa de Produção e Consumo de Alimentos Saudáveis nos Territórios do Nordeste (PAS Nordeste). Espera-se que o trabalho desenvolvido viabilize a promoção e o fortalecimento de processos participativos, reconhecendo as dinâmicas dos espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social. Somado a isso, a consultoria permitirá uma melhor articulação das ações do Governo Federal nos territórios, em especial daquelas relacionadas ao PAS Nordeste. Essa abordagem assegurará a integração fundamental entre a escuta da sociedade, a mobilização comunitária e a sistematização técnica das demandas expressas nos colegiados de desenvolvimento local. Por fim, a execução dessas atividades resultará na produção de registros, análises e outros insumos técnicos essenciais. Esses produtos contribuirão de forma contínua para o aprimoramento e a consolidação das estratégias institucionais de territorialização da participação social conduzidas pela Secretaria Nacional de Participação Social.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Participação Social"
-      ],
-      "data_inicio": "2026-09-28",
-      "data_fim": "2026-10-03",
-      "local": "Articulação territorial - PAS Nordeste Articulação territorial - PAS Nordeste Trabalho Remoto",
-      "orgao_parceiro": "OEI/BRA/24/003",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "R$ 30.000,00",
-      "valor_estimado_num": 30000.0,
-      "status": "En evaluación",
-      "data_criacao": "2026-09-28",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [
-          "ciências sociais",
-          "gestão",
-          "economia"
-        ],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": 30000.0,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "engenheiro_dados": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "ciências sociais",
-                "gestão",
-                "economia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 30000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "economia",
-                "gestão pública"
-              ],
-              "exigidas": [
-                "ciências sociais",
-                "gestão",
-                "economia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 30000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": true
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "economia"
-              ],
-              "exigidas": [
-                "ciências sociais",
-                "gestão",
-                "economia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 30000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "ciências sociais",
-                "gestão",
-                "economia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 30000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "oei",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr13268/",
-      "url_pdf": ""
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr-13274",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr-13274",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/003 – TR 13274",
-      "descricao": "O objetivo da contratação é selecionar 1 (um) consultor(a), responsável pelo desenvolvimento das atividades técnicas previstas neste Termo de Referência no estado do Rio Grande do Norte, com a finalidade de subsidiar tecnicamente a articulação territorial das políticas de participação social, com ênfase: a) no apoio técnico à promoção e ao fortalecimento de processos participativos nos territórios, reconhecendo espaços urbanos e rurais como instâncias legítimas de escuta, diálogo e incidência social b) no apoio à articulação das ações do Governo Federal nos territórios, em especial aquelas relacionadas às iniciativas do Governo do Brasil na Rua, do Orçamento do Povo e do Fóruns de Participação no estado do Rio Grande do Norte, contribuindo para a integração entre escuta social, mobilização comunitária e sistematização técnica das demandas territoriais c) na produção de registros sistematizados, análises e subsídios técnicos que contribuam para o aprimoramento das estratégias institucionais de territorialização da participação social no âmbito da Secretaria Nacional de Participação Social. A atuação do(a) consultor(a) deverá observar as diretrizes metodológicas fornecidas pela SNPS, os princípios da educação popular, a diversidade socioterritorial brasileira e a necessidade de padronização dos registros e das análises para fins de consolidação institucional.",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Gestão / Administração Pública",
-        "Participação Social"
-      ],
-      "data_inicio": "2026-09-28",
-      "data_fim": "2026-10-03",
-      "local": "Articulação Estadual - Rio Grande do Norte",
-      "orgao_parceiro": "OEI/BRA/24/003",
-      "email_submissao": "selecao.bra@oei.int",
-      "valor_estimado": "R$ 21.000,00",
-      "valor_estimado_num": 21000.0,
-      "status": "En fase de apresentação",
-      "data_criacao": "2026-09-28",
-      "perfil_classificado": "economista",
-      "requisitos": {
-        "graduacao": [
-          "ciências sociais",
-          "gestão",
-          "economia"
-        ],
-        "ferramentas": [],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": 21000.0,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "engenheiro_dados": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "ciências sociais",
-                "gestão",
-                "economia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 21000.0,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.35,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "economia",
-                "gestão pública"
-              ],
-              "exigidas": [
-                "ciências sociais",
-                "gestão",
-                "economia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 21000.0,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.15,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [
-                "economia"
-              ],
-              "exigidas": [
-                "ciências sociais",
-                "gestão",
-                "economia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 21000.0,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.1,
-          "detalhes": {
-            "areas": {
-              "match": false,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [],
-              "faltando": [],
-              "exigidas": []
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "ciências sociais",
-                "gestão",
-                "economia"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": 21000.0,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "oei",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-003-tr-13274/",
-      "url_pdf": ""
-    },
-    {
-      "id": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
-      "torid": "oei:contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236",
-      "titulo": "Contratação de consultor na Modalidade PRODUTO PROJETO OEI/BRA/24/004 – TR 13236",
-      "descricao": "Consultoria técnica especializada para desenvolver proposta, testar em caráter piloto, avaliar e documentar a metodologia de implantação e governança de bases de conhecimento e instrumentos de acompanhamento do desempenho e da qualidade dos conteúdos utilizados na alimentação dos agentes de Inteligência Artificial da Secretaria da Educação do Estado de São Paulo (SEDUC-SP)",
-      "tipo": "Consultoria Pessoa Física (PF)",
-      "areas_tematicas": [
-        "Educação",
-        "Tecnologia da Informação / Dados"
-      ],
-      "data_inicio": "2026-09-13",
-      "data_fim": "2026-09-30",
-      "local": "São Paulo - SP",
-      "orgao_parceiro": "SEDUC-SP",
-      "email_submissao": "ugp@educacao.sp.gov.br",
-      "valor_estimado": null,
-      "valor_estimado_num": null,
-      "status": "En fase de apresentação",
-      "data_criacao": "2026-09-13",
-      "perfil_classificado": "engenheiro_dados",
-      "requisitos": {
-        "graduacao": [
-          "computação",
-          "educação",
-          "gestão"
-        ],
-        "ferramentas": [
-          "python",
-          "sql"
-        ],
-        "idiomas": [],
-        "anos_experiencia": null,
-        "mestrado": false,
-        "doutorado": false,
-        "pos_graduacao": [],
-        "certificacoes": [],
-        "valor_tor": null,
-        "obrigatorios": [],
-        "desejaveis": []
-      },
-      "matches": {
-        "engenheiro_dados": {
-          "score": 0.55,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": [
-                "python",
-                "sql"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": [
-                "computação",
-                "educação",
-                "gestão"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 50000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "economista": {
-          "score": 0.3,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": [
-                "python",
-                "sql"
-              ]
-            },
-            "graduacao": {
-              "match": [],
-              "exigidas": [
-                "computação",
-                "educação",
-                "gestão"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 30000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "pesquisador_computacao": {
-          "score": 0.5,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "python",
-                "sql"
-              ],
-              "faltando": [],
-              "exigidas": [
-                "python",
-                "sql"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "ciência da computação"
-              ],
-              "exigidas": [
-                "computação",
-                "educação",
-                "gestão"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 40000,
-              "acima_minimo": false
-            }
-          }
-        },
-        "analista_powerbi": {
-          "score": 0.4,
-          "detalhes": {
-            "areas": {
-              "match": true,
-              "encontradas": []
-            },
-            "ferramentas": {
-              "match": [
-                "sql",
-                "python"
-              ],
-              "faltando": [],
-              "exigidas": [
-                "python",
-                "sql"
-              ]
-            },
-            "graduacao": {
-              "match": [
-                "engenharia da computação"
-              ],
-              "exigidas": [
-                "computação",
-                "educação",
-                "gestão"
-              ]
-            },
-            "idiomas": {
-              "match": [],
-              "exigidos": []
-            },
-            "valor": {
-              "edital": null,
-              "minimo_perfil": 35000,
-              "acima_minimo": false
-            }
-          }
-        }
-      },
-      "fonte": "oei",
-      "url_externo": "https://oei.int/oficinas/brasil/contrataciones/contratacao-de-consultor-na-modalidade-produto-projeto-oei-bra-24-004-tr-13236/",
       "url_pdf": ""
     }
   ],
@@ -50023,7 +49479,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -50309,7 +49765,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -63732,7 +63188,7 @@
           }
         }
       },
-      "ativo": true,
+      "ativo": false,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
@@ -84077,7 +83533,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "economista"
     },
     {
@@ -84390,7 +83846,7 @@
           }
         }
       },
-      "ativo": false,
+      "ativo": true,
       "perfil_classificado": "pesquisador_computacao"
     },
     {
